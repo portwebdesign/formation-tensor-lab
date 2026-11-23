@@ -1,0 +1,3638 @@
+{
+  "schema": "isvec-secim.observed-pm-ballots-2026.v1",
+  "events": [
+    {
+      "id": "pm-2026-10-15-andersson",
+      "data_kind": "observed_official_pm_ballot",
+      "event_date": "2026-10-15",
+      "event_time": null,
+      "candidate": "Magdalena Andersson",
+      "candidate_party": "S",
+      "source_published_at": "2026-10-15T12:50:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T09:47:30.406Z",
+      "decision_effective_at": null,
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/15/nej-till-magdalena-andersson-s-som-statsminister_cmsd2ab1134-a03c-4be2-b345-af0aacff33d3sv/",
+      "source_publisher": "Sveriges riksdag",
+      "counts": {
+        "yes": 99,
+        "no": 248,
+        "abstain": 0,
+        "absent": 2
+      },
+      "party_action_counts": {
+        "S": [
+          99,
+          0,
+          0,
+          0
+        ],
+        "M": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "SD": [
+          0,
+          62,
+          0,
+          0
+        ],
+        "V": [
+          0,
+          29,
+          0,
+          1
+        ],
+        "C": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "KD": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "MP": [
+          0,
+          21,
+          0,
+          1
+        ],
+        "L": [
+          0,
+          19,
+          0,
+          0
+        ]
+      },
+      "action_order": [
+        "yes",
+        "no",
+        "abstain",
+        "absent"
+      ],
+      "arithmetic": {
+        "rejection_threshold": 175,
+        "result": "rejected",
+        "no_votes": 248,
+        "non_no_members": 101,
+        "minimum_current_no_to_abstain_for_not_rejected": 74,
+        "new_government_inferred": false
+      },
+      "retrospective_sensitivity": {
+        "one_fewer_no_changes": {
+          "no": 175,
+          "abstain": 73,
+          "result": "rejected"
+        },
+        "minimum_no_to_abstain": {
+          "yes": 99,
+          "no": 174,
+          "abstain": 74,
+          "absent": 2,
+          "result": "not_rejected"
+        },
+        "whole_observed_party_no_groups": {
+          "counterfactual": "All current No voters in each selected party abstain; other actions stay fixed.",
+          "observed_total_no": 248,
+          "individual_member_minimum": 74,
+          "minimum_changed_no_voters_under_party_groups": 75,
+          "minimum_number_of_party_groups": 2,
+          "minimum_voter_solutions": [
+            {
+              "parties": [
+                "V",
+                "C",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 75,
+              "no_after": 173,
+              "not_rejected": true
+            }
+          ],
+          "minimum_party_count_solutions": [
+            {
+              "parties": [
+                "M",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 132,
+              "no_after": 116,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 99,
+              "no_after": 149,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 95,
+              "no_after": 153,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 92,
+              "no_after": 156,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 89,
+              "no_after": 159,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 87,
+              "no_after": 161,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 84,
+              "no_after": 164,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 83,
+              "no_after": 165,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 81,
+              "no_after": 167,
+              "not_rejected": true
+            }
+          ],
+          "inclusion_minimal_solutions": [
+            {
+              "parties": [
+                "M",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 132,
+              "no_after": 116,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 99,
+              "no_after": 149,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 95,
+              "no_after": 153,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 92,
+              "no_after": 156,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 89,
+              "no_after": 159,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 87,
+              "no_after": 161,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 84,
+              "no_after": 164,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 83,
+              "no_after": 165,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 81,
+              "no_after": 167,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 76,
+              "no_after": 172,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 75,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 87,
+              "no_after": 161,
+              "not_rejected": true
+            }
+          ],
+          "all_subsets": [
+            {
+              "parties": [],
+              "party_count": 0,
+              "changed_no_voters": 0,
+              "no_after": 248,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 70,
+              "no_after": 178,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "SD"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 62,
+              "no_after": 186,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 29,
+              "no_after": 219,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 25,
+              "no_after": 223,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "KD"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 22,
+              "no_after": 226,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "MP"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 21,
+              "no_after": 227,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 19,
+              "no_after": 229,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 132,
+              "no_after": 116,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 99,
+              "no_after": 149,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 95,
+              "no_after": 153,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 92,
+              "no_after": 156,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 89,
+              "no_after": 159,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 87,
+              "no_after": 161,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 84,
+              "no_after": 164,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 83,
+              "no_after": 165,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 81,
+              "no_after": 167,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 54,
+              "no_after": 194,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 51,
+              "no_after": 197,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 50,
+              "no_after": 198,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 48,
+              "no_after": 200,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 47,
+              "no_after": 201,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 46,
+              "no_after": 202,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 44,
+              "no_after": 204,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "KD",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 43,
+              "no_after": 205,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "KD",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 41,
+              "no_after": 207,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "MP",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 40,
+              "no_after": 208,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 161,
+              "no_after": 87,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 157,
+              "no_after": 91,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 154,
+              "no_after": 94,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 153,
+              "no_after": 95,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 97,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 124,
+              "no_after": 124,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 121,
+              "no_after": 127,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 120,
+              "no_after": 128,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 118,
+              "no_after": 130,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 117,
+              "no_after": 131,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 116,
+              "no_after": 132,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 114,
+              "no_after": 134,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 113,
+              "no_after": 135,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 111,
+              "no_after": 137,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 110,
+              "no_after": 138,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 116,
+              "no_after": 132,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 113,
+              "no_after": 135,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 112,
+              "no_after": 136,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 110,
+              "no_after": 138,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 109,
+              "no_after": 139,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 108,
+              "no_after": 140,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 106,
+              "no_after": 142,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "KD",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 105,
+              "no_after": 143,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "KD",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 103,
+              "no_after": 145,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "MP",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 102,
+              "no_after": 146,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 76,
+              "no_after": 172,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 75,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 73,
+              "no_after": 175,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "KD",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 72,
+              "no_after": 176,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "KD",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 70,
+              "no_after": 178,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "MP",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 69,
+              "no_after": 179,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 68,
+              "no_after": 180,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 66,
+              "no_after": 182,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 65,
+              "no_after": 183,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 62,
+              "no_after": 186,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 186,
+              "no_after": 62,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 183,
+              "no_after": 65,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 182,
+              "no_after": 66,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 180,
+              "no_after": 68,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 179,
+              "no_after": 69,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 178,
+              "no_after": 70,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 176,
+              "no_after": 72,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "KD",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 175,
+              "no_after": 73,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "KD",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 173,
+              "no_after": 75,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 172,
+              "no_after": 76,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 146,
+              "no_after": 102,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 145,
+              "no_after": 103,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 143,
+              "no_after": 105,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "KD",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 142,
+              "no_after": 106,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "KD",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 140,
+              "no_after": 108,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 139,
+              "no_after": 109,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 138,
+              "no_after": 110,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 136,
+              "no_after": 112,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 135,
+              "no_after": 113,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 132,
+              "no_after": 116,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 138,
+              "no_after": 110,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 137,
+              "no_after": 111,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 135,
+              "no_after": 113,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "KD",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 134,
+              "no_after": 114,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "KD",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 132,
+              "no_after": 116,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 131,
+              "no_after": 117,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 130,
+              "no_after": 118,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 128,
+              "no_after": 120,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 127,
+              "no_after": 121,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 124,
+              "no_after": 124,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 97,
+              "no_after": 151,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 95,
+              "no_after": 153,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 94,
+              "no_after": 154,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 91,
+              "no_after": 157,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 87,
+              "no_after": 161,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 208,
+              "no_after": 40,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "MP"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 207,
+              "no_after": 41,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 205,
+              "no_after": 43,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "KD",
+                "MP"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 204,
+              "no_after": 44,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "KD",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 202,
+              "no_after": 46,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 201,
+              "no_after": 47,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 200,
+              "no_after": 48,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 198,
+              "no_after": 50,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 197,
+              "no_after": 51,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 194,
+              "no_after": 54,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 167,
+              "no_after": 81,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 165,
+              "no_after": 83,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 164,
+              "no_after": 84,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 161,
+              "no_after": 87,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 157,
+              "no_after": 91,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 159,
+              "no_after": 89,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 157,
+              "no_after": 91,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 156,
+              "no_after": 92,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 153,
+              "no_after": 95,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 149,
+              "no_after": 99,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "V",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 116,
+              "no_after": 132,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "KD",
+                "MP"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 229,
+              "no_after": 19,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "KD",
+                "L"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 227,
+              "no_after": 21,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "MP",
+                "L"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 226,
+              "no_after": 22,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 223,
+              "no_after": 25,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 219,
+              "no_after": 29,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 186,
+              "no_after": 62,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "SD",
+                "V",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 178,
+              "no_after": 70,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "SD",
+                "V",
+                "C",
+                "KD",
+                "MP",
+                "L"
+              ],
+              "party_count": 7,
+              "changed_no_voters": 248,
+              "no_after": 0,
+              "not_rejected": true
+            }
+          ]
+        },
+        "scope": "Counterfactual counts only; not inferred intention, vote prediction, cabinet agreement or budget support."
+      },
+      "historical_ballot_used_as_future_constraint": false,
+      "new_government_inferred": false,
+      "source_id": "riksdag-vote-2026-10-15"
+    },
+    {
+      "id": "pm-2026-11-03-thand-ringqvist",
+      "data_kind": "observed_official_pm_ballot",
+      "event_date": "2026-11-03",
+      "event_time": null,
+      "candidate": "Elisabeth Thand Ringqvist",
+      "candidate_party": "C",
+      "source_published_at": "2026-11-03T14:00:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T09:47:30.347Z",
+      "decision_effective_at": null,
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/3/nej-till-elisabeth-thand-ringqvist-c-som_cms6afacb7c-be00-432a-b75e-37e169872323sv/",
+      "source_publisher": "Sveriges riksdag",
+      "counts": {
+        "yes": 25,
+        "no": 324,
+        "abstain": 0,
+        "absent": 0
+      },
+      "party_action_counts": {
+        "M": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "S": [
+          0,
+          99,
+          0,
+          0
+        ],
+        "L": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "C": [
+          25,
+          0,
+          0,
+          0
+        ],
+        "V": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "MP": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "KD": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "SD": [
+          0,
+          62,
+          0,
+          0
+        ]
+      },
+      "action_order": [
+        "yes",
+        "no",
+        "abstain",
+        "absent"
+      ],
+      "arithmetic": {
+        "rejection_threshold": 175,
+        "result": "rejected",
+        "no_votes": 324,
+        "non_no_members": 25,
+        "minimum_current_no_to_abstain_for_not_rejected": 150,
+        "new_government_inferred": false
+      },
+      "retrospective_sensitivity": {
+        "one_fewer_no_changes": {
+          "no": 175,
+          "abstain": 149,
+          "result": "rejected"
+        },
+        "minimum_no_to_abstain": {
+          "yes": 25,
+          "no": 174,
+          "abstain": 150,
+          "absent": 0,
+          "result": "not_rejected"
+        },
+        "whole_observed_party_no_groups": {
+          "counterfactual": "All current No voters in each selected party abstain; other actions stay fixed.",
+          "observed_total_no": 324,
+          "individual_member_minimum": 150,
+          "minimum_changed_no_voters_under_party_groups": 151,
+          "minimum_number_of_party_groups": 2,
+          "minimum_voter_solutions": [
+            {
+              "parties": [
+                "M",
+                "L",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            }
+          ],
+          "minimum_party_count_solutions": [
+            {
+              "parties": [
+                "M",
+                "S"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 169,
+              "no_after": 155,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 161,
+              "no_after": 163,
+              "not_rejected": true
+            }
+          ],
+          "inclusion_minimal_solutions": [
+            {
+              "parties": [
+                "M",
+                "S"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 169,
+              "no_after": 155,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 161,
+              "no_after": 163,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 162,
+              "no_after": 162,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 154,
+              "no_after": 170,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 154,
+              "no_after": 170,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 162,
+              "no_after": 162,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 163,
+              "no_after": 161,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 155,
+              "no_after": 169,
+              "not_rejected": true
+            }
+          ],
+          "all_subsets": [
+            {
+              "parties": [],
+              "party_count": 0,
+              "changed_no_voters": 0,
+              "no_after": 324,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 70,
+              "no_after": 254,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 99,
+              "no_after": 225,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 19,
+              "no_after": 305,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 30,
+              "no_after": 294,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "MP"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 22,
+              "no_after": 302,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "KD"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 22,
+              "no_after": 302,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "SD"
+              ],
+              "party_count": 1,
+              "changed_no_voters": 62,
+              "no_after": 262,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "S"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 169,
+              "no_after": 155,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 89,
+              "no_after": 235,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 100,
+              "no_after": 224,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 92,
+              "no_after": 232,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 92,
+              "no_after": 232,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 132,
+              "no_after": 192,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "L"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 118,
+              "no_after": 206,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 129,
+              "no_after": 195,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 121,
+              "no_after": 203,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 121,
+              "no_after": 203,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 161,
+              "no_after": 163,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "L",
+                "V"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 49,
+              "no_after": 275,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 41,
+              "no_after": 283,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 41,
+              "no_after": 283,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 81,
+              "no_after": 243,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "MP"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 52,
+              "no_after": 272,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 52,
+              "no_after": 272,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 92,
+              "no_after": 232,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "MP",
+                "KD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 44,
+              "no_after": 280,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "MP",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 84,
+              "no_after": 240,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "KD",
+                "SD"
+              ],
+              "party_count": 2,
+              "changed_no_voters": 84,
+              "no_after": 240,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 188,
+              "no_after": 136,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 199,
+              "no_after": 125,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 191,
+              "no_after": 133,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 191,
+              "no_after": 133,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 231,
+              "no_after": 93,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 119,
+              "no_after": 205,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 111,
+              "no_after": 213,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 111,
+              "no_after": 213,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 122,
+              "no_after": 202,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 122,
+              "no_after": 202,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 162,
+              "no_after": 162,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 114,
+              "no_after": 210,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "MP",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 154,
+              "no_after": 170,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "KD",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 154,
+              "no_after": 170,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 148,
+              "no_after": 176,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 140,
+              "no_after": 184,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 140,
+              "no_after": 184,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 180,
+              "no_after": 144,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 151,
+              "no_after": 173,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 191,
+              "no_after": 133,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "MP",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 143,
+              "no_after": 181,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "S",
+                "MP",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 183,
+              "no_after": 141,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "KD",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 183,
+              "no_after": 141,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "MP"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 71,
+              "no_after": 253,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 71,
+              "no_after": 253,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 111,
+              "no_after": 213,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "MP",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 63,
+              "no_after": 261,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "MP",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 103,
+              "no_after": 221,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "KD",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 103,
+              "no_after": 221,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 74,
+              "no_after": 250,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 114,
+              "no_after": 210,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 114,
+              "no_after": 210,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 3,
+              "changed_no_voters": 106,
+              "no_after": 218,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 218,
+              "no_after": 106,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 210,
+              "no_after": 114,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 210,
+              "no_after": 114,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 250,
+              "no_after": 74,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 221,
+              "no_after": 103,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 221,
+              "no_after": 103,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 261,
+              "no_after": 63,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 213,
+              "no_after": 111,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "MP",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 253,
+              "no_after": 71,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 253,
+              "no_after": 71,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 141,
+              "no_after": 183,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 141,
+              "no_after": 183,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 181,
+              "no_after": 143,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 133,
+              "no_after": 191,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "MP",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 173,
+              "no_after": 151,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 173,
+              "no_after": 151,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 144,
+              "no_after": 180,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 184,
+              "no_after": 140,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 184,
+              "no_after": 140,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 176,
+              "no_after": 148,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "MP"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 170,
+              "no_after": 154,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 170,
+              "no_after": 154,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 210,
+              "no_after": 114,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 162,
+              "no_after": 162,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "MP",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 202,
+              "no_after": 122,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 202,
+              "no_after": 122,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 173,
+              "no_after": 151,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 213,
+              "no_after": 111,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 213,
+              "no_after": 111,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 205,
+              "no_after": 119,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 93,
+              "no_after": 231,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 133,
+              "no_after": 191,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 133,
+              "no_after": 191,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "L",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 125,
+              "no_after": 199,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 4,
+              "changed_no_voters": 136,
+              "no_after": 188,
+              "not_rejected": false
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "MP"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 240,
+              "no_after": 84,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 240,
+              "no_after": 84,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 280,
+              "no_after": 44,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "MP",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 232,
+              "no_after": 92,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "MP",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 272,
+              "no_after": 52,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 272,
+              "no_after": 52,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 243,
+              "no_after": 81,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 283,
+              "no_after": 41,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 283,
+              "no_after": 41,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 275,
+              "no_after": 49,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 163,
+              "no_after": 161,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 203,
+              "no_after": 121,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 203,
+              "no_after": 121,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 195,
+              "no_after": 129,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 206,
+              "no_after": 118,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 192,
+              "no_after": 132,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 232,
+              "no_after": 92,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 232,
+              "no_after": 92,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 224,
+              "no_after": 100,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 235,
+              "no_after": 89,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "L",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 5,
+              "changed_no_voters": 155,
+              "no_after": 169,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "MP",
+                "KD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 262,
+              "no_after": 62,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "MP",
+                "SD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 302,
+              "no_after": 22,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "KD",
+                "SD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 302,
+              "no_after": 22,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 294,
+              "no_after": 30,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 305,
+              "no_after": 19,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "L",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 225,
+              "no_after": 99,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "S",
+                "L",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 6,
+              "changed_no_voters": 254,
+              "no_after": 70,
+              "not_rejected": true
+            },
+            {
+              "parties": [
+                "M",
+                "S",
+                "L",
+                "V",
+                "MP",
+                "KD",
+                "SD"
+              ],
+              "party_count": 7,
+              "changed_no_voters": 324,
+              "no_after": 0,
+              "not_rejected": true
+            }
+          ]
+        },
+        "scope": "Counterfactual counts only; not inferred intention, vote prediction, cabinet agreement or budget support."
+      },
+      "historical_ballot_used_as_future_constraint": false,
+      "new_government_inferred": false,
+      "source_id": "riksdag-vote-2026-11-03"
+    }
+  ],
+  "status": "passed",
+  "source_admission": "Official pages separately opened and reviewed on22November2026; retrospective, not a blind evaluation.",
+  "provenance": "Counts reproduced from official candidate-specific notices; new event chronology and source captures are recorded separately."
+}

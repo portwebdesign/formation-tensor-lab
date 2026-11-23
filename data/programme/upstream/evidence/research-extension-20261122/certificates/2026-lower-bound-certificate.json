@@ -1,0 +1,7752 @@
+{
+  "status": "infeasible",
+  "method": "exact_seat_vector_common_cutoff_enumeration",
+  "budget": 10268,
+  "mode": "gain",
+  "lottery_quantifier": "exists_admissible_cutoff_outcome",
+  "parties": [
+    "C",
+    "KD",
+    "L",
+    "M",
+    "MP",
+    "S",
+    "SD",
+    "V"
+  ],
+  "seats": 349,
+  "cutoff_box": [
+    [
+      558513,
+      59
+    ],
+    [
+      1906257,
+      197
+    ]
+  ],
+  "seat_ranges": {
+    "C": [
+      24,
+      26
+    ],
+    "KD": [
+      21,
+      23
+    ],
+    "L": [
+      18,
+      20
+    ],
+    "M": [
+      69,
+      72
+    ],
+    "MP": [
+      21,
+      22
+    ],
+    "S": [
+      97,
+      101
+    ],
+    "SD": [
+      61,
+      63
+    ],
+    "V": [
+      29,
+      31
+    ]
+  },
+  "candidate_seat_vectors_checked": 345,
+  "continuous_exclusions": 344,
+  "integer_rounding_exclusions": 1,
+  "witness": null,
+  "seat_vector_checks": [
+    {
+      "seats": [
+        24,
+        21,
+        19,
+        72,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        19,
+        72,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        19,
+        72,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        19,
+        72,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        19,
+        72,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        19,
+        72,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        71,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        71,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        441501,
+        46
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        71,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        441501,
+        46
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        71,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        71,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        71,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        441501,
+        46
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        21,
+        98,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        21,
+        99,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        21,
+        100,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        22,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        22,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        21,
+        20,
+        72,
+        22,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        18,
+        72,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        18,
+        72,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        18,
+        72,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        18,
+        72,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        18,
+        72,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        18,
+        72,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        71,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        71,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        1193516,
+        125
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        71,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        1193516,
+        125
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        71,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        71,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        1193516,
+        125
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        71,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1034293,
+        108
+      ],
+      "continuous_cutoff_upper": [
+        1268482,
+        133
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        21,
+        98,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        21,
+        99,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        21,
+        100,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        22,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        22,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        19,
+        72,
+        22,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        70,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        70,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        70,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        70,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        70,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        70,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        3704949,
+        389
+      ],
+      "continuous_cutoff_upper": [
+        1554703,
+        164
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        21,
+        98,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        21,
+        99,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        21,
+        100,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        22,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        22,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        71,
+        22,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1034293,
+        108
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        98,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        99,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        21,
+        100,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        22,
+        97,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        22,
+        98,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        22,
+        20,
+        72,
+        22,
+        99,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        71,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        71,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        826699,
+        86
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        71,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        826699,
+        86
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        71,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        71,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        71,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        826699,
+        86
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        21,
+        98,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        21,
+        99,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        21,
+        100,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        22,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        22,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        18,
+        72,
+        22,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        70,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        70,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        180896,
+        19
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        70,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        180896,
+        19
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        70,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        70,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        70,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        180896,
+        19
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        21,
+        98,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        21,
+        99,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        21,
+        100,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        38253,
+        4
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        22,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        22,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        71,
+        22,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        2361501,
+        248
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        98,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        99,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        21,
+        100,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        22,
+        97,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        22,
+        98,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        19,
+        72,
+        22,
+        99,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        69,
+        21,
+        98,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        69,
+        21,
+        99,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        69,
+        21,
+        100,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        69,
+        22,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        69,
+        22,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        69,
+        22,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        21,
+        98,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        21,
+        99,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        788945,
+        84
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        788945,
+        84
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        21,
+        100,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        788945,
+        84
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        22,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        22,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        70,
+        22,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        788945,
+        84
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        98,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        99,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        465512,
+        49
+      ],
+      "continuous_cutoff_upper": [
+        788945,
+        84
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        21,
+        100,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        22,
+        97,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        22,
+        98,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        71,
+        22,
+        99,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        21,
+        97,
+        61,
+        31
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 178,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        21,
+        98,
+        61,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        21,
+        99,
+        61,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        22,
+        97,
+        61,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        24,
+        23,
+        20,
+        72,
+        22,
+        98,
+        61,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        19,
+        72,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        19,
+        72,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        19,
+        72,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        199
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        19,
+        72,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        19,
+        72,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        71,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        71,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        71,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        821529,
+        86
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        71,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        71,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        199
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        21,
+        20,
+        72,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        18,
+        72,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        18,
+        72,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        18,
+        72,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        350919,
+        37
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        18,
+        72,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        18,
+        72,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        71,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        71,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        1193516,
+        125
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        71,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        486410,
+        51
+      ],
+      "continuous_cutoff_upper": [
+        1268482,
+        133
+      ],
+      "integer_cutoff_probes": [
+        [
+          486410,
+          51
+        ],
+        [
+          95822774,
+          10047
+        ],
+        [
+          1878878,
+          197
+        ],
+        [
+          747793463,
+          78406
+        ],
+        [
+          1897953,
+          199
+        ],
+        [
+          267611396,
+          28059
+        ],
+        [
+          1344781,
+          141
+        ],
+        [
+          29585183,
+          3102
+        ],
+        [
+          104912,
+          11
+        ],
+        [
+          13114001,
+          1375
+        ],
+        [
+          1192182,
+          125
+        ],
+        [
+          135908749,
+          14250
+        ],
+        [
+          543635,
+          57
+        ],
+        [
+          69041647,
+          7239
+        ],
+        [
+          1211257,
+          127
+        ],
+        [
+          238617631,
+          25019
+        ],
+        [
+          1878879,
+          197
+        ],
+        [
+          747793859,
+          78406
+        ],
+        [
+          1897954,
+          199
+        ],
+        [
+          111979288,
+          11741
+        ],
+        [
+          562710,
+          59
+        ],
+        [
+          74840434,
+          7847
+        ],
+        [
+          1268482,
+          133
+        ]
+      ],
+      "status": "excluded_by_integer_rounding"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        71,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        1193516,
+        125
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        71,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        1193516,
+        125
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        199
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        19,
+        72,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        70,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        70,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        70,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        3643476,
+        383
+      ],
+      "continuous_cutoff_upper": [
+        1554703,
+        164
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        70,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        70,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        486410,
+        51
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        71,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        21,
+        97,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        21,
+        98,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        21,
+        99,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        22,
+        97,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        22,
+        20,
+        72,
+        22,
+        98,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        71,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        71,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        71,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        382613,
+        40
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        71,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        71,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        350919,
+        37
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        18,
+        72,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        70,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        70,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        70,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        3643476,
+        383
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        70,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        70,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        486410,
+        51
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        71,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        21,
+        97,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        21,
+        98,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        21,
+        99,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        22,
+        97,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        19,
+        72,
+        22,
+        98,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        69,
+        21,
+        97,
+        63,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        69,
+        21,
+        98,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        69,
+        21,
+        99,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        69,
+        22,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        69,
+        22,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        21,
+        97,
+        62,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        21,
+        98,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        21,
+        99,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        199
+      ],
+      "continuous_cutoff_upper": [
+        788945,
+        84
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        22,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        70,
+        22,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        21,
+        97,
+        61,
+        31
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        579049,
+        61
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        21,
+        98,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        21,
+        99,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1172980,
+        123
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        22,
+        97,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        71,
+        22,
+        98,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        72,
+        21,
+        97,
+        61,
+        30
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        72,
+        21,
+        97,
+        62,
+        29
+      ],
+      "support": 177,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        72,
+        21,
+        98,
+        61,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        25,
+        23,
+        20,
+        72,
+        22,
+        97,
+        61,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        19,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        19,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        19,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        71,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        71,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        71,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        72,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        72,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        72,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        21,
+        20,
+        72,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        18,
+        72,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        18,
+        72,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        18,
+        72,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        71,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        162016,
+        17
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        71,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        162016,
+        17
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        71,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        162016,
+        17
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        72,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        72,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        72,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        19,
+        72,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        70,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        70,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        70,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        71,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        71,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        71,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        71,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        371455,
+        39
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        72,
+        21,
+        97,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        72,
+        21,
+        97,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        72,
+        21,
+        98,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        22,
+        20,
+        72,
+        22,
+        97,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        71,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        71,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        71,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        72,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        72,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        72,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        18,
+        72,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        70,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        70,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        70,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        71,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        71,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        71,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        71,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        72,
+        21,
+        97,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        72,
+        21,
+        97,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        72,
+        21,
+        98,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        19,
+        72,
+        22,
+        97,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        69,
+        21,
+        97,
+        63,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        69,
+        21,
+        98,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1333180,
+        139
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        69,
+        22,
+        97,
+        63,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        70,
+        21,
+        97,
+        62,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        70,
+        21,
+        97,
+        63,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        70,
+        21,
+        98,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        70,
+        22,
+        97,
+        62,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        71,
+        21,
+        97,
+        61,
+        30
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        71,
+        21,
+        97,
+        62,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        71,
+        21,
+        98,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        197
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        71,
+        22,
+        97,
+        61,
+        29
+      ],
+      "support": 175,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        142586,
+        15
+      ],
+      "status": "excluded_by_rational_inequalities"
+    },
+    {
+      "seats": [
+        26,
+        23,
+        20,
+        72,
+        21,
+        97,
+        61,
+        29
+      ],
+      "support": 176,
+      "continuous_cutoff_lower": [
+        1885721,
+        195
+      ],
+      "continuous_cutoff_upper": [
+        104132,
+        11
+      ],
+      "status": "excluded_by_rational_inequalities"
+    }
+  ]
+}

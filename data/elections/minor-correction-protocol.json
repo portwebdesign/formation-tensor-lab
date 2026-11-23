@@ -1,0 +1,15 @@
+{
+  "schema": "formation-tensor.minor-correction-protocol.v1",
+  "study_kind": "Retrospective robustness check of the stated input-correction class.",
+  "maximum_added_valid_votes": 4,
+  "correction_domain": "Nonnegative vote additions to parties outside the original eight nationally eligible parties, in any admitted constituencies; no inside-party vote correction, quota change, removal, or voter-transfer change.",
+  "target_domain": "Every completed cell of the six-pair 2026 electorate-transfer tensor.",
+  "national_threshold_scaled": "100 * party_votes >= 4 * all_valid_votes",
+  "regional_threshold_scaled": "100 * party_votes >= 12 * constituency_valid_votes",
+  "proof": "Retain the eligible set using threshold gaps; eligible-party vote counts and all divisor comparisons then remain unchanged.",
+  "excluded_claims": [
+    "Unrestricted data-error robustness",
+    "Recertification of previous global minimum-cost searches",
+    "Political response to corrected vote totals"
+  ]
+}

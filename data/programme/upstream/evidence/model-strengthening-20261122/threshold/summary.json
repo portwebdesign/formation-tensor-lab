@@ -1,0 +1,800 @@
+{
+  "schema": "isvec-secim.threshold-validation-summary.v1",
+  "status": "completed_with_reported_generalization_limits",
+  "findings": [
+    "Two-class primary test completed: 73 positive and 6 negative exact transfer groups.",
+    "New-election retrospective test: 38 positive and 488 negative groups; fixed2022 models were not refitted.",
+    "2022 balanced accuracy: CP 0.896, Tucker 0.917, unfitted quota 1.000.",
+    "2026 positive-case sensitivity: CP 0.316, Tucker 0.263; most positive crossings were missed.",
+    "The simple unfitted quota reference classified both two-class tests correctly on this finite grid. This is not an exactness guarantee outside the grid.",
+    "Reserved-amount test subsets each contain only one class; zero errors there do not establish discrimination.",
+    "V1 failed the unchanged class-coverage gate before any model fit; its source, protocol and exact cells are preserved. V2 was explicitly informed by that failure.",
+    "No learned model replaces the exact allocator; no prospective blind forecast or demonstrated latency benefit is claimed."
+  ],
+  "metrics": [
+    {
+      "label": "2022 in-grid test positive class",
+      "value": 73,
+      "unit": "cells"
+    },
+    {
+      "label": "2022 in-grid test negative class",
+      "value": 6,
+      "unit": "cells"
+    },
+    {
+      "label": "Exact native allocation calls",
+      "value": 1575,
+      "unit": "allocations"
+    }
+  ],
+  "models": [
+    {
+      "model": "cp",
+      "partition": "test_2022_in_grid",
+      "status": "passed",
+      "n": 79,
+      "class_counts": {
+        "acceptance_positive": 73,
+        "acceptance_negative": 6
+      },
+      "rmse_seats": 0.38841711991392125,
+      "mae_seats": 0.08781230158176904,
+      "max_abs_error_seats": 2.6311358526223323,
+      "confusion_matrix": {
+        "true_positive": 70,
+        "true_negative": 5,
+        "false_positive": 1,
+        "false_negative": 3
+      },
+      "sensitivity": 0.958904109589041,
+      "specificity": 0.8333333333333334,
+      "balanced_accuracy": 0.8961187214611872,
+      "accuracy": 0.9493670886075949,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 79,
+        "mae_seats": 0.08781230158176904,
+        "threshold_errors": 4
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "cp",
+      "partition": "test_2022_unseen_amount",
+      "status": "passed",
+      "n": 247,
+      "class_counts": {
+        "acceptance_positive": 247,
+        "acceptance_negative": 0
+      },
+      "rmse_seats": 0.5113142325580061,
+      "mae_seats": 0.41132024893758373,
+      "max_abs_error_seats": 1.0,
+      "confusion_matrix": {
+        "true_positive": 193,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 54
+      },
+      "sensitivity": 0.7813765182186235,
+      "specificity": null,
+      "balanced_accuracy": null,
+      "accuracy": 0.7813765182186235,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 247,
+        "mae_seats": 0.41132024893758373,
+        "threshold_errors": 54
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "cp",
+      "partition": "test_2026_known_amount",
+      "status": "passed",
+      "n": 526,
+      "class_counts": {
+        "acceptance_positive": 38,
+        "acceptance_negative": 488
+      },
+      "rmse_seats": 0.5158138599655163,
+      "mae_seats": 0.22209603556493873,
+      "max_abs_error_seats": 4.161808683687147,
+      "confusion_matrix": {
+        "true_positive": 12,
+        "true_negative": 488,
+        "false_positive": 0,
+        "false_negative": 26
+      },
+      "sensitivity": 0.3157894736842105,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.6578947368421053,
+      "accuracy": 0.9505703422053232,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 520,
+        "mae_seats": 0.2030125184951513,
+        "threshold_errors": 26
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "cp",
+      "partition": "test_2026_unseen_amount",
+      "status": "passed",
+      "n": 280,
+      "class_counts": {
+        "acceptance_positive": 0,
+        "acceptance_negative": 280
+      },
+      "rmse_seats": 0.6309264841242918,
+      "mae_seats": 0.4881294344082366,
+      "max_abs_error_seats": 1.3254748120009574,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 280,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": null,
+      "specificity": 1.0,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 280,
+        "mae_seats": 0.4881294344082366,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "tucker",
+      "partition": "test_2022_in_grid",
+      "status": "passed",
+      "n": 79,
+      "class_counts": {
+        "acceptance_positive": 73,
+        "acceptance_negative": 6
+      },
+      "rmse_seats": 0.23267678020944838,
+      "mae_seats": 0.04618122126038921,
+      "max_abs_error_seats": 2.0,
+      "confusion_matrix": {
+        "true_positive": 73,
+        "true_negative": 5,
+        "false_positive": 1,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": 0.8333333333333334,
+      "balanced_accuracy": 0.9166666666666667,
+      "accuracy": 0.9873417721518988,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 79,
+        "mae_seats": 0.04618122126038921,
+        "threshold_errors": 1
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "tucker",
+      "partition": "test_2022_unseen_amount",
+      "status": "passed",
+      "n": 247,
+      "class_counts": {
+        "acceptance_positive": 247,
+        "acceptance_negative": 0
+      },
+      "rmse_seats": 0.5066652132077137,
+      "mae_seats": 0.39662867886985326,
+      "max_abs_error_seats": 1.052301290188058,
+      "confusion_matrix": {
+        "true_positive": 193,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 54
+      },
+      "sensitivity": 0.7813765182186235,
+      "specificity": null,
+      "balanced_accuracy": null,
+      "accuracy": 0.7813765182186235,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 247,
+        "mae_seats": 0.39662867886985326,
+        "threshold_errors": 54
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "tucker",
+      "partition": "test_2026_known_amount",
+      "status": "passed",
+      "n": 526,
+      "class_counts": {
+        "acceptance_positive": 38,
+        "acceptance_negative": 488
+      },
+      "rmse_seats": 0.46197756661595907,
+      "mae_seats": 0.21157004233421847,
+      "max_abs_error_seats": 2.0,
+      "confusion_matrix": {
+        "true_positive": 10,
+        "true_negative": 488,
+        "false_positive": 0,
+        "false_negative": 28
+      },
+      "sensitivity": 0.2631578947368421,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.631578947368421,
+      "accuracy": 0.9467680608365019,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 520,
+        "mae_seats": 0.20502222045593108,
+        "threshold_errors": 28
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "tucker",
+      "partition": "test_2026_unseen_amount",
+      "status": "passed",
+      "n": 280,
+      "class_counts": {
+        "acceptance_positive": 0,
+        "acceptance_negative": 280
+      },
+      "rmse_seats": 0.6277903125740857,
+      "mae_seats": 0.47356987617035196,
+      "max_abs_error_seats": 1.412985313873541,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 280,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": null,
+      "specificity": 1.0,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 280,
+        "mae_seats": 0.47356987617035196,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "zero_delta",
+      "partition": "test_2022_in_grid",
+      "status": "passed",
+      "n": 79,
+      "class_counts": {
+        "acceptance_positive": 73,
+        "acceptance_negative": 6
+      },
+      "rmse_seats": 0.9678372077779887,
+      "mae_seats": 0.4050632911392405,
+      "max_abs_error_seats": 5.0,
+      "confusion_matrix": {
+        "true_positive": 73,
+        "true_negative": 0,
+        "false_positive": 6,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.9240506329113924,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 79,
+        "mae_seats": 0.4050632911392405,
+        "threshold_errors": 6
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "zero_delta",
+      "partition": "test_2022_unseen_amount",
+      "status": "passed",
+      "n": 247,
+      "class_counts": {
+        "acceptance_positive": 247,
+        "acceptance_negative": 0
+      },
+      "rmse_seats": 0.8747469269650611,
+      "mae_seats": 0.7651821862348178,
+      "max_abs_error_seats": 1.0,
+      "confusion_matrix": {
+        "true_positive": 247,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": null,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 247,
+        "mae_seats": 0.7651821862348178,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "zero_delta",
+      "partition": "test_2026_known_amount",
+      "status": "passed",
+      "n": 526,
+      "class_counts": {
+        "acceptance_positive": 38,
+        "acceptance_negative": 488
+      },
+      "rmse_seats": 1.0345734412419418,
+      "mae_seats": 0.38593155893536124,
+      "max_abs_error_seats": 6.0,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 488,
+        "false_positive": 0,
+        "false_negative": 38
+      },
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.9277566539923955,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 520,
+        "mae_seats": 0.3326923076923077,
+        "threshold_errors": 38
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "zero_delta",
+      "partition": "test_2026_unseen_amount",
+      "status": "passed",
+      "n": 280,
+      "class_counts": {
+        "acceptance_positive": 0,
+        "acceptance_negative": 280
+      },
+      "rmse_seats": 0.8215838362577492,
+      "mae_seats": 0.675,
+      "max_abs_error_seats": 1.0,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 280,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": null,
+      "specificity": 1.0,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 280,
+        "mae_seats": 0.675,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "train_mean",
+      "partition": "test_2022_in_grid",
+      "status": "passed",
+      "n": 79,
+      "class_counts": {
+        "acceptance_positive": 73,
+        "acceptance_negative": 6
+      },
+      "rmse_seats": 0.9678372077779887,
+      "mae_seats": 0.4050632911392405,
+      "max_abs_error_seats": 5.0,
+      "confusion_matrix": {
+        "true_positive": 73,
+        "true_negative": 0,
+        "false_positive": 6,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.9240506329113924,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 79,
+        "mae_seats": 0.4050632911392405,
+        "threshold_errors": 6
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "train_mean",
+      "partition": "test_2022_unseen_amount",
+      "status": "passed",
+      "n": 247,
+      "class_counts": {
+        "acceptance_positive": 247,
+        "acceptance_negative": 0
+      },
+      "rmse_seats": 0.8747469269650611,
+      "mae_seats": 0.7651821862348178,
+      "max_abs_error_seats": 1.0,
+      "confusion_matrix": {
+        "true_positive": 247,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": null,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 247,
+        "mae_seats": 0.7651821862348178,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "train_mean",
+      "partition": "test_2026_known_amount",
+      "status": "passed",
+      "n": 526,
+      "class_counts": {
+        "acceptance_positive": 38,
+        "acceptance_negative": 488
+      },
+      "rmse_seats": 1.0345734412419418,
+      "mae_seats": 0.38593155893536124,
+      "max_abs_error_seats": 6.0,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 488,
+        "false_positive": 0,
+        "false_negative": 38
+      },
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.9277566539923955,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 520,
+        "mae_seats": 0.3326923076923077,
+        "threshold_errors": 38
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "train_mean",
+      "partition": "test_2026_unseen_amount",
+      "status": "passed",
+      "n": 280,
+      "class_counts": {
+        "acceptance_positive": 0,
+        "acceptance_negative": 280
+      },
+      "rmse_seats": 0.8215838362577492,
+      "mae_seats": 0.675,
+      "max_abs_error_seats": 1.0,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 280,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": null,
+      "specificity": 1.0,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 280,
+        "mae_seats": 0.675,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "additive_main_effects",
+      "partition": "test_2022_in_grid",
+      "status": "passed",
+      "n": 79,
+      "class_counts": {
+        "acceptance_positive": 73,
+        "acceptance_negative": 6
+      },
+      "rmse_seats": 0.8627260567290468,
+      "mae_seats": 0.4649935981585393,
+      "max_abs_error_seats": 4.988207407816736,
+      "confusion_matrix": {
+        "true_positive": 73,
+        "true_negative": 0,
+        "false_positive": 6,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.9240506329113924,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 79,
+        "mae_seats": 0.4649935981585393,
+        "threshold_errors": 6
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "additive_main_effects",
+      "partition": "test_2022_unseen_amount",
+      "status": "passed",
+      "n": 247,
+      "class_counts": {
+        "acceptance_positive": 247,
+        "acceptance_negative": 0
+      },
+      "rmse_seats": 0.5758668180639527,
+      "mae_seats": 0.5086070459082778,
+      "max_abs_error_seats": 1.4156454801284508,
+      "confusion_matrix": {
+        "true_positive": 247,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": null,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 247,
+        "mae_seats": 0.5086070459082778,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "additive_main_effects",
+      "partition": "test_2026_known_amount",
+      "status": "passed",
+      "n": 526,
+      "class_counts": {
+        "acceptance_positive": 38,
+        "acceptance_negative": 488
+      },
+      "rmse_seats": 0.9676060463525571,
+      "mae_seats": 0.5596783368853251,
+      "max_abs_error_seats": 7.272613849419745,
+      "confusion_matrix": {
+        "true_positive": 1,
+        "true_negative": 488,
+        "false_positive": 0,
+        "false_negative": 37
+      },
+      "sensitivity": 0.02631578947368421,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5131578947368421,
+      "accuracy": 0.9296577946768061,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 520,
+        "mae_seats": 0.5047455038748763,
+        "threshold_errors": 37
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "additive_main_effects",
+      "partition": "test_2026_unseen_amount",
+      "status": "passed",
+      "n": 280,
+      "class_counts": {
+        "acceptance_positive": 0,
+        "acceptance_negative": 280
+      },
+      "rmse_seats": 0.6277672662717563,
+      "mae_seats": 0.5522947662973262,
+      "max_abs_error_seats": 1.3810345263144685,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 280,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": null,
+      "specificity": 1.0,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 280,
+        "mae_seats": 0.5522947662973262,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "unfitted_continuous_quota",
+      "partition": "test_2022_in_grid",
+      "status": "passed",
+      "n": 79,
+      "class_counts": {
+        "acceptance_positive": 73,
+        "acceptance_negative": 6
+      },
+      "rmse_seats": 0.32402927686652616,
+      "mae_seats": 0.2618332660956809,
+      "max_abs_error_seats": 0.8111293098879568,
+      "confusion_matrix": {
+        "true_positive": 73,
+        "true_negative": 6,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 79,
+        "mae_seats": 0.2618332660956809,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "unfitted_continuous_quota",
+      "partition": "test_2022_unseen_amount",
+      "status": "passed",
+      "n": 247,
+      "class_counts": {
+        "acceptance_positive": 247,
+        "acceptance_negative": 0
+      },
+      "rmse_seats": 0.3885515954878215,
+      "mae_seats": 0.33568086877286535,
+      "max_abs_error_seats": 0.5472176725280108,
+      "confusion_matrix": {
+        "true_positive": 189,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 58
+      },
+      "sensitivity": 0.7651821862348178,
+      "specificity": null,
+      "balanced_accuracy": null,
+      "accuracy": 0.7651821862348178,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 247,
+        "mae_seats": 0.33568086877286535,
+        "threshold_errors": 58
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "unfitted_continuous_quota",
+      "partition": "test_2026_known_amount",
+      "status": "passed",
+      "n": 526,
+      "class_counts": {
+        "acceptance_positive": 38,
+        "acceptance_negative": 488
+      },
+      "rmse_seats": 0.2466972748068597,
+      "mae_seats": 0.19829746285437852,
+      "max_abs_error_seats": 0.7379970361383916,
+      "confusion_matrix": {
+        "true_positive": 38,
+        "true_negative": 488,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 520,
+        "mae_seats": 0.19781559576540403,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    },
+    {
+      "model": "unfitted_continuous_quota",
+      "partition": "test_2026_unseen_amount",
+      "status": "passed",
+      "n": 280,
+      "class_counts": {
+        "acceptance_positive": 0,
+        "acceptance_negative": 280
+      },
+      "rmse_seats": 0.3985921475703305,
+      "mae_seats": 0.332633101902744,
+      "max_abs_error_seats": 0.5240059277232167,
+      "confusion_matrix": {
+        "true_positive": 0,
+        "true_negative": 280,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "sensitivity": null,
+      "specificity": 1.0,
+      "balanced_accuracy": null,
+      "accuracy": 1.0,
+      "near_threshold": {
+        "definition": "Exact support in [171,179], assessed after frozen split.",
+        "n": 280,
+        "mae_seats": 0.332633101902744,
+        "threshold_errors": 0
+      },
+      "threshold_rule": "Raw continuous baseline + prediction >= 175; no rounding or clipping.",
+      "interpretation": "Retrospective fixed-support counterfactual classification, not a political forecast."
+    }
+  ],
+  "limitations": [
+    "2026 inputs and earlier outcomes were known in development; this is a frozen retrospective challenge.",
+    "Threshold stratification uses exact 2022 labels only for partitioning; no natural-frequency or prospective sampling claim.",
+    "Known official zero-transfer baseline is an explicit model input.",
+    "Direction and district levels are categorical and must already be represented during fitting.",
+    "No rounding/clipping and no automatic production promotion; exact Rust remains authoritative.",
+    "Primary test has only six negative groups and validation only five; percentages have limited stability.",
+    "V2 label coverage was known from v1 before its protocol was frozen; the freeze precedes refitting/recomputation, not first access to these exact labels.",
+    "Scenario groups share baselines and coordinates and are not independent political events.",
+    "The quota reference uses the known represented-party vote-pool size of each election; categorical tensor fits do not encode a new year factor."
+  ],
+  "pending": [
+    "Prospective blind evaluation, independent external replication and speed/user-value validation are not established."
+  ],
+  "source_urls": [],
+  "exact_results_path": "evidence/model-strengthening-20261122/threshold/results.json",
+  "protocol_path": "data/threshold-validation/v2/protocol.json",
+  "protocol_amendment": {
+    "v1_status": "failed_coverage_gate_before_model_fitting",
+    "v1_negative_training_groups": 5,
+    "v2_development_informed": true,
+    "new_exact_labels_unseen_at_v2_freeze": false
+  }
+}

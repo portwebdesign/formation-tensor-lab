@@ -1,0 +1,917 @@
+{
+  "schema": "formation-tensor.seat-profile-coupling.v1",
+  "count": 26,
+  "profiles": [
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 1262,
+      "minimum_sampled_cost": 0,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 0,
+        "cost_voters": 0,
+        "nonreject_seats": 173,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unique_native_tables": 687
+    },
+    {
+      "profile_id": "seats-4e18d0f8bc30",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 650,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 10000,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "bacce01283efb74d10d70ee9c3536a5f992a227b740642cae63ce13fa15aabb8"
+      },
+      "unique_native_tables": 480
+    },
+    {
+      "profile_id": "seats-d9c020a3d646",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 327,
+      "minimum_sampled_cost": 5000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "2cfff20b3ab0b0467fe5b74a6e41884f6c95ef0d6a53ccadf5d4a4c1e1721b13"
+      },
+      "unique_native_tables": 273
+    },
+    {
+      "profile_id": "seats-70a552680eb3",
+      "seat_vector": {
+        "M": 72,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 27,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 20000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 72,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "cc0d52a0e5e78a30c1bf157d8cb13b7705751a996afb7fc3a734491c4d00e39d"
+      },
+      "unique_native_tables": 27
+    },
+    {
+      "profile_id": "seats-427cbe3a3042",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 188,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 0,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "5c360b6899c5d4293aa49a4b0a5e307c4f3e8b310e0d45498c795bfe962bd765"
+      },
+      "unique_native_tables": 144
+    },
+    {
+      "profile_id": "seats-d6a4e50b8eac",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 46,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 15000,
+        "amount_b": 10000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "4250391687e792ab4c6b441d84e4f8136fbf52636fc69c31c8204628b7cb0680"
+      },
+      "unique_native_tables": 46
+    },
+    {
+      "profile_id": "seats-0eef18006069",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 296,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 10000,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "7c2dd86b76eb651e46397b75e12fa73038fd1027989b4a5af3fc0d254d4b0d7a"
+      },
+      "unique_native_tables": 248
+    },
+    {
+      "profile_id": "seats-fbcb484c64b3",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 136,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 15000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "d9d8f87c4521f8139b86f723e1f6d3e3d68a3b88546661dcd437b88d2a99382c"
+      },
+      "unique_native_tables": 102
+    },
+    {
+      "profile_id": "seats-bf4d8cc42568",
+      "seat_vector": {
+        "M": 71,
+        "S": 100,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 24,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 10000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 100,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "7e30bfefba0908e4a8c5b768388e77bbb42a84cdebeb1f214792bfefbb696175"
+      },
+      "unique_native_tables": 24
+    },
+    {
+      "profile_id": "seats-bbe175f6d4b9",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 17,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 15000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "4b5492c651cd5b796fd45a72186110ac2f92cf8d8e29a2a702fdef0e52f5f407"
+      },
+      "unique_native_tables": 17
+    },
+    {
+      "profile_id": "seats-4f3f1dfd615a",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 10000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "ee867cb7bb2bc0f343165b28d20263ae14fc4b07d1288e5a51aa2a65a5c7f340"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-4bfb8c17cd36",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 23,
+        "SD": 63
+      },
+      "coordinates": 37,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 23,
+          "SD": 63
+        },
+        "group": "d0eec3b3fe8a735ff32c97da4c065dddf17eafb018f435c2d0d49e114be848de"
+      },
+      "unique_native_tables": 37
+    },
+    {
+      "profile_id": "seats-b7dc9023ff74",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 220,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 10000,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "45b26e42e853d5b7dc2b080eeeca320031342fe9d46c7815b2261c15685600ac"
+      },
+      "unique_native_tables": 176
+    },
+    {
+      "profile_id": "seats-b65dbb74ffed",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 120,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 15000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "e92a30fd260f3617b93ba44814b334f073f5b90ed6be3c7f9fcaee636b19b6ed"
+      },
+      "unique_native_tables": 90
+    },
+    {
+      "profile_id": "seats-9b1622560e96",
+      "seat_vector": {
+        "M": 71,
+        "S": 100,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 10000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 100,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "f0590c3c3cebd1c46b8e9b30962f76029d5ef105c208a735fb55726a97f6940c"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-304601191720",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 15,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 15000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "955a5e6ca6b95ae367c57de9a8b1a92fbb1053e1670e1ef40c95b6e5a03efab8"
+      },
+      "unique_native_tables": 15
+    },
+    {
+      "profile_id": "seats-f85911e914d1",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 10000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "42ba7eb06656b04ba296fd61fdf7a14e4ea8b9fe1b49a41cacd3d59a7162976a"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-9d288c9fe2f3",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 35,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "b0cff00ec4d3c2ff81c5abe2b55c9b99accda7de3f137a33c19f94599b67e6f2"
+      },
+      "unique_native_tables": 35
+    },
+    {
+      "profile_id": "seats-f1e3f7ba55c9",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 51,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__V_KD",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "7c2981abe95ad67b0ddd17c361be396e23569fe413be2ad3f5427d6ca23015ee"
+      },
+      "unique_native_tables": 51
+    },
+    {
+      "profile_id": "seats-b224536f3e3e",
+      "seat_vector": {
+        "M": 72,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 24,
+      "minimum_sampled_cost": 30000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__V_KD",
+        "district_id": "01",
+        "amount_a": 20000,
+        "amount_b": 10000,
+        "cost_voters": 30000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 72,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "3d0c4c291f4fc4cdd80daddf4770a35a0d0fe863ad470bf987b45f18e0924f2c"
+      },
+      "unique_native_tables": 24
+    },
+    {
+      "profile_id": "seats-eb5b76d3474b",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 45,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "0e232688d90efb319de6790c304477607815907f63b9ce3193ac675545906b47"
+      },
+      "unique_native_tables": 45
+    },
+    {
+      "profile_id": "seats-c8c9ae6e2af3",
+      "seat_vector": {
+        "M": 72,
+        "S": 98,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 30000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__C_L",
+        "district_id": "01",
+        "amount_a": 20000,
+        "amount_b": 10000,
+        "cost_voters": 30000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 72,
+          "S": 98,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "78b9627d30cbf31a3a2403d0350f798c128cdb333813933dcb4ff29b10bf8572"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-d2e33847ed7a",
+      "seat_vector": {
+        "M": 71,
+        "S": 100,
+        "L": 19,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 21,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 10000,
+        "cost_voters": 20000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 100,
+          "L": 19,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "35497099b41cce20736b20ccbb0c82aeed18552a774a1e36ae05b1162186fd63"
+      },
+      "unique_native_tables": 21
+    },
+    {
+      "profile_id": "seats-e5b4d77a7187",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 15,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "15b1f8d89d939466453125b2c3bf8b81364c10214d0c6ee6011b45607951329c"
+      },
+      "unique_native_tables": 15
+    },
+    {
+      "profile_id": "seats-be0ad4870325",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 17,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 15000,
+        "amount_b": 10000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "7fccc1bc70a454d910d9001ba8f87785e7eb1cb6994d061bf329d8abb132dbe4"
+      },
+      "unique_native_tables": 17
+    },
+    {
+      "profile_id": "seats-539d32309e82",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 23,
+      "minimum_sampled_cost": 30000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 15000,
+        "amount_b": 15000,
+        "cost_voters": 30000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "6e822fef74be9ba4f5be11e180b500212743f7da7fddee77fa244722fefbc1ef"
+      },
+      "unique_native_tables": 23
+    }
+  ],
+  "scope": "Deduplicated exact eight-party seat vectors for scenario coupling; not independent elections or political role observations."
+}

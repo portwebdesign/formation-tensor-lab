@@ -1,0 +1,36 @@
+{
+  "schema": "formation-tensor.completion-protocol.v1",
+  "design_status": "Retrospective sensitivity specified after the original model and its outputs were examined. Not preregistered or a prospective political test.",
+  "source_role": "Conditional C/V statements motivate alternative predicates but do not uniquely identify future actions. These are explicit hypothetical completions.",
+  "variants": {
+    "baseline": "The admitted original finite-state rules, reproduced independently with no change.",
+    "strict_V_outside": "If V policy is met but V is outside and its clause is active, V votes No even when nonpivotal; inclusion or release permits its admitted support.",
+    "C_package_linked": "C requires p_C AND p_V AND p_MP for policy assent and cabinet consent, in addition to the original composition condition. The linkage concerns exogenous policy-assent bits, not endogenous PM votes.",
+    "both": "Both alternative predicates together."
+  },
+  "source_to_predicate": [
+    {
+      "actor": "C",
+      "source": "data/formation/source-ledger.json / C national statement,16 November2026",
+      "source_content": "C describes a social-democratic alternative, exclusion of V from cabinet, and V/MP backing the policy package.",
+      "baseline_completion": "Independent C policy bit; V and MP policy bits can vary independently.",
+      "alternative_completion": "C policy satisfaction also requires V and MP policy satisfaction; this deliberately does not equate those bits with recorded PM actions."
+    },
+    {
+      "actor": "V",
+      "source": "data/formation/source-ledger.json / 2026 preliminary platform",
+      "source_content": "Conditional participation demand when V votes are necessary; broader refusal wording does not uniquely specify all other cases.",
+      "baseline_completion": "With policy met, V abstains outside when nonpivotal, including hopeless proposals.",
+      "alternative_completion": "With active inclusion condition, V remains No outside even if nonpivotal."
+    }
+  ],
+  "unchanged": "S-led eight-cabinet family;32 states;26 exact electoral profiles;four party buffers;349 seats;No>=175 rejects; cabinet consent distinct; budget support unfilled.",
+  "costs": {
+    "added_policy_bit": 1,
+    "released_composition_bit": 2
+  },
+  "unpriced_choices": "Cabinet reconfiguration is free at a reached state; external abstention is an exogenous condition, not acquired within the concession cost.",
+  "reachability": "All eight initial policy masks with rigid clauses;four release families;budgets0..8. Independent monotone subset-cost enumeration.",
+  "process": "Pinned baseline seats and no outside buffer;all three policy bits met;C/Vrelease at total1..4 from counter0 or3..4 from counter2;fixed agendas and exhaustive re-search control;all8! full orders counted.",
+  "scope": "Sensitivity of declared conditional models, not an empirical causal validation, calibrated forecast, or automatic change to the production model."
+}

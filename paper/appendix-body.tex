@@ -1,0 +1,324 @@
+These appendices define the computational domains, prove the boundary results used in the article and record numerical checks. Repository paths identify the code and evidence for each calculation.
+
+\section{Computational contract and units}
+
+The project contains five numerical experiments: exact paired voter transfers; finite-state cabinet compatibility and proposal sequences; member-action sensitivity and party-action associations; a bounded input-correction guard and party-action completion sensitivity. They share versioned inputs but retain different observational units.
+
+\begin{table}[htbp]\centering
+\caption{Objects retained by the experiments. A coordinate is a model combination, not an independent observed political event.}
+\begin{tabularx}{\linewidth}{l r X}
+\toprule
+Object & Count & Interpretation\\
+\midrule
+Recorded parliamentary roll calls & 2,612 & Ordinary member-action records in four sessions\\
+Member-action rows & 911,588 & 349 actions per recorded roll call\\
+Distinct parliamentary reports & 897 & Clusters used for weighting and resampling\\
+Completed 2026 PM ballots & 2 & Two proposals within one formation episode\\
+Electorate tensor coordinates & 6,264 & Pair, constituency and two amount indices\\
+Distinct native input records & 4,931 & Includes requests failing donor capacity\\
+Completed unique valid tables & 2,685 & Deduplicated completed allocations, including baseline\\
+Complete interior contrasts & 2,271 & Four valid corners with both amounts positive\\
+Distinct complete seat vectors & 26 & Inputs to the formation experiment\\
+Formation proposal coordinates & 26,624 & Profile, buffer, state and cabinet combinations\\
+Reachability rows & 29,952 & Initial states, release families and declared budgets\\
+Process settings & 9,568 & Profiles, buffers, horizon and pressure configurations\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The transfer protocol crosses six direction pairs, 29 constituencies and six levels on each amount axis. There are \(6\cdot29\cdot5^2=4350\) positive-amount interior coordinates. Of these, 2,079 lack a completed four-corner comparison. There are 2,580 masked joint coordinates in the entire grid; all fail donor capacity in the observed run. A masked value is stored with a reason and a null numerical response. It never contributes a zero effect to a histogram. Frozen protocols identify the exact expanded computation; they are not independent preregistration. Baseline cases and later-session records had already been examined during development.
+
+The response tensors in the present experiments are exact indexed objects; missing responses are not supplied by low-rank reconstruction. Earlier CP and Tucker fits from the wider research programme are summarised in Appendix~\ref{app:programme}. The party-action analysis estimates explicitly defined conditional associations, rather than treating tensor factor loadings as commitments. A matrix unfolding would retain the same information if every index and mask were preserved.
+
+\section{Allocation, interventions and input correction}\label{app:allocation}
+
+\subsection{The allocation operator}
+
+The native engine receives all 29 constituency tables, 124 party identifiers and the fixed constituency seat quotas. It uses the current rule version, selected explicitly by election year. The 2026 packet contains 6,767,429 valid votes. Votes of parties outside the intervention set remain in the threshold denominators.
+
+For national party votes \(V_p\), total valid votes \(T\), constituency votes \(v_{dp}\) and constituency total \(D_d\), national eligibility is
+\[
+100V_p\ge4T.
+\]
+The constituency exception uses \(100v_{dp}\ge12D_d\). A locally eligible party outside the national set is not simply assigned national levelling seats. The native procedure first allocates fixed seats, computes the appropriate national entitlement, returns and reallocates fixed awards where the current law requires it, and places levelling seats. A constituency quotient tensor alone therefore does not implement the complete Swedish allocation.
+
+The first divisor is \(6/5\), followed by \(3,5,7,\ldots\). Rational comparison is performed by cross multiplication in a wider integer type. The relevant first quotient can be represented by numerator \(5v\) and denominator 6. A selected quotient counts one seat regardless of its numerical magnitude. The engine returns a typed tie rather than resolving it by an undocumented party order. Its protected-overhang exception is also explicit. Such unresolved cases would remain outside a completed response, rather than being assigned a convenient result.
+
+Each paired intervention changes four distinct party cells in one constituency:
+\[
+u_{d,p_1}=-a,\quad u_{d,q_1}=a,\quad
+u_{d,p_2}=-b,\quad u_{d,q_2}=b.
+\]
+The source capacities are checked on the unchanged baseline. Nonnegativity, constituency totals, national valid-vote total, eligible-party identities and the chamber total are then checked. Because the two directions have disjoint endpoints,
+\[
+\frac12\sum_{d,p}|u_{dp}|=a+b.
+\]
+This equals the number of voters reassigned under the declared direct-transfer interpretation. A design allowing overlapping paths or voter circulation would require another accounting rule.
+
+Native input records are deduplicated before allocation; zero interventions and identical tables shared by direction pairs do not become separate computations. The full coordinate map remains in the tensor, so response frequencies can still be stated for the prespecified design. Recipient and nonrecipient gains are instead counted on unique nonzero valid tables.
+
+\subsection{A bounded correction theorem}
+
+The source publisher reported four omitted small-party votes. The correction guard tests the class of at most four nonnegative additions to parties outside the original eight nationally eligible parties, in any admitted constituencies, with fixed seat quotas and no correction to an eligible party's votes.
+
+Let \(k\le4\) denote total additions. Define the following scaled eligibility gaps:
+\[
+G^{\rm in}_p=100V_p-4T,\quad
+G^{\rm out}_p=4T-100V_p,\quad
+H^{\rm out}_{dp}=12D_d-100v_{dp}.
+\]
+An inside party's gap loses at most \(4k\), because its votes do not change. An outside party receiving \(k_p\le k\) additions has outside-national gap change \(4k-100k_p\ge-96k\). In a constituency receiving \(k_d\) additions, the corresponding outside-regional change is \(12k_d-100k_{dp}\ge-88k\).
+
+\begin{table}[htbp]\centering
+\caption{Worst-case eligibility margins over all completed unique inputs. Positive residuals retain the admitted eligible set under the stated correction class.}
+\begin{tabular}{lrrr}
+\toprule
+Gap & Minimum observed & Maximum loss & Residual\\
+\midrule
+Inside national & 9,048,984 & 16 & 9,048,968\\
+Outside national & 23,105,316 & 384 & 23,104,932\\
+Outside constituency & 482,812 & 352 & 482,460\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{proposition}\label{prop:correction}
+For every completed unique transfer input in the experiment, additions within the stated four-vote correction class leave its complete allocation unchanged.
+\end{proposition}
+\begin{proof}
+The positive residual gaps retain all eight nationally eligible parties and exclude every outside party both nationally and under the regional exception. All eligible-party vote counts are unchanged. The fixed quotas, exact eligible-party quotients, national entitlement comparisons, returned-seat comparisons and levelling comparisons are consequently unchanged. The deterministic completed allocation is the same.
+\end{proof}
+
+The audit inspects 4,931 raw records and covers 2,685 completed unique valid tables, corresponding to 3,684 completed tensor coordinates. It does not supply a missing allocation for a donor-insufficient request. Nor does it cover vote removals, corrections to eligible parties, altered quotas or the recertification of an earlier global optimization claim. The protocol, gap witnesses, proof conditions and tests are in \path{results/input-correction/summary.json} and its manifest.
+
+\section{Mixed differences and beneficiary diagnostics}
+
+Let \(g_{ab}\) be the seat total of the declared nonrejecting template \(\{M,KD,L,SD\}\), and \(y_{ab}=\ind\{g_{ab}\ge175\}\). The anchored interaction is
+\[
+\Delta g=g_{ab}-g_{a0}-g_{0b}+g_{00};
+\qquad
+\Delta y=y_{ab}-y_{a0}-y_{0b}+y_{00}.
+\]
+The baseline is \(g_{00}=173\), \(y_{00}=0\). A seat effect and a threshold effect are not interchangeable. Even an additive seat response can cross a threshold only in the joint intervention.
+
+\begin{table}[htbp]\centering
+\caption{Completed four-corner witnesses in Stockholm. Amounts are direct voter transfers. All four corners use the full national allocation.}
+\begin{tabular}{llrrrrrr}
+\toprule
+First direction & Second direction & \(g_{00}\)&\(g_{a0}\)&\(g_{0b}\)&\(g_{ab}\)&\(\Delta g\)&\(\Delta y\)\\
+\midrule
+MP to SD, 5,000 & S to M, 10,000 &173&174&174&174&$-1$&0\\
+MP to SD, 5,000 & S to M, 20,000 &173&174&174&175&0&1\\
+S to M, 5,000 & V to KD, 5,000 &173&173&173&174&1&0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The first row demonstrates redundancy in seat gains; the second has threshold complementarity without a mixed seat effect; the third has a positive mixed seat effect without threshold success. All six direction pairs are reported in the article, including zero and opposite-sign cases. Across the complete interior, the seat-interaction histogram is \((-1:233,\ 0:2010,\ +1:28)\), while the threshold histogram is \((0:1853,\ +1:418)\).
+
+For a beneficiary diagnostic, let \(R(u)\) be the set of direct recipients in the declared transfer and \(a_p(u)-a_p(0)\) each party's seat change. A nonrecipient gain is
+\[
+\ind\{\exists p\notin R(u):a_p(u)>a_p(0)\}.
+\]
+There are 494 such cases among 2,684 unique valid nonzero inputs. A recipient gain and a nonrecipient gain may coexist. The 1,072 inputs with no recipient gain include completely unchanged seat vectors; they cannot all be classified as gains to outsiders.
+
+All 26 distinct complete eight-party vectors are retained for bargaining. At fixed pair and amounts, the target total has no additional constituency variation among valid entries in this design. This is a result on the sampled domain; it is not an assumption that constituency information may be dropped from other intervention families.
+
+\section{Member-action boundary arithmetic}
+
+Let \(d=|Y-N|>0\) be the initial Yes--No gap. A switch by one member from the winning to the trailing side decreases the gap by two. An abstainer joining the trailing side or an absent member returning for it decreases it by one. With separate caps \(s,a,x\), the largest possible decrease is
+\[
+C=2\min(s,W)+\min(a,A)+\min(x,X),
+\]
+where \(W=\max(Y,N)\). The operations use disjoint baseline action categories.
+
+\begin{proposition}\label{prop:reversal}
+Strict reversal is reachable under these separate caps exactly when \(C>d\).
+\end{proposition}
+\begin{proof}
+No permitted person-level change reduces the original gap by more than its stated coefficient, so \(C\le d\) precludes a strict reversal. If \(C>d\), applying the permitted changes at their caps, with saturation at the available category counts, makes the new signed gap \(d-C<0\). This constructs a reversal.
+\end{proof}
+
+Thus a switch-only minimum is \(\lfloor d/2\rfloor+1\) when enough winning-side members exist. Equality \(C=d\) produces a tie rather than strict reversal. Baseline tied votes require a separate direction convention and are excluded from this reversal formulation; none occurs in the admitted corpus. The formula does not adjudicate substantive procedural exceptions applying to particular parliamentary motions.
+
+The cap grid \(0,1,2,3,5,10,20\) on three axes defines 895,916 possible coordinates. The closed-form criterion evaluates them on demand; the recorded results retain switch-budget profiles and specified joint-channel slices rather than a materialised dense array. A two-channel mixed difference compares the joint cap with each single channel and the unchanged baseline. At caps \(s=2,x=3,a=0\), the joint response is reachable in 154 roll calls. Thirty-six require both channels, while 49 can already be reversed by either alone. The signed sum \(36-49=-13\) is therefore less informative than its two components.
+
+\begin{table}[htbp]\centering
+\caption{Ordinary-vote switch boundaries. Percentages weight each roll call equally.}
+\begin{tabular}{lrr}
+\toprule
+Switch cap & Reversible roll calls & Roll-call percentage\\
+\midrule
+1&20&0.77\\
+2&118&4.52\\
+3&152&5.82\\
+5&163&6.24\\
+10&181&6.93\\
+20&284&10.87\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+An explicit education example is UbU21/4, 4 June 2025: 153 Yes votes, 149 No votes, no abstentions and 47 absences. Two switches reach 151--151; three returning No voters reach 153--152; the joint intervention reaches 151--154. This is complementarity between member-action resources, distinct from the electorate-allocation interactions.
+
+\section{Conditional party-action associations}
+
+For each party in each record, the action is the unique modal participating response among Yes, No and abstention. A tied mode, or no participating members, is missing. Absence is retained in member counts but is not treated as a participating policy action. Pair-specific usable observations are selected before computing either observed or reference agreement.
+
+For report \(j\) with \(n_j\) usable pair records, each receives weight \(1/n_j\). Every usable report has total weight one. In session--committee cell \(c\), let \(W_c\) be its normalised total report weight and \(p_{pc}(b)\) the corresponding action marginal. The reference is
+\[
+P_0=\sum_c W_c\sum_{b\in\{Y,N,A\}}p_{pc}(b)p_{qc}(b).
+\]
+Observed agreement \(P_o\) uses exactly the same record selection and weights. Excess agreement is \(100(P_o-P_0)\), in percentage points; a normalised conditional kappa is also retained when \(P_0<1\).
+
+This reference permits parties to have different action rates and permits those rates to vary by recorded context. It removes neither unrecorded subject matter nor the meaning of the proposed alternatives. It is a descriptive comparison with conditional independent margins, not identification of a latent alliance or a coordination effect.
+
+The first two sessions, 2022/23 and 2023/24, select the three most positive and three most negative pairs among those with at least 40 common records, ten reports and defined conditional kappa. Ties are broken by pair identity. All 28 pairs qualify, and every pair remains visible in the inventory. The six selected identities are then replayed without replacement by later winners.
+
+\begin{table}[htbp]\centering
+\caption{Fixed candidate replay. Excess agreement uses equal-report weights and session--committee references. Final-column ranges are descriptive report-cluster resampling percentiles.}
+\begin{tabular}{lrrrr}
+\toprule
+Pair & 2022/23--2023/24 & 2024/25 & 2025/26 & 2025/26 range\\
+\midrule
+MP--V &18.36&18.80&18.43&[14.47,21.49]\\
+S--MP &7.91&5.94&5.81&[2.56,8.65]\\
+C--MP &5.92&3.95&1.74&[$-1.92$,4.39]\\
+SD--V &$-12.42$&$-10.21$&$-2.28$&[$-3.90$,$-0.96$]\\
+SD--MP &$-11.05$&$-9.41$&$-1.75$&[$-2.95$,$-0.69$]\\
+S--SD &$-10.31$&$-8.42$&$-1.44$&[$-2.23$,$-0.57$]\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Resampling draws reports with replacement within session--committee cells, preserving all usable votes in each selected report and assigning each report occurrence unit weight. The reference is recomputed in each replicate. There are 200 replicates with seed 20261122. The recorded percentile range is a stability diagnostic for this archive, not a population confidence interval or a prospective success rate.
+
+Two further checks remove near-unanimous records using a .975 participating-majority cutoff and omit each committee in turn. MP--V retains 18.29 points after the first check and ranges from 17.75 to 19.35 under the second in 2025/26. C--MP's later ranges include zero. The negative pairs retain their sign but weaken substantially in the last session. These are different stability patterns, not a single conserved parliamentary partition.
+
+The present party-action comparisons use the complete 2022/23--2025/26 corpus directly. Earlier full-period SVD results are summarised in Appendix~\ref{app:programme}. The reported full-period results are direct action counts, finite boundary responses and explicit pairwise conditional associations.
+
+\section{The cabinet-state graph}
+
+\subsection{State, roles and consent}
+
+For a fixed seat profile \(a\), proposed cabinet \(K\) and external tolerance buffer \(e\), let the substantive state be
+\[
+s=(p_C,p_V,p_{MP},r_C,r_V)\in\{0,1\}^5.
+\]
+The implementation packs the first three bits as \(p_C+2p_V+4p_{MP}\). Release bits equal one when the corresponding condition is removed. S is always in the cabinet; any subset of C,V,MP may join. There are eight cabinets and 32 substantive states.
+
+S is nonrejecting. C is nonrejecting if \(p_C=1\) and either V is outside \(K\) or \(r_C=1\). MP is nonrejecting if \(p_{MP}=1\). For V, compute the other parties' nonrejecting seats \(b_{-V}\) first, including the supplied external buffer. V's conditional pivotality is
+\[
+I_V=\ind\{b_{-V}<175\le b_{-V}+a_V\}.
+\]
+V is nonrejecting if \(p_V=1\) and at least one of the following holds: \(I_V=0\), V is in \(K\), or \(r_V=1\). A hopeless proposal with \(b_{-V}+a_V<175\) does not label V pivotal. A supporting cabinet member votes Yes; a supporting nonmember abstains. Other parties vote No unless specified in the external buffer.
+
+The buffer options are none, L, KD and L+KD. They are exogenous action assumptions, not observed promises. Their acquisition costs are excluded from the internal concession index.
+
+Cabinet consent is a different predicate. Every included party must meet its policy condition; included C must also satisfy its composition condition. Nonrejection requires fewer than 175 No votes. The agreement indicator is the conjunction of consent and nonrejection. Budget support is deliberately unfilled rather than imputed from either.
+
+\subsection{Permitted changes and minimum costs}
+
+Edges add a missing policy bit or release an active composition condition, as allowed by release family \(\rho\). Edges never retract assent or reactivate a condition. For policy unit cost \(c_p\) and release cost \(c_r\), path cost is the sum of edge costs. Cabinet reconfiguration itself is unpriced within the declared family. The principal setting is \(c_p=1,c_r=2\).
+
+Let \(\States_F(a,e)\) be states admitting at least one consented nonrejected cabinet. For initial state \(s_0\),
+\[
+\tau_\rho(a,e,s_0)=
+\min_{\pi:s_0\leadsto_\rho s,\ s\in \States_F(a,e)}
+\sum_{(u,v)\in\pi}c(u,v).
+\]
+The minimum is infinity if no permitted path exists. Enumerating all states or using shortest paths gives the same result in this acyclic five-bit graph. The result field \texttt{structural\_possible} denotes finite \(\tau_\rho\), without a budget cap. It is not mere nonemptiness of \(\States_F\) when that set contains states reachable only under another release family.
+
+Nine cost settings cross \(c_p,c_r\in\{1,2,3\}\). At the baseline from policy state \(000\), permitting either C or V release gives
+\[
+\tau_{\rho}=
+\begin{cases}
+3c_p+c_r,&e=\varnothing\text{ or L},\\
+2c_p+c_r,&e=\text{KD}.
+\end{cases}
+\]
+With both L and KD tolerating, the minimum is \(2c_p\) even with neither composition release permitted. If no release is permitted and the buffer is none, L or KD, the route remains absent for every price. These are additive indices, not ordinal utilities or measured political sacrifices.
+
+\subsection{Conditional pivotality and monotone agreement}
+
+For the baseline S-only cabinet, policy mask 3 means C and V assent but MP does not. V is not pivotal: others supply \(99+25=124\), and \(124+30<175\). It abstains, giving 195 No votes. Adding MP assent makes the others supply 146 nonrejecting seats. Now \(146<175\le176\), so V's unfulfilled cabinet-entry condition activates and its 30 seats move to No. No votes rise to 203. This local effect was identified during model development.
+
+\begin{proposition}\label{prop:monotone}
+Under the stated rules and fixed cabinet, seat vector and external buffer, adding a permitted policy assent or composition release cannot turn an existing agreement into a disagreement.
+\end{proposition}
+\begin{proof}
+Non-V nonrejection and each cabinet-consent predicate are monotone in the allowed changes. The only possible withdrawal is V's, when increased assent by others activates its pivotal participation condition. If V is in the cabinet or its condition is released, that withdrawal is unavailable. Otherwise, an initial agreement with V outside and rigid must already have at least 175 nonrejecting seats excluding V: fewer would either leave the proposal hopeless or make V pivotal and unwilling. Other parties' nonrejection cannot fall, so they remain sufficient after the change. Consent also remains satisfied.
+\end{proof}
+
+The exhaustive edge diagnostic checks 66,560 fixed-cabinet proposal edges across 26 seat profiles and four buffers. It finds 1,424 edges increasing No votes and zero edges losing an agreement. The baseline contributes 64 No-increasing edges among 2,560. This checks implementation of the proposition while distinguishing local numerical nonmonotonicity from agreement loss.
+
+\section{Sequential proposals and exact agenda counts}
+
+The process experiment begins with all three policy conditions met, both composition conditions active, and a release budget of two units. A cabinet agenda is a permutation of the eight compositions. The formal-testing protocol submits the next proposal in order. It stops at consented nonrejection, numerically nonrejected cabinet refusal, the allowed additional patience limit, or four total formal rejections. A numerically nonrejected but unconsented proposal is a distinct terminal outcome; it does not add a formal rejection.
+
+An exploratory-only control evaluates proposals without submitting them. It consumes no formal rejection slots. A pressure rule releases one nominated composition condition after total rejection count \(k\), provided the budget suffices. The fourth rejection terminates the process before a later release. The cutoff variants start with two formal rejections already recorded and consider future triggers at totals of three or four, rather than adding four new rejection slots.
+
+Every one of the \(8!=40320\) agendas is counted. Since at most four new formal tests are possible, the computation can enumerate the \(8\cdot7\cdot6\cdot5=1680\) distinct four-position prefixes and multiply each by 24 completions. Additional early stopping does not alter this identity. The reference tests compare this compression with direct enumeration on relevant small examples.
+
+At baseline with no external tolerance, every strict-composition proposal is numerically rejected. After either specified composition release, four of the eight cabinets are acceptable. Suppose a release occurs after rejection \(k<4\), leaving \(m=4-k\) fixed-agenda positions. Failure requires every one of those \(m\) positions to contain one of the four still-unacceptable cabinets. There are
+\[
+F_k=(4)_m(8-m)!
+\]
+such agendas, where \((4)_m=4!/(4-m)!\). Thus
+\[
+F_1=2880,\quad F_2=8640,\quad F_3=20160;
+\]
+The successful counts are 40,320 minus these failure counts. At \(k=4\), all 40,320 agendas fail before a release. These values derive from the specified agenda universe; they are not estimated probabilities.
+
+The exhaustive re-search control searches all eight cabinets, including previously examined ones, immediately after a release and selects an acceptable proposal if one exists. It therefore succeeds in all 40,320 baseline agendas for \(k=1,2,3\). This control bundles feasibility search and permission to reconsider earlier proposals. The experiment does not isolate an independent benefit of reopening. In particular, with four newly acceptable cabinets and at most three prior failures, some acceptable cabinet still remains untried.
+
+At a cutoff counter of 2, release after the next rejection, the third overall, leaves one formal position. Exactly half the agendas put an acceptable cabinet there, giving 20,160 agreements. Exhaustive re-search gives 40,320. Release after the fourth rejection gives zero in both variants.
+
+Buffered cases also show why cabinet consent must remain separate from the parliamentary result. At baseline with L+KD tolerance, full policy assent and no composition release, 30,240 agenda orders first reach a consented nonrejected proposal, whereas 10,080 first reach numerical nonrejection without cabinet consent. The latter stop as \texttt{pm\_passed\_without\_cabinet\_agreement}; they do not count as a formed cabinet or trigger another nomination in the same simulated sequence.
+
+\section{Chronology, evidence types and publication time}
+
+The curated ledger records three initial exploratory holders, one resumed S assignment, one M extension, one general adjournment, two formal nominations and two rejected formal votes. It contains 19 event records, including a future consultation scheduled for 24 November. At the 22 November cutoff, M's exploratory process remains unresolved; no third rejected prime-minister vote or newly appointed cabinet is recorded.
+
+\begin{table}[htbp]\centering
+\caption{Selected dates retained separately by the event ledger. An announced future event is not coded as completed. Times in the ledger preserve their source offsets.}
+\begin{tabularx}{\linewidth}{l l X}
+\toprule
+Source publication & Event/effective date & Classification\\
+\midrule
+18 Sep &18 Sep &Initial S exploratory assignment\\
+2 Oct &5 Oct &S assignment resumption\\
+13 Oct &13 Oct &S formal nomination\\
+15 Oct &15 Oct &Rejected S prime-minister proposal\\
+19 Oct &19 Oct &Initial C exploratory assignment\\
+29 Oct &30 Oct &Nomination announcement, followed by formal proposal\\
+3 Nov &3 Nov &Rejected C proposal; separate initial M assignment\\
+6 and 10 Nov &17 Nov &M extension and clarified reporting deadline\\
+17 Nov &17 Nov &Incomplete M report and process adjournment\\
+20 Nov &24 Nov &Scheduled consultations and M further report\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The Speaker's account of 29 October describes a possible pressure mechanism from alternating exploration and ballots as an extra election approaches. It is coded as a sourced actor explanation. The simulation tests consequences of making a condition releasable after a rejection; it does not establish that the Speaker caused a subsequent concession.
+
+National party conditions, local party dissent, anonymous reported offers and official ballots retain distinct evidence labels. C's refusal of one cabinet composition is not converted into a definite future No vote on every S candidate. V's conditional participation demand is not converted into an unconditional veto. Ordinary-action associations also remain separate from those statements.
+
+The source ledger records 22 sources and 21 successful raw HTTP captures. The V platform informed the source interpretation, but its raw download returned HTTP 403; the source inventory records the failed capture. Retrieving a dated page on 22 November does not prove that its current text was accessible before an earlier decision. Event, first publication, update, access and effective dates remain separate wherever the source supplies them.
+
+\section{Computational reproducibility}
+
+Core reproduction requires Python 3 and a Rust compiler supporting edition 2024. Numerical code uses the Python standard library. Figure dependencies are listed separately in the repository; Tectonic builds the documents with standard LaTeX packages. Run commands from the repository root:
+\begin{verbatim}
+python3 -B run.py verify
+python3 -B run.py test
+python3 -B run.py reproduce
+python3 -B run.py figures
+python3 -B run.py paper
+\end{verbatim}
+
+Verification checks source and output hashes. Reproduction copies code and inputs into a fresh temporary directory, recomputes all five numerical experiments without importing stored numerical outputs, and compares generated JSON and CSV with the recorded results. Integer values and CSV bytes are exact; floating values use absolute tolerance \(10^{-10}\) or relative tolerance \(10^{-12}\). Timing records and run timestamps are excluded from equality comparisons. This is a clean-directory replication on the tested host, not a claim of testing every operating system.
+
+Implementation verification uses independent allocation comparisons, explicit proposal-rule calculations, subset-cost checks and exact agenda counting. Verification records identify the input and output versions used for each calculation.
+
+The event ledger records documentary observations; experimental protocols specify the action rules. The resulting package supports scrutiny of what each conditional conclusion requires and direct recomputation of the results reported here.

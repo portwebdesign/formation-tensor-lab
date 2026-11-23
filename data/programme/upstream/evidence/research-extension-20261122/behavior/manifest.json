@@ -1,0 +1,46 @@
+{
+  "schema": "isvec-secim.behavior-stability-evidence.v1",
+  "status": "passed",
+  "created_at_utc": "2026-11-22T05:29:30.453040+00:00",
+  "command": "python3 scripts/analyze_behavior_stability.py --seed 20261122 --replicates 200",
+  "input_sha256": {
+    "scripts/analyze_behavior_stability.py": "ad2026b1d12e2ed3f9dbe530f538a7c90be51b4c63917648b7d118e0244272a8",
+    "workbench/behavior_stability.py": "96af732f3fe98304f1b9c548f774fc630138bae1df64626760a9347bacebbfd8",
+    "workbench/test_behavior_stability.py": "b91e583604aa8b649111d25894832f381ac4d1b9d2b8f5bcc4329d20f8df6144",
+    "workbench/behavior.py": "8de84dd3a00fd5128bc0bbeaaf9e06b52fe4bf783c4e599127aee3a9c4156db8",
+    "data/longitudinal/manifest.json": "edbaa0d2fb9328cd314e9f01cab04901b7a7d6333d2611a8baa12faa225fcb83",
+    "data/longitudinal/records.json": "644235ab4d2a356f16a2e52ce958e9a652d29135427d6388e22a4f1120211842"
+  },
+  "public_source_sha256": {
+    "data/longitudinal/records.json": "644235ab4d2a356f16a2e52ce958e9a652d29135427d6388e22a4f1120211842",
+    "data/longitudinal/raw/catalog.html": "f38ca3c38c77ba5a883d37f2a9616b4d703c1366861d4091231cc5f7ceac9cf4",
+    "data/longitudinal/raw/acquisition.json": "8933efd36efed80b40a2f9eb20c25cecdaad11a8c2945155f5eaa03f0d3a3f8d",
+    "data/longitudinal/raw/votering-202223.csv.zip": "58f5228c7cb68a4a3cd478fd47faeb3b202b7a9aef6bab57b5dcc4dad1a4bcde",
+    "data/longitudinal/raw/votering-202324.csv.zip": "81d1965ce29b78b69fe3058a4f4b3088e1fc472dc54f9683b28a7b55e0f2e5c1",
+    "data/longitudinal/raw/votering-202425.csv.zip": "30f94c98e758ac91b26172a09de0c88352ae160f66e1777c9414175ce70901ea",
+    "data/longitudinal/raw/votering-202526.csv.zip": "8ced502d54e723e4d931c3b6dbd396b4918dda9b1270197d97b261125bee0326"
+  },
+  "output_sha256": {
+    "evidence/research-extension-20261122/behavior/stability.json": "fa6120863bb0b1fdbbe0fb7a5c94fc64d6eb025ef4fca00706adb29860f59334"
+  },
+  "rollcalls": 2612,
+  "closed_pilot_opened": false,
+  "session_comparisons": 6,
+  "same_committee_across_sessions": 96,
+  "different_committees_within_session": 480,
+  "files": {
+    "scripts/analyze_behavior_stability.py": "ad2026b1d12e2ed3f9dbe530f538a7c90be51b4c63917648b7d118e0244272a8",
+    "workbench/behavior_stability.py": "96af732f3fe98304f1b9c548f774fc630138bae1df64626760a9347bacebbfd8",
+    "workbench/test_behavior_stability.py": "b91e583604aa8b649111d25894832f381ac4d1b9d2b8f5bcc4329d20f8df6144",
+    "workbench/behavior.py": "8de84dd3a00fd5128bc0bbeaaf9e06b52fe4bf783c4e599127aee3a9c4156db8",
+    "data/longitudinal/manifest.json": "edbaa0d2fb9328cd314e9f01cab04901b7a7d6333d2611a8baa12faa225fcb83",
+    "data/longitudinal/records.json": "644235ab4d2a356f16a2e52ce958e9a652d29135427d6388e22a4f1120211842",
+    "data/longitudinal/raw/catalog.html": "f38ca3c38c77ba5a883d37f2a9616b4d703c1366861d4091231cc5f7ceac9cf4",
+    "data/longitudinal/raw/acquisition.json": "8933efd36efed80b40a2f9eb20c25cecdaad11a8c2945155f5eaa03f0d3a3f8d",
+    "data/longitudinal/raw/votering-202223.csv.zip": "58f5228c7cb68a4a3cd478fd47faeb3b202b7a9aef6bab57b5dcc4dad1a4bcde",
+    "data/longitudinal/raw/votering-202324.csv.zip": "81d1965ce29b78b69fe3058a4f4b3088e1fc472dc54f9683b28a7b55e0f2e5c1",
+    "data/longitudinal/raw/votering-202425.csv.zip": "30f94c98e758ac91b26172a09de0c88352ae160f66e1777c9414175ce70901ea",
+    "data/longitudinal/raw/votering-202526.csv.zip": "8ced502d54e723e4d931c3b6dbd396b4918dda9b1270197d97b261125bee0326",
+    "evidence/research-extension-20261122/behavior/stability.json": "fa6120863bb0b1fdbbe0fb7a5c94fc64d6eb025ef4fca00706adb29860f59334"
+  }
+}

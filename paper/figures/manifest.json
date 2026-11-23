@@ -1,0 +1,29 @@
+{
+  "schema": "formation-tensor.figures.v1",
+  "files": {
+    "paper/figures/tensor-interactions.pdf": "2aeef4927d5c0a48fdacf32d1d0dbfb2acbd681fb64f9c80bcfc3dc644edb4d6",
+    "paper/figures/tensor-interactions.svg": "29e4960b8265e5e3925511d28086185de1dc619d5405efe064f21581735cdec9",
+    "paper/figures/tensor-interactions.png": "fcf947415036ec9800be46525ff61ba9016a658613694cfe5afb41b7799d5caa",
+    "paper/figures/bargaining-sensitivity.pdf": "46f0da142096154a21eed50a41f12eae9e832153d94fdb0b91d8fb1879774480",
+    "paper/figures/bargaining-sensitivity.svg": "40abfebd9c234ae7ea44345b9c4b41736c097e7b31ff92838a8cbcebd1192610",
+    "paper/figures/bargaining-sensitivity.png": "0d7ba3583fecbe5563a5420465a975ab01e1e78d5a73ad3092ebf494aeb108dc",
+    "paper/figures/process-chronology.pdf": "d0a6635ff86c5fcd1ed442eb6dbe5bc520aaa68cc65a8d91564f0c3cfe2f8a9c",
+    "paper/figures/process-chronology.svg": "fee7260305d6e674dfadebd41d1de5148b9b06f5d12c22643215facda03c965d",
+    "paper/figures/process-chronology.png": "c89be6a2aa081defc84b3c0f74d4c3d6dd7cc6271c6bacdcdf5c61e26ec7132f",
+    "paper/figures/rollcall-patterns.pdf": "0dda89d1c87bfdadca645c88036f70c231495ef13d2345f2239b3c16340d4c7e",
+    "paper/figures/rollcall-patterns.svg": "58d770eb8a9f889faa022742b040f60cd49f56b156d9bb684be9c098ab93f8b6",
+    "paper/figures/rollcall-patterns.png": "a9ed2c6482cc82a85964e0591c89bba8c0e7bb4cfb3f0fed8fd35f6448bbf3d3"
+  },
+  "input_sha256": {
+    "results/interactions/summary.json": "2fccd68e507a76572cac6a0b37d30887e0a44a88d10739b3699a87c46794d8df",
+    "results/bargaining/summary.json": "dee6dbdc658888c4ccc70978ad390f923205bca626b0cb4d8c635c7a6070d839",
+    "results/bargaining/reachability.json": "47b85caa5b4f08e3bd2409428d63093e2bbc789eeac4f917f6db32c0df64241a",
+    "results/bargaining/coupled-profiles.json": "f8e4aac4c05eeddac667e3f767d552fef6375e39e412a4f94c0c3088ecf972a6",
+    "data/formation/events2026.json": "11e818343dffa7ecad117509095099801881d61f79e0ce071f861cf5b1eb3c77",
+    "results/parliament/summary.json": "a540eb9149291903a8aac228653bc6ac9fa63f9b61ca4fb45ed57ba792df9360"
+  },
+  "script_sha256": "92c3f154b5f9b7510b4ca0814248f728108acf2556cde9bc914dda9407d178f8",
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.5",
+  "python": "3.12.16 (main, Oct 25 2026, 18:24:37) [Clang 21.0.0 (clang-2100.3.34.2)]"
+}

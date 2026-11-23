@@ -1,0 +1,5530 @@
+{
+  "schema": "formation-tensor.interaction-summary.v1",
+  "status": "passed",
+  "protocol_sha256": "6429a6e66b5f4b4b81856730d8ab6c0546fd88cd4195b4f4882b22370098a42a",
+  "shape": [
+    6,
+    29,
+    6,
+    6
+  ],
+  "unique_native_tables": 4931,
+  "baseline_seats": {
+    "M": 70,
+    "S": 99,
+    "L": 19,
+    "C": 25,
+    "V": 30,
+    "MP": 22,
+    "KD": 22,
+    "SD": 62
+  },
+  "hypothetical_nonreject_parties": [
+    "M",
+    "KD",
+    "L",
+    "SD"
+  ],
+  "baseline_nonreject_seats": 173,
+  "coordinates": 6264,
+  "valid_coordinates": 3684,
+  "masked_coordinates": 2580,
+  "mask_counts": {
+    "invalid_input": 2580
+  },
+  "interior_coordinates": 4350,
+  "valid_interior_four_corners": 2271,
+  "masked_interior_four_corners": 2079,
+  "mixed_seat_histogram": {
+    "-1": 233,
+    "0": 2010,
+    "1": 28
+  },
+  "mixed_threshold_histogram": {
+    "0": 1853,
+    "1": 418
+  },
+  "positive_seat_interactions": 28,
+  "negative_seat_interactions": 233,
+  "positive_threshold_interactions": 418,
+  "negative_threshold_interactions": 0,
+  "pairs": [
+    {
+      "pair_id": "MP_SD__S_M",
+      "directions": [
+        [
+          "MP",
+          "SD"
+        ],
+        [
+          "S",
+          "M"
+        ]
+      ],
+      "coordinates": 1044,
+      "valid_coordinates": 638,
+      "masked_coordinates": 406,
+      "mask_counts": {
+        "invalid_input": 406
+      },
+      "interior_coordinates": 725,
+      "valid_interior_four_corners": 388,
+      "masked_interior_four_corners": 337,
+      "mixed_seat_histogram": {
+        "-1": 74,
+        "0": 314
+      },
+      "mixed_threshold_histogram": {
+        "0": 315,
+        "1": 73
+      },
+      "positive_seat_interactions": 0,
+      "negative_seat_interactions": 74,
+      "positive_threshold_interactions": 73,
+      "negative_threshold_interactions": 0,
+      "all_amount_strata": [
+        {
+          "amount_a": 0,
+          "amount_b": 0,
+          "cost_voters": 0,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 2000,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 5000,
+          "cost_voters": 5000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 10000,
+          "cost_voters": 10000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 15000,
+          "cost_voters": 15000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 20000,
+          "cost_voters": 20000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 0,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 2000,
+          "cost_voters": 4000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 5000,
+          "cost_voters": 7000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 10000,
+          "cost_voters": 12000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 15000,
+          "cost_voters": 17000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 20000,
+          "cost_voters": 22000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 0,
+          "cost_voters": 5000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 2000,
+          "cost_voters": 7000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 5000,
+          "cost_voters": 10000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 10000,
+          "cost_voters": 15000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 15000,
+          "cost_voters": 20000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 20000,
+          "cost_voters": 25000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "1": 27
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 0,
+          "cost_voters": 10000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 2000,
+          "cost_voters": 12000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 5000,
+          "cost_voters": 15000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 10000,
+          "cost_voters": 20000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 15000,
+          "cost_voters": 25000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 20000,
+          "cost_voters": 30000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "1": 10
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 0,
+          "cost_voters": 15000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 2000,
+          "cost_voters": 17000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 5000,
+          "cost_voters": 20000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 10000,
+          "cost_voters": 25000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 15000,
+          "cost_voters": 30000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 20000,
+          "cost_voters": 35000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 0,
+          "cost_voters": 20000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 2000,
+          "cost_voters": 22000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 5000,
+          "cost_voters": 25000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 10000,
+          "cost_voters": 30000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 15000,
+          "cost_voters": 35000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 20000,
+          "cost_voters": 40000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        }
+      ],
+      "regional_consistency": {
+        "amount_pairs_with_different_seats_across_valid_districts": 0,
+        "scope": "This sampled fixed-domain target only; donor capacity masks can differ by constituency."
+      },
+      "equal_cost_witnesses": [
+        {
+          "cost_voters": 5000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "MP_SD__S_M",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 5000,
+            "cost_voters": 5000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "2f679aad9be3d78471c25fb17a27af7c63f3060a65a05bd898ab51d6930f5c62"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__S_M",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 0,
+            "cost_voters": 5000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "2cfff20b3ab0b0467fe5b74a6e41884f6c95ef0d6a53ccadf5d4a4c1e1721b13"
+          }
+        },
+        {
+          "cost_voters": 7000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "MP_SD__S_M",
+            "district_id": "01",
+            "amount_a": 2000,
+            "amount_b": 5000,
+            "cost_voters": 7000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "10aa91c98791e52d670a05339fdbe3171c22b7f6168ca30a7594f401ad9b7dd2"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__S_M",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 2000,
+            "cost_voters": 7000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "4b03ba6449f56d59e2ba6e717f7e61173710bd7dc30c281f81b4a3ef68ef6792"
+          }
+        },
+        {
+          "cost_voters": 25000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "MP_SD__S_M",
+            "district_id": "01",
+            "amount_a": 10000,
+            "amount_b": 15000,
+            "cost_voters": 25000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "6181328c0bee5decd7efade4ef0c9a2d4b4678a0117cff85a72127b485e259fd"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__S_M",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 20000,
+            "cost_voters": 25000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 72,
+              "S": 98,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "cc0d52a0e5e78a30c1bf157d8cb13b7705751a996afb7fc3a734491c4d00e39d"
+          }
+        }
+      ],
+      "smallest_successful_sampled_cost": 25000
+    },
+    {
+      "pair_id": "MP_SD__V_KD",
+      "directions": [
+        [
+          "MP",
+          "SD"
+        ],
+        [
+          "V",
+          "KD"
+        ]
+      ],
+      "coordinates": 1044,
+      "valid_coordinates": 501,
+      "masked_coordinates": 543,
+      "mask_counts": {
+        "invalid_input": 543
+      },
+      "interior_coordinates": 725,
+      "valid_interior_four_corners": 296,
+      "masked_interior_four_corners": 429,
+      "mixed_seat_histogram": {
+        "-1": 24,
+        "0": 272
+      },
+      "mixed_threshold_histogram": {
+        "0": 220,
+        "1": 76
+      },
+      "positive_seat_interactions": 0,
+      "negative_seat_interactions": 24,
+      "positive_threshold_interactions": 76,
+      "negative_threshold_interactions": 0,
+      "all_amount_strata": [
+        {
+          "amount_a": 0,
+          "amount_b": 0,
+          "cost_voters": 0,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 2000,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 5000,
+          "cost_voters": 5000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 10000,
+          "cost_voters": 10000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 15000,
+          "cost_voters": 15000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 20000,
+          "cost_voters": 20000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 0,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 2000,
+          "cost_voters": 4000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 5000,
+          "cost_voters": 7000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 10000,
+          "cost_voters": 12000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 15000,
+          "cost_voters": 17000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 20000,
+          "cost_voters": 22000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 0,
+          "cost_voters": 5000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 2000,
+          "cost_voters": 7000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 5000,
+          "cost_voters": 10000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 10000,
+          "cost_voters": 15000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 15000,
+          "cost_voters": 20000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "1": 11
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 20000,
+          "cost_voters": 25000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 0,
+          "cost_voters": 10000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 2000,
+          "cost_voters": 12000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 5000,
+          "cost_voters": 15000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 10000,
+          "cost_voters": 20000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "1": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 15000,
+          "cost_voters": 25000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 20000,
+          "cost_voters": 30000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 0,
+          "cost_voters": 15000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 2000,
+          "cost_voters": 17000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 5000,
+          "cost_voters": 20000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 10000,
+          "cost_voters": 25000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 15000,
+          "cost_voters": 30000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 20000,
+          "cost_voters": 35000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 0,
+          "cost_voters": 20000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 2000,
+          "cost_voters": 22000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 5000,
+          "cost_voters": 25000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 10000,
+          "cost_voters": 30000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 15000,
+          "cost_voters": 35000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 20000,
+          "cost_voters": 40000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        }
+      ],
+      "regional_consistency": {
+        "amount_pairs_with_different_seats_across_valid_districts": 0,
+        "scope": "This sampled fixed-domain target only; donor capacity masks can differ by constituency."
+      },
+      "equal_cost_witnesses": [
+        {
+          "cost_voters": 5000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 5000,
+            "cost_voters": 5000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "df5a1435c3aeae604e8fd066a769ea4b5e13a08054cf5706fc091abb61622601"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 0,
+            "cost_voters": 5000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "2cfff20b3ab0b0467fe5b74a6e41884f6c95ef0d6a53ccadf5d4a4c1e1721b13"
+          }
+        },
+        {
+          "cost_voters": 7000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 2000,
+            "amount_b": 5000,
+            "cost_voters": 7000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "64f0edf52a0db8e003d06751ba069f15739df2a46de32af483ab57da1a300247"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 2000,
+            "cost_voters": 7000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "3ad06a5ef6c659fb3c63226db5654260ba7edbc8ff3815df15c28d047530e20d"
+          }
+        },
+        {
+          "cost_voters": 20000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 20000,
+            "cost_voters": 20000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 29,
+              "MP": 22,
+              "KD": 23,
+              "SD": 62
+            },
+            "group": "8f0535ecfb8906dd99f508db7c9b449af52856e1a7bed406177ce08b5d221f01"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 15000,
+            "cost_voters": 20000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 29,
+              "MP": 21,
+              "KD": 23,
+              "SD": 62
+            },
+            "group": "4b5492c651cd5b796fd45a72186110ac2f92cf8d8e29a2a702fdef0e52f5f407"
+          }
+        },
+        {
+          "cost_voters": 25000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 20000,
+            "amount_b": 5000,
+            "cost_voters": 25000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 63
+            },
+            "group": "9aedf639a2eccc963b58090ae798658b479cf4ddfb6fcc90e477a5abb1572162"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__V_KD",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 20000,
+            "cost_voters": 25000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 29,
+              "MP": 21,
+              "KD": 23,
+              "SD": 62
+            },
+            "group": "7ee5c422e32a91d6990c5523507a07b1c0d563b8ec3428f54a83a8826215ef40"
+          }
+        }
+      ],
+      "smallest_successful_sampled_cost": 20000
+    },
+    {
+      "pair_id": "MP_SD__C_L",
+      "directions": [
+        [
+          "MP",
+          "SD"
+        ],
+        [
+          "C",
+          "L"
+        ]
+      ],
+      "coordinates": 1044,
+      "valid_coordinates": 487,
+      "masked_coordinates": 557,
+      "mask_counts": {
+        "invalid_input": 557
+      },
+      "interior_coordinates": 725,
+      "valid_interior_four_corners": 286,
+      "masked_interior_four_corners": 439,
+      "mixed_seat_histogram": {
+        "-1": 22,
+        "0": 264
+      },
+      "mixed_threshold_histogram": {
+        "0": 214,
+        "1": 72
+      },
+      "positive_seat_interactions": 0,
+      "negative_seat_interactions": 22,
+      "positive_threshold_interactions": 72,
+      "negative_threshold_interactions": 0,
+      "all_amount_strata": [
+        {
+          "amount_a": 0,
+          "amount_b": 0,
+          "cost_voters": 0,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 2000,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 5000,
+          "cost_voters": 5000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 10000,
+          "cost_voters": 10000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 15000,
+          "cost_voters": 15000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 20000,
+          "cost_voters": 20000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 0,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 2000,
+          "cost_voters": 4000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 5000,
+          "cost_voters": 7000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 10000,
+          "cost_voters": 12000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 15000,
+          "cost_voters": 17000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 20000,
+          "cost_voters": 22000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 0,
+          "cost_voters": 5000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 2000,
+          "cost_voters": 7000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 5000,
+          "cost_voters": 10000,
+          "valid_districts": 27,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 27
+          },
+          "mixed_threshold_histogram": {
+            "0": 27
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 10000,
+          "cost_voters": 15000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 15000,
+          "cost_voters": 20000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 20000,
+          "cost_voters": 25000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 0,
+          "cost_voters": 10000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 2000,
+          "cost_voters": 12000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 5000,
+          "cost_voters": 15000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "0": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 10000,
+          "cost_voters": 20000,
+          "valid_districts": 10,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 10
+          },
+          "mixed_threshold_histogram": {
+            "1": 10
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 15000,
+          "cost_voters": 25000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 20000,
+          "cost_voters": 30000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 0,
+          "cost_voters": 15000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 2000,
+          "cost_voters": 17000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 5000,
+          "cost_voters": 20000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "0": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 10000,
+          "cost_voters": 25000,
+          "valid_districts": 8,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 8
+          },
+          "mixed_threshold_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 15000,
+          "cost_voters": 30000,
+          "valid_districts": 7,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 7
+          },
+          "mixed_threshold_histogram": {
+            "1": 7
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 20000,
+          "cost_voters": 35000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 0,
+          "cost_voters": 20000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 2000,
+          "cost_voters": 22000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 5000,
+          "cost_voters": 25000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "0": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 10000,
+          "cost_voters": 30000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 15000,
+          "cost_voters": 35000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 20000,
+          "cost_voters": 40000,
+          "valid_districts": 4,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 4
+          },
+          "mixed_threshold_histogram": {
+            "1": 4
+          }
+        }
+      ],
+      "regional_consistency": {
+        "amount_pairs_with_different_seats_across_valid_districts": 0,
+        "scope": "This sampled fixed-domain target only; donor capacity masks can differ by constituency."
+      },
+      "equal_cost_witnesses": [
+        {
+          "cost_voters": 5000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 5000,
+            "cost_voters": 5000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "fce7847294dae16072da41811bbfed486da842f59a8b544136be7cc7319b1f53"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 0,
+            "cost_voters": 5000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "2cfff20b3ab0b0467fe5b74a6e41884f6c95ef0d6a53ccadf5d4a4c1e1721b13"
+          }
+        },
+        {
+          "cost_voters": 7000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 2000,
+            "amount_b": 5000,
+            "cost_voters": 7000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "58872d6bd59d3dda8c3dea34b9325c6cfed90b985e79ff7348e6a8df773fa81a"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 2000,
+            "cost_voters": 7000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "cba097b54b31c122cae2ef4cfa4806b29c87623959eb1febb9d23fc12898fb62"
+          }
+        },
+        {
+          "cost_voters": 20000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 20000,
+            "cost_voters": 20000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 20,
+              "C": 24,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "e338b428a32173d0b0079221ce37a5d1036160debb40b30c6322ab8b2c36b726"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 15000,
+            "cost_voters": 20000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 20,
+              "C": 24,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "955a5e6ca6b95ae367c57de9a8b1a92fbb1053e1670e1ef40c95b6e5a03efab8"
+          }
+        },
+        {
+          "cost_voters": 25000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 20000,
+            "amount_b": 5000,
+            "cost_voters": 25000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 63
+            },
+            "group": "5e10d32fee29c8696460cc32e4eae4ea95ff09cf407be540d0040bca3504267f"
+          },
+          "upper_example": {
+            "pair_id": "MP_SD__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 20000,
+            "cost_voters": 25000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 20,
+              "C": 24,
+              "V": 30,
+              "MP": 21,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "5e05c566f13225c12771e88093cba9d2b1936f0f821c8a21195ddff0db226300"
+          }
+        }
+      ],
+      "smallest_successful_sampled_cost": 20000
+    },
+    {
+      "pair_id": "S_M__V_KD",
+      "directions": [
+        [
+          "S",
+          "M"
+        ],
+        [
+          "V",
+          "KD"
+        ]
+      ],
+      "coordinates": 1044,
+      "valid_coordinates": 758,
+      "masked_coordinates": 286,
+      "mask_counts": {
+        "invalid_input": 286
+      },
+      "interior_coordinates": 725,
+      "valid_interior_four_corners": 488,
+      "masked_interior_four_corners": 237,
+      "mixed_seat_histogram": {
+        "-1": 48,
+        "0": 412,
+        "1": 28
+      },
+      "mixed_threshold_histogram": {
+        "0": 413,
+        "1": 75
+      },
+      "positive_seat_interactions": 28,
+      "negative_seat_interactions": 48,
+      "positive_threshold_interactions": 75,
+      "negative_threshold_interactions": 0,
+      "all_amount_strata": [
+        {
+          "amount_a": 0,
+          "amount_b": 0,
+          "cost_voters": 0,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 2000,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 5000,
+          "cost_voters": 5000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 10000,
+          "cost_voters": 10000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 15000,
+          "cost_voters": 15000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 20000,
+          "cost_voters": 20000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 0,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 2000,
+          "cost_voters": 4000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 5000,
+          "cost_voters": 7000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 10000,
+          "cost_voters": 12000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 15000,
+          "cost_voters": 17000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 20000,
+          "cost_voters": 22000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 0,
+          "cost_voters": 5000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 2000,
+          "cost_voters": 7000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 5000,
+          "cost_voters": 10000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "1": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 10000,
+          "cost_voters": 15000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 15000,
+          "cost_voters": 20000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 20000,
+          "cost_voters": 25000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 0,
+          "cost_voters": 10000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 2000,
+          "cost_voters": 12000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 5000,
+          "cost_voters": 15000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 10000,
+          "cost_voters": 20000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 15000,
+          "cost_voters": 25000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "1": 11
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 20000,
+          "cost_voters": 30000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 0,
+          "cost_voters": 15000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 2000,
+          "cost_voters": 17000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 5000,
+          "cost_voters": 20000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 10000,
+          "cost_voters": 25000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 15000,
+          "cost_voters": 30000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "1": 11
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 20000,
+          "cost_voters": 35000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 0,
+          "cost_voters": 20000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 2000,
+          "cost_voters": 22000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 5000,
+          "cost_voters": 25000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 10000,
+          "cost_voters": 30000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "1": 24
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 15000,
+          "cost_voters": 35000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "1": 11
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 20000,
+          "cost_voters": 40000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        }
+      ],
+      "regional_consistency": {
+        "amount_pairs_with_different_seats_across_valid_districts": 0,
+        "scope": "This sampled fixed-domain target only; donor capacity masks can differ by constituency."
+      },
+      "equal_cost_witnesses": [
+        {
+          "cost_voters": 25000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "S_M__V_KD",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 20000,
+            "cost_voters": 25000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 29,
+              "MP": 22,
+              "KD": 23,
+              "SD": 62
+            },
+            "group": "4931383146af34b668757052deffcad485c9457388dff035b66b570232d2d740"
+          },
+          "upper_example": {
+            "pair_id": "S_M__V_KD",
+            "district_id": "01",
+            "amount_a": 10000,
+            "amount_b": 15000,
+            "cost_voters": 25000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 98,
+              "L": 19,
+              "C": 25,
+              "V": 29,
+              "MP": 22,
+              "KD": 23,
+              "SD": 62
+            },
+            "group": "7c2981abe95ad67b0ddd17c361be396e23569fe413be2ad3f5427d6ca23015ee"
+          }
+        }
+      ],
+      "smallest_successful_sampled_cost": 25000
+    },
+    {
+      "pair_id": "S_M__C_L",
+      "directions": [
+        [
+          "S",
+          "M"
+        ],
+        [
+          "C",
+          "L"
+        ]
+      ],
+      "coordinates": 1044,
+      "valid_coordinates": 734,
+      "masked_coordinates": 310,
+      "mask_counts": {
+        "invalid_input": 310
+      },
+      "interior_coordinates": 725,
+      "valid_interior_four_corners": 468,
+      "masked_interior_four_corners": 257,
+      "mixed_seat_histogram": {
+        "-1": 44,
+        "0": 424
+      },
+      "mixed_threshold_histogram": {
+        "0": 401,
+        "1": 67
+      },
+      "positive_seat_interactions": 0,
+      "negative_seat_interactions": 44,
+      "positive_threshold_interactions": 67,
+      "negative_threshold_interactions": 0,
+      "all_amount_strata": [
+        {
+          "amount_a": 0,
+          "amount_b": 0,
+          "cost_voters": 0,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 2000,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 5000,
+          "cost_voters": 5000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 10000,
+          "cost_voters": 10000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 15000,
+          "cost_voters": 15000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 20000,
+          "cost_voters": 20000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 0,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 2000,
+          "cost_voters": 4000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 5000,
+          "cost_voters": 7000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 10000,
+          "cost_voters": 12000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 15000,
+          "cost_voters": 17000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 20000,
+          "cost_voters": 22000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 0,
+          "cost_voters": 5000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 2000,
+          "cost_voters": 7000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 5000,
+          "cost_voters": 10000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 10000,
+          "cost_voters": 15000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 15000,
+          "cost_voters": 20000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 20000,
+          "cost_voters": 25000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 0,
+          "cost_voters": 10000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 2000,
+          "cost_voters": 12000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 5000,
+          "cost_voters": 15000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 10000,
+          "cost_voters": 20000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 15000,
+          "cost_voters": 25000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 20000,
+          "cost_voters": 30000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 0,
+          "cost_voters": 15000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 2000,
+          "cost_voters": 17000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 5000,
+          "cost_voters": 20000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 10000,
+          "cost_voters": 25000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 15000,
+          "cost_voters": 30000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 20000,
+          "cost_voters": 35000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 0,
+          "cost_voters": 20000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 2000,
+          "cost_voters": 22000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 5000,
+          "cost_voters": 25000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 10000,
+          "cost_voters": 30000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "1": 22
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 15000,
+          "cost_voters": 35000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 20000,
+          "cost_voters": 40000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        }
+      ],
+      "regional_consistency": {
+        "amount_pairs_with_different_seats_across_valid_districts": 0,
+        "scope": "This sampled fixed-domain target only; donor capacity masks can differ by constituency."
+      },
+      "equal_cost_witnesses": [
+        {
+          "cost_voters": 10000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "S_M__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 5000,
+            "cost_voters": 10000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "096ad480a3fb57723c336ad7ada323a1a944fc020595559da1a687284d42eb82"
+          },
+          "upper_example": {
+            "pair_id": "S_M__C_L",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 10000,
+            "cost_voters": 10000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 24,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "45b26e42e853d5b7dc2b080eeeca320031342fe9d46c7815b2261c15685600ac"
+          }
+        },
+        {
+          "cost_voters": 25000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "S_M__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 20000,
+            "cost_voters": 25000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 20,
+              "C": 24,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "fc4a2253e7bf822e5de181b6241c2c5b9339592f891ad07fa9fd4b690fd2bb0d"
+          },
+          "upper_example": {
+            "pair_id": "S_M__C_L",
+            "district_id": "01",
+            "amount_a": 10000,
+            "amount_b": 15000,
+            "cost_voters": 25000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 98,
+              "L": 20,
+              "C": 24,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "0e232688d90efb319de6790c304477607815907f63b9ce3193ac675545906b47"
+          }
+        }
+      ],
+      "smallest_successful_sampled_cost": 25000
+    },
+    {
+      "pair_id": "V_KD__C_L",
+      "directions": [
+        [
+          "V",
+          "KD"
+        ],
+        [
+          "C",
+          "L"
+        ]
+      ],
+      "coordinates": 1044,
+      "valid_coordinates": 566,
+      "masked_coordinates": 478,
+      "mask_counts": {
+        "invalid_input": 478
+      },
+      "interior_coordinates": 725,
+      "valid_interior_four_corners": 345,
+      "masked_interior_four_corners": 380,
+      "mixed_seat_histogram": {
+        "-1": 21,
+        "0": 324
+      },
+      "mixed_threshold_histogram": {
+        "0": 290,
+        "1": 55
+      },
+      "positive_seat_interactions": 0,
+      "negative_seat_interactions": 21,
+      "positive_threshold_interactions": 55,
+      "negative_threshold_interactions": 0,
+      "all_amount_strata": [
+        {
+          "amount_a": 0,
+          "amount_b": 0,
+          "cost_voters": 0,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 2000,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 5000,
+          "cost_voters": 5000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 10000,
+          "cost_voters": 10000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 15000,
+          "cost_voters": 15000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 0,
+          "amount_b": 20000,
+          "cost_voters": 20000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 0,
+          "cost_voters": 2000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 2000,
+          "cost_voters": 4000,
+          "valid_districts": 29,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 29
+          },
+          "mixed_threshold_histogram": {
+            "0": 29
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 5000,
+          "cost_voters": 7000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 10000,
+          "cost_voters": 12000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 15000,
+          "cost_voters": 17000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 2000,
+          "amount_b": 20000,
+          "cost_voters": 22000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 0,
+          "cost_voters": 5000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 2000,
+          "cost_voters": 7000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 5000,
+          "cost_voters": 10000,
+          "valid_districts": 28,
+          "nonreject_seat_values": [
+            173
+          ],
+          "mixed_seat_histogram": {
+            "0": 28
+          },
+          "mixed_threshold_histogram": {
+            "0": 28
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 10000,
+          "cost_voters": 15000,
+          "valid_districts": 22,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 22
+          },
+          "mixed_threshold_histogram": {
+            "0": 22
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 15000,
+          "cost_voters": 20000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "0": 9
+          }
+        },
+        {
+          "amount_a": 5000,
+          "amount_b": 20000,
+          "cost_voters": 25000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 0,
+          "cost_voters": 10000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 2000,
+          "cost_voters": 12000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 5000,
+          "cost_voters": 15000,
+          "valid_districts": 24,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 24
+          },
+          "mixed_threshold_histogram": {
+            "0": 24
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 10000,
+          "cost_voters": 20000,
+          "valid_districts": 21,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "-1": 21
+          },
+          "mixed_threshold_histogram": {
+            "0": 21
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 15000,
+          "cost_voters": 25000,
+          "valid_districts": 9,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 9
+          },
+          "mixed_threshold_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "amount_a": 10000,
+          "amount_b": 20000,
+          "cost_voters": 30000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 0,
+          "cost_voters": 15000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 2000,
+          "cost_voters": 17000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 5000,
+          "cost_voters": 20000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "0": 11
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 10000,
+          "cost_voters": 25000,
+          "valid_districts": 11,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 11
+          },
+          "mixed_threshold_histogram": {
+            "1": 11
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 15000,
+          "cost_voters": 30000,
+          "valid_districts": 7,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 7
+          },
+          "mixed_threshold_histogram": {
+            "1": 7
+          }
+        },
+        {
+          "amount_a": 15000,
+          "amount_b": 20000,
+          "cost_voters": 35000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 0,
+          "cost_voters": 20000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 2000,
+          "cost_voters": 22000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 5000,
+          "cost_voters": 25000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            174
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "0": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 10000,
+          "cost_voters": 30000,
+          "valid_districts": 6,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 6
+          },
+          "mixed_threshold_histogram": {
+            "1": 6
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 15000,
+          "cost_voters": 35000,
+          "valid_districts": 5,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 5
+          },
+          "mixed_threshold_histogram": {
+            "1": 5
+          }
+        },
+        {
+          "amount_a": 20000,
+          "amount_b": 20000,
+          "cost_voters": 40000,
+          "valid_districts": 5,
+          "nonreject_seat_values": [
+            175
+          ],
+          "mixed_seat_histogram": {
+            "0": 5
+          },
+          "mixed_threshold_histogram": {
+            "1": 5
+          }
+        }
+      ],
+      "regional_consistency": {
+        "amount_pairs_with_different_seats_across_valid_districts": 0,
+        "scope": "This sampled fixed-domain target only; donor capacity masks can differ by constituency."
+      },
+      "equal_cost_witnesses": [
+        {
+          "cost_voters": 10000,
+          "min_seats": 173,
+          "max_seats": 174,
+          "lower_example": {
+            "pair_id": "V_KD__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 5000,
+            "cost_voters": 10000,
+            "nonreject_seats": 173,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 19,
+              "C": 25,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "e71327657cd1a1f281acfd55121c32c9516b1b1cc8b1e1243cbe746d7d763069"
+          },
+          "upper_example": {
+            "pair_id": "V_KD__C_L",
+            "district_id": "01",
+            "amount_a": 0,
+            "amount_b": 10000,
+            "cost_voters": 10000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 19,
+              "C": 24,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "45b26e42e853d5b7dc2b080eeeca320031342fe9d46c7815b2261c15685600ac"
+          }
+        },
+        {
+          "cost_voters": 25000,
+          "min_seats": 174,
+          "max_seats": 175,
+          "lower_example": {
+            "pair_id": "V_KD__C_L",
+            "district_id": "01",
+            "amount_a": 5000,
+            "amount_b": 20000,
+            "cost_voters": 25000,
+            "nonreject_seats": 174,
+            "seat_vector": {
+              "M": 70,
+              "S": 99,
+              "L": 20,
+              "C": 24,
+              "V": 30,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "e7245bdc6c447149ea3d91d82eef6512e93c3a754e2ebf4d7d6571b82a1e9d5e"
+          },
+          "upper_example": {
+            "pair_id": "V_KD__C_L",
+            "district_id": "01",
+            "amount_a": 10000,
+            "amount_b": 15000,
+            "cost_voters": 25000,
+            "nonreject_seats": 175,
+            "seat_vector": {
+              "M": 71,
+              "S": 99,
+              "L": 20,
+              "C": 24,
+              "V": 29,
+              "MP": 22,
+              "KD": 22,
+              "SD": 62
+            },
+            "group": "15b1f8d89d939466453125b2c3bf8b81364c10214d0c6ee6011b45607951329c"
+          }
+        }
+      ],
+      "smallest_successful_sampled_cost": 25000
+    }
+  ],
+  "beneficiary_diagnostics": {
+    "unit": "Unique valid nonzero native input table; not an independent election.",
+    "nonzero_valid_unique_tables": 2684,
+    "any_recipient_seat_gain": 1612,
+    "any_nonrecipient_seat_gain": 494,
+    "all_receiving_parties_without_seat_gain": 1072,
+    "examples_source_order": [
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "2cfff20b3ab0b0467fe5b74a6e41884f6c95ef0d6a53ccadf5d4a4c1e1721b13",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "02",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "ed24cf82face1597946d32f8f2b37c0ea87aaa4528a073be0df06c779b1dc767",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "03",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "0e11075b2e96bcc5cf63c374033e307aedbdd47abf4acb661d856d515eac7abe",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "04",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "1c4f98fa5b334cbc62e1a33214ba80cc1269b3f1a9bdff1f20cdfa2d6281e700",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "05",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "c70a3ef46698f1815d07ae2c85fcfa0637a7dbd3a8c6065041ec7b5646109da9",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "06",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "911e52edf21206175d08b571c67999471522efe2983bec5f74db91e76c4b6f6f",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "07",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "0d7bd83336d374946569d830bab7422f08ad0201545d98242bbe382cff4284a0",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "08",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "41c9368cf2a778e68b8fca8298728bfa9f5adae7bf16414a766d49a74d1a6b1b",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "11",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "3d119a2cc7cc9b3ce0b2d7181a33bd3baecd6242f856e456a2b50a3dc940fd2a",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "12",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "c9cbaca5b03d59074e5ec9d4646330fabaf00b60c05edff447d32f4366071f10",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "13",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "ad558b7f26a50443ddaece7c5a9039bd59669c00143b2868cf56bbf7dbd5b2be",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      },
+      {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "14",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "e9928f3f7fd636446f9ad92a047cd306cbbbc0c812541a99b5855b06540954d6",
+        "receiving_parties": [
+          "SD"
+        ],
+        "nonrecipient_seat_gains": {
+          "M": 1
+        },
+        "all_seat_changes": {
+          "M": 1,
+          "MP": -1
+        }
+      }
+    ]
+  },
+  "distinct_seat_profiles": [
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 1262,
+      "minimum_sampled_cost": 0,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 0,
+        "cost_voters": 0,
+        "nonreject_seats": 173,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "unique_native_tables": 687
+    },
+    {
+      "profile_id": "seats-4e18d0f8bc30",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 650,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 10000,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "bacce01283efb74d10d70ee9c3536a5f992a227b740642cae63ce13fa15aabb8"
+      },
+      "unique_native_tables": 480
+    },
+    {
+      "profile_id": "seats-d9c020a3d646",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 327,
+      "minimum_sampled_cost": 5000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 0,
+        "cost_voters": 5000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "2cfff20b3ab0b0467fe5b74a6e41884f6c95ef0d6a53ccadf5d4a4c1e1721b13"
+      },
+      "unique_native_tables": 273
+    },
+    {
+      "profile_id": "seats-70a552680eb3",
+      "seat_vector": {
+        "M": 72,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 27,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 20000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 72,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "cc0d52a0e5e78a30c1bf157d8cb13b7705751a996afb7fc3a734491c4d00e39d"
+      },
+      "unique_native_tables": 27
+    },
+    {
+      "profile_id": "seats-427cbe3a3042",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 188,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 0,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "5c360b6899c5d4293aa49a4b0a5e307c4f3e8b310e0d45498c795bfe962bd765"
+      },
+      "unique_native_tables": 144
+    },
+    {
+      "profile_id": "seats-d6a4e50b8eac",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 46,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__S_M",
+        "district_id": "01",
+        "amount_a": 15000,
+        "amount_b": 10000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "4250391687e792ab4c6b441d84e4f8136fbf52636fc69c31c8204628b7cb0680"
+      },
+      "unique_native_tables": 46
+    },
+    {
+      "profile_id": "seats-0eef18006069",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 296,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 10000,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "7c2dd86b76eb651e46397b75e12fa73038fd1027989b4a5af3fc0d254d4b0d7a"
+      },
+      "unique_native_tables": 248
+    },
+    {
+      "profile_id": "seats-fbcb484c64b3",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 136,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 15000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "d9d8f87c4521f8139b86f723e1f6d3e3d68a3b88546661dcd437b88d2a99382c"
+      },
+      "unique_native_tables": 102
+    },
+    {
+      "profile_id": "seats-bf4d8cc42568",
+      "seat_vector": {
+        "M": 71,
+        "S": 100,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 24,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 10000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 100,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "7e30bfefba0908e4a8c5b768388e77bbb42a84cdebeb1f214792bfefbb696175"
+      },
+      "unique_native_tables": 24
+    },
+    {
+      "profile_id": "seats-bbe175f6d4b9",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 17,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 15000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "4b5492c651cd5b796fd45a72186110ac2f92cf8d8e29a2a702fdef0e52f5f407"
+      },
+      "unique_native_tables": 17
+    },
+    {
+      "profile_id": "seats-4f3f1dfd615a",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 10000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "ee867cb7bb2bc0f343165b28d20263ae14fc4b07d1288e5a51aa2a65a5c7f340"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-4bfb8c17cd36",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 21,
+        "KD": 23,
+        "SD": 63
+      },
+      "coordinates": 37,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__V_KD",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 21,
+          "KD": 23,
+          "SD": 63
+        },
+        "group": "d0eec3b3fe8a735ff32c97da4c065dddf17eafb018f435c2d0d49e114be848de"
+      },
+      "unique_native_tables": 37
+    },
+    {
+      "profile_id": "seats-b7dc9023ff74",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 220,
+      "minimum_sampled_cost": 10000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 10000,
+        "cost_voters": 10000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "45b26e42e853d5b7dc2b080eeeca320031342fe9d46c7815b2261c15685600ac"
+      },
+      "unique_native_tables": 176
+    },
+    {
+      "profile_id": "seats-b65dbb74ffed",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 120,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 0,
+        "amount_b": 15000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "e92a30fd260f3617b93ba44814b334f073f5b90ed6be3c7f9fcaee636b19b6ed"
+      },
+      "unique_native_tables": 90
+    },
+    {
+      "profile_id": "seats-9b1622560e96",
+      "seat_vector": {
+        "M": 71,
+        "S": 100,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 15000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 10000,
+        "cost_voters": 15000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 100,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "f0590c3c3cebd1c46b8e9b30962f76029d5ef105c208a735fb55726a97f6940c"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-304601191720",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 15,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 5000,
+        "amount_b": 15000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "955a5e6ca6b95ae367c57de9a8b1a92fbb1053e1670e1ef40c95b6e5a03efab8"
+      },
+      "unique_native_tables": 15
+    },
+    {
+      "profile_id": "seats-f85911e914d1",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 10000,
+        "cost_voters": 20000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "42ba7eb06656b04ba296fd61fdf7a14e4ea8b9fe1b49a41cacd3d59a7162976a"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-9d288c9fe2f3",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 21,
+        "KD": 22,
+        "SD": 63
+      },
+      "coordinates": 35,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "MP_SD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 21,
+          "KD": 22,
+          "SD": 63
+        },
+        "group": "b0cff00ec4d3c2ff81c5abe2b55c9b99accda7de3f137a33c19f94599b67e6f2"
+      },
+      "unique_native_tables": 35
+    },
+    {
+      "profile_id": "seats-f1e3f7ba55c9",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 51,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__V_KD",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "7c2981abe95ad67b0ddd17c361be396e23569fe413be2ad3f5427d6ca23015ee"
+      },
+      "unique_native_tables": 51
+    },
+    {
+      "profile_id": "seats-b224536f3e3e",
+      "seat_vector": {
+        "M": 72,
+        "S": 98,
+        "L": 19,
+        "C": 25,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 24,
+      "minimum_sampled_cost": 30000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__V_KD",
+        "district_id": "01",
+        "amount_a": 20000,
+        "amount_b": 10000,
+        "cost_voters": 30000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 72,
+          "S": 98,
+          "L": 19,
+          "C": 25,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "3d0c4c291f4fc4cdd80daddf4770a35a0d0fe863ad470bf987b45f18e0924f2c"
+      },
+      "unique_native_tables": 24
+    },
+    {
+      "profile_id": "seats-eb5b76d3474b",
+      "seat_vector": {
+        "M": 71,
+        "S": 98,
+        "L": 20,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 45,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 98,
+          "L": 20,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "0e232688d90efb319de6790c304477607815907f63b9ce3193ac675545906b47"
+      },
+      "unique_native_tables": 45
+    },
+    {
+      "profile_id": "seats-c8c9ae6e2af3",
+      "seat_vector": {
+        "M": 72,
+        "S": 98,
+        "L": 19,
+        "C": 24,
+        "V": 30,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 22,
+      "minimum_sampled_cost": 30000,
+      "minimum_cost_example": {
+        "pair_id": "S_M__C_L",
+        "district_id": "01",
+        "amount_a": 20000,
+        "amount_b": 10000,
+        "cost_voters": 30000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 72,
+          "S": 98,
+          "L": 19,
+          "C": 24,
+          "V": 30,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "78b9627d30cbf31a3a2403d0350f798c128cdb333813933dcb4ff29b10bf8572"
+      },
+      "unique_native_tables": 22
+    },
+    {
+      "profile_id": "seats-d2e33847ed7a",
+      "seat_vector": {
+        "M": 71,
+        "S": 100,
+        "L": 19,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 21,
+      "minimum_sampled_cost": 20000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 10000,
+        "cost_voters": 20000,
+        "nonreject_seats": 174,
+        "seat_vector": {
+          "M": 71,
+          "S": 100,
+          "L": 19,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "35497099b41cce20736b20ccbb0c82aeed18552a774a1e36ae05b1162186fd63"
+      },
+      "unique_native_tables": 21
+    },
+    {
+      "profile_id": "seats-e5b4d77a7187",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 22,
+        "SD": 62
+      },
+      "coordinates": 15,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 10000,
+        "amount_b": 15000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 22,
+          "SD": 62
+        },
+        "group": "15b1f8d89d939466453125b2c3bf8b81364c10214d0c6ee6011b45607951329c"
+      },
+      "unique_native_tables": 15
+    },
+    {
+      "profile_id": "seats-be0ad4870325",
+      "seat_vector": {
+        "M": 71,
+        "S": 99,
+        "L": 19,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 17,
+      "minimum_sampled_cost": 25000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 15000,
+        "amount_b": 10000,
+        "cost_voters": 25000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 71,
+          "S": 99,
+          "L": 19,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "7fccc1bc70a454d910d9001ba8f87785e7eb1cb6994d061bf329d8abb132dbe4"
+      },
+      "unique_native_tables": 17
+    },
+    {
+      "profile_id": "seats-539d32309e82",
+      "seat_vector": {
+        "M": 70,
+        "S": 99,
+        "L": 20,
+        "C": 24,
+        "V": 29,
+        "MP": 22,
+        "KD": 23,
+        "SD": 62
+      },
+      "coordinates": 23,
+      "minimum_sampled_cost": 30000,
+      "minimum_cost_example": {
+        "pair_id": "V_KD__C_L",
+        "district_id": "01",
+        "amount_a": 15000,
+        "amount_b": 15000,
+        "cost_voters": 30000,
+        "nonreject_seats": 175,
+        "seat_vector": {
+          "M": 70,
+          "S": 99,
+          "L": 20,
+          "C": 24,
+          "V": 29,
+          "MP": 22,
+          "KD": 23,
+          "SD": 62
+        },
+        "group": "6e822fef74be9ba4f5be11e180b500212743f7da7fddee77fa244722fefbc1ef"
+      },
+      "unique_native_tables": 23
+    }
+  ],
+  "distinct_seat_profile_count": 26,
+  "original_pair_replication": {
+    "expected": {
+      "coordinates": 1044,
+      "valid_coordinates": 638,
+      "masked_coordinates": 406,
+      "valid_interior_four_corners": 388,
+      "negative_seat_interactions": 74,
+      "positive_threshold_interactions": 73
+    },
+    "actual": {
+      "coordinates": 1044,
+      "valid_coordinates": 638,
+      "masked_coordinates": 406,
+      "valid_interior_four_corners": 388,
+      "negative_seat_interactions": 74,
+      "positive_threshold_interactions": 73
+    },
+    "passed": true
+  },
+  "scope": "Exact fixed-domain counterfactuals under hypothetical political roles. Coordinates share an election and repeated input tables; not independent events or government probabilities."
+}

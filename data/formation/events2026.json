@@ -1,0 +1,730 @@
+{
+  "schema": "formation-tensor.events2026.v1",
+  "as_of_date": "2026-11-22",
+  "timezone": "Europe/Stockholm",
+  "summary": {
+    "initial_exploratory_assignments": 3,
+    "distinct_exploratory_holders": 3,
+    "mandate_resumptions": 1,
+    "mandate_extensions": 1,
+    "general_process_adjournments": 1,
+    "formal_nominations_observed": 2,
+    "formal_pm_votes_observed": 2,
+    "formal_rejections_observed": 2,
+    "new_government_taking_office_observed": 0,
+    "event_records": 19,
+    "future_scheduled_records": 1,
+    "event_type_counts": {
+      "caretaker_continuation": 1,
+      "exploratory_mandate_started": 3,
+      "mandate_resumption_announced": 1,
+      "exploratory_mandate_resumed": 1,
+      "exploratory_report_received": 3,
+      "formal_nomination": 2,
+      "formal_pm_vote": 2,
+      "nomination_announced": 1,
+      "exploratory_mandate_extended": 1,
+      "report_deadline_announced": 1,
+      "process_adjournment": 1,
+      "consultations_announced": 1,
+      "consultations_scheduled": 1
+    },
+    "days_since_caretaker_start": 66,
+    "m_exploration_as_of_cutoff": "ongoing/incomplete report; not formally rejected",
+    "sequence_is_independent_formation_episodes": false,
+    "source_coverage": "Focused official event inventory, not proof that every informal contact was recorded."
+  },
+  "rules": {
+    "source_ids": [
+      "constitution-rf",
+      "formation-faq"
+    ],
+    "legal_regime": "Instrument of Government chapter 6 sections 4–6 and 11",
+    "rejection_threshold_no": 175,
+    "formal_rejection_limit": 4,
+    "formal_rejections_observed": 2,
+    "formal_rejection_allowance_remaining": 2,
+    "extra_election_after_four_rejections": "Within three months unless an ordinary election is already due within that period.",
+    "pm_proposal_decided_by": "Riksdag on the Speaker proposal after consultations",
+    "formal_vote_deadline_days": 4,
+    "exploratory_assignment_consumes_formal_rejection": false,
+    "exploratory_duration": "Set or extended by Speaker; no general maximum formation duration stated in guidance.",
+    "government_change_after_approval": "PM reports ministers, then a special Council of State marks government change.",
+    "caretaker_continues_until_new_government_takes_office": true
+  },
+  "events": [
+    {
+      "id": "caretaker-start",
+      "event_type": "caretaker_continuation",
+      "event_date": "2026-09-17",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Ulf Kristersson",
+      "actor_party": "M",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "caretaker-20260917"
+      ],
+      "source_publication_at": "2026-09-17",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:06.971Z",
+      "source_url": "https://www.regeringen.se/artiklar/2026/09/statsministern-leder-en-overgangsregering/",
+      "description": "The prime minister requested discharge; discharged ministers continued until a successor government took office.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false
+    },
+    {
+      "id": "s-first-task",
+      "event_type": "exploratory_mandate_started",
+      "event_date": "2026-09-18",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Magdalena Andersson",
+      "actor_party": "S",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "s-mandate-20260918"
+      ],
+      "source_publication_at": "2026-09-18T15:41:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.000Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/sep/18/talmannen-ger-sonderingsuppdrag-till-magdalena_cmse396c91a-ef46-4f54-88c6-10a144af63fcsv/",
+      "description": "Speaker assigned exploration of a government tolerated by the Riksdag.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "S-exploration"
+    },
+    {
+      "id": "s-resumption-announced",
+      "event_type": "mandate_resumption_announced",
+      "event_date": "2026-10-02",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Magdalena Andersson",
+      "actor_party": "S",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "s-resumption-20261002"
+      ],
+      "source_publication_at": "2026-10-02T11:09:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.001Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+      "description": "Speaker announced resumption from 5 October with a report deadline of 12 October.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "S-exploration",
+      "effective_at": "2026-10-05",
+      "report_deadline": "2026-10-12"
+    },
+    {
+      "id": "s-resumption-effective",
+      "event_type": "exploratory_mandate_resumed",
+      "event_date": "2026-10-05",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Magdalena Andersson",
+      "actor_party": "S",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "s-resumption-20261002"
+      ],
+      "source_publication_at": "2026-10-02T11:09:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.001Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/2/talmannens-sonderingsuppdrag-till-magdalena_cms77150d24-8e8b-479f-9da0-8df5bf84b9b6sv/",
+      "description": "Effective resumption date stated in the 2 October announcement; the later 13 October report confirms continuation of the same exploratory episode.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "S-exploration",
+      "date_basis": "announced_effective_date_corroborated_by_later_report"
+    },
+    {
+      "id": "s-report",
+      "event_type": "exploratory_report_received",
+      "event_date": "2026-10-13",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Magdalena Andersson",
+      "actor_party": "S",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "s-nomination-20261013"
+      ],
+      "source_publication_at": "2026-10-13T14:47:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.001Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/13/talmannen-har-lagt-fram-magdalena-andersson-s_cmsf08a50bf-30b0-4275-acca-70e8a787fda4sv/",
+      "description": "Speaker received the report; Andersson did not consider further exploration meaningful at that point.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "S-exploration",
+      "report_completion": "completed"
+    },
+    {
+      "id": "s-nomination",
+      "event_type": "formal_nomination",
+      "event_date": "2026-10-13",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Magdalena Andersson",
+      "actor_party": "S",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "s-nomination-20261013"
+      ],
+      "source_publication_at": "2026-10-13T14:47:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.001Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/13/talmannen-har-lagt-fram-magdalena-andersson-s_cmsf08a50bf-30b0-4275-acca-70e8a787fda4sv/",
+      "description": "Speaker formally proposed Andersson for an S single-party government; this is separate from the subsequent vote.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "S-nomination",
+      "cabinet_parties_proposed": [
+        "S"
+      ],
+      "scheduled_vote_date": "2026-10-15",
+      "scheduled_vote_time": "12:00"
+    },
+    {
+      "id": "s-rejection",
+      "event_type": "formal_pm_vote",
+      "event_date": "2026-10-15",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Magdalena Andersson",
+      "actor_party": "S",
+      "status": "observed",
+      "formal_rejection_count_delta": 1,
+      "source_ids": [
+        "s-vote-20261015"
+      ],
+      "source_publication_at": "2026-10-15T12:50:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.521Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/15/nej-till-magdalena-andersson-s-som-statsminister_cmsd2ab1134-a03c-4be2-b345-af0aacff33d3sv/",
+      "description": "The formal proposal was rejected.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "S-nomination",
+      "ballot_counts": {
+        "yes": 99,
+        "no": 248,
+        "abstain": 0,
+        "absent": 2
+      },
+      "ballot_result": "rejected",
+      "party_counts": {
+        "S": [
+          99,
+          0,
+          0,
+          0
+        ],
+        "M": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "SD": [
+          0,
+          62,
+          0,
+          0
+        ],
+        "V": [
+          0,
+          29,
+          0,
+          1
+        ],
+        "C": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "KD": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "MP": [
+          0,
+          21,
+          0,
+          1
+        ],
+        "L": [
+          0,
+          19,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "c-first-task",
+      "event_type": "exploratory_mandate_started",
+      "event_date": "2026-10-19",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Elisabeth Thand Ringqvist",
+      "actor_party": "C",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "c-mandate-20261019"
+      ],
+      "source_publication_at": "2026-10-19T13:34:00+02:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.521Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/19/talmannen-ger-sonderingsuppdrag-till-elisabeth_cms20f3231b-7bf8-47ca-a1c7-2a0e5045b80dsv/",
+      "description": "Speaker assigned C exploration after conversations following the rejected S proposal.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "C-exploration",
+      "report_deadline": "2026-10-26"
+    },
+    {
+      "id": "c-report",
+      "event_type": "exploratory_report_received",
+      "event_date": "2026-10-26",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Elisabeth Thand Ringqvist",
+      "actor_party": "C",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "c-report-20261026"
+      ],
+      "source_publication_at": "2026-10-26T11:43:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.521Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/26/talmannen-har-tagit-emot-rapport-fran-elisabeth_cmsb1faffed-048d-4ba3-848f-91372fca5041sv/",
+      "description": "Speaker received the exploratory report and announced further telephone consultations.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "C-exploration",
+      "report_completion": "completed"
+    },
+    {
+      "id": "c-nomination-announced",
+      "event_type": "nomination_announced",
+      "event_date": "2026-10-29",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Elisabeth Thand Ringqvist",
+      "actor_party": "C",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "c-announcement-20261029"
+      ],
+      "source_publication_at": "2026-10-29T15:36:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.521Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/okt/29/talmannen-lagger-fram-elisabeth-thand-ringqvist_cmsde7b2cc3-ca41-472b-b946-7715715b2f5fsv/",
+      "description": "Speaker announced a formal proposal for 30 October and a vote on 3 November.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "C-nomination",
+      "effective_at": "2026-10-30",
+      "cabinet_parties_proposed": [
+        "C",
+        "S",
+        "KD",
+        "MP",
+        "L"
+      ],
+      "scheduled_vote_date": "2026-11-03",
+      "scheduled_vote_time": "13:00"
+    },
+    {
+      "id": "c-nomination",
+      "event_type": "formal_nomination",
+      "event_date": "2026-10-30",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Elisabeth Thand Ringqvist",
+      "actor_party": "C",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "c-formal-20261030"
+      ],
+      "source_publication_at": null,
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.819Z",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/protokoll-20262711-fredagen-den-30-oktober_he0911/",
+      "description": "The parliamentary record confirms the formal proposal and its first tabling.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "C-nomination",
+      "meeting_interval_local": [
+        "10:00",
+        "10:02"
+      ],
+      "cabinet_parties_proposed": [
+        "C",
+        "S",
+        "KD",
+        "MP",
+        "L"
+      ],
+      "publication_date_unknown": true
+    },
+    {
+      "id": "c-rejection",
+      "event_type": "formal_pm_vote",
+      "event_date": "2026-11-03",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Elisabeth Thand Ringqvist",
+      "actor_party": "C",
+      "status": "observed",
+      "formal_rejection_count_delta": 1,
+      "source_ids": [
+        "c-vote-20261103"
+      ],
+      "source_publication_at": "2026-11-03T14:00:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.820Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/3/nej-till-elisabeth-thand-ringqvist-c-som_cms6afacb7c-be00-432a-b75e-37e169872323sv/",
+      "description": "The formal proposal was rejected.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "C-nomination",
+      "ballot_counts": {
+        "yes": 25,
+        "no": 324,
+        "abstain": 0,
+        "absent": 0
+      },
+      "ballot_result": "rejected",
+      "party_counts": {
+        "S": [
+          0,
+          99,
+          0,
+          0
+        ],
+        "M": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "SD": [
+          0,
+          62,
+          0,
+          0
+        ],
+        "V": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "C": [
+          25,
+          0,
+          0,
+          0
+        ],
+        "KD": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "MP": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "L": [
+          0,
+          19,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "m-first-task",
+      "event_type": "exploratory_mandate_started",
+      "event_date": "2026-11-03",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Ulf Kristersson",
+      "actor_party": "M",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "m-mandate-20261103"
+      ],
+      "source_publication_at": "2026-11-03T15:00:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.820Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/3/talmannen-ger-sonderingsuppdrag-till-ulf_cms54664e82-75f7-4a53-9b10-3b9fe6330da0sv/",
+      "description": "Speaker assigned M exploration after the C proposal was rejected.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "M-exploration",
+      "report_deadline": "2026-11-10"
+    },
+    {
+      "id": "m-extension",
+      "event_type": "exploratory_mandate_extended",
+      "event_date": "2026-11-06",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Ulf Kristersson",
+      "actor_party": "M",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "m-extension-20261106"
+      ],
+      "source_publication_at": "2026-11-06T16:54:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:07.820Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/6/talmannen-forlanger-ulf-kristerssons_cmsaf0961e5-8ddf-4cc8-844a-b1d95411414asv/",
+      "description": "Speaker extended the exploratory task by additional days; other parties remained free to negotiate.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "M-exploration",
+      "new_report_deadline": null
+    },
+    {
+      "id": "m-deadline-announced",
+      "event_type": "report_deadline_announced",
+      "event_date": "2026-11-10",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Ulf Kristersson",
+      "actor_party": "M",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "m-deadline-20261110"
+      ],
+      "source_publication_at": "2026-11-10T15:53:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:08.099Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/10/talmannen-ger-besked-om-den-fortsatta-processen_cms4af359f6-45b3-4573-92ba-f4995b5144dbsv/",
+      "description": "Speaker specified 17 November as the reporting date.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "M-exploration",
+      "report_deadline": "2026-11-17"
+    },
+    {
+      "id": "m-report-incomplete",
+      "event_type": "exploratory_report_received",
+      "event_date": "2026-11-17",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Ulf Kristersson",
+      "actor_party": "M",
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "m-report-20261117"
+      ],
+      "source_publication_at": "2026-11-17T16:59:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:08.099Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/17/talmannen-har-tagit-emot-rapport-fran-ulf_cms0e51d148-fb67-47ff-bd7d-05705c69738fsv/",
+      "description": "Kristersson reported but could not submit a final report; this was not a formal PM vote.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "M-exploration",
+      "report_completion": "incomplete"
+    },
+    {
+      "id": "process-adjournment",
+      "event_type": "process_adjournment",
+      "event_date": "2026-11-17",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Andreas Norlén",
+      "actor_party": null,
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "m-report-20261117"
+      ],
+      "source_publication_at": "2026-11-17T16:59:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:08.099Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/17/talmannen-har-tagit-emot-rapport-fran-ulf_cms0e51d148-fb67-47ff-bd7d-05705c69738fsv/",
+      "description": "Speaker gave Kristersson and all other party leaders a one-week adjournment for continuing negotiations.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "episode_id": "M-exploration",
+      "nomination_announced": false
+    },
+    {
+      "id": "next-round-announcement",
+      "event_type": "consultations_announced",
+      "event_date": "2026-11-20",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Andreas Norlén",
+      "actor_party": null,
+      "status": "observed",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "next-round-20261120"
+      ],
+      "source_publication_at": "2026-11-20T15:30:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:08.099Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/20/talmannen-moter-partiforetradare-den-24-november_cms7a4814cd-5083-4349-93c6-9438679990c5sv/",
+      "description": "Speaker announced party consultations and M final reporting for 24 November.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "effective_at": "2026-11-24",
+      "nomination_announced": false
+    },
+    {
+      "id": "next-round",
+      "event_type": "consultations_scheduled",
+      "event_date": "2026-11-24",
+      "event_time": null,
+      "timezone": "Europe/Stockholm",
+      "actor": "Andreas Norlén",
+      "actor_party": null,
+      "status": "announced_future",
+      "formal_rejection_count_delta": 0,
+      "source_ids": [
+        "next-round-20261120"
+      ],
+      "source_publication_at": "2026-11-20T15:30:00+01:00",
+      "source_updated_at": null,
+      "source_accessed_at_utc": "2026-11-22T10:30:08.099Z",
+      "source_url": "https://www.riksdagen.se/sv/aktuellt/aktuelltnotiser/2026/nov/20/talmannen-moter-partiforetradare-den-24-november_cms7a4814cd-5083-4349-93c6-9438679990c5sv/",
+      "description": "Scheduled consultations with all eight parties and M final reporting; no formal PM ballot date in this notice.",
+      "cabinet_consent_inferred": false,
+      "future_pm_ballot_inferred": false,
+      "nomination_announced": false,
+      "scheduled_meetings": [
+        [
+          "S",
+          "09:30"
+        ],
+        [
+          "M",
+          "10:00"
+        ],
+        [
+          "SD",
+          "10:30"
+        ],
+        [
+          "V",
+          "11:00"
+        ],
+        [
+          "C",
+          "11:30"
+        ],
+        [
+          "KD",
+          "12:00"
+        ],
+        [
+          "MP",
+          "12:30"
+        ],
+        [
+          "L",
+          "13:00"
+        ]
+      ],
+      "press_conference_earliest_local": "16:30"
+    }
+  ],
+  "actor_statements": [
+    {
+      "id": "speaker-pressure-account",
+      "classification": "source-attributed_actor_explanation",
+      "source_id": "c-announcement-20261029",
+      "statement_date": "2026-10-29",
+      "description": "Speaker described linking exploration to formal ballots as a way to mark stage completion and increase pressure as the extra-election endpoint approaches. This is an actor explanation, not an identified causal effect.",
+      "candidacy_context": "Thand Ringqvist agreed to candidacy although she had explored an Andersson-led centre arrangement rather than seeking the premiership herself.",
+      "future_vote_inferred": false
+    },
+    {
+      "id": "parallel-negotiations",
+      "classification": "institutional_actor_statement",
+      "source_id": "m-extension-20261106",
+      "statement_date": "2026-11-06",
+      "description": "An exploratory assignment does not restrict other parties from conducting negotiations.",
+      "exclusive_bargaining_right_inferred": false
+    },
+    {
+      "id": "c-conditional-negotiation",
+      "classification": "national_party_statement",
+      "source_id": "c-condition-20261116",
+      "statement_date": "2026-11-16",
+      "description": "C selected the S alternative for further talks, conditional on V dropping its cabinet demand and V/MP supporting the proposed package.",
+      "future_pm_ballot": "unknown",
+      "budget_vote": "unknown"
+    },
+    {
+      "id": "s-proposed-cabinet",
+      "classification": "national_party_proposal",
+      "source_id": "s-proposal-20261113",
+      "statement_date": "2026-11-13",
+      "description": "S proposed S/C/MP cabinet membership with close V cooperation; other parties still had to take positions.",
+      "cabinet_parties_proposed": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "cabinet_consent_inferred": false
+    },
+    {
+      "id": "v-cabinet-demand",
+      "classification": "national_party_document",
+      "source_id": "v-platform-2026",
+      "statement_date": null,
+      "description": "The preliminary congress platform states that V should join a government when its votes are needed. The parties and actual proposal remain relevant.",
+      "future_pm_ballot": "unknown",
+      "budget_vote": "unknown"
+    },
+    {
+      "id": "anonymous-offer-report",
+      "classification": "anonymous_broadcast_report",
+      "source_id": "svt-offer-20261120",
+      "statement_date": null,
+      "description": "SVT reported an offer to V and a refusal. No completed agreement, actual future PM vote or enacted policy follows.",
+      "future_pm_ballot": "unknown",
+      "budget_vote": "unknown"
+    },
+    {
+      "id": "latest-live-context",
+      "classification": "public_broadcaster_live_page",
+      "source_id": "sr-live-20261122",
+      "statement_date": null,
+      "description": "The live page contains additional local/former-party-actor opinions and reports attributed to other media. No national party decision or third formal PM rejection is admitted from these entries."
+    }
+  ],
+  "interpretation": "Observed events, announced future events, and actor statements are separate. Repeated consultations and extensions do not consume formal rejection attempts.",
+  "source_accessibility": "All sources retrieved or text-read 22 November 2026. Displayed publication dates do not establish identical historical availability."
+}

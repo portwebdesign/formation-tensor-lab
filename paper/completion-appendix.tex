@@ -1,0 +1,34 @@
+\section{Sensitivity to the completion of party actions}
+\label{app:completion}
+
+The sensitivity experiment keeps the original bargaining calculation fixed and varies two interpretive choices. In the linked-C completion, effective policy assent is
+\[
+p_C^{\mathrm{eff}}=p_C\land p_V\land p_{MP}.
+\]
+The raw bit \(p_C\) therefore represents C's own policy component; the effective predicate also requires the other two components. This is a policy-bit condition, not a dependence on V's or MP's endogenous prime-minister vote. It creates no circular action evaluation. The cabinet-composition predicate, proposal family, external buffers and cost indices remain fixed.
+
+In the strict-V completion, a policy-assenting V outside the cabinet votes No whenever its participation demand remains active, including nonpivotal proposals. Inclusion or release of that demand restores the original action rule. Crossing the two choices gives four completions. The protocol records that they were specified after inspection of the original results.
+
+\begin{proposition}\label{prop:strict-v}
+For fixed non-V actions and the stated cabinet-consent rule, replacing the baseline V rule with strict outside refusal preserves both numerical nonrejection and the agreement indicator at every proposal coordinate.
+\end{proposition}
+\begin{proof}
+If V is included, its demand is released or its policy condition is unmet, the rules coincide. Otherwise let \(B\) be nonrejecting seats excluding V. If \(B\ge175\), both proposals pass regardless of V's action. If \(B+a_V<175\), both fail regardless of that action. In the remaining case, \(B<175\le B+a_V\), the baseline already makes V vote No because it is pivotal. The strict rule does the same. Cabinet consent is unchanged, so its conjunction with nonrejection is unchanged.
+\end{proof}
+
+The proposition applies with either C policy predicate, since all state bits and non-V actions are held fixed in the comparison. It preserves feasible-state targets, minimum path costs and the process's success, rejection and cabinet-refusal outcomes when state transitions and proposal orders are unchanged. It does not preserve the number of No votes in a failed proposal.
+
+\begin{table}[htbp]\centering\small
+\caption{Completion sensitivity at the baseline seat vector and initial policy state \(000\). Minimum costs permit either composition release; policy and release prices are one and two. Edge counts cover all 26 seat profiles and four external buffers.}\label{tab:completion}
+\begin{tabular}{lrrrrrr}\toprule
+Completion & None & L & KD & L+KD & No-increasing & Agreement-losing\\\midrule
+Baseline & 5&5&4&2&1,424&0\\
+Strict V outside & 5&5&4&2&0&0\\
+C package-linked & 5&5&5&2&712&0\\
+Both & 5&5&5&2&0&0\\\bottomrule
+\end{tabular}
+\end{table}
+
+All four completions retain eleven internally feasible profiles and fifteen requiring external tolerance under the stated outsider-No scenario. Strict V coding changes 2,232 No counts without changing a numerical-nonrejection, cabinet-consent or agreement predicate. C linkage removes 800 agreement coordinates from the baseline and adds none; KD's minimum becomes five in every profile. The full-policy agenda counts remain 37,440, 31,680, 20,160 and zero after release at rejection one, two, three and four, respectively. In that experiment all policy bits are already one, so linking C's policy bits has no additional effect.
+
+The independent evaluator checks all 106,496 proposal coordinates. A subset-cost calculation gives 13,312 minimum-cost settings and 119,808 budget-specific rows. The baseline exactly matches the earlier 26,624 proposal and 29,952 reachability records. The output also retains 96 process settings and 266,240 fixed-cabinet state-edge comparisons. The files under \path{results/completion-sensitivity/} preserve the rule variants, complete proposal records, cost tables, process counts and diagnostic witnesses.

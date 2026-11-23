@@ -1,0 +1,3872 @@
+{
+  "schema": "isvec-secim.tensor-learning.v1",
+  "status": "passed",
+  "version": "masked-tensor-als-1.0",
+  "created_at_utc": "2026-11-22T05:13:07.020439+00:00",
+  "protocol": {
+    "split_seed": 20261122,
+    "split_unit": "Exact transfer/vote-table hash; all stance variants stay together; zero-transfer training anchor.",
+    "proportions": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "candidate_cp_ranks": [
+      1,
+      2,
+      3
+    ],
+    "candidate_tucker_ranks": [
+      [
+        1,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "initialization_seeds": [
+      17,
+      29
+    ],
+    "max_epochs": 50,
+    "ridge": 0.001,
+    "selection": "Minimum validation RMSE; rank/seed selection never uses test; no postselection refit.",
+    "normalization": {
+      "train_mean": 0.22881880024737167,
+      "train_scale": 0.586034673174142
+    },
+    "baseline_offset": "Exact zero-transfer result under each declared stance is known input; learned target is its seat change.",
+    "holdout_scope": "In-design interpolation; amount/direction/party/district levels all observed during training. Not new-election or out-of-grid generalization.",
+    "duplicate_outputs": "Different full district vote tables can produce identical national seat outcomes; split prevents duplicate vote tables, not identical outcome values."
+  },
+  "split_counts": {
+    "train": 1617,
+    "validation": 252,
+    "test": 237
+  },
+  "split_group_counts": {
+    "test": 79,
+    "train": 424,
+    "validation": 84
+  },
+  "baseline_metrics": {
+    "zero_delta": {
+      "train": {
+        "n": 1617,
+        "mae_seats": 0.39208410636982066,
+        "rmse_seats": 0.6291221515007775,
+        "max_abs_error_seats": 2.0,
+        "guaranteed_acceptance_disagreements": 3,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 3,
+          "not_guaranteed_acceptance": 1614
+        },
+        "threshold_discrimination_established": true,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 539,
+          "mae_seats": 0.5287569573283859,
+          "threshold_disagreements": 3
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.5079365079365079,
+        "rmse_seats": 0.7126966450997984,
+        "max_abs_error_seats": 1.0,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.6547619047619048,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "test": {
+        "n": 237,
+        "mae_seats": 0.48945147679324896,
+        "rmse_seats": 0.6996080879987373,
+        "max_abs_error_seats": 1.0,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 237
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 79,
+          "mae_seats": 0.6582278481012658,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      }
+    },
+    "train_mean": {
+      "train": {
+        "n": 1617,
+        "mae_seats": 0.47967769780651115,
+        "rmse_seats": 0.586034673174142,
+        "max_abs_error_seats": 1.7711811997526283,
+        "guaranteed_acceptance_disagreements": 3,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 3,
+          "not_guaranteed_acceptance": 1614
+        },
+        "threshold_discrimination_established": true,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 539,
+          "mae_seats": 0.5656906041215617,
+          "threshold_disagreements": 3
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.5497050190927742,
+        "rmse_seats": 0.6470276793126288,
+        "max_abs_error_seats": 1.2288188002473717,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.6384177047442355,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "test": {
+        "n": 237,
+        "mae_seats": 0.5541386481711972,
+        "rmse_seats": 0.6614662967977436,
+        "max_abs_error_seats": 1.2288188002473717,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 237
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 79,
+          "mae_seats": 0.6669171696296473,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      }
+    },
+    "additive_main_effects": {
+      "train": {
+        "n": 1617,
+        "mae_seats": 0.33893414841182895,
+        "rmse_seats": 0.4064874777543176,
+        "max_abs_error_seats": 1.4489190585418676,
+        "guaranteed_acceptance_disagreements": 3,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 3,
+          "not_guaranteed_acceptance": 1614
+        },
+        "threshold_discrimination_established": true,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 539,
+          "mae_seats": 0.3402930648610464,
+          "threshold_disagreements": 3
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.36224639205886433,
+        "rmse_seats": 0.43834875326801875,
+        "max_abs_error_seats": 1.0418400677049948,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.34987930016663105,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "test": {
+        "n": 237,
+        "mae_seats": 0.35248923364963225,
+        "rmse_seats": 0.42883807140774616,
+        "max_abs_error_seats": 0.9754170996296849,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 237
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 79,
+          "mae_seats": 0.3700498431524341,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      }
+    }
+  },
+  "candidate_results": [
+    {
+      "family": "cp",
+      "rank": 1,
+      "seed": 17,
+      "epochs": 19,
+      "seconds": 0.3250436670000001,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.3427867868292053,
+        "rmse_seats": 0.4188666552030647,
+        "max_abs_error_seats": 1.1007930030296231,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.2104156734645205,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 1589.250871588627,
+          "objective": 1589.287442818139
+        },
+        {
+          "epoch": 2,
+          "sse": 1459.2880607012773,
+          "objective": 1459.3503131604878
+        },
+        {
+          "epoch": 3,
+          "sse": 1297.3708552657595,
+          "objective": 1297.441931765262
+        },
+        {
+          "epoch": 4,
+          "sse": 1149.61400947096,
+          "objective": 1149.698246811604
+        },
+        {
+          "epoch": 5,
+          "sse": 986.5028292205092,
+          "objective": 986.5681779303068
+        },
+        {
+          "epoch": 6,
+          "sse": 754.275197249109,
+          "objective": 754.3431054700103
+        },
+        {
+          "epoch": 7,
+          "sse": 678.5165235477762,
+          "objective": 678.5844911916553
+        },
+        {
+          "epoch": 8,
+          "sse": 662.5475291187876,
+          "objective": 662.614987933115
+        },
+        {
+          "epoch": 9,
+          "sse": 659.0691104351093,
+          "objective": 659.1359776453478
+        },
+        {
+          "epoch": 10,
+          "sse": 658.1368818982492,
+          "objective": 658.2032791227671
+        },
+        {
+          "epoch": 11,
+          "sse": 657.8530856404991,
+          "objective": 657.9191750988801
+        },
+        {
+          "epoch": 12,
+          "sse": 657.7646176023952,
+          "objective": 657.8305226710924
+        },
+        {
+          "epoch": 13,
+          "sse": 657.737414233188,
+          "objective": 657.8032133409678
+        },
+        {
+          "epoch": 14,
+          "sse": 657.7292008896159,
+          "objective": 657.7949401459714
+        },
+        {
+          "epoch": 15,
+          "sse": 657.7267581968644,
+          "objective": 657.7924636915495
+        },
+        {
+          "epoch": 16,
+          "sse": 657.7260409854401,
+          "objective": 657.7917271907088
+        },
+        {
+          "epoch": 17,
+          "sse": 657.7258333637296,
+          "objective": 657.7915082232585
+        },
+        {
+          "epoch": 18,
+          "sse": 657.7257745211008,
+          "objective": 657.7914423703747
+        },
+        {
+          "epoch": 19,
+          "sse": 657.7257584818085,
+          "objective": 657.791421679757
+        }
+      ]
+    },
+    {
+      "family": "cp",
+      "rank": 1,
+      "seed": 29,
+      "epochs": 13,
+      "seconds": 0.22240420900000046,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.3427860646564657,
+        "rmse_seats": 0.41886704198417263,
+        "max_abs_error_seats": 1.1007931250207623,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.21041590822682282,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 1575.2315062480586,
+          "objective": 1575.2520320419
+        },
+        {
+          "epoch": 2,
+          "sse": 1536.6251304023515,
+          "objective": 1536.6617572887528
+        },
+        {
+          "epoch": 3,
+          "sse": 1502.998355885296,
+          "objective": 1503.051862536319
+        },
+        {
+          "epoch": 4,
+          "sse": 1188.613646332301,
+          "objective": 1188.6923537832502
+        },
+        {
+          "epoch": 5,
+          "sse": 694.8778948692104,
+          "objective": 694.954433608246
+        },
+        {
+          "epoch": 6,
+          "sse": 659.5310815508785,
+          "objective": 659.6032082454742
+        },
+        {
+          "epoch": 7,
+          "sse": 657.8937506167316,
+          "objective": 657.966031535643
+        },
+        {
+          "epoch": 8,
+          "sse": 657.7432970521719,
+          "objective": 657.8156564488345
+        },
+        {
+          "epoch": 9,
+          "sse": 657.727790864291,
+          "objective": 657.800163624631
+        },
+        {
+          "epoch": 10,
+          "sse": 657.7260957698916,
+          "objective": 657.7984620001237
+        },
+        {
+          "epoch": 11,
+          "sse": 657.725838105624,
+          "objective": 657.7981941451219
+        },
+        {
+          "epoch": 12,
+          "sse": 657.7257772836662,
+          "objective": 657.798123622422
+        },
+        {
+          "epoch": 13,
+          "sse": 657.7257598180615,
+          "objective": 657.7980975360142
+        }
+      ]
+    },
+    {
+      "family": "cp",
+      "rank": 2,
+      "seed": 17,
+      "epochs": 50,
+      "seconds": 1.4166032499999996,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.20592672095627815,
+        "rmse_seats": 0.26764920743365855,
+        "max_abs_error_seats": 0.8402669504515302,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.20989527226914548,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 1135.453422693173,
+          "objective": 1135.5613003444982
+        },
+        {
+          "epoch": 2,
+          "sse": 428.41715823015005,
+          "objective": 428.5581029652429
+        },
+        {
+          "epoch": 3,
+          "sse": 270.5754693369471,
+          "objective": 270.6995383056185
+        },
+        {
+          "epoch": 4,
+          "sse": 260.12342529269154,
+          "objective": 260.2461287365828
+        },
+        {
+          "epoch": 5,
+          "sse": 256.1642223462593,
+          "objective": 256.28680093239626
+        },
+        {
+          "epoch": 6,
+          "sse": 252.80828331432005,
+          "objective": 252.9309843008215
+        },
+        {
+          "epoch": 7,
+          "sse": 249.43332057077563,
+          "objective": 249.5562416295594
+        },
+        {
+          "epoch": 8,
+          "sse": 246.07785638165524,
+          "objective": 246.20105283865948
+        },
+        {
+          "epoch": 9,
+          "sse": 242.9074530892077,
+          "objective": 243.03095651796858
+        },
+        {
+          "epoch": 10,
+          "sse": 240.05257936248478,
+          "objective": 240.17639891213574
+        },
+        {
+          "epoch": 11,
+          "sse": 237.56875463786454,
+          "objective": 237.69287650527494
+        },
+        {
+          "epoch": 12,
+          "sse": 235.45017420770583,
+          "objective": 235.57456393456005
+        },
+        {
+          "epoch": 13,
+          "sse": 233.65863608602035,
+          "objective": 233.78324447629467
+        },
+        {
+          "epoch": 14,
+          "sse": 232.1462927194875,
+          "objective": 232.27106450043308
+        },
+        {
+          "epoch": 15,
+          "sse": 230.86793228512443,
+          "objective": 230.99281659677158
+        },
+        {
+          "epoch": 16,
+          "sse": 229.78651468751136,
+          "objective": 229.91147458467915
+        },
+        {
+          "epoch": 17,
+          "sse": 228.87447215351278,
+          "objective": 228.99948679087862
+        },
+        {
+          "epoch": 18,
+          "sse": 228.11065357293288,
+          "objective": 228.2357109642679
+        },
+        {
+          "epoch": 19,
+          "sse": 227.47576563371308,
+          "objective": 227.60085433958128
+        },
+        {
+          "epoch": 20,
+          "sse": 226.95056186337538,
+          "objective": 227.07566847964722
+        },
+        {
+          "epoch": 21,
+          "sse": 226.51658954996893,
+          "objective": 226.64169994983493
+        },
+        {
+          "epoch": 22,
+          "sse": 226.15731684627733,
+          "objective": 226.28241765578048
+        },
+        {
+          "epoch": 23,
+          "sse": 225.85868427265072,
+          "objective": 225.9837635649206
+        },
+        {
+          "epoch": 24,
+          "sse": 225.6091108948507,
+          "objective": 225.7341583130965
+        },
+        {
+          "epoch": 25,
+          "sse": 225.3992142661311,
+          "objective": 225.52422089302934
+        },
+        {
+          "epoch": 26,
+          "sse": 225.22144222256338,
+          "objective": 225.34640037725484
+        },
+        {
+          "epoch": 27,
+          "sse": 225.06971843724986,
+          "objective": 225.19462147554947
+        },
+        {
+          "epoch": 28,
+          "sse": 224.93913980288534,
+          "objective": 225.06398194423176
+        },
+        {
+          "epoch": 29,
+          "sse": 224.82573198765294,
+          "objective": 224.95050817173137
+        },
+        {
+          "epoch": 30,
+          "sse": 224.7262569325859,
+          "objective": 224.8509627020474
+        },
+        {
+          "epoch": 31,
+          "sse": 224.6380626850997,
+          "objective": 224.7626940896143
+        },
+        {
+          "epoch": 32,
+          "sse": 224.5589663296954,
+          "objective": 224.68351984706462
+        },
+        {
+          "epoch": 33,
+          "sse": 224.48716232619034,
+          "objective": 224.61163479707938
+        },
+        {
+          "epoch": 34,
+          "sse": 224.42115024545745,
+          "objective": 224.54553881907265
+        },
+        {
+          "epoch": 35,
+          "sse": 224.35967733999206,
+          "objective": 224.48397942863514
+        },
+        {
+          "epoch": 36,
+          "sse": 224.30169252575698,
+          "objective": 224.42590576664645
+        },
+        {
+          "epoch": 37,
+          "sse": 224.2463092108623,
+          "objective": 224.3704314339545
+        },
+        {
+          "epoch": 38,
+          "sse": 224.1927750418122,
+          "objective": 224.3168042426121
+        },
+        {
+          "epoch": 39,
+          "sse": 224.14044710402655,
+          "objective": 224.2643814205753
+        },
+        {
+          "epoch": 40,
+          "sse": 224.08877145523462,
+          "objective": 224.21260914861327
+        },
+        {
+          "epoch": 41,
+          "sse": 224.03726612233083,
+          "objective": 224.1610055601402
+        },
+        {
+          "epoch": 42,
+          "sse": 223.98550687943614,
+          "objective": 224.10914652180995
+        },
+        {
+          "epoch": 43,
+          "sse": 223.93311526520816,
+          "objective": 224.05665365299595
+        },
+        {
+          "epoch": 44,
+          "sse": 223.87974840355182,
+          "objective": 224.00318414837366
+        },
+        {
+          "epoch": 45,
+          "sse": 223.82509027294714,
+          "objective": 223.9484220488773
+        },
+        {
+          "epoch": 46,
+          "sse": 223.7688441319076,
+          "objective": 223.89207066859169
+        },
+        {
+          "epoch": 47,
+          "sse": 223.71072585626587,
+          "objective": 223.83384593331667
+        },
+        {
+          "epoch": 48,
+          "sse": 223.65045798121943,
+          "objective": 223.77347042377232
+        },
+        {
+          "epoch": 49,
+          "sse": 223.58776426979657,
+          "objective": 223.71066794513817
+        },
+        {
+          "epoch": 50,
+          "sse": 223.52236465123624,
+          "objective": 223.64515846644994
+        }
+      ]
+    },
+    {
+      "family": "cp",
+      "rank": 2,
+      "seed": 29,
+      "epochs": 50,
+      "seconds": 1.4089535829999988,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.19013240016103228,
+        "rmse_seats": 0.25075110882730717,
+        "max_abs_error_seats": 0.6383025146861596,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.1557384405526445,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 1395.8048224791764,
+          "objective": 1395.898370458764
+        },
+        {
+          "epoch": 2,
+          "sse": 428.98448949644745,
+          "objective": 429.13484807665395
+        },
+        {
+          "epoch": 3,
+          "sse": 227.07347821694054,
+          "objective": 227.23350370934645
+        },
+        {
+          "epoch": 4,
+          "sse": 208.13486439938097,
+          "objective": 208.29631551337042
+        },
+        {
+          "epoch": 5,
+          "sse": 206.34807865348822,
+          "objective": 206.5098594276609
+        },
+        {
+          "epoch": 6,
+          "sse": 205.8719547728604,
+          "objective": 206.03399287734524
+        },
+        {
+          "epoch": 7,
+          "sse": 205.56062100397588,
+          "objective": 205.72292458857143
+        },
+        {
+          "epoch": 8,
+          "sse": 205.32038353965422,
+          "objective": 205.48294590391987
+        },
+        {
+          "epoch": 9,
+          "sse": 205.1304928322097,
+          "objective": 205.2932991110165
+        },
+        {
+          "epoch": 10,
+          "sse": 204.97881890508717,
+          "objective": 205.14185299274988
+        },
+        {
+          "epoch": 11,
+          "sse": 204.85674901807084,
+          "objective": 205.0199958997235
+        },
+        {
+          "epoch": 12,
+          "sse": 204.7580033051271,
+          "objective": 204.92144927924812
+        },
+        {
+          "epoch": 13,
+          "sse": 204.67788237743804,
+          "objective": 204.84151470099482
+        },
+        {
+          "epoch": 14,
+          "sse": 204.6127563565467,
+          "objective": 204.77656291666523
+        },
+        {
+          "epoch": 15,
+          "sse": 204.55974487048857,
+          "objective": 204.72371403024576
+        },
+        {
+          "epoch": 16,
+          "sse": 204.5165239275776,
+          "objective": 204.6806445118435
+        },
+        {
+          "epoch": 17,
+          "sse": 204.48120525634485,
+          "objective": 204.64546660392924
+        },
+        {
+          "epoch": 18,
+          "sse": 204.45225364580276,
+          "objective": 204.61664567255565
+        },
+        {
+          "epoch": 19,
+          "sse": 204.42842426989904,
+          "objective": 204.59293751560065
+        },
+        {
+          "epoch": 20,
+          "sse": 204.408711738388,
+          "objective": 204.57333738987143
+        },
+        {
+          "epoch": 21,
+          "sse": 204.39230735184265,
+          "objective": 204.5570372443068
+        },
+        {
+          "epoch": 22,
+          "sse": 204.37856299898183,
+          "objective": 204.54338960056867
+        },
+        {
+          "epoch": 23,
+          "sse": 204.36696082226732,
+          "objective": 204.53187720710827
+        },
+        {
+          "epoch": 24,
+          "sse": 204.35708797043236,
+          "objective": 204.52208778447581
+        },
+        {
+          "epoch": 25,
+          "sse": 204.34861579720945,
+          "objective": 204.5136932200871
+        },
+        {
+          "epoch": 26,
+          "sse": 204.34128288319266,
+          "objective": 204.50643258846594
+        },
+        {
+          "epoch": 27,
+          "sse": 204.3348812903163,
+          "objective": 204.50009840572866
+        },
+        {
+          "epoch": 28,
+          "sse": 204.32924550906884,
+          "objective": 204.49452557789405
+        },
+        {
+          "epoch": 29,
+          "sse": 204.3242436206983,
+          "objective": 204.48958256488464
+        },
+        {
+          "epoch": 30,
+          "sse": 204.31977026269814,
+          "objective": 204.4851643482268
+        },
+        {
+          "epoch": 31,
+          "sse": 204.31574105009594,
+          "objective": 204.48118685477286
+        },
+        {
+          "epoch": 32,
+          "sse": 204.31208816406803,
+          "objective": 204.47758254782823
+        },
+        {
+          "epoch": 33,
+          "sse": 204.3087568714312,
+          "objective": 204.47429694913882
+        },
+        {
+          "epoch": 34,
+          "sse": 204.3057027831999,
+          "objective": 204.47128589986409
+        },
+        {
+          "epoch": 35,
+          "sse": 204.30288969782075,
+          "objective": 204.46851340610644
+        },
+        {
+          "epoch": 36,
+          "sse": 204.3002879056573,
+          "objective": 204.46594994554684
+        },
+        {
+          "epoch": 37,
+          "sse": 204.2978728565258,
+          "objective": 204.46357113697488
+        },
+        {
+          "epoch": 38,
+          "sse": 204.29562411249893,
+          "objective": 204.4613566949272
+        },
+        {
+          "epoch": 39,
+          "sse": 204.29352452456249,
+          "objective": 204.4592896080207
+        },
+        {
+          "epoch": 40,
+          "sse": 204.2915595847683,
+          "objective": 204.45735549262994
+        },
+        {
+          "epoch": 41,
+          "sse": 204.28971691587654,
+          "objective": 204.45554208390985
+        },
+        {
+          "epoch": 42,
+          "sse": 204.28798586869283,
+          "objective": 204.45383883437822
+        },
+        {
+          "epoch": 43,
+          "sse": 204.28635720375163,
+          "objective": 204.45223659672004
+        },
+        {
+          "epoch": 44,
+          "sse": 204.28482283906078,
+          "objective": 204.45072737253832
+        },
+        {
+          "epoch": 45,
+          "sse": 204.2833756496494,
+          "objective": 204.44930411280384
+        },
+        {
+          "epoch": 46,
+          "sse": 204.28200930771743,
+          "objective": 204.4479605588115
+        },
+        {
+          "epoch": 47,
+          "sse": 204.2807181546923,
+          "objective": 204.446691114958
+        },
+        {
+          "epoch": 48,
+          "sse": 204.27949709835832,
+          "objective": 204.44549074651508
+        },
+        {
+          "epoch": 49,
+          "sse": 204.27834152973833,
+          "objective": 204.4443548970851
+        },
+        {
+          "epoch": 50,
+          "sse": 204.27724725556297,
+          "objective": 204.44327942158236
+        }
+      ]
+    },
+    {
+      "family": "cp",
+      "rank": 3,
+      "seed": 17,
+      "epochs": 50,
+      "seconds": 2.0122850000000003,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.10908958148601461,
+        "rmse_seats": 0.15004568045629474,
+        "max_abs_error_seats": 0.6198227898871589,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.07849955075774806,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 724.8561857472398,
+          "objective": 725.0200940390841
+        },
+        {
+          "epoch": 2,
+          "sse": 259.31078445850846,
+          "objective": 259.5386395485741
+        },
+        {
+          "epoch": 3,
+          "sse": 185.23062333662608,
+          "objective": 185.4717998244381
+        },
+        {
+          "epoch": 4,
+          "sse": 126.81480791214761,
+          "objective": 127.0655246939227
+        },
+        {
+          "epoch": 5,
+          "sse": 124.35209071370383,
+          "objective": 124.60317657152773
+        },
+        {
+          "epoch": 6,
+          "sse": 123.35019789680854,
+          "objective": 123.60157947122363
+        },
+        {
+          "epoch": 7,
+          "sse": 122.36281560238798,
+          "objective": 122.61458530489057
+        },
+        {
+          "epoch": 8,
+          "sse": 121.28139328963555,
+          "objective": 121.53349401756876
+        },
+        {
+          "epoch": 9,
+          "sse": 120.08480553656895,
+          "objective": 120.33720350381094
+        },
+        {
+          "epoch": 10,
+          "sse": 118.76870348870216,
+          "objective": 119.02137633893389
+        },
+        {
+          "epoch": 11,
+          "sse": 117.33709229176054,
+          "objective": 117.59001906498231
+        },
+        {
+          "epoch": 12,
+          "sse": 115.80226836438995,
+          "objective": 116.05542639532644
+        },
+        {
+          "epoch": 13,
+          "sse": 114.18557642367777,
+          "objective": 114.43894193164283
+        },
+        {
+          "epoch": 14,
+          "sse": 112.51728927412928,
+          "objective": 112.77083990608297
+        },
+        {
+          "epoch": 15,
+          "sse": 110.83464650099761,
+          "objective": 111.08836427609425
+        },
+        {
+          "epoch": 16,
+          "sse": 109.17719513614844,
+          "objective": 109.43106716287514
+        },
+        {
+          "epoch": 17,
+          "sse": 107.57924752946685,
+          "objective": 107.83326074983269
+        },
+        {
+          "epoch": 18,
+          "sse": 106.06218121893642,
+          "objective": 106.31630940767295
+        },
+        {
+          "epoch": 19,
+          "sse": 104.63461326492141,
+          "objective": 104.88880367071896
+        },
+        {
+          "epoch": 20,
+          "sse": 103.30443021872914,
+          "objective": 103.55860917826621
+        },
+        {
+          "epoch": 21,
+          "sse": 102.08487125088764,
+          "objective": 102.3389764566737
+        },
+        {
+          "epoch": 22,
+          "sse": 100.98466840862088,
+          "objective": 101.23867713568097
+        },
+        {
+          "epoch": 23,
+          "sse": 100.0021132011852,
+          "objective": 100.25604172064536
+        },
+        {
+          "epoch": 24,
+          "sse": 99.12800950925252,
+          "objective": 99.381898203039
+        },
+        {
+          "epoch": 25,
+          "sse": 98.3496263140509,
+          "objective": 98.60352677640755
+        },
+        {
+          "epoch": 26,
+          "sse": 97.65310615316237,
+          "objective": 97.90707339103896
+        },
+        {
+          "epoch": 27,
+          "sse": 97.02470729944908,
+          "objective": 97.2787956144307
+        },
+        {
+          "epoch": 28,
+          "sse": 96.45144771472326,
+          "objective": 96.7057087583078
+        },
+        {
+          "epoch": 29,
+          "sse": 95.92148183036541,
+          "objective": 96.17596386866758
+        },
+        {
+          "epoch": 30,
+          "sse": 95.42433905796057,
+          "objective": 95.6790868846394
+        },
+        {
+          "epoch": 31,
+          "sse": 94.95104982439665,
+          "objective": 95.20610499705545
+        },
+        {
+          "epoch": 32,
+          "sse": 94.4941592834175,
+          "objective": 94.7495604952107
+        },
+        {
+          "epoch": 33,
+          "sse": 94.04763971525311,
+          "objective": 94.30342319584022
+        },
+        {
+          "epoch": 34,
+          "sse": 93.60672870095132,
+          "objective": 93.86292859218658
+        },
+        {
+          "epoch": 35,
+          "sse": 93.16772727902556,
+          "objective": 93.42437596201665
+        },
+        {
+          "epoch": 36,
+          "sse": 92.72778923289661,
+          "objective": 92.9849176008135
+        },
+        {
+          "epoch": 37,
+          "sse": 92.28472384762013,
+          "objective": 92.54236152749955
+        },
+        {
+          "epoch": 38,
+          "sse": 91.83682465396045,
+          "objective": 92.09500018417089
+        },
+        {
+          "epoch": 39,
+          "sse": 91.38272870337815,
+          "objective": 91.64146967380546
+        },
+        {
+          "epoch": 40,
+          "sse": 90.92130571562153,
+          "objective": 91.18063887656828
+        },
+        {
+          "epoch": 41,
+          "sse": 90.45157376328287,
+          "objective": 90.71152510745682
+        },
+        {
+          "epoch": 42,
+          "sse": 89.97263731063099,
+          "objective": 90.23323213090917
+        },
+        {
+          "epoch": 43,
+          "sse": 89.48364370255479,
+          "objective": 89.74490662666926
+        },
+        {
+          "epoch": 44,
+          "sse": 88.98375506125532,
+          "objective": 89.2457100632335
+        },
+        {
+          "epoch": 45,
+          "sse": 88.47213363617672,
+          "objective": 88.73480402328723
+        },
+        {
+          "epoch": 46,
+          "sse": 87.9479397573248,
+          "objective": 88.2113481304026
+        },
+        {
+          "epoch": 47,
+          "sse": 87.41034255439473,
+          "objective": 87.67451073870593
+        },
+        {
+          "epoch": 48,
+          "sse": 86.85854447149609,
+          "objective": 87.1234934147241
+        },
+        {
+          "epoch": 49,
+          "sse": 86.29182129545173,
+          "objective": 86.55757092894156
+        },
+        {
+          "epoch": 50,
+          "sse": 85.70957986923823,
+          "objective": 85.97614892838217
+        }
+      ]
+    },
+    {
+      "family": "cp",
+      "rank": 3,
+      "seed": 29,
+      "epochs": 50,
+      "seconds": 2.0234552079999997,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.09844319354558487,
+        "rmse_seats": 0.13559656626355074,
+        "max_abs_error_seats": 0.48108910161785323,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.0854361340576046,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 558.5412832754386,
+          "objective": 558.6503653837093
+        },
+        {
+          "epoch": 2,
+          "sse": 216.34707496786314,
+          "objective": 216.46833805132994
+        },
+        {
+          "epoch": 3,
+          "sse": 158.6150256753945,
+          "objective": 158.7399426636793
+        },
+        {
+          "epoch": 4,
+          "sse": 141.99801539900682,
+          "objective": 142.1236804336276
+        },
+        {
+          "epoch": 5,
+          "sse": 137.05085889312568,
+          "objective": 137.17763745853145
+        },
+        {
+          "epoch": 6,
+          "sse": 134.5828928006285,
+          "objective": 134.7105038149719
+        },
+        {
+          "epoch": 7,
+          "sse": 132.82201109880057,
+          "objective": 132.9501347042322
+        },
+        {
+          "epoch": 8,
+          "sse": 131.12915370526943,
+          "objective": 131.25751688390187
+        },
+        {
+          "epoch": 9,
+          "sse": 129.24016897868913,
+          "objective": 129.36855960455105
+        },
+        {
+          "epoch": 10,
+          "sse": 127.04344128517207,
+          "objective": 127.17170089395387
+        },
+        {
+          "epoch": 11,
+          "sse": 124.51825240281644,
+          "objective": 124.64626288783964
+        },
+        {
+          "epoch": 12,
+          "sse": 121.73281849615795,
+          "objective": 121.86048741637472
+        },
+        {
+          "epoch": 13,
+          "sse": 118.82438321501978,
+          "objective": 118.95163297575186
+        },
+        {
+          "epoch": 14,
+          "sse": 115.93691279575563,
+          "objective": 116.06368395754384
+        },
+        {
+          "epoch": 15,
+          "sse": 113.1688159462348,
+          "objective": 113.29508372848618
+        },
+        {
+          "epoch": 16,
+          "sse": 110.5686036021943,
+          "objective": 110.69438995281915
+        },
+        {
+          "epoch": 17,
+          "sse": 108.1528917854075,
+          "objective": 108.27826266477234
+        },
+        {
+          "epoch": 18,
+          "sse": 105.92058065961548,
+          "objective": 106.04563409239424
+        },
+        {
+          "epoch": 19,
+          "sse": 103.86074877559939,
+          "objective": 103.98560198271915
+        },
+        {
+          "epoch": 20,
+          "sse": 101.95723421831832,
+          "objective": 102.08201374303762
+        },
+        {
+          "epoch": 21,
+          "sse": 100.19133889919902,
+          "objective": 100.31617424845669
+        },
+        {
+          "epoch": 22,
+          "sse": 98.54342332336998,
+          "objective": 98.66844334259737
+        },
+        {
+          "epoch": 23,
+          "sse": 96.9939166101362,
+          "objective": 97.1192476346763
+        },
+        {
+          "epoch": 24,
+          "sse": 95.52403558604694,
+          "objective": 95.64980060101449
+        },
+        {
+          "epoch": 25,
+          "sse": 94.11635050086568,
+          "objective": 94.24266875519054
+        },
+        {
+          "epoch": 26,
+          "sse": 92.75525891605038,
+          "objective": 92.88224560518663
+        },
+        {
+          "epoch": 27,
+          "sse": 91.4273969673608,
+          "objective": 91.55516273847249
+        },
+        {
+          "epoch": 28,
+          "sse": 90.12200566415918,
+          "objective": 90.25065582011999
+        },
+        {
+          "epoch": 29,
+          "sse": 88.8312688208854,
+          "objective": 88.96090220081533
+        },
+        {
+          "epoch": 30,
+          "sse": 87.5506391343989,
+          "objective": 87.6813467190533
+        },
+        {
+          "epoch": 31,
+          "sse": 86.27915746319732,
+          "objective": 86.41102078976814
+        },
+        {
+          "epoch": 32,
+          "sse": 85.0197362399765,
+          "objective": 85.15282571989498
+        },
+        {
+          "epoch": 33,
+          "sse": 83.77931923763897,
+          "objective": 83.9136924685249
+        },
+        {
+          "epoch": 34,
+          "sse": 82.56876252092268,
+          "objective": 82.70446268766844
+        },
+        {
+          "epoch": 35,
+          "sse": 81.40224237196202,
+          "objective": 81.53929685361247
+        },
+        {
+          "epoch": 36,
+          "sse": 80.29603481376856,
+          "objective": 80.43445415062877
+        },
+        {
+          "epoch": 37,
+          "sse": 79.26666354769762,
+          "objective": 79.40644095880135
+        },
+        {
+          "epoch": 38,
+          "sse": 78.32865978314388,
+          "objective": 78.46977142748626
+        },
+        {
+          "epoch": 39,
+          "sse": 77.49241927002672,
+          "objective": 77.63482538784184
+        },
+        {
+          "epoch": 40,
+          "sse": 76.76273067545937,
+          "objective": 76.90637762393182
+        },
+        {
+          "epoch": 41,
+          "sse": 76.13838719289195,
+          "objective": 76.28321023561057
+        },
+        {
+          "epoch": 42,
+          "sse": 75.6129291302692,
+          "objective": 75.75885570589688
+        },
+        {
+          "epoch": 43,
+          "sse": 75.1761869674104,
+          "objective": 75.32314009480156
+        },
+        {
+          "epoch": 44,
+          "sse": 74.81609729944272,
+          "objective": 74.96399878495671
+        },
+        {
+          "epoch": 45,
+          "sse": 74.52031290820776,
+          "objective": 74.66908608951361
+        },
+        {
+          "epoch": 46,
+          "sse": 74.27733681234773,
+          "objective": 74.42690867538641
+        },
+        {
+          "epoch": 47,
+          "sse": 74.07713592762883,
+          "objective": 74.22743854398405
+        },
+        {
+          "epoch": 48,
+          "sse": 73.91133644685635,
+          "objective": 74.06230777474444
+        },
+        {
+          "epoch": 49,
+          "sse": 73.77315222679252,
+          "objective": 73.92473638386971
+        },
+        {
+          "epoch": 50,
+          "sse": 73.65718087464815,
+          "objective": 73.80932801958546
+        }
+      ]
+    },
+    {
+      "family": "tucker",
+      "rank": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "seed": 17,
+      "epochs": 50,
+      "seconds": 5.539479292000001,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.18077066208543982,
+        "rmse_seats": 0.24218275228087213,
+        "max_abs_error_seats": 0.6327923931118309,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.14382959826245845,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 756.5879378510007,
+          "objective": 756.8994734197196
+        },
+        {
+          "epoch": 2,
+          "sse": 230.80523635920738,
+          "objective": 231.0952609478948
+        },
+        {
+          "epoch": 3,
+          "sse": 209.60341960943154,
+          "objective": 209.89116498417994
+        },
+        {
+          "epoch": 4,
+          "sse": 206.84129313353554,
+          "objective": 207.12858789931863
+        },
+        {
+          "epoch": 5,
+          "sse": 205.83885889287643,
+          "objective": 206.1262523313773
+        },
+        {
+          "epoch": 6,
+          "sse": 205.37174215840108,
+          "objective": 205.659266320599
+        },
+        {
+          "epoch": 7,
+          "sse": 205.16169709547367,
+          "objective": 205.44927454578357
+        },
+        {
+          "epoch": 8,
+          "sse": 205.07230375375116,
+          "objective": 205.35987078304396
+        },
+        {
+          "epoch": 9,
+          "sse": 205.03572449153108,
+          "objective": 205.32324545333242
+        },
+        {
+          "epoch": 10,
+          "sse": 205.02113432390718,
+          "objective": 205.308592146125
+        },
+        {
+          "epoch": 11,
+          "sse": 205.01541096179346,
+          "objective": 205.30279809236276
+        },
+        {
+          "epoch": 12,
+          "sse": 205.0131911533622,
+          "objective": 205.30050436700196
+        },
+        {
+          "epoch": 13,
+          "sse": 205.0123375213653,
+          "objective": 205.29957543580582
+        },
+        {
+          "epoch": 14,
+          "sse": 205.01201175758715,
+          "objective": 205.29917375583187
+        },
+        {
+          "epoch": 15,
+          "sse": 205.0118884946999,
+          "objective": 205.298974283741
+        },
+        {
+          "epoch": 16,
+          "sse": 205.01184238685966,
+          "objective": 205.29885182170216
+        },
+        {
+          "epoch": 17,
+          "sse": 205.01182543999698,
+          "objective": 205.29875845234915
+        },
+        {
+          "epoch": 18,
+          "sse": 205.011819390964,
+          "objective": 205.29867595796182
+        },
+        {
+          "epoch": 19,
+          "sse": 205.011817343444,
+          "objective": 205.29859747181118
+        },
+        {
+          "epoch": 20,
+          "sse": 205.01181672213738,
+          "objective": 205.29852043877872
+        },
+        {
+          "epoch": 21,
+          "sse": 205.01181658214625,
+          "objective": 205.29844392790125
+        },
+        {
+          "epoch": 22,
+          "sse": 205.01181658700744,
+          "objective": 205.29836761228844
+        },
+        {
+          "epoch": 23,
+          "sse": 205.01181662333246,
+          "objective": 205.29829138504755
+        },
+        {
+          "epoch": 24,
+          "sse": 205.01181665709618,
+          "objective": 205.29821521649558
+        },
+        {
+          "epoch": 25,
+          "sse": 205.01181668097462,
+          "objective": 205.29813910216515
+        },
+        {
+          "epoch": 26,
+          "sse": 205.01181669563763,
+          "objective": 205.29806304457324
+        },
+        {
+          "epoch": 27,
+          "sse": 205.0118167034536,
+          "objective": 205.29798704725877
+        },
+        {
+          "epoch": 28,
+          "sse": 205.0118167066203,
+          "objective": 205.29791111314225
+        },
+        {
+          "epoch": 29,
+          "sse": 205.01181670676553,
+          "objective": 205.2978352442808
+        },
+        {
+          "epoch": 30,
+          "sse": 205.01181670499486,
+          "objective": 205.29775944201876
+        },
+        {
+          "epoch": 31,
+          "sse": 205.0118167020257,
+          "objective": 205.29768370718946
+        },
+        {
+          "epoch": 32,
+          "sse": 205.0118166983142,
+          "objective": 205.29760804028626
+        },
+        {
+          "epoch": 33,
+          "sse": 205.0118166941437,
+          "objective": 205.29753244157968
+        },
+        {
+          "epoch": 34,
+          "sse": 205.01181668969292,
+          "objective": 205.29745691120377
+        },
+        {
+          "epoch": 35,
+          "sse": 205.01181668507155,
+          "objective": 205.2973814492036
+        },
+        {
+          "epoch": 36,
+          "sse": 205.01181668034602,
+          "objective": 205.29730605556847
+        },
+        {
+          "epoch": 37,
+          "sse": 205.01181667555838,
+          "objective": 205.2972307302554
+        },
+        {
+          "epoch": 38,
+          "sse": 205.0118166707348,
+          "objective": 205.29715547320075
+        },
+        {
+          "epoch": 39,
+          "sse": 205.01181666589065,
+          "objective": 205.2970802843271
+        },
+        {
+          "epoch": 40,
+          "sse": 205.01181666103574,
+          "objective": 205.2970051635497
+        },
+        {
+          "epoch": 41,
+          "sse": 205.01181665617577,
+          "objective": 205.29693011077865
+        },
+        {
+          "epoch": 42,
+          "sse": 205.01181665131494,
+          "objective": 205.296855125922
+        },
+        {
+          "epoch": 43,
+          "sse": 205.01181664645506,
+          "objective": 205.2967802088851
+        },
+        {
+          "epoch": 44,
+          "sse": 205.01181664159816,
+          "objective": 205.29670535957345
+        },
+        {
+          "epoch": 45,
+          "sse": 205.0118166367446,
+          "objective": 205.29663057789088
+        },
+        {
+          "epoch": 46,
+          "sse": 205.01181663189521,
+          "objective": 205.29655586374167
+        },
+        {
+          "epoch": 47,
+          "sse": 205.01181662704934,
+          "objective": 205.2964812170289
+        },
+        {
+          "epoch": 48,
+          "sse": 205.01181662220833,
+          "objective": 205.29640663765773
+        },
+        {
+          "epoch": 49,
+          "sse": 205.0118166173719,
+          "objective": 205.2963321255318
+        },
+        {
+          "epoch": 50,
+          "sse": 205.0118166125404,
+          "objective": 205.29625768055564
+        }
+      ]
+    },
+    {
+      "family": "tucker",
+      "rank": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "seed": 29,
+      "epochs": 50,
+      "seconds": 5.945616999999999,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.18077693299445155,
+        "rmse_seats": 0.2421920156506428,
+        "max_abs_error_seats": 0.632885948522787,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.14383725377117718,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 588.7595849338259,
+          "objective": 588.8909027597956
+        },
+        {
+          "epoch": 2,
+          "sse": 229.12716420540437,
+          "objective": 229.2610127838404
+        },
+        {
+          "epoch": 3,
+          "sse": 226.02957916221246,
+          "objective": 226.16295502594846
+        },
+        {
+          "epoch": 4,
+          "sse": 224.86841702101546,
+          "objective": 225.00203703196107
+        },
+        {
+          "epoch": 5,
+          "sse": 223.47171044137403,
+          "objective": 223.60571201224113
+        },
+        {
+          "epoch": 6,
+          "sse": 221.72829670394165,
+          "objective": 221.8626918449933
+        },
+        {
+          "epoch": 7,
+          "sse": 219.58027178857535,
+          "objective": 219.7150154463965
+        },
+        {
+          "epoch": 8,
+          "sse": 217.01897015765084,
+          "objective": 217.1539910155239
+        },
+        {
+          "epoch": 9,
+          "sse": 214.16026776236862,
+          "objective": 214.29549461169736
+        },
+        {
+          "epoch": 10,
+          "sse": 211.30280988984467,
+          "objective": 211.43819156527772
+        },
+        {
+          "epoch": 11,
+          "sse": 208.8501202957776,
+          "objective": 208.98562766371236
+        },
+        {
+          "epoch": 12,
+          "sse": 207.08604278515273,
+          "objective": 207.22165398671655
+        },
+        {
+          "epoch": 13,
+          "sse": 206.0198772208888,
+          "objective": 206.15556578265085
+        },
+        {
+          "epoch": 14,
+          "sse": 205.4634689466842,
+          "objective": 205.5992055561714
+        },
+        {
+          "epoch": 15,
+          "sse": 205.2030396003341,
+          "objective": 205.3387989288432
+        },
+        {
+          "epoch": 16,
+          "sse": 205.08981959195688,
+          "objective": 205.22558343423165
+        },
+        {
+          "epoch": 17,
+          "sse": 205.04288700345813,
+          "objective": 205.17864353443727
+        },
+        {
+          "epoch": 18,
+          "sse": 205.02400730212815,
+          "objective": 205.1597491140258
+        },
+        {
+          "epoch": 19,
+          "sse": 205.01655319694405,
+          "objective": 205.15227563024413
+        },
+        {
+          "epoch": 20,
+          "sse": 205.01364399201583,
+          "objective": 205.14934405642802
+        },
+        {
+          "epoch": 21,
+          "sse": 205.01251659041068,
+          "objective": 205.14819233017082
+        },
+        {
+          "epoch": 22,
+          "sse": 205.0120815372161,
+          "objective": 205.14773165982223
+        },
+        {
+          "epoch": 23,
+          "sse": 205.01191405119795,
+          "objective": 205.14753770143443
+        },
+        {
+          "epoch": 24,
+          "sse": 205.01184963641964,
+          "objective": 205.14744625181555
+        },
+        {
+          "epoch": 25,
+          "sse": 205.01182485596337,
+          "objective": 205.14739407084772
+        },
+        {
+          "epoch": 26,
+          "sse": 205.0118153060768,
+          "objective": 205.14735688668998
+        },
+        {
+          "epoch": 27,
+          "sse": 205.011811611349,
+          "objective": 205.14732541176875
+        },
+        {
+          "epoch": 28,
+          "sse": 205.01181017152317,
+          "objective": 205.1472961038526
+        },
+        {
+          "epoch": 29,
+          "sse": 205.01180960337751,
+          "objective": 205.1472676177423
+        },
+        {
+          "epoch": 30,
+          "sse": 205.0118093745433,
+          "objective": 205.14723944579524
+        },
+        {
+          "epoch": 31,
+          "sse": 205.01180927937412,
+          "objective": 205.14721139833352
+        },
+        {
+          "epoch": 32,
+          "sse": 205.0118092378897,
+          "objective": 205.14718340562592
+        },
+        {
+          "epoch": 33,
+          "sse": 205.01180921862033,
+          "objective": 205.14715544274435
+        },
+        {
+          "epoch": 34,
+          "sse": 205.0118092089448,
+          "objective": 205.1471275012218
+        },
+        {
+          "epoch": 35,
+          "sse": 205.01180920364993,
+          "objective": 205.1470995784703
+        },
+        {
+          "epoch": 36,
+          "sse": 205.0118092004877,
+          "objective": 205.14707167389267
+        },
+        {
+          "epoch": 37,
+          "sse": 205.01180919843486,
+          "objective": 205.14704378749823
+        },
+        {
+          "epoch": 38,
+          "sse": 205.01180919699246,
+          "objective": 205.14701591942946
+        },
+        {
+          "epoch": 39,
+          "sse": 205.01180919590158,
+          "objective": 205.14698806982236
+        },
+        {
+          "epoch": 40,
+          "sse": 205.0118091950208,
+          "objective": 205.14696023877536
+        },
+        {
+          "epoch": 41,
+          "sse": 205.0118091942675,
+          "objective": 205.14693242634843
+        },
+        {
+          "epoch": 42,
+          "sse": 205.01180919359305,
+          "objective": 205.14690463257466
+        },
+        {
+          "epoch": 43,
+          "sse": 205.01180919296738,
+          "objective": 205.14687685746756
+        },
+        {
+          "epoch": 44,
+          "sse": 205.01180919237243,
+          "objective": 205.14684910102898
+        },
+        {
+          "epoch": 45,
+          "sse": 205.01180919179683,
+          "objective": 205.1468213632526
+        },
+        {
+          "epoch": 46,
+          "sse": 205.01180919123328,
+          "objective": 205.14679364412706
+        },
+        {
+          "epoch": 47,
+          "sse": 205.01180919067744,
+          "objective": 205.14676594363812
+        },
+        {
+          "epoch": 48,
+          "sse": 205.01180919012697,
+          "objective": 205.14673826177005
+        },
+        {
+          "epoch": 49,
+          "sse": 205.01180918957954,
+          "objective": 205.14671059850497
+        },
+        {
+          "epoch": 50,
+          "sse": 205.01180918903358,
+          "objective": 205.14668295382438
+        }
+      ]
+    },
+    {
+      "family": "tucker",
+      "rank": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "seed": 17,
+      "epochs": 50,
+      "seconds": 15.375338582999998,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.3501016179129837,
+        "rmse_seats": 0.7599620385580493,
+        "max_abs_error_seats": 5.584021669635151,
+        "guaranteed_acceptance_disagreements": 4,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.44503052375458485,
+          "threshold_disagreements": 4
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 879.2241560706525,
+          "objective": 881.7051620160231
+        },
+        {
+          "epoch": 2,
+          "sse": 254.56400277576802,
+          "objective": 256.99542227180217
+        },
+        {
+          "epoch": 3,
+          "sse": 223.39711925596876,
+          "objective": 226.17542489168153
+        },
+        {
+          "epoch": 4,
+          "sse": 218.54069470374924,
+          "objective": 221.490405948002
+        },
+        {
+          "epoch": 5,
+          "sse": 217.56962587138545,
+          "objective": 220.55743727988101
+        },
+        {
+          "epoch": 6,
+          "sse": 217.15800476350722,
+          "objective": 220.12608276006605
+        },
+        {
+          "epoch": 7,
+          "sse": 216.98411451881742,
+          "objective": 219.89878808249586
+        },
+        {
+          "epoch": 8,
+          "sse": 216.90733954413577,
+          "objective": 219.75242971268258
+        },
+        {
+          "epoch": 9,
+          "sse": 216.8655783748328,
+          "objective": 219.63576197735534
+        },
+        {
+          "epoch": 10,
+          "sse": 216.8375515911518,
+          "objective": 219.53292719366112
+        },
+        {
+          "epoch": 11,
+          "sse": 216.81599851305666,
+          "objective": 219.43902601426674
+        },
+        {
+          "epoch": 12,
+          "sse": 216.79813814748587,
+          "objective": 219.35217025648143
+        },
+        {
+          "epoch": 13,
+          "sse": 216.78273074280102,
+          "objective": 219.27135119376126
+        },
+        {
+          "epoch": 14,
+          "sse": 216.7691268846777,
+          "objective": 219.19586086310565
+        },
+        {
+          "epoch": 15,
+          "sse": 216.75693124844028,
+          "objective": 219.12512473190264
+        },
+        {
+          "epoch": 16,
+          "sse": 216.74587243744998,
+          "objective": 219.0586489416877
+        },
+        {
+          "epoch": 17,
+          "sse": 216.7357475678428,
+          "objective": 218.99600055003444
+        },
+        {
+          "epoch": 18,
+          "sse": 216.72639613178026,
+          "objective": 218.93679746399695
+        },
+        {
+          "epoch": 19,
+          "sse": 216.7176863157251,
+          "objective": 218.88070142963946
+        },
+        {
+          "epoch": 20,
+          "sse": 216.70950710341842,
+          "objective": 218.82741226584645
+        },
+        {
+          "epoch": 21,
+          "sse": 216.7017633120479,
+          "objective": 218.77666287470277
+        },
+        {
+          "epoch": 22,
+          "sse": 216.69437224282186,
+          "objective": 218.72821489824096
+        },
+        {
+          "epoch": 23,
+          "sse": 216.68726128895457,
+          "objective": 218.68185495730077
+        },
+        {
+          "epoch": 24,
+          "sse": 216.6803661507562,
+          "objective": 218.63739141276395
+        },
+        {
+          "epoch": 25,
+          "sse": 216.6736294589359,
+          "objective": 218.5946515867009
+        },
+        {
+          "epoch": 26,
+          "sse": 216.66699968652526,
+          "objective": 218.55347938195814
+        },
+        {
+          "epoch": 27,
+          "sse": 216.6604302739574,
+          "objective": 218.51373324318286
+        },
+        {
+          "epoch": 28,
+          "sse": 216.6538789163329,
+          "objective": 218.47528440849868
+        },
+        {
+          "epoch": 29,
+          "sse": 216.6473069776291,
+          "objective": 218.4380154079737
+        },
+        {
+          "epoch": 30,
+          "sse": 216.64067900615186,
+          "objective": 218.4018187712968
+        },
+        {
+          "epoch": 31,
+          "sse": 216.63396233167975,
+          "objective": 218.36659591301873
+        },
+        {
+          "epoch": 32,
+          "sse": 216.62712672944394,
+          "objective": 218.3322561687025
+        },
+        {
+          "epoch": 33,
+          "sse": 216.62014413932226,
+          "objective": 218.29871595972457
+        },
+        {
+          "epoch": 34,
+          "sse": 216.61298843071987,
+          "objective": 218.26589806805012
+        },
+        {
+          "epoch": 35,
+          "sse": 216.6056352061189,
+          "objective": 218.2337310054551
+        },
+        {
+          "epoch": 36,
+          "sse": 216.59806163712972,
+          "objective": 218.20214846423292
+        },
+        {
+          "epoch": 37,
+          "sse": 216.59024632858885,
+          "objective": 218.1710888386068
+        },
+        {
+          "epoch": 38,
+          "sse": 216.5821692070032,
+          "objective": 218.14049480792016
+        },
+        {
+          "epoch": 39,
+          "sse": 216.57381143053973,
+          "objective": 218.11031297421897
+        },
+        {
+          "epoch": 40,
+          "sse": 216.5651553185285,
+          "objective": 218.08049354814844
+        },
+        {
+          "epoch": 41,
+          "sse": 216.55618429882543,
+          "objective": 218.05099007815926
+        },
+        {
+          "epoch": 42,
+          "sse": 216.54688287206494,
+          "objective": 218.0217592189408
+        },
+        {
+          "epoch": 43,
+          "sse": 216.53723659194506,
+          "objective": 217.99276053571688
+        },
+        {
+          "epoch": 44,
+          "sse": 216.5272320612041,
+          "objective": 217.9639563416503
+        },
+        {
+          "epoch": 45,
+          "sse": 216.51685694288912,
+          "objective": 217.93531156600386
+        },
+        {
+          "epoch": 46,
+          "sse": 216.50609998659576,
+          "objective": 217.90679365105814
+        },
+        {
+          "epoch": 47,
+          "sse": 216.49495106958824,
+          "objective": 217.87837247597082
+        },
+        {
+          "epoch": 48,
+          "sse": 216.48340125218056,
+          "objective": 217.85002030577212
+        },
+        {
+          "epoch": 49,
+          "sse": 216.47144284686578,
+          "objective": 217.8217117637363
+        },
+        {
+          "epoch": 50,
+          "sse": 216.45906950024383,
+          "objective": 217.7934238251319
+        }
+      ]
+    },
+    {
+      "family": "tucker",
+      "rank": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "seed": 29,
+      "epochs": 50,
+      "seconds": 11.505174917000005,
+      "validation": {
+        "n": 252,
+        "mae_seats": 0.32244979596389556,
+        "rmse_seats": 0.7488581695020511,
+        "max_abs_error_seats": 4.0218527624082405,
+        "guaranteed_acceptance_disagreements": 0,
+        "exact_threshold_class_counts": {
+          "guaranteed_acceptance": 0,
+          "not_guaranteed_acceptance": 252
+        },
+        "threshold_discrimination_established": false,
+        "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+        "near_threshold": {
+          "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+          "n": 84,
+          "mae_seats": 0.19726637017787116,
+          "threshold_disagreements": 0
+        },
+        "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+      },
+      "train_objective_history": [
+        {
+          "epoch": 1,
+          "sse": 1110.9978079651482,
+          "objective": 1111.0847370971592
+        },
+        {
+          "epoch": 2,
+          "sse": 657.4910357669853,
+          "objective": 657.5859304465399
+        },
+        {
+          "epoch": 3,
+          "sse": 344.096699555607,
+          "objective": 344.2099875485863
+        },
+        {
+          "epoch": 4,
+          "sse": 238.23490057124945,
+          "objective": 238.35170382846758
+        },
+        {
+          "epoch": 5,
+          "sse": 218.52485338514074,
+          "objective": 218.64230056341557
+        },
+        {
+          "epoch": 6,
+          "sse": 215.7795225810852,
+          "objective": 215.8968154441752
+        },
+        {
+          "epoch": 7,
+          "sse": 214.69161080718982,
+          "objective": 214.80856777067714
+        },
+        {
+          "epoch": 8,
+          "sse": 213.66826835068335,
+          "objective": 213.78484548534854
+        },
+        {
+          "epoch": 9,
+          "sse": 212.59265105399413,
+          "objective": 212.70887193102428
+        },
+        {
+          "epoch": 10,
+          "sse": 211.46931686624245,
+          "objective": 211.58526001308732
+        },
+        {
+          "epoch": 11,
+          "sse": 210.3261663733986,
+          "objective": 210.4419560939134
+        },
+        {
+          "epoch": 12,
+          "sse": 209.20750858348424,
+          "objective": 209.32329982035438
+        },
+        {
+          "epoch": 13,
+          "sse": 208.1508181815315,
+          "objective": 208.2667658293211
+        },
+        {
+          "epoch": 14,
+          "sse": 207.17281249728723,
+          "objective": 207.2890197474678
+        },
+        {
+          "epoch": 15,
+          "sse": 206.27536384351336,
+          "objective": 206.39182086492798
+        },
+        {
+          "epoch": 16,
+          "sse": 205.45193399683308,
+          "objective": 205.56850760326094
+        },
+        {
+          "epoch": 17,
+          "sse": 204.6924035121916,
+          "objective": 204.80893867902589
+        },
+        {
+          "epoch": 18,
+          "sse": 203.99485354126557,
+          "objective": 204.11130280090123
+        },
+        {
+          "epoch": 19,
+          "sse": 203.3761856194409,
+          "objective": 203.4926120596164
+        },
+        {
+          "epoch": 20,
+          "sse": 202.86221997944074,
+          "objective": 202.97870534652262
+        },
+        {
+          "epoch": 21,
+          "sse": 202.466819554464,
+          "objective": 202.58341406298635
+        },
+        {
+          "epoch": 22,
+          "sse": 202.18452628161768,
+          "objective": 202.30125226682125
+        },
+        {
+          "epoch": 23,
+          "sse": 201.9957575732832,
+          "objective": 202.11262150344683
+        },
+        {
+          "epoch": 24,
+          "sse": 201.8754913413597,
+          "objective": 201.99249123850672
+        },
+        {
+          "epoch": 25,
+          "sse": 201.80057576256294,
+          "objective": 201.91770575203557
+        },
+        {
+          "epoch": 26,
+          "sse": 201.75337864309066,
+          "objective": 201.87063178171297
+        },
+        {
+          "epoch": 27,
+          "sse": 201.72216010579933,
+          "objective": 201.83952989319752
+        },
+        {
+          "epoch": 28,
+          "sse": 201.699822744498,
+          "objective": 201.81730371549918
+        },
+        {
+          "epoch": 29,
+          "sse": 201.68237191863574,
+          "objective": 201.79995970035694
+        },
+        {
+          "epoch": 30,
+          "sse": 201.66768049656903,
+          "objective": 201.78537161535695
+        },
+        {
+          "epoch": 31,
+          "sse": 201.65466549959666,
+          "objective": 201.77245711430137
+        },
+        {
+          "epoch": 32,
+          "sse": 201.6427947264843,
+          "objective": 201.76068438071206
+        },
+        {
+          "epoch": 33,
+          "sse": 201.6318114178853,
+          "objective": 201.74979684915044
+        },
+        {
+          "epoch": 34,
+          "sse": 201.62158889776484,
+          "objective": 201.73966791012475
+        },
+        {
+          "epoch": 35,
+          "sse": 201.6120577293887,
+          "objective": 201.73022812092364
+        },
+        {
+          "epoch": 36,
+          "sse": 201.60317131041631,
+          "objective": 201.72143084159111
+        },
+        {
+          "epoch": 37,
+          "sse": 201.59489087877708,
+          "objective": 201.71323726776075
+        },
+        {
+          "epoch": 38,
+          "sse": 201.58717978626404,
+          "objective": 201.7056107197292
+        },
+        {
+          "epoch": 39,
+          "sse": 201.5800018708011,
+          "objective": 201.69851502184108
+        },
+        {
+          "epoch": 40,
+          "sse": 201.57332142815588,
+          "objective": 201.6919144758492
+        },
+        {
+          "epoch": 41,
+          "sse": 201.5671036576431,
+          "objective": 201.68577430509606
+        },
+        {
+          "epoch": 42,
+          "sse": 201.56131512874762,
+          "objective": 201.68006111808685
+        },
+        {
+          "epoch": 43,
+          "sse": 201.55592412321724,
+          "objective": 201.6747432470671
+        },
+        {
+          "epoch": 44,
+          "sse": 201.55090083447143,
+          "objective": 201.6697909440663
+        },
+        {
+          "epoch": 45,
+          "sse": 201.54621744964103,
+          "objective": 201.66517646002634
+        },
+        {
+          "epoch": 46,
+          "sse": 201.54184814783392,
+          "objective": 201.66087404071388
+        },
+        {
+          "epoch": 47,
+          "sse": 201.5377690437258,
+          "objective": 201.6568598685066
+        },
+        {
+          "epoch": 48,
+          "sse": 201.53395809823814,
+          "objective": 201.65311197174864
+        },
+        {
+          "epoch": 49,
+          "sse": 201.53039501134728,
+          "objective": 201.6496101166332
+        },
+        {
+          "epoch": 50,
+          "sse": 201.5270611069334,
+          "objective": 201.64633569143356
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "cp": {
+      "rank": 3,
+      "seed": 29,
+      "model": {
+        "family": "cp",
+        "shape": [
+          29,
+          4,
+          8,
+          3
+        ],
+        "seed": 29,
+        "ridge": 0.001,
+        "factors": [
+          [
+            [
+              -0.9775417629031016,
+              -0.8107793288518443,
+              -0.2799985667498744
+            ],
+            [
+              -1.016434573788453,
+              -0.8027813770374259,
+              -0.2704978213005057
+            ],
+            [
+              -1.0058960957707561,
+              -0.7969526338700346,
+              -0.26256868194928634
+            ],
+            [
+              -1.0877346772346257,
+              -0.8176374825033477,
+              -0.2790786398360014
+            ],
+            [
+              -1.0267221140898277,
+              -0.8145162037190921,
+              -0.2756712705516702
+            ],
+            [
+              -1.0880190952804574,
+              -0.823779916984816,
+              -0.28453066931358917
+            ],
+            [
+              -1.0839218328345133,
+              -0.8165208084919291,
+              -0.2788419240926441
+            ],
+            [
+              -1.0824218741273368,
+              -0.8241998875006704,
+              -0.2835553560177329
+            ],
+            [
+              -1.0740270526022162,
+              -0.7029057906072014,
+              -0.269720434107743
+            ],
+            [
+              -1.0751993560952375,
+              -0.8318613576448284,
+              -0.2911653232776079
+            ],
+            [
+              -0.9773951113899717,
+              -0.790590837595945,
+              -0.258750740379328
+            ],
+            [
+              -1.1028372201900387,
+              -0.820363946585163,
+              -0.2809722164784969
+            ],
+            [
+              -1.0549864807004297,
+              -0.818396723824195,
+              -0.2744992495620579
+            ],
+            [
+              -1.0755012458357935,
+              -0.8094884459275001,
+              -0.271804456330913
+            ],
+            [
+              -1.093725950237792,
+              -0.8238562667148007,
+              -0.28245402487611143
+            ],
+            [
+              -0.9333820262591139,
+              -0.8168967523850161,
+              -0.28252744942772523
+            ],
+            [
+              -1.0635343157652188,
+              -0.798658105644975,
+              -0.2667271243006003
+            ],
+            [
+              -1.071849170211483,
+              -0.7870137388462624,
+              -0.27011384801894084
+            ],
+            [
+              -1.0575969167588304,
+              -0.8073448117018156,
+              -0.27787453071116386
+            ],
+            [
+              -1.0670323640344774,
+              -0.8138587312916078,
+              -0.27544451777719997
+            ],
+            [
+              -1.0929050748560942,
+              -0.8206917073239232,
+              -0.28129722914903155
+            ],
+            [
+              -1.0837405486652607,
+              -0.8182869187922098,
+              -0.28144787022741147
+            ],
+            [
+              -1.05839055223798,
+              -0.7942735789309394,
+              -0.27696491994170674
+            ],
+            [
+              -1.068988696584225,
+              -0.8178487605556574,
+              -0.2769557749688062
+            ],
+            [
+              -1.100301424154838,
+              -0.8180994730209654,
+              -0.27854720353171253
+            ],
+            [
+              -1.0876275815053398,
+              -0.8177788782107773,
+              -0.2796011337400627
+            ],
+            [
+              -1.0260398095542964,
+              -0.8308736724345435,
+              -0.2866169402820841
+            ],
+            [
+              -1.0513350055693547,
+              -0.8274717055152054,
+              -0.287446000144553
+            ],
+            [
+              -1.0771851962655616,
+              -0.8196933562383395,
+              -0.2800238506142253
+            ]
+          ],
+          [
+            [
+              0.5041594822734803,
+              -0.46880949877013955,
+              -1.075643153894099
+            ],
+            [
+              -0.5970171579093914,
+              0.0862410609424451,
+              -1.2170002932485622
+            ],
+            [
+              1.446892550218439,
+              2.320224534733847,
+              -2.236741213676516
+            ],
+            [
+              -0.9486383225754086,
+              -0.7445383472192847,
+              -0.4344118962613432
+            ]
+          ],
+          [
+            [
+              -0.2410452668197911,
+              -0.18032841277845613,
+              -1.0830636642331206
+            ],
+            [
+              -0.23957107514533224,
+              -0.1787734364594017,
+              -1.0828528415445529
+            ],
+            [
+              1.9069552686956208,
+              1.1522147522571007,
+              2.3076954912171854
+            ],
+            [
+              1.9069179234439297,
+              1.1435861764380695,
+              2.2962511495242555
+            ],
+            [
+              0.8759563684784132,
+              1.7560058479482974,
+              3.10168799330072
+            ],
+            [
+              1.8791756521228107,
+              2.022985320611658,
+              2.1290183880200777
+            ],
+            [
+              1.8968996478823241,
+              2.0347176578057917,
+              2.1648692013121873
+            ],
+            [
+              1.9321711951503588,
+              2.1242527436252407,
+              2.430156760892751
+            ]
+          ],
+          [
+            [
+              0.18318793923735704,
+              0.8728865662034607,
+              1.3829328560319183
+            ],
+            [
+              0.6156453816598841,
+              -0.07932792410004658,
+              0.8415982052547061
+            ],
+            [
+              -0.5105709916462547,
+              1.1197570995035555,
+              0.49692986479050755
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "epoch": 1,
+            "sse": 558.5412832754386,
+            "objective": 558.6503653837093
+          },
+          {
+            "epoch": 2,
+            "sse": 216.34707496786314,
+            "objective": 216.46833805132994
+          },
+          {
+            "epoch": 3,
+            "sse": 158.6150256753945,
+            "objective": 158.7399426636793
+          },
+          {
+            "epoch": 4,
+            "sse": 141.99801539900682,
+            "objective": 142.1236804336276
+          },
+          {
+            "epoch": 5,
+            "sse": 137.05085889312568,
+            "objective": 137.17763745853145
+          },
+          {
+            "epoch": 6,
+            "sse": 134.5828928006285,
+            "objective": 134.7105038149719
+          },
+          {
+            "epoch": 7,
+            "sse": 132.82201109880057,
+            "objective": 132.9501347042322
+          },
+          {
+            "epoch": 8,
+            "sse": 131.12915370526943,
+            "objective": 131.25751688390187
+          },
+          {
+            "epoch": 9,
+            "sse": 129.24016897868913,
+            "objective": 129.36855960455105
+          },
+          {
+            "epoch": 10,
+            "sse": 127.04344128517207,
+            "objective": 127.17170089395387
+          },
+          {
+            "epoch": 11,
+            "sse": 124.51825240281644,
+            "objective": 124.64626288783964
+          },
+          {
+            "epoch": 12,
+            "sse": 121.73281849615795,
+            "objective": 121.86048741637472
+          },
+          {
+            "epoch": 13,
+            "sse": 118.82438321501978,
+            "objective": 118.95163297575186
+          },
+          {
+            "epoch": 14,
+            "sse": 115.93691279575563,
+            "objective": 116.06368395754384
+          },
+          {
+            "epoch": 15,
+            "sse": 113.1688159462348,
+            "objective": 113.29508372848618
+          },
+          {
+            "epoch": 16,
+            "sse": 110.5686036021943,
+            "objective": 110.69438995281915
+          },
+          {
+            "epoch": 17,
+            "sse": 108.1528917854075,
+            "objective": 108.27826266477234
+          },
+          {
+            "epoch": 18,
+            "sse": 105.92058065961548,
+            "objective": 106.04563409239424
+          },
+          {
+            "epoch": 19,
+            "sse": 103.86074877559939,
+            "objective": 103.98560198271915
+          },
+          {
+            "epoch": 20,
+            "sse": 101.95723421831832,
+            "objective": 102.08201374303762
+          },
+          {
+            "epoch": 21,
+            "sse": 100.19133889919902,
+            "objective": 100.31617424845669
+          },
+          {
+            "epoch": 22,
+            "sse": 98.54342332336998,
+            "objective": 98.66844334259737
+          },
+          {
+            "epoch": 23,
+            "sse": 96.9939166101362,
+            "objective": 97.1192476346763
+          },
+          {
+            "epoch": 24,
+            "sse": 95.52403558604694,
+            "objective": 95.64980060101449
+          },
+          {
+            "epoch": 25,
+            "sse": 94.11635050086568,
+            "objective": 94.24266875519054
+          },
+          {
+            "epoch": 26,
+            "sse": 92.75525891605038,
+            "objective": 92.88224560518663
+          },
+          {
+            "epoch": 27,
+            "sse": 91.4273969673608,
+            "objective": 91.55516273847249
+          },
+          {
+            "epoch": 28,
+            "sse": 90.12200566415918,
+            "objective": 90.25065582011999
+          },
+          {
+            "epoch": 29,
+            "sse": 88.8312688208854,
+            "objective": 88.96090220081533
+          },
+          {
+            "epoch": 30,
+            "sse": 87.5506391343989,
+            "objective": 87.6813467190533
+          },
+          {
+            "epoch": 31,
+            "sse": 86.27915746319732,
+            "objective": 86.41102078976814
+          },
+          {
+            "epoch": 32,
+            "sse": 85.0197362399765,
+            "objective": 85.15282571989498
+          },
+          {
+            "epoch": 33,
+            "sse": 83.77931923763897,
+            "objective": 83.9136924685249
+          },
+          {
+            "epoch": 34,
+            "sse": 82.56876252092268,
+            "objective": 82.70446268766844
+          },
+          {
+            "epoch": 35,
+            "sse": 81.40224237196202,
+            "objective": 81.53929685361247
+          },
+          {
+            "epoch": 36,
+            "sse": 80.29603481376856,
+            "objective": 80.43445415062877
+          },
+          {
+            "epoch": 37,
+            "sse": 79.26666354769762,
+            "objective": 79.40644095880135
+          },
+          {
+            "epoch": 38,
+            "sse": 78.32865978314388,
+            "objective": 78.46977142748626
+          },
+          {
+            "epoch": 39,
+            "sse": 77.49241927002672,
+            "objective": 77.63482538784184
+          },
+          {
+            "epoch": 40,
+            "sse": 76.76273067545937,
+            "objective": 76.90637762393182
+          },
+          {
+            "epoch": 41,
+            "sse": 76.13838719289195,
+            "objective": 76.28321023561057
+          },
+          {
+            "epoch": 42,
+            "sse": 75.6129291302692,
+            "objective": 75.75885570589688
+          },
+          {
+            "epoch": 43,
+            "sse": 75.1761869674104,
+            "objective": 75.32314009480156
+          },
+          {
+            "epoch": 44,
+            "sse": 74.81609729944272,
+            "objective": 74.96399878495671
+          },
+          {
+            "epoch": 45,
+            "sse": 74.52031290820776,
+            "objective": 74.66908608951361
+          },
+          {
+            "epoch": 46,
+            "sse": 74.27733681234773,
+            "objective": 74.42690867538641
+          },
+          {
+            "epoch": 47,
+            "sse": 74.07713592762883,
+            "objective": 74.22743854398405
+          },
+          {
+            "epoch": 48,
+            "sse": 73.91133644685635,
+            "objective": 74.06230777474444
+          },
+          {
+            "epoch": 49,
+            "sse": 73.77315222679252,
+            "objective": 73.92473638386971
+          },
+          {
+            "epoch": 50,
+            "sse": 73.65718087464815,
+            "objective": 73.80932801958546
+          }
+        ],
+        "version": "masked-tensor-als-1.0",
+        "rank": 3,
+        "epochs": 50,
+        "training_observations": 1617,
+        "normalization": {
+          "mean_training_delta": 0.22881880024737167,
+          "scale_training_delta": 0.586034673174142
+        }
+      },
+      "metrics": {
+        "train": {
+          "n": 1617,
+          "mae_seats": 0.08719571226136089,
+          "rmse_seats": 0.12507653705342187,
+          "max_abs_error_seats": 0.8954685369005309,
+          "guaranteed_acceptance_disagreements": 3,
+          "exact_threshold_class_counts": {
+            "guaranteed_acceptance": 3,
+            "not_guaranteed_acceptance": 1614
+          },
+          "threshold_discrimination_established": true,
+          "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+          "near_threshold": {
+            "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+            "n": 539,
+            "mae_seats": 0.07573964328617577,
+            "threshold_disagreements": 3
+          },
+          "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+        },
+        "validation": {
+          "n": 252,
+          "mae_seats": 0.09844319354558487,
+          "rmse_seats": 0.13559656626355074,
+          "max_abs_error_seats": 0.48108910161785323,
+          "guaranteed_acceptance_disagreements": 0,
+          "exact_threshold_class_counts": {
+            "guaranteed_acceptance": 0,
+            "not_guaranteed_acceptance": 252
+          },
+          "threshold_discrimination_established": false,
+          "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+          "near_threshold": {
+            "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+            "n": 84,
+            "mae_seats": 0.0854361340576046,
+            "threshold_disagreements": 0
+          },
+          "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+        },
+        "test": {
+          "n": 237,
+          "mae_seats": 0.09415256285188724,
+          "rmse_seats": 0.13291016293373015,
+          "max_abs_error_seats": 0.5027691428325927,
+          "guaranteed_acceptance_disagreements": 0,
+          "exact_threshold_class_counts": {
+            "guaranteed_acceptance": 0,
+            "not_guaranteed_acceptance": 237
+          },
+          "threshold_discrimination_established": false,
+          "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+          "near_threshold": {
+            "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+            "n": 79,
+            "mae_seats": 0.0818345444740887,
+            "threshold_disagreements": 0
+          },
+          "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+        }
+      }
+    },
+    "tucker": {
+      "rank": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "seed": 17,
+      "model": {
+        "family": "tucker",
+        "shape": [
+          29,
+          4,
+          8,
+          3
+        ],
+        "seed": 17,
+        "ridge": 0.001,
+        "factors": [
+          [
+            [
+              -0.07003653050918823
+            ],
+            [
+              -0.072464326556154
+            ],
+            [
+              -0.0718706753959861
+            ],
+            [
+              -0.07696014169769606
+            ],
+            [
+              -0.07518989923369286
+            ],
+            [
+              -0.0777111194292546
+            ],
+            [
+              -0.07571495218510996
+            ],
+            [
+              -0.07545813742190993
+            ],
+            [
+              -0.0797004941982034
+            ],
+            [
+              -0.07959680946062418
+            ],
+            [
+              -0.07083276835255495
+            ],
+            [
+              -0.07646724190675525
+            ],
+            [
+              -0.07426733959701229
+            ],
+            [
+              -0.07277887603080223
+            ],
+            [
+              -0.0762388159068899
+            ],
+            [
+              -0.07250137738099302
+            ],
+            [
+              -0.07434133246624637
+            ],
+            [
+              -0.07303797220503341
+            ],
+            [
+              -0.0758992180020843
+            ],
+            [
+              -0.07342636580845376
+            ],
+            [
+              -0.0767765631333029
+            ],
+            [
+              -0.07835369926365615
+            ],
+            [
+              -0.0767474833562991
+            ],
+            [
+              -0.0751306820876526
+            ],
+            [
+              -0.07475476110588448
+            ],
+            [
+              -0.07642188380620978
+            ],
+            [
+              -0.07648681716452135
+            ],
+            [
+              -0.0791334543744757
+            ],
+            [
+              -0.07454412130968457
+            ]
+          ],
+          [
+            [
+              -5.38211119247207,
+              0.3845968210477313
+            ],
+            [
+              -4.866804303548951,
+              -5.004670815644646
+            ],
+            [
+              4.002530466176243,
+              -2.4240428535200067
+            ],
+            [
+              -5.960694798423736,
+              -3.7741185439265927
+            ]
+          ],
+          [
+            [
+              -0.9045169238255933,
+              -0.4691347710540484
+            ],
+            [
+              -0.9322120943857817,
+              -0.5612294298593608
+            ],
+            [
+              1.5930269722205213,
+              -1.370407069273362
+            ],
+            [
+              1.6161388688671452,
+              -1.2983628229236663
+            ],
+            [
+              2.123601342819475,
+              -1.9162953018995559
+            ],
+            [
+              0.09028088727548722,
+              -5.8251294920029055
+            ],
+            [
+              0.1493478107526931,
+              -5.750129483077149
+            ],
+            [
+              -0.00035934802130688226,
+              -6.333754950180372
+            ]
+          ],
+          [
+            [
+              1.3692854264889627,
+              0.7854270771987838
+            ],
+            [
+              1.1602288413738249,
+              -0.09955164863689103
+            ],
+            [
+              0.1386496668830752,
+              1.1112115660061552
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "epoch": 1,
+            "sse": 756.5879378510007,
+            "objective": 756.8994734197196
+          },
+          {
+            "epoch": 2,
+            "sse": 230.80523635920738,
+            "objective": 231.0952609478948
+          },
+          {
+            "epoch": 3,
+            "sse": 209.60341960943154,
+            "objective": 209.89116498417994
+          },
+          {
+            "epoch": 4,
+            "sse": 206.84129313353554,
+            "objective": 207.12858789931863
+          },
+          {
+            "epoch": 5,
+            "sse": 205.83885889287643,
+            "objective": 206.1262523313773
+          },
+          {
+            "epoch": 6,
+            "sse": 205.37174215840108,
+            "objective": 205.659266320599
+          },
+          {
+            "epoch": 7,
+            "sse": 205.16169709547367,
+            "objective": 205.44927454578357
+          },
+          {
+            "epoch": 8,
+            "sse": 205.07230375375116,
+            "objective": 205.35987078304396
+          },
+          {
+            "epoch": 9,
+            "sse": 205.03572449153108,
+            "objective": 205.32324545333242
+          },
+          {
+            "epoch": 10,
+            "sse": 205.02113432390718,
+            "objective": 205.308592146125
+          },
+          {
+            "epoch": 11,
+            "sse": 205.01541096179346,
+            "objective": 205.30279809236276
+          },
+          {
+            "epoch": 12,
+            "sse": 205.0131911533622,
+            "objective": 205.30050436700196
+          },
+          {
+            "epoch": 13,
+            "sse": 205.0123375213653,
+            "objective": 205.29957543580582
+          },
+          {
+            "epoch": 14,
+            "sse": 205.01201175758715,
+            "objective": 205.29917375583187
+          },
+          {
+            "epoch": 15,
+            "sse": 205.0118884946999,
+            "objective": 205.298974283741
+          },
+          {
+            "epoch": 16,
+            "sse": 205.01184238685966,
+            "objective": 205.29885182170216
+          },
+          {
+            "epoch": 17,
+            "sse": 205.01182543999698,
+            "objective": 205.29875845234915
+          },
+          {
+            "epoch": 18,
+            "sse": 205.011819390964,
+            "objective": 205.29867595796182
+          },
+          {
+            "epoch": 19,
+            "sse": 205.011817343444,
+            "objective": 205.29859747181118
+          },
+          {
+            "epoch": 20,
+            "sse": 205.01181672213738,
+            "objective": 205.29852043877872
+          },
+          {
+            "epoch": 21,
+            "sse": 205.01181658214625,
+            "objective": 205.29844392790125
+          },
+          {
+            "epoch": 22,
+            "sse": 205.01181658700744,
+            "objective": 205.29836761228844
+          },
+          {
+            "epoch": 23,
+            "sse": 205.01181662333246,
+            "objective": 205.29829138504755
+          },
+          {
+            "epoch": 24,
+            "sse": 205.01181665709618,
+            "objective": 205.29821521649558
+          },
+          {
+            "epoch": 25,
+            "sse": 205.01181668097462,
+            "objective": 205.29813910216515
+          },
+          {
+            "epoch": 26,
+            "sse": 205.01181669563763,
+            "objective": 205.29806304457324
+          },
+          {
+            "epoch": 27,
+            "sse": 205.0118167034536,
+            "objective": 205.29798704725877
+          },
+          {
+            "epoch": 28,
+            "sse": 205.0118167066203,
+            "objective": 205.29791111314225
+          },
+          {
+            "epoch": 29,
+            "sse": 205.01181670676553,
+            "objective": 205.2978352442808
+          },
+          {
+            "epoch": 30,
+            "sse": 205.01181670499486,
+            "objective": 205.29775944201876
+          },
+          {
+            "epoch": 31,
+            "sse": 205.0118167020257,
+            "objective": 205.29768370718946
+          },
+          {
+            "epoch": 32,
+            "sse": 205.0118166983142,
+            "objective": 205.29760804028626
+          },
+          {
+            "epoch": 33,
+            "sse": 205.0118166941437,
+            "objective": 205.29753244157968
+          },
+          {
+            "epoch": 34,
+            "sse": 205.01181668969292,
+            "objective": 205.29745691120377
+          },
+          {
+            "epoch": 35,
+            "sse": 205.01181668507155,
+            "objective": 205.2973814492036
+          },
+          {
+            "epoch": 36,
+            "sse": 205.01181668034602,
+            "objective": 205.29730605556847
+          },
+          {
+            "epoch": 37,
+            "sse": 205.01181667555838,
+            "objective": 205.2972307302554
+          },
+          {
+            "epoch": 38,
+            "sse": 205.0118166707348,
+            "objective": 205.29715547320075
+          },
+          {
+            "epoch": 39,
+            "sse": 205.01181666589065,
+            "objective": 205.2970802843271
+          },
+          {
+            "epoch": 40,
+            "sse": 205.01181666103574,
+            "objective": 205.2970051635497
+          },
+          {
+            "epoch": 41,
+            "sse": 205.01181665617577,
+            "objective": 205.29693011077865
+          },
+          {
+            "epoch": 42,
+            "sse": 205.01181665131494,
+            "objective": 205.296855125922
+          },
+          {
+            "epoch": 43,
+            "sse": 205.01181664645506,
+            "objective": 205.2967802088851
+          },
+          {
+            "epoch": 44,
+            "sse": 205.01181664159816,
+            "objective": 205.29670535957345
+          },
+          {
+            "epoch": 45,
+            "sse": 205.0118166367446,
+            "objective": 205.29663057789088
+          },
+          {
+            "epoch": 46,
+            "sse": 205.01181663189521,
+            "objective": 205.29655586374167
+          },
+          {
+            "epoch": 47,
+            "sse": 205.01181662704934,
+            "objective": 205.2964812170289
+          },
+          {
+            "epoch": 48,
+            "sse": 205.01181662220833,
+            "objective": 205.29640663765773
+          },
+          {
+            "epoch": 49,
+            "sse": 205.0118166173719,
+            "objective": 205.2963321255318
+          },
+          {
+            "epoch": 50,
+            "sse": 205.0118166125404,
+            "objective": 205.29625768055564
+          }
+        ],
+        "version": "masked-tensor-als-1.0",
+        "ranks": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "core_indices": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "core": [
+          0.15811132538866907,
+          0.5286359512095086,
+          -0.3172515554501372,
+          -0.5795311183367942,
+          1.1944993720973787,
+          -0.7973605076502209,
+          -0.1569168687693274,
+          0.7538741488641673
+        ],
+        "epochs": 50,
+        "training_observations": 1617,
+        "normalization": {
+          "mean_training_delta": 0.22881880024737167,
+          "scale_training_delta": 0.586034673174142
+        }
+      },
+      "metrics": {
+        "train": {
+          "n": 1617,
+          "mae_seats": 0.15749105573307115,
+          "rmse_seats": 0.2086689108031749,
+          "max_abs_error_seats": 0.6282332891720145,
+          "guaranteed_acceptance_disagreements": 3,
+          "exact_threshold_class_counts": {
+            "guaranteed_acceptance": 3,
+            "not_guaranteed_acceptance": 1614
+          },
+          "threshold_discrimination_established": true,
+          "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+          "near_threshold": {
+            "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+            "n": 539,
+            "mae_seats": 0.10625766039099617,
+            "threshold_disagreements": 3
+          },
+          "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+        },
+        "validation": {
+          "n": 252,
+          "mae_seats": 0.18077066208543982,
+          "rmse_seats": 0.24218275228087213,
+          "max_abs_error_seats": 0.6327923931118309,
+          "guaranteed_acceptance_disagreements": 0,
+          "exact_threshold_class_counts": {
+            "guaranteed_acceptance": 0,
+            "not_guaranteed_acceptance": 252
+          },
+          "threshold_discrimination_established": false,
+          "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+          "near_threshold": {
+            "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+            "n": 84,
+            "mae_seats": 0.14382959826245845,
+            "threshold_disagreements": 0
+          },
+          "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+        },
+        "test": {
+          "n": 237,
+          "mae_seats": 0.1649348865705984,
+          "rmse_seats": 0.22169973923030067,
+          "max_abs_error_seats": 0.6183477423888111,
+          "guaranteed_acceptance_disagreements": 0,
+          "exact_threshold_class_counts": {
+            "guaranteed_acceptance": 0,
+            "not_guaranteed_acceptance": 237
+          },
+          "threshold_discrimination_established": false,
+          "threshold_limitation": "A one-class subset cannot establish threshold discrimination, even with zero disagreements.",
+          "near_threshold": {
+            "definition": "Exact nonreject_min in [171,179]; selected using exact targets after split.",
+            "n": 79,
+            "mae_seats": 0.10465617204386377,
+            "threshold_disagreements": 0
+          },
+          "interpretation": "Raw continuous reconstruction; no rounding/clipping and no replacement for exact threshold calculation."
+        }
+      }
+    }
+  },
+  "exact_tensor_summary": {
+    "shape": [
+      29,
+      4,
+      8,
+      3
+    ],
+    "status_counts": {
+      "passed": 2106,
+      "not_completed": 678
+    },
+    "error_counts": {
+      "invalid_input": 678
+    },
+    "allocation_calls": 813
+  },
+  "runtime": {
+    "python": "3.9.6",
+    "packages": "Python standard library only; no NumPy/TensorLy dependency."
+  },
+  "scope": "Learned numerical low-rank response components are non-unique; no inferred ideology, causal mechanism or validated political probabilities. Exact Rust remains authoritative."
+}

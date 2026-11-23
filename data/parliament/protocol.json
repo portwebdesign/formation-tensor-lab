@@ -1,0 +1,44 @@
+{
+  "schema": "formation-tensor.parliament-protocol.v1",
+  "study_kind": "Reproduction and extension of previously inspected 2022/23-2025/26 data",
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    10,
+    20
+  ],
+  "actions": [
+    "yes",
+    "no",
+    "abstain",
+    "absent"
+  ],
+  "association_discovery_sessions": [
+    "2022/23",
+    "2023/24"
+  ],
+  "replay_sessions": [
+    "2024/25",
+    "2025/26"
+  ],
+  "pair_selection": "three positive and three negative conditional excesses; >=40common votes and10reports; ties bypairID",
+  "resampling_replicates": 200,
+  "seed": 20261122,
+  "conditional_reference": "equal report weights; within session by committee action margins",
+  "joint_caps": [
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      5,
+      0,
+      5
+    ]
+  ],
+  "units": "Recorded member actions; not electorate transfers or government episodes"
+}

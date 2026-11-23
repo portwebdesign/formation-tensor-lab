@@ -1,0 +1,44 @@
+{
+  "schema": "formation-tensor.result-manifest.v1",
+  "status": "passed",
+  "files": {
+    "data/parliament/rollcalls.json": "afbfec726354fa5527c285842529190e46feff030bd66fdba5ef6c935214a7ed",
+    "data/parliament/protocol.json": "1e717250058601e42dad9da995b213b77933eb879b6e932778290abc68dbe7f4",
+    "formation_tensor/parliament.py": "d45abe71fcb6b2e9e508f6ddf14787275d7f0594fcdd29744d1f41f04c221339",
+    "formation_tensor/associations.py": "feb92759f0949acae7ec608952c190b830c24db51e2088943b8ace6796168f4f",
+    "formation_tensor/raw_parliament.py": "4e22615957384b7efe8f9a216e45ed6e5c523fa058a198fbc270e390ee7e097a",
+    "data/parliament/raw-sources.json": "bf27d61233e617adbeb051bd96ff4b9a17d48a0329d9a11775bbec58faaa28b6",
+    "data/parliament/raw/votering-202223.csv.zip": "58f5228c7cb68a4a3cd478fd47faeb3b202b7a9aef6bab57b5dcc4dad1a4bcde",
+    "data/parliament/raw/votering-202324.csv.zip": "81d1965ce29b78b69fe3058a4f4b3088e1fc472dc54f9683b28a7b55e0f2e5c1",
+    "data/parliament/raw/votering-202425.csv.zip": "30f94c98e758ac91b26172a09de0c88352ae160f66e1777c9414175ce70901ea",
+    "data/parliament/raw/votering-202526.csv.zip": "8ced502d54e723e4d931c3b6dbd396b4918dda9b1270197d97b261125bee0326",
+    "results/parliament/associations.csv": "85f16338308b290bf0582f57ebba3911a3bfd28931ae9ffecdee468403a542ab",
+    "results/parliament/discovery.json": "03e11ec2e43fd80e2e0b8146b72b0f6820e9781323d192cd7fa9dd9e8a2929db",
+    "results/parliament/inventory.json": "9bc6e5d7f2af5f8ef7e8e46a2d08db09cca81d6bbcdb323f67d74846db335b6a",
+    "results/parliament/reconciliation.json": "5792757c71cd00336be5c3e7438d42e83c6aa5e200b81749be66a28922c61538",
+    "results/parliament/replay.json": "8f1ee5e60b71a0570e48c5dd40f47aaeae1ea4129d943bba4c31e4d0978ec87b",
+    "results/parliament/selection.json": "8829456812cefccb99c5c0ff5b2b08dbba611ecb7a048a74ad7b549ea8bfeb54",
+    "results/parliament/summary.json": "a540eb9149291903a8aac228653bc6ac9fa63f9b61ca4fb45ed57ba792df9360"
+  },
+  "input_sha256": {
+    "data/parliament/rollcalls.json": "afbfec726354fa5527c285842529190e46feff030bd66fdba5ef6c935214a7ed",
+    "data/parliament/protocol.json": "1e717250058601e42dad9da995b213b77933eb879b6e932778290abc68dbe7f4",
+    "formation_tensor/parliament.py": "d45abe71fcb6b2e9e508f6ddf14787275d7f0594fcdd29744d1f41f04c221339",
+    "formation_tensor/associations.py": "feb92759f0949acae7ec608952c190b830c24db51e2088943b8ace6796168f4f",
+    "formation_tensor/raw_parliament.py": "4e22615957384b7efe8f9a216e45ed6e5c523fa058a198fbc270e390ee7e097a",
+    "data/parliament/raw-sources.json": "bf27d61233e617adbeb051bd96ff4b9a17d48a0329d9a11775bbec58faaa28b6",
+    "data/parliament/raw/votering-202223.csv.zip": "58f5228c7cb68a4a3cd478fd47faeb3b202b7a9aef6bab57b5dcc4dad1a4bcde",
+    "data/parliament/raw/votering-202324.csv.zip": "81d1965ce29b78b69fe3058a4f4b3088e1fc472dc54f9683b28a7b55e0f2e5c1",
+    "data/parliament/raw/votering-202425.csv.zip": "30f94c98e758ac91b26172a09de0c88352ae160f66e1777c9414175ce70901ea",
+    "data/parliament/raw/votering-202526.csv.zip": "8ced502d54e723e4d931c3b6dbd396b4918dda9b1270197d97b261125bee0326"
+  },
+  "output_sha256": {
+    "associations.csv": "85f16338308b290bf0582f57ebba3911a3bfd28931ae9ffecdee468403a542ab",
+    "discovery.json": "03e11ec2e43fd80e2e0b8146b72b0f6820e9781323d192cd7fa9dd9e8a2929db",
+    "inventory.json": "9bc6e5d7f2af5f8ef7e8e46a2d08db09cca81d6bbcdb323f67d74846db335b6a",
+    "reconciliation.json": "5792757c71cd00336be5c3e7438d42e83c6aa5e200b81749be66a28922c61538",
+    "replay.json": "8f1ee5e60b71a0570e48c5dd40f47aaeae1ea4129d943bba4c31e4d0978ec87b",
+    "selection.json": "8829456812cefccb99c5c0ff5b2b08dbba611ecb7a048a74ad7b549ea8bfeb54",
+    "summary.json": "a540eb9149291903a8aac228653bc6ac9fa63f9b61ca4fb45ed57ba792df9360"
+  }
+}

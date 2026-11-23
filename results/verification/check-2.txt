@@ -1,0 +1,10 @@
+test_announcements_are_not_backdated_formal_events (test_curated_events.CuratedFormationTests) ... ok
+test_ballot_totals_and_party_breakdowns (test_curated_events.CuratedFormationTests) ... ok
+test_captured_responses_match_declared_hashes (test_curated_events.CuratedFormationTests) ... ok
+test_every_event_links_to_current_frozen_source (test_curated_events.CuratedFormationTests) ... ok
+test_only_formal_ballots_consume_rejections (test_curated_events.CuratedFormationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK

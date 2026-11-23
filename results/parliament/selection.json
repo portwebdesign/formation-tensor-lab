@@ -1,0 +1,68 @@
+[
+  {
+    "pair_id": "MP—V",
+    "parties": [
+      "MP",
+      "V"
+    ],
+    "direction": "positive",
+    "excess_agreement_pp": 18.362144724042466,
+    "common_rollcalls": 1157,
+    "reports": 391
+  },
+  {
+    "pair_id": "S—MP",
+    "parties": [
+      "S",
+      "MP"
+    ],
+    "direction": "positive",
+    "excess_agreement_pp": 7.908496954247518,
+    "common_rollcalls": 1157,
+    "reports": 391
+  },
+  {
+    "pair_id": "C—MP",
+    "parties": [
+      "C",
+      "MP"
+    ],
+    "direction": "positive",
+    "excess_agreement_pp": 5.92003132882783,
+    "common_rollcalls": 1157,
+    "reports": 391
+  },
+  {
+    "pair_id": "SD—V",
+    "parties": [
+      "SD",
+      "V"
+    ],
+    "direction": "negative",
+    "excess_agreement_pp": -12.418949108629295,
+    "common_rollcalls": 1158,
+    "reports": 391
+  },
+  {
+    "pair_id": "SD—MP",
+    "parties": [
+      "SD",
+      "MP"
+    ],
+    "direction": "negative",
+    "excess_agreement_pp": -11.045583991500246,
+    "common_rollcalls": 1157,
+    "reports": 391
+  },
+  {
+    "pair_id": "S—SD",
+    "parties": [
+      "S",
+      "SD"
+    ],
+    "direction": "negative",
+    "excess_agreement_pp": -10.31486589276856,
+    "common_rollcalls": 1158,
+    "reports": 391
+  }
+]

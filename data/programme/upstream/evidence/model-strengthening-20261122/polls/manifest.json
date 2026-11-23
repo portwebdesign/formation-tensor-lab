@@ -1,0 +1,24 @@
+{
+  "schema": "isvec-secim.expanded-poll-delivery.v1",
+  "status": "passed",
+  "summary_path": "evidence/model-strengthening-20261122/polls/summary.json",
+  "files": {
+    "data/expanded-poll-validation/admitted-waves.json": "7c1f324b5144260b2bfea934b5b57c2ebd7dc168e1af4f32ca4d7e5441c3e8c7",
+    "evidence/model-strengthening-20261122/polls/results.json": "672d9866a5b1c6a5a9c80d50f1f526a481cf1a51d7686c5fd8f27ca2fd228aa8",
+    "evidence/model-strengthening-20261122/polls/summary.json": "a18bf5d8d0717b49ed3c4d12658eae2b6ead89a62e4144be9974e18b17a0ade4",
+    "data/expanded-poll-validation/older-release-facts.json": "e332b8e3cc24a4e3f5e22ccedd2665365ff163f9f9f0e8e219736018287ad654",
+    "data/poll-calibration/scb-may-polls-source-excerpts.json": "e63e3ef48cbb3f5085cab6408d9633bd75480133f2e7d67167a1c28f1b4229a2",
+    "data/derived/2014/parties.tsv": "295d56dfb4e109b66c8ef2d708bf64f30d4e66b3bb73dc744ed521490067c4e6",
+    "data/derived/2018/parties.tsv": "bac770339667e7fa97191a65b74b845cdcfd057c3102fe68d6b945741060e333",
+    "data/derived/2022/parties.tsv": "f30ddcbce10392bdad2236fe12a17cdf3ac0cd2f8e122a9edbfa775f64ab34f2",
+    "data/derived/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/expanded-poll-validation/protocol-v1.json": "22fac8fe2e5f4d77b8321beddeea249f12dbc72ccf2a3866319a7f7980945940",
+    "workbench/expanded_poll_validation.py": "3ec4c10b64a535dd8390302597f31abc83955714c41306b28a97223de50edc95",
+    "workbench/behavior.py": "8de84dd3a00fd5128bc0bbeaaf9e06b52fe4bf783c4e599127aee3a9c4156db8",
+    "workbench/test_expanded_poll_validation.py": "58028ada9a2e22f8979819525dec256de201084bb93a0db0d4943242c2bae7f6",
+    "scripts/build_expanded_poll_validation.py": "286248a0a2965e8ca4bf2f1bb7605d88accde90688b8f838b3c848ec00eab65a",
+    "evidence/model-strengthening-20261122/polls/tests.txt": "8f036a601fb8c08525cc77d2bdc76e17068a7a7033dcdee58185106497bbdc10"
+  },
+  "production_profile_changed": false,
+  "closed_pilot_read_or_scored": false
+}

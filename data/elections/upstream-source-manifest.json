@@ -1,0 +1,33 @@
+{
+  "year": 2026,
+  "status": "downloaded_not_election_verified",
+  "files": [
+    {
+      "path": "data/raw/2026-candidate/index.md5",
+      "source_url": "https://resultat.val.se/resultatfiler/val2026/index.md5",
+      "sha256": "df491dd6abc2e79f9447a805d3636dc0d76276554510e37a4a7eb3aef65071b0",
+      "bytes": 44667,
+      "http_status": 200,
+      "recorded_at_utc": "2026-11-20T06:33:38.673500+00:00",
+      "attribution": "Valmyndigheten"
+    },
+    {
+      "path": "data/raw/2026-candidate/Val_2026_slutlig_00_RD.zip",
+      "source_url": "https://resultat.val.se/resultatfiler/val2026/s/rd/Val_2026_slutlig_00_RD.zip",
+      "sha256": "64e7ca39101e17b4744d48449b25528e0f1a2a7125d3c0725a71bf8a64f3939d",
+      "bytes": 17657737,
+      "http_status": 200,
+      "recorded_at_utc": "2026-11-20T06:33:38.695691+00:00",
+      "attribution": "Valmyndigheten"
+    },
+    {
+      "path": "data/raw/2026-candidate/val-sign-crt.pem",
+      "source_url": "https://resultat.val.se/keys/val-sign-crt.pem",
+      "sha256": "084c0b29d5a12fe89f2bf115e68a605e59c4dc03ecbde55e8d959669cc1fd048",
+      "bytes": 1968,
+      "http_status": 200,
+      "recorded_at_utc": "2026-11-20T06:33:38.695967+00:00",
+      "attribution": "Valmyndigheten"
+    }
+  ]
+}

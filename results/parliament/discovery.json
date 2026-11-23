@@ -1,0 +1,6842 @@
+{
+  "discovery_sessions": [
+    "2022/23",
+    "2023/24"
+  ],
+  "all_pairs": [
+    {
+      "parties": [
+        "S",
+        "M"
+      ],
+      "pair_id": "S—M",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5834612105711849,
+        "conditional_reference": 0.5867138662245074,
+        "excess_agreement_pp": -0.3252655653322445,
+        "conditional_kappa": -0.007870226914240894,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            228.1333333333333,
+            1.7595238095238095,
+            0.0
+          ],
+          [
+            127.82857142857141,
+            0.0,
+            0.0
+          ],
+          [
+            33.27857142857143,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 127.82857142857141
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.540587219343696,
+        "conditional_reference": 0.543807705097141,
+        "excess_agreement_pp": -0.3220485753445024,
+        "conditional_kappa": -0.007059491774473723,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            626.0,
+            5.0,
+            0.0
+          ],
+          [
+            393.0,
+            0.0,
+            0.0
+          ],
+          [
+            134.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 393.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          626,
+          5,
+          0
+        ],
+        [
+          393,
+          0,
+          0
+        ],
+        [
+          134,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        631,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261122,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.6534270163928607,
+          -0.045561917125216116
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.5834612105711849,
+          "conditional_reference": 0.5867138662245074,
+          "excess_agreement_pp": -0.3252655653322445,
+          "conditional_kappa": -0.007870226914240894,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              228.1333333333333,
+              1.7595238095238095,
+              0.0
+            ],
+            [
+              127.82857142857141,
+              0.0,
+              0.0
+            ],
+            [
+              33.27857142857143,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 127.82857142857141
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.33734439269205163
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.3552481453768408
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34653633799702765
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.33824158522581804
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.36650961396227366
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.3513227515052675
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.341878591518574
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.31846820271563825
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1281793793813102
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34653633799700545
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34653633799702765
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3235638554150655
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.34465809226260635
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.3260995796023236
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.2865756830042421
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.3474831585926319
+          }
+        ],
+        "excess_pp_range": [
+          -0.36650961396227366,
+          -0.1281793793813102
+        ]
+      }
+    },
+    {
+      "parties": [
+        "S",
+        "SD"
+      ],
+      "pair_id": "S—SD",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.39509803921568626,
+        "conditional_reference": 0.49824669814337186,
+        "excess_agreement_pp": -10.31486589276856,
+        "conditional_kappa": -0.20557644273790843,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            150.93333333333334,
+            56.30476190476192,
+            22.654761904761905
+          ],
+          [
+            114.1190476190476,
+            0.0,
+            13.709523809523809
+          ],
+          [
+            24.711904761904762,
+            5.016666666666667,
+            3.5500000000000003
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 114.1190476190476
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.3316062176165803,
+        "conditional_reference": 0.4534437380817745,
+        "excess_agreement_pp": -12.18375204651942,
+        "conditional_kappa": -0.22291853365211878,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            368.0,
+            172.0,
+            91.0
+          ],
+          [
+            349.0,
+            0.0,
+            44.0
+          ],
+          [
+            97.0,
+            21.0,
+            16.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 349.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          368,
+          172,
+          91
+        ],
+        [
+          349,
+          0,
+          44
+        ],
+        [
+          97,
+          21,
+          16
+        ]
+      ],
+      "first_party_action_counts": [
+        631,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        814,
+        193,
+        151
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261123,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -11.90966763875855,
+          -8.491192402386433
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.39509803921568626,
+          "conditional_reference": 0.49824669814337186,
+          "excess_agreement_pp": -10.31486589276856,
+          "conditional_kappa": -0.20557644273790843,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              150.93333333333334,
+              56.30476190476192,
+              22.654761904761905
+            ],
+            [
+              114.1190476190476,
+              0.0,
+              13.709523809523809
+            ],
+            [
+              24.711904761904762,
+              5.016666666666667,
+              3.5500000000000003
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 114.1190476190476
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -10.706016232435173
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -9.962333357123699
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -10.397754921351494
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -10.771694171587631
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -11.278014113561497
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -10.226336029016236
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -10.249755000991412
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -10.25372150429827
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -9.958018265737895
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -10.657804983308916
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -10.589471258299444
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -10.008358480020203
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -10.132351834430652
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -10.34131426685258
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -9.81922910448121
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -9.690580897682622
+          }
+        ],
+        "excess_pp_range": [
+          -11.278014113561497,
+          -9.690580897682622
+        ]
+      }
+    },
+    {
+      "parties": [
+        "S",
+        "C"
+      ],
+      "pair_id": "S—C",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.42734137133114125,
+        "conditional_reference": 0.4128168598635373,
+        "excess_agreement_pp": 1.4524511467603973,
+        "conditional_kappa": 0.02473591367801951,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            133.86190476190475,
+            60.70476190476191,
+            35.326190476190476
+          ],
+          [
+            62.550000000000004,
+            23.00238095238095,
+            42.27619047619048
+          ],
+          [
+            12.159523809523808,
+            10.89285714285714,
+            10.226190476190474
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 62.550000000000004
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.38860103626943004,
+        "conditional_reference": 0.38632353998121066,
+        "excess_agreement_pp": 0.22774962882193828,
+        "conditional_kappa": 0.003711232932333189,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            333.0,
+            172.0,
+            126.0
+          ],
+          [
+            189.0,
+            79.0,
+            125.0
+          ],
+          [
+            53.0,
+            43.0,
+            38.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 189.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          333,
+          172,
+          126
+        ],
+        [
+          189,
+          79,
+          125
+        ],
+        [
+          53,
+          43,
+          38
+        ]
+      ],
+      "first_party_action_counts": [
+        631,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        575,
+        294,
+        289
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261124,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -1.0444022457064308,
+          3.315261305582279
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.42734137133114125,
+          "conditional_reference": 0.4128168598635373,
+          "excess_agreement_pp": 1.4524511467603973,
+          "conditional_kappa": 0.02473591367801951,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              133.86190476190475,
+              60.70476190476191,
+              35.326190476190476
+            ],
+            [
+              62.550000000000004,
+              23.00238095238095,
+              42.27619047619048
+            ],
+            [
+              12.159523809523808,
+              10.89285714285714,
+              10.226190476190474
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 62.550000000000004
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 1.630197146708856
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 0.839574462688758
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 1.450441334637298
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 1.2079862841163802
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 1.598120984774204
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 1.4072845114766697
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 2.1962724103626985
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 1.3798311002292174
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 1.2793739275978044
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 1.159096961480921
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 1.8318695416104591
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 1.3686624537625036
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 2.0932363793666253
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 1.4561753804700428
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 0.6638150025422562
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 1.6577545442492347
+          }
+        ],
+        "excess_pp_range": [
+          0.6638150025422562,
+          2.1962724103626985
+        ]
+      }
+    },
+    {
+      "parties": [
+        "S",
+        "KD"
+      ],
+      "pair_id": "S—KD",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5809036658141516,
+        "conditional_reference": 0.5863437972483003,
+        "excess_agreement_pp": -0.5440131434148676,
+        "conditional_kappa": -0.013151335331031303,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            227.1333333333333,
+            2.7595238095238095,
+            0.0
+          ],
+          [
+            127.82857142857141,
+            0.0,
+            0.0
+          ],
+          [
+            33.27857142857143,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 127.82857142857141
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5397236614853195,
+        "conditional_reference": 0.5437248981792145,
+        "excess_agreement_pp": -0.40012366938950716,
+        "conditional_kappa": -0.008769351380182623,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            625.0,
+            6.0,
+            0.0
+          ],
+          [
+            393.0,
+            0.0,
+            0.0
+          ],
+          [
+            134.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 393.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          625,
+          6,
+          0
+        ],
+        [
+          393,
+          0,
+          0
+        ],
+        [
+          134,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        631,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        1152,
+        6,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261125,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -1.0953466589204994,
+          -0.0983883985716524
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.5809036658141516,
+          "conditional_reference": 0.5863437972483003,
+          "excess_agreement_pp": -0.5440131434148676,
+          "conditional_kappa": -0.013151335331031303,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              227.1333333333333,
+              2.7595238095238095,
+              0.0
+            ],
+            [
+              127.82857142857141,
+              0.0,
+              0.0
+            ],
+            [
+              33.27857142857143,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 127.82857142857141
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.5642152230111663
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.5941596063553489
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.5795889348098382
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.5657157954128023
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.6129946371043582
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.5875943068376133
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.571798760954878
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.5534415626890055
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.3631527393546774
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.5795889348098271
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.5795889348098382
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3235638554150655
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.5764475313691286
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.5454080489108004
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.5177386641672221
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.5811725111344423
+          }
+        ],
+        "excess_pp_range": [
+          -0.6129946371043582,
+          -0.3235638554150655
+        ]
+      }
+    },
+    {
+      "parties": [
+        "S",
+        "MP"
+      ],
+      "pair_id": "S—MP",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.47217756667884553,
+        "conditional_reference": 0.39309259713637035,
+        "excess_agreement_pp": 7.908496954247518,
+        "conditional_kappa": 0.13030813130523858,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            116.60952380952382,
+            77.42380952380952,
+            35.759523809523806
+          ],
+          [
+            40.497619047619054,
+            51.278571428571425,
+            36.102380952380955
+          ],
+          [
+            7.292857142857143,
+            9.30238095238095,
+            16.73333333333333
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 77.42380952380952
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.45980985306828004,
+        "conditional_reference": 0.38022833082999047,
+        "excess_agreement_pp": 7.958152223828957,
+        "conditional_kappa": 0.1284045821985767,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            311.0,
+            208.0,
+            111.0
+          ],
+          [
+            135.0,
+            155.0,
+            103.0
+          ],
+          [
+            31.0,
+            37.0,
+            66.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 208.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          311,
+          208,
+          111
+        ],
+        [
+          135,
+          155,
+          103
+        ],
+        [
+          31,
+          37,
+          66
+        ]
+      ],
+      "first_party_action_counts": [
+        630,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261126,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          5.074631406929489,
+          10.086539457986866
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.47217756667884553,
+          "conditional_reference": 0.39309259713637035,
+          "excess_agreement_pp": 7.908496954247518,
+          "conditional_kappa": 0.13030813130523858,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              116.60952380952382,
+              77.42380952380952,
+              35.759523809523806
+            ],
+            [
+              40.497619047619054,
+              51.278571428571425,
+              36.102380952380955
+            ],
+            [
+              7.292857142857143,
+              9.30238095238095,
+              16.73333333333333
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 77.42380952380952
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 8.050226185872
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 6.874958860541186
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 8.14787013857442
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 8.098670443852546
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 8.450738723021779
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 7.251606015851459
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 8.023082007101195
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 8.498818232371724
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 8.224629240183317
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 8.267067259951371
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 8.34510237953962
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 7.201957500563438
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 7.9312721940361435
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 7.928775151566097
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 8.038199318271111
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 7.156397927951119
+          }
+        ],
+        "excess_pp_range": [
+          6.874958860541186,
+          8.498818232371724
+        ]
+      }
+    },
+    {
+      "parties": [
+        "S",
+        "V"
+      ],
+      "pair_id": "S—V",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.40953598830836685,
+        "conditional_reference": 0.4008319890521497,
+        "excess_agreement_pp": 0.8703999256217176,
+        "conditional_kappa": 0.014526809003784991,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            109.41666666666664,
+            99.65714285714283,
+            20.819047619047616
+          ],
+          [
+            49.180952380952384,
+            44.77857142857143,
+            33.86904761904762
+          ],
+          [
+            15.30952380952381,
+            12.035714285714283,
+            5.933333333333334
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 99.65714285714283
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4119170984455959,
+        "conditional_reference": 0.4037330051788889,
+        "excess_agreement_pp": 0.8184093266706993,
+        "conditional_kappa": 0.01372555136841398,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            326.0,
+            237.0,
+            68.0
+          ],
+          [
+            176.0,
+            126.0,
+            91.0
+          ],
+          [
+            62.0,
+            47.0,
+            25.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 237.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          326,
+          237,
+          68
+        ],
+        [
+          176,
+          126,
+          91
+        ],
+        [
+          62,
+          47,
+          25
+        ]
+      ],
+      "first_party_action_counts": [
+        631,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        564,
+        410,
+        184
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261127,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -1.6761057977575808,
+          3.144448349862997
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.40953598830836685,
+          "conditional_reference": 0.4008319890521497,
+          "excess_agreement_pp": 0.8703999256217176,
+          "conditional_kappa": 0.014526809003784991,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              109.41666666666664,
+              99.65714285714283,
+              20.819047619047616
+            ],
+            [
+              49.180952380952384,
+              44.77857142857143,
+              33.86904761904762
+            ],
+            [
+              15.30952380952381,
+              12.035714285714283,
+              5.933333333333334
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 99.65714285714283
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 1.071329405127075
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.23078708723481278
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 1.6962982296544082
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 1.6658355018507154
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 1.9765749562160817
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 0.5633158153769524
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 0.9441519329737691
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 1.561312703048201
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.9226313276615661
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 1.1331890258095167
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.3670133304785106
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 0.6503476229600014
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 0.20902863339644084
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 0.8726317203027967
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 0.7763222771573652
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.25323548986037614
+          }
+        ],
+        "excess_pp_range": [
+          -0.25323548986037614,
+          1.9765749562160817
+        ]
+      }
+    },
+    {
+      "parties": [
+        "S",
+        "L"
+      ],
+      "pair_id": "S—L",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5834612105711849,
+        "conditional_reference": 0.5867138662245074,
+        "excess_agreement_pp": -0.3252655653322445,
+        "conditional_kappa": -0.007870226914240894,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            228.1333333333333,
+            1.7595238095238095,
+            0.0
+          ],
+          [
+            127.82857142857141,
+            0.0,
+            0.0
+          ],
+          [
+            33.27857142857143,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 127.82857142857141
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.540587219343696,
+        "conditional_reference": 0.543807705097141,
+        "excess_agreement_pp": -0.3220485753445024,
+        "conditional_kappa": -0.007059491774473723,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            626.0,
+            5.0,
+            0.0
+          ],
+          [
+            393.0,
+            0.0,
+            0.0
+          ],
+          [
+            134.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 393.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          626,
+          5,
+          0
+        ],
+        [
+          393,
+          0,
+          0
+        ],
+        [
+          134,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        631,
+        393,
+        134
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261128,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.6710933706486563,
+          -0.02844041437391198
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.5834612105711849,
+          "conditional_reference": 0.5867138662245074,
+          "excess_agreement_pp": -0.3252655653322445,
+          "conditional_kappa": -0.007870226914240894,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              228.1333333333333,
+              1.7595238095238095,
+              0.0
+            ],
+            [
+              127.82857142857141,
+              0.0,
+              0.0
+            ],
+            [
+              33.27857142857143,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 127.82857142857141
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.33734439269205163
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.3552481453768408
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34653633799702765
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.33824158522581804
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.36650961396227366
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.3513227515052675
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.341878591518574
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.31846820271563825
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1281793793813102
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34653633799700545
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34653633799702765
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3235638554150655
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.34465809226260635
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.3260995796023236
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.2865756830042421
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.3474831585926319
+          }
+        ],
+        "excess_pp_range": [
+          -0.36650961396227366,
+          -0.1281793793813102
+        ]
+      }
+    },
+    {
+      "parties": [
+        "M",
+        "SD"
+      ],
+      "pair_id": "M—SD",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.7370965777615394,
+        "conditional_reference": 0.7390893003598519,
+        "excess_agreement_pp": -0.1992722598312513,
+        "conditional_kappa": -0.007637565653922608,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            288.2047619047619,
+            61.32142857142857,
+            39.71428571428572
+          ],
+          [
+            1.5595238095238095,
+            0.0,
+            0.2
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 61.32142857142857
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.6994818652849741,
+        "conditional_reference": 0.701151501384335,
+        "excess_agreement_pp": -0.16696360993608828,
+        "conditional_kappa": -0.0055868980673987705,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            810.0,
+            193.0,
+            150.0
+          ],
+          [
+            4.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 193.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          810,
+          193,
+          150
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "second_party_action_counts": [
+        814,
+        193,
+        151
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261129,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.4199180036867328,
+          -0.001056587882946043
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.7370965777615394,
+          "conditional_reference": 0.7390893003598519,
+          "excess_agreement_pp": -0.1992722598312513,
+          "conditional_kappa": -0.007637565653922608,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              288.2047619047619,
+              61.32142857142857,
+              39.71428571428572
+            ],
+            [
+              1.5595238095238095,
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 61.32142857142857
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.2066722907003382
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.21764093182689015
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.21230368826710144
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.20722195104794228
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.22454021208654362
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.215236059652002
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.20945014406998919
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.23427040646429864
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.0460411840906394
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.21230368826711254
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.21230368826711254
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.20360857589672987
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.21115299076972516
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.19978321434365176
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.1639285103570809
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.21288375298912365
+          }
+        ],
+        "excess_pp_range": [
+          -0.23427040646429864,
+          -0.0460411840906394
+        ]
+      }
+    },
+    {
+      "parties": [
+        "M",
+        "C"
+      ],
+      "pair_id": "M—C",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5296614297893072,
+        "conditional_reference": 0.5323003109980186,
+        "excess_agreement_pp": -0.26388812087113633,
+        "conditional_kappa": -0.00564225564131214,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            206.95476190476194,
+            94.45714285714284,
+            87.82857142857144
+          ],
+          [
+            1.6166666666666667,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 94.45714285714284
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4939550949913644,
+        "conditional_reference": 0.49581217888714074,
+        "excess_agreement_pp": -0.18570838957763236,
+        "conditional_kappa": -0.0036833176407897153,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            571.0,
+            293.0,
+            289.0
+          ],
+          [
+            4.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 293.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          571,
+          293,
+          289
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "second_party_action_counts": [
+        575,
+        294,
+        289
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261130,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.6311997917896279,
+          0.03193650648665286
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.5296614297893072,
+          "conditional_reference": 0.5323003109980186,
+          "excess_agreement_pp": -0.26388812087113633,
+          "conditional_kappa": -0.00564225564131214,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              206.95476190476194,
+              94.45714285714284,
+              87.82857142857144
+            ],
+            [
+              1.6166666666666667,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 94.45714285714284
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.27368767973637853
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.2882130035212649
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.2811451097019413
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.2744155725016184
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.2973494387913944
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.28502832944921064
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.2773662775823027
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.23598407686417078
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1180041150851574
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.2811451097019413
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.2811451097019413
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.2639169711672773
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.2796212879691451
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.26456475707850036
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.2394109215537843
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.28191326573938635
+          }
+        ],
+        "excess_pp_range": [
+          -0.2973494387913944,
+          -0.1180041150851574
+        ]
+      }
+    },
+    {
+      "parties": [
+        "M",
+        "KD"
+      ],
+      "pair_id": "M—KD",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.9974424552429667,
+        "conditional_reference": 0.9890866668447048,
+        "excess_agreement_pp": 0.8355788398261899,
+        "conditional_kappa": 0.7656495297412999,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            388.24047619047616,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.7595238095238095,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 1.0
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.9991364421416234,
+        "conditional_reference": 0.9907879734618434,
+        "excess_agreement_pp": 0.8348468679780008,
+        "conditional_kappa": 0.90625755855135,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            1152.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            5.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 1.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          1152,
+          1,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "second_party_action_counts": [
+        1152,
+        6,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261131,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          0.15680844142663686,
+          1.5945311361597492
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.9974424552429667,
+          "conditional_reference": 0.9890866668447048,
+          "excess_agreement_pp": 0.8355788398261899,
+          "conditional_kappa": 0.7656495297412999,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              388.24047619047616,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.7595238095238095,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 1.0
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 0.8666082927640373
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 0.9126014703129681
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.8902215977439787
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 0.8689131020533147
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 0.941531199919432
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 0.902517476165865
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 0.8782562536882921
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.7893590961192909
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.3294192452846234
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.8902215977439787
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.8902215977439787
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 0.8456895982990931
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 0.8853965484337145
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 0.8377213496719049
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 0.7506837649694953
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 0.8926538971913756
+          }
+        ],
+        "excess_pp_range": [
+          0.3294192452846234,
+          0.941531199919432
+        ]
+      }
+    },
+    {
+      "parties": [
+        "M",
+        "MP"
+      ],
+      "pair_id": "M—MP",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4166910242357814,
+        "conditional_reference": 0.42015829096916985,
+        "excess_agreement_pp": -0.346726673338843,
+        "conditional_kappa": -0.005979678038656022,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            162.78333333333336,
+            137.86190476190475,
+            88.59523809523807
+          ],
+          [
+            1.6166666666666667,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 137.86190476190475
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4096802074330164,
+        "conditional_reference": 0.4121692611493334,
+        "excess_agreement_pp": -0.2489053716316969,
+        "conditional_kappa": -0.004234303434324641,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            473.0,
+            399.0,
+            280.0
+          ],
+          [
+            4.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 399.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          473,
+          399,
+          280
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1152,
+        5,
+        0
+      ],
+      "second_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261132,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.7766120652806575,
+          0.04952355200974331
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4166910242357814,
+          "conditional_reference": 0.42015829096916985,
+          "excess_agreement_pp": -0.346726673338843,
+          "conditional_kappa": -0.005979678038656022,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              162.78333333333336,
+              137.86190476190475,
+              88.59523809523807
+            ],
+            [
+              1.6166666666666667,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 137.86190476190475
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.3596024649217211
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.37868751194270467
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3694008972084162
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.3605588544560834
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.3906920152031368
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.37450311954554394
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.36443583138571767
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.32384016918454717
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1856197640881685
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3694008972084162
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3694008972083995
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3307847181926227
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.36739872432381415
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.3476157160909932
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.28600839315123805
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.37041018927728153
+          }
+        ],
+        "excess_pp_range": [
+          -0.3906920152031368,
+          -0.1856197640881685
+        ]
+      }
+    },
+    {
+      "parties": [
+        "M",
+        "V"
+      ],
+      "pair_id": "M—V",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4410059676044331,
+        "conditional_reference": 0.4442526607531631,
+        "excess_agreement_pp": -0.32466931487299955,
+        "conditional_kappa": -0.005842030936450362,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            172.2904761904762,
+            156.32857142857142,
+            60.62142857142858
+          ],
+          [
+            1.6166666666666667,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 156.32857142857142
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4844559585492228,
+        "conditional_reference": 0.4862317080717892,
+        "excess_agreement_pp": -0.17757495225664277,
+        "conditional_kappa": -0.003456323697793625,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            560.0,
+            409.0,
+            184.0
+          ],
+          [
+            4.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 409.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          560,
+          409,
+          184
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "second_party_action_counts": [
+        564,
+        410,
+        184
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261133,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.7584726841988464,
+          0.048147729181351046
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4410059676044331,
+          "conditional_reference": 0.4442526607531631,
+          "excess_agreement_pp": -0.32466931487299955,
+          "conditional_kappa": -0.005842030936450362,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              172.2904761904762,
+              156.32857142857142,
+              60.62142857142858
+            ],
+            [
+              1.6166666666666667,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 156.32857142857142
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.33672600030595357
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.35459693328308006
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3459010956821329
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.3376215481791067
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.36583775825747566
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.3506787351252483
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.3412518874068293
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.3155031264087338
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1566311245225993
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34590109568213845
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34590109568213845
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3167093429833956
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.34402629299550846
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.3255018002957577
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.2660775089346479
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.34684618064301787
+          }
+        ],
+        "excess_pp_range": [
+          -0.36583775825747566,
+          -0.1566311245225993
+        ]
+      }
+    },
+    {
+      "parties": [
+        "M",
+        "L"
+      ],
+      "pair_id": "M—L",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 1.0,
+        "conditional_reference": 0.9916054609236012,
+        "excess_agreement_pp": 0.8394539076398755,
+        "conditional_kappa": 1.0,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            389.24047619047616,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.7595238095238095,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": null
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 1.0,
+        "conditional_reference": 0.9916278722008125,
+        "excess_agreement_pp": 0.8372127799187501,
+        "conditional_kappa": 1.0,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            1153.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            5.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": null
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          1153,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261134,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          0.10001478852409763,
+          1.5775400420632346
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 1.0,
+          "conditional_reference": 0.9916054609236012,
+          "excess_agreement_pp": 0.8394539076398755,
+          "conditional_kappa": 1.0,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              389.24047619047616,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.7595238095238095,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": null
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 0.8706272623002498
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 0.9168337371150637
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.894350075986905
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 0.87294276033828
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 0.9458976307988309
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 0.9067029775889357
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 0.8823292416322404
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.7935216002817991
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.3335817494471205
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.894350075986905
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.894350075986905
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 0.8456895982990931
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 0.889502650100793
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 0.8416063535569007
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 0.7547787690644903
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 0.8967936554294953
+          }
+        ],
+        "excess_pp_range": [
+          0.3335817494471205,
+          0.9458976307988309
+        ]
+      }
+    },
+    {
+      "parties": [
+        "SD",
+        "C"
+      ],
+      "pair_id": "SD—C",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4238399707709171,
+        "conditional_reference": 0.46244687595152173,
+        "excess_agreement_pp": -3.860690518060461,
+        "conditional_kappa": -0.07181970200423003,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            150.89523809523808,
+            80.71666666666665,
+            58.152380952380945
+          ],
+          [
+            40.671428571428564,
+            2.8999999999999995,
+            17.749999999999996
+          ],
+          [
+            17.004761904761903,
+            10.983333333333333,
+            11.926190476190476
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 80.71666666666665
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.3903281519861831,
+        "conditional_reference": 0.4336441166038644,
+        "excess_agreement_pp": -4.331596461768133,
+        "conditional_kappa": -0.0764818833662299,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            396.0,
+            241.0,
+            177.0
+          ],
+          [
+            119.0,
+            9.0,
+            65.0
+          ],
+          [
+            60.0,
+            44.0,
+            47.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 241.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          396,
+          241,
+          177
+        ],
+        [
+          119,
+          9,
+          65
+        ],
+        [
+          60,
+          44,
+          47
+        ]
+      ],
+      "first_party_action_counts": [
+        814,
+        193,
+        151
+      ],
+      "second_party_action_counts": [
+        575,
+        294,
+        289
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261135,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -5.637077763921583,
+          -2.0375549367389287
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4238399707709171,
+          "conditional_reference": 0.46244687595152173,
+          "excess_agreement_pp": -3.860690518060461,
+          "conditional_kappa": -0.07181970200423003,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              150.89523809523808,
+              80.71666666666665,
+              58.152380952380945
+            ],
+            [
+              40.671428571428564,
+              2.8999999999999995,
+              17.749999999999996
+            ],
+            [
+              17.004761904761903,
+              10.983333333333333,
+              11.926190476190476
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 80.71666666666665
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -3.8341681205584566
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -3.9295064969133597
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -4.021411899631655
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -4.053773620879076
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -4.287534400593918
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -3.660989188518138
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -3.753067482991285
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -3.780071562438747
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -4.290125838211223
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -4.211597425580127
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -3.8922262880890957
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -3.1305810761946997
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -3.6613762166303965
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -3.870589724517032
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -3.631054551474727
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -3.751744679378005
+          }
+        ],
+        "excess_pp_range": [
+          -4.290125838211223,
+          -3.1305810761946997
+        ]
+      }
+    },
+    {
+      "parties": [
+        "SD",
+        "KD"
+      ],
+      "pair_id": "SD—KD",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.7396541225185725,
+        "conditional_reference": 0.7375838365142346,
+        "excess_agreement_pp": 0.20702860043378957,
+        "conditional_kappa": 0.007889323496074194,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            288.2047619047619,
+            1.5595238095238095,
+            0.0
+          ],
+          [
+            60.32142857142857,
+            1.0,
+            0.0
+          ],
+          [
+            39.71428571428572,
+            0.2,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 60.32142857142857
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.7003454231433506,
+        "conditional_reference": 0.7006428303170721,
+        "excess_agreement_pp": -0.029740717372150893,
+        "conditional_kappa": -0.0009934860555921062,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            810.0,
+            4.0,
+            0.0
+          ],
+          [
+            192.0,
+            1.0,
+            0.0
+          ],
+          [
+            150.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 192.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          810,
+          4,
+          0
+        ],
+        [
+          192,
+          1,
+          0
+        ],
+        [
+          150,
+          1,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        814,
+        193,
+        151
+      ],
+      "second_party_action_counts": [
+        1152,
+        6,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261136,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.3860235517638891,
+          1.0239617212295227
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.7396541225185725,
+          "conditional_reference": 0.7375838365142346,
+          "excess_agreement_pp": 0.20702860043378957,
+          "conditional_kappa": 0.007889323496074194,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              288.2047619047619,
+              1.5595238095238095,
+              0.0
+            ],
+            [
+              60.32142857142857,
+              1.0,
+              0.0
+            ],
+            [
+              39.71428571428572,
+              0.2,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 60.32142857142857
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 0.21471666517138832
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 0.22611224237319982
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.22056725550301248
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 0.2152877201319514
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 0.2332800656184797
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 0.22361376455691806
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 0.21760264185377576
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.20216815497425822
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.39039737734791746
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.22056725550301248
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.22056725550299028
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.20360857589672987
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 0.21937176902332434
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 0.20755944299900575
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 0.26543266900409535
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 0.2211698982776289
+          }
+        ],
+        "excess_pp_range": [
+          -0.20360857589672987,
+          0.39039737734791746
+        ]
+      }
+    },
+    {
+      "parties": [
+        "SD",
+        "MP"
+      ],
+      "pair_id": "SD—MP",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.28502009499451947,
+        "conditional_reference": 0.39547593490952193,
+        "excess_agreement_pp": -11.045583991500246,
+        "conditional_kappa": -0.1827153727924309,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            100.57619047619045,
+            126.97619047619045,
+            62.261904761904766
+          ],
+          [
+            45.654761904761905,
+            0.0,
+            15.466666666666665
+          ],
+          [
+            18.169047619047618,
+            11.028571428571428,
+            10.866666666666667
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 126.97619047619045
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.2610198789974071,
+        "conditional_reference": 0.38121317767214086,
+        "excess_agreement_pp": -12.019329867473378,
+        "conditional_kappa": -0.19424023643969962,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            266.0,
+            354.0,
+            194.0
+          ],
+          [
+            142.0,
+            0.0,
+            50.0
+          ],
+          [
+            69.0,
+            46.0,
+            36.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 354.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          266,
+          354,
+          194
+        ],
+        [
+          142,
+          0,
+          50
+        ],
+        [
+          69,
+          46,
+          36
+        ]
+      ],
+      "first_party_action_counts": [
+        814,
+        192,
+        151
+      ],
+      "second_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261137,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -12.80529892075099,
+          -8.541933009617775
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.28502009499451947,
+          "conditional_reference": 0.39547593490952193,
+          "excess_agreement_pp": -11.045583991500246,
+          "conditional_kappa": -0.1827153727924309,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              100.57619047619045,
+              126.97619047619045,
+              62.261904761904766
+            ],
+            [
+              45.654761904761905,
+              0.0,
+              15.466666666666665
+            ],
+            [
+              18.169047619047618,
+              11.028571428571428,
+              10.866666666666667
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 126.97619047619045
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -11.597914107306023
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -10.340823180729863
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -11.281098155902663
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -11.498702738206074
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -11.839972803742999
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -10.766140741767222
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -11.229874073901641
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -10.843650428068713
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -10.969729120910559
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -11.208012083634038
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -10.919641583410671
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -10.68070890066809
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -11.34248325052537
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -11.073906001734867
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -10.245663751605626
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -10.867044172458995
+          }
+        ],
+        "excess_pp_range": [
+          -11.839972803742999,
+          -10.245663751605626
+        ]
+      }
+    },
+    {
+      "parties": [
+        "SD",
+        "V"
+      ],
+      "pair_id": "SD—V",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.27988064791133843,
+        "conditional_reference": 0.4040701389976314,
+        "excess_agreement_pp": -12.418949108629295,
+        "conditional_kappa": -0.20839615399940387,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            103.83333333333334,
+            143.7261904761905,
+            42.204761904761895
+          ],
+          [
+            48.5047619047619,
+            0.0,
+            12.816666666666665
+          ],
+          [
+            21.569047619047616,
+            12.745238095238097,
+            5.6000000000000005
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 143.7261904761905
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.29533678756476683,
+        "conditional_reference": 0.41939241696908747,
+        "excess_agreement_pp": -12.405562940432063,
+        "conditional_kappa": -0.21366518975987212,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            326.0,
+            361.0,
+            127.0
+          ],
+          [
+            152.0,
+            0.0,
+            41.0
+          ],
+          [
+            86.0,
+            49.0,
+            16.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 361.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          326,
+          361,
+          127
+        ],
+        [
+          152,
+          0,
+          41
+        ],
+        [
+          86,
+          49,
+          16
+        ]
+      ],
+      "first_party_action_counts": [
+        814,
+        193,
+        151
+      ],
+      "second_party_action_counts": [
+        564,
+        410,
+        184
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261138,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -13.813904368615397,
+          -10.026111726123796
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.27988064791133843,
+          "conditional_reference": 0.4040701389976314,
+          "excess_agreement_pp": -12.418949108629295,
+          "conditional_kappa": -0.20839615399940387,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              103.83333333333334,
+              143.7261904761905,
+              42.204761904761895
+            ],
+            [
+              48.5047619047619,
+              0.0,
+              12.816666666666665
+            ],
+            [
+              21.569047619047616,
+              12.745238095238097,
+              5.6000000000000005
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 143.7261904761905
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -12.835847896630264
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -11.420500973149817
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -12.647021036843798
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -13.203452102029095
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -13.129284954616228
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -12.00507500437289
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -12.723762518896791
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -12.317066692519857
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -12.45177858399195
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -12.213837840990305
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -12.734709944968664
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -12.14470170316146
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -12.489846030265955
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -12.450792567882191
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -11.99073227904811
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -11.90431222828946
+          }
+        ],
+        "excess_pp_range": [
+          -13.203452102029095,
+          -11.420500973149817
+        ]
+      }
+    },
+    {
+      "parties": [
+        "SD",
+        "L"
+      ],
+      "pair_id": "SD—L",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.7370965777615394,
+        "conditional_reference": 0.7390893003598519,
+        "excess_agreement_pp": -0.1992722598312513,
+        "conditional_kappa": -0.007637565653922608,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            288.2047619047619,
+            1.5595238095238095,
+            0.0
+          ],
+          [
+            61.32142857142857,
+            0.0,
+            0.0
+          ],
+          [
+            39.71428571428572,
+            0.2,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 61.32142857142857
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.6994818652849741,
+        "conditional_reference": 0.701151501384335,
+        "excess_agreement_pp": -0.16696360993608828,
+        "conditional_kappa": -0.0055868980673987705,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            810.0,
+            4.0,
+            0.0
+          ],
+          [
+            193.0,
+            0.0,
+            0.0
+          ],
+          [
+            150.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 193.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          810,
+          4,
+          0
+        ],
+        [
+          193,
+          0,
+          0
+        ],
+        [
+          150,
+          1,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        814,
+        193,
+        151
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261139,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.4224301891375709,
+          -0.0007150268134031705
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.7370965777615394,
+          "conditional_reference": 0.7390893003598519,
+          "excess_agreement_pp": -0.1992722598312513,
+          "conditional_kappa": -0.007637565653922608,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              288.2047619047619,
+              1.5595238095238095,
+              0.0
+            ],
+            [
+              61.32142857142857,
+              0.0,
+              0.0
+            ],
+            [
+              39.71428571428572,
+              0.2,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 61.32142857142857
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.2066722907003382
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.21764093182689015
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.21230368826710144
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.20722195104794228
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.22454021208653252
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.215236059652002
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.20945014406998919
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.23427040646429864
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.0460411840906394
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.21230368826711254
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.21230368826711254
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.20360857589672987
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.21115299076972516
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.19978321434365176
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.1639285103570809
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.21288375298912365
+          }
+        ],
+        "excess_pp_range": [
+          -0.23427040646429864,
+          -0.0460411840906394
+        ]
+      }
+    },
+    {
+      "parties": [
+        "C",
+        "KD"
+      ],
+      "pair_id": "C—KD",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5271038850322739,
+        "conditional_reference": 0.5314419834772868,
+        "excess_agreement_pp": -0.43380984450128723,
+        "conditional_kappa": -0.009258401931114083,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            205.95476190476194,
+            2.6166666666666667,
+            0.0
+          ],
+          [
+            94.45714285714284,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            87.82857142857144,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 94.45714285714284
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4930915371329879,
+        "conditional_reference": 0.495516439894546,
+        "excess_agreement_pp": -0.2424902761558101,
+        "conditional_kappa": -0.004806703237368557,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            570.0,
+            5.0,
+            0.0
+          ],
+          [
+            293.0,
+            1.0,
+            0.0
+          ],
+          [
+            289.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 293.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          570,
+          5,
+          0
+        ],
+        [
+          293,
+          1,
+          0
+        ],
+        [
+          289,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        575,
+        294,
+        289
+      ],
+      "second_party_action_counts": [
+        1152,
+        6,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261140,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.9058735339808268,
+          -0.007519010948862055
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.5271038850322739,
+          "conditional_reference": 0.5314419834772868,
+          "excess_agreement_pp": -0.43380984450128723,
+          "conditional_kappa": -0.009258401931114083,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              205.95476190476194,
+              2.6166666666666667,
+              0.0
+            ],
+            [
+              94.45714285714284,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              87.82857142857144,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 94.45714285714284
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.44991949389922015
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.4737979027933159
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.46217888065396284
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.4511160882978982
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.48881743285303925
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.46856256685083864
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.4559667989247673
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.4185098843899837
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.30052992261097033
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.46217888065397394
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.46217888065396284
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.2639169711672773
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.4596738460704741
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.43492217743591466
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.4189768511197012
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.4634416644808903
+          }
+        ],
+        "excess_pp_range": [
+          -0.48881743285303925,
+          -0.2639169711672773
+        ]
+      }
+    },
+    {
+      "parties": [
+        "C",
+        "MP"
+      ],
+      "pair_id": "C—MP",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4293021556448667,
+        "conditional_reference": 0.3701018423565884,
+        "excess_agreement_pp": 5.92003132882783,
+        "conditional_kappa": 0.09398394418196072,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            97.31190476190478,
+            79.50714285714285,
+            31.60238095238095
+          ],
+          [
+            39.72857142857143,
+            34.26190476190476,
+            20.70952380952381
+          ],
+          [
+            27.359523809523804,
+            24.235714285714277,
+            36.28333333333334
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 79.50714285714285
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.3949870354364736,
+        "conditional_reference": 0.355525003353418,
+        "excess_agreement_pp": 3.94620320830556,
+        "conditional_kappa": 0.061231284826237936,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            254.0,
+            222.0,
+            98.0
+          ],
+          [
+            123.0,
+            96.0,
+            75.0
+          ],
+          [
+            100.0,
+            82.0,
+            107.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 222.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          254,
+          222,
+          98
+        ],
+        [
+          123,
+          96,
+          75
+        ],
+        [
+          100,
+          82,
+          107
+        ]
+      ],
+      "first_party_action_counts": [
+        574,
+        294,
+        289
+      ],
+      "second_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261141,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          2.781557349340799,
+          8.211097625780104
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4293021556448667,
+          "conditional_reference": 0.3701018423565884,
+          "excess_agreement_pp": 5.92003132882783,
+          "conditional_kappa": 0.09398394418196072,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              97.31190476190478,
+              79.50714285714285,
+              31.60238095238095
+            ],
+            [
+              39.72857142857143,
+              34.26190476190476,
+              20.70952380952381
+            ],
+            [
+              27.359523809523804,
+              24.235714285714277,
+              36.28333333333334
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 79.50714285714285
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 6.161041309405174
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 5.641498110742315
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 4.84458097500175
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 6.067698063281646
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 6.910374852005035
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 6.115098521006502
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 6.082779510663277
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 6.687317059128672
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 6.035901311088115
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 5.208236007525996
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 6.454832130143917
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 4.841466750820411
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 5.39208837597378
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 5.935210896337639
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 5.979624768339753
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 6.357092968676109
+          }
+        ],
+        "excess_pp_range": [
+          4.841466750820411,
+          6.910374852005035
+        ]
+      }
+    },
+    {
+      "parties": [
+        "C",
+        "V"
+      ],
+      "pair_id": "C—V",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.33774205334307644,
+        "conditional_reference": 0.37233521756429966,
+        "excess_agreement_pp": -3.4593164221223214,
+        "conditional_kappa": -0.0551140755213027,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            79.56190476190476,
+            103.60714285714288,
+            25.402380952380952
+          ],
+          [
+            60.485714285714295,
+            25.695238095238093,
+            8.41904761904762
+          ],
+          [
+            33.859523809523814,
+            27.16904761904762,
+            26.800000000000004
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 103.60714285714288
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.3376511226252159,
+        "conditional_reference": 0.3714972030127926,
+        "excess_agreement_pp": -3.384608038757669,
+        "conditional_kappa": -0.053851916888550615,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            245.0,
+            259.0,
+            71.0
+          ],
+          [
+            189.0,
+            69.0,
+            36.0
+          ],
+          [
+            130.0,
+            82.0,
+            77.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 259.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          245,
+          259,
+          71
+        ],
+        [
+          189,
+          69,
+          36
+        ],
+        [
+          130,
+          82,
+          77
+        ]
+      ],
+      "first_party_action_counts": [
+        575,
+        294,
+        289
+      ],
+      "second_party_action_counts": [
+        564,
+        410,
+        184
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261142,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -5.7604177154402985,
+          -1.2189896440258665
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.33774205334307644,
+          "conditional_reference": 0.37233521756429966,
+          "excess_agreement_pp": -3.4593164221223214,
+          "conditional_kappa": -0.0551140755213027,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              79.56190476190476,
+              103.60714285714288,
+              25.402380952380952
+            ],
+            [
+              60.485714285714295,
+              25.695238095238093,
+              8.41904761904762
+            ],
+            [
+              33.859523809523814,
+              27.16904761904762,
+              26.800000000000004
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 103.60714285714288
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -3.389008961425022
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -3.3428671082500863
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -4.704251175387703
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -3.13587012099541
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -2.757395102822641
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -2.7506841919249734
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -3.2848470199467625
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -3.023304480604211
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -3.0125166536860926
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -4.256257464587443
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -2.6451034808176566
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -4.765576014700956
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -4.003382667900573
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -3.4681864642303273
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -3.547680254980662
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -3.2757016045754317
+          }
+        ],
+        "excess_pp_range": [
+          -4.765576014700956,
+          -2.6451034808176566
+        ]
+      }
+    },
+    {
+      "parties": [
+        "C",
+        "L"
+      ],
+      "pair_id": "C—L",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5296614297893072,
+        "conditional_reference": 0.5323003109980186,
+        "excess_agreement_pp": -0.26388812087113633,
+        "conditional_kappa": -0.00564225564131214,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            206.95476190476194,
+            1.6166666666666667,
+            0.0
+          ],
+          [
+            94.45714285714284,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            87.82857142857144,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 94.45714285714284
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4939550949913644,
+        "conditional_reference": 0.49581217888714074,
+        "excess_agreement_pp": -0.18570838957763236,
+        "conditional_kappa": -0.0036833176407897153,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            571.0,
+            4.0,
+            0.0
+          ],
+          [
+            293.0,
+            1.0,
+            0.0
+          ],
+          [
+            289.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 293.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          571,
+          4,
+          0
+        ],
+        [
+          293,
+          1,
+          0
+        ],
+        [
+          289,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        575,
+        294,
+        289
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261143,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.653414807952169,
+          0.009204004394910729
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.5296614297893072,
+          "conditional_reference": 0.5323003109980186,
+          "excess_agreement_pp": -0.26388812087113633,
+          "conditional_kappa": -0.00564225564131214,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              206.95476190476194,
+              1.6166666666666667,
+              0.0
+            ],
+            [
+              94.45714285714284,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              87.82857142857144,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 94.45714285714284
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.27368767973637853
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.2882130035212649
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.2811451097019413
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.2744155725016184
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.2973494387913944
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.28502832944921064
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.2773662775823027
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.23598407686417078
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1180041150851574
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.2811451097019413
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.2811451097019413
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.2639169711672773
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.2796212879691451
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.26456475707850036
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.2394109215537843
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.28191326573938635
+          }
+        ],
+        "excess_pp_range": [
+          -0.2973494387913944,
+          -0.1180041150851574
+        ]
+      }
+    },
+    {
+      "parties": [
+        "KD",
+        "MP"
+      ],
+      "pair_id": "KD—MP",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4141334794787482,
+        "conditional_reference": 0.42068917525964483,
+        "excess_agreement_pp": -0.6555695780896653,
+        "conditional_kappa": -0.011316370247068818,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            161.78333333333336,
+            137.86190476190475,
+            88.59523809523807
+          ],
+          [
+            2.6166666666666667,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 137.86190476190475
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.40881590319792566,
+        "conditional_reference": 0.41240605683018017,
+        "excess_agreement_pp": -0.35901536322545113,
+        "conditional_kappa": -0.00610992280296008,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            472.0,
+            399.0,
+            280.0
+          ],
+          [
+            5.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 399.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          472,
+          399,
+          280
+        ],
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1151,
+        6,
+        0
+      ],
+      "second_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261144,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -1.3303812544958225,
+          -0.0831119091246555
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4141334794787482,
+          "conditional_reference": 0.42068917525964483,
+          "excess_agreement_pp": -0.6555695780896653,
+          "conditional_kappa": -0.011316370247068818,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              161.78333333333336,
+              137.86190476190475,
+              88.59523809523807
+            ],
+            [
+              2.6166666666666667,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 137.86190476190475
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.6799143369577376
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.7159991760700202
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.6984406131691046
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.681722619768782
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.7386965562912462
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.708087582964273
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.6890529705189941
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.6555917509361353
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.5173713458397566
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.6984406131691212
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.6984406131691046
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3307847181926227
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.6946550271898833
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.6572505257257999
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.6123802195230788
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.7003489208553593
+          }
+        ],
+        "excess_pp_range": [
+          -0.7386965562912462,
+          -0.3307847181926227
+        ]
+      }
+    },
+    {
+      "parties": [
+        "KD",
+        "V"
+      ],
+      "pair_id": "KD—V",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4384484228473998,
+        "conditional_reference": 0.4442139100750263,
+        "excess_agreement_pp": -0.5765487227626487,
+        "conditional_kappa": -0.010373572372789642,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            171.2904761904762,
+            156.32857142857142,
+            60.62142857142858
+          ],
+          [
+            2.6166666666666667,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 156.32857142857142
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4835924006908463,
+        "conditional_reference": 0.4861489011538626,
+        "excess_agreement_pp": -0.2556500463016309,
+        "conditional_kappa": -0.004975177573341734,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            559.0,
+            409.0,
+            184.0
+          ],
+          [
+            5.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 409.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          559,
+          409,
+          184
+        ],
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1152,
+        6,
+        0
+      ],
+      "second_party_action_counts": [
+        564,
+        410,
+        184
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261145,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -1.2989029304840416,
+          -0.07486708521201395
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4384484228473998,
+          "conditional_reference": 0.4442139100750263,
+          "excess_agreement_pp": -0.5765487227626487,
+          "conditional_kappa": -0.010373572372789642,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              171.2904761904762,
+              156.32857142857142,
+              60.62142857142858
+            ],
+            [
+              2.6166666666666667,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 156.32857142857142
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.5979590201596607
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.6296942754195345
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.6142521814719193
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.5995493367026428
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.6496557654184276
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.6227363276248399
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.6059961037639561
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.5860658969715049
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.4271938950853704
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.6142521814719193
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.6142521814719193
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3167093429833956
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.6109229013555373
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.5780270528210119
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.5322527751099204
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.615930466120751
+          }
+        ],
+        "excess_pp_range": [
+          -0.6496557654184276,
+          -0.3167093429833956
+        ]
+      }
+    },
+    {
+      "parties": [
+        "KD",
+        "L"
+      ],
+      "pair_id": "KD—L",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.9974424552429667,
+        "conditional_reference": 0.9890866668447048,
+        "excess_agreement_pp": 0.8355788398261899,
+        "conditional_kappa": 0.7656495297412999,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            388.24047619047616,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.7595238095238095,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 1.0
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.9991364421416234,
+        "conditional_reference": 0.9907879734618434,
+        "excess_agreement_pp": 0.8348468679780008,
+        "conditional_kappa": 0.90625755855135,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            1152.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            5.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 1.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          1152,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        1152,
+        6,
+        0
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261146,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          0.12460099842611345,
+          1.37272808991845
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.9974424552429667,
+          "conditional_reference": 0.9890866668447048,
+          "excess_agreement_pp": 0.8355788398261899,
+          "conditional_kappa": 0.7656495297412999,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              388.24047619047616,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.7595238095238095,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 1.0
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 0.8666082927640373
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 0.9126014703129681
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.8902215977439787
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 0.8689131020533147
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 0.941531199919432
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 0.902517476165865
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 0.8782562536882921
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.7893590961192909
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 0.3294192452846234
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.8902215977439787
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 0.8902215977439787
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 0.8456895982990931
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 0.8853965484337145
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 0.8377213496719049
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 0.7506837649694953
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 0.8926538971913756
+          }
+        ],
+        "excess_pp_range": [
+          0.3294192452846234,
+          0.941531199919432
+        ]
+      }
+    },
+    {
+      "parties": [
+        "MP",
+        "V"
+      ],
+      "pair_id": "MP—V",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.563262696382901,
+        "conditional_reference": 0.3796412491424764,
+        "excess_agreement_pp": 18.362144724042466,
+        "conditional_kappa": 0.29599235440235866,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            99.3547619047619,
+            50.88571428571428,
+            14.159523809523808
+          ],
+          [
+            43.885714285714286,
+            84.36904761904762,
+            9.75
+          ],
+          [
+            30.716666666666665,
+            21.366666666666667,
+            36.51190476190476
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "yes",
+          "second_party_action": "no",
+          "weight": 50.88571428571428
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.5479688850475367,
+        "conditional_reference": 0.37627026602572067,
+        "excess_agreement_pp": 17.169861902181605,
+        "conditional_kappa": 0.2752772710189512,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            310.0,
+            121.0,
+            46.0
+          ],
+          [
+            147.0,
+            220.0,
+            33.0
+          ],
+          [
+            107.0,
+            69.0,
+            104.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 147.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          310,
+          121,
+          46
+        ],
+        [
+          147,
+          220,
+          33
+        ],
+        [
+          107,
+          69,
+          104
+        ]
+      ],
+      "first_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "second_party_action_counts": [
+        564,
+        410,
+        183
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261147,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          14.612181904588786,
+          20.44519802729536
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.563262696382901,
+          "conditional_reference": 0.3796412491424764,
+          "excess_agreement_pp": 18.362144724042466,
+          "conditional_kappa": 0.29599235440235866,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              99.3547619047619,
+              50.88571428571428,
+              14.159523809523808
+            ],
+            [
+              43.885714285714286,
+              84.36904761904762,
+              9.75
+            ],
+            [
+              30.716666666666665,
+              21.366666666666667,
+              36.51190476190476
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "yes",
+            "second_party_action": "no",
+            "weight": 50.88571428571428
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": 18.676307161972318
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": 18.587558988728503
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 17.17274386866217
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": 19.596863854581986
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": 19.98523181254309
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": 18.64419296079139
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": 18.325633398219455
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 18.23538695620293
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": 18.00022074733186
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 18.18397744283851
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": 18.208742490083136
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": 18.05036388593556
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": 18.498431159683232
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": 18.409227146411812
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": 16.877672726946173
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": 18.39047310056837
+          }
+        ],
+        "excess_pp_range": [
+          16.877672726946173,
+          19.98523181254309
+        ]
+      }
+    },
+    {
+      "parties": [
+        "MP",
+        "L"
+      ],
+      "pair_id": "MP—L",
+      "common_rollcalls": 1157,
+      "excluded_missing_or_tied_modes": 1,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4166910242357814,
+        "conditional_reference": 0.42015829096916985,
+        "excess_agreement_pp": -0.346726673338843,
+        "conditional_kappa": -0.005979678038656022,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            162.78333333333336,
+            1.6166666666666667,
+            0.0
+          ],
+          [
+            137.86190476190475,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            88.59523809523807,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 137.86190476190475
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4096802074330164,
+        "conditional_reference": 0.4121692611493334,
+        "excess_agreement_pp": -0.2489053716316969,
+        "conditional_kappa": -0.004234303434324641,
+        "effective_weight": 1157.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            473.0,
+            4.0,
+            0.0
+          ],
+          [
+            399.0,
+            1.0,
+            0.0
+          ],
+          [
+            280.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 399.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          473,
+          4,
+          0
+        ],
+        [
+          399,
+          1,
+          0
+        ],
+        [
+          280,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        477,
+        400,
+        280
+      ],
+      "second_party_action_counts": [
+        1152,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261148,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.7048288419452111,
+          0.0
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1157,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4166910242357814,
+          "conditional_reference": 0.42015829096916985,
+          "excess_agreement_pp": -0.346726673338843,
+          "conditional_kappa": -0.005979678038656022,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              162.78333333333336,
+              1.6166666666666667,
+              0.0
+            ],
+            [
+              137.86190476190475,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              88.59523809523807,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 137.86190476190475
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.3596024649217211
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.37868751194270467
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3694008972084162
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.3605588544560834
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.3906920152031368
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.37450311954554394
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.36443583138571767
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.32384016918454717
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1856197640881685
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3694008972084162
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3694008972083995
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3307847181926227
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.36739872432381415
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.3476157160909932
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.28600839315123805
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.37041018927728153
+          }
+        ],
+        "excess_pp_range": [
+          -0.3906920152031368,
+          -0.1856197640881685
+        ]
+      }
+    },
+    {
+      "parties": [
+        "V",
+        "L"
+      ],
+      "pair_id": "V—L",
+      "common_rollcalls": 1158,
+      "excluded_missing_or_tied_modes": 0,
+      "reports": 391,
+      "selected_records": 1158,
+      "committees": 16,
+      "report_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4410059676044331,
+        "conditional_reference": 0.4442526607531631,
+        "excess_agreement_pp": -0.32466931487299955,
+        "conditional_kappa": -0.005842030936450362,
+        "effective_weight": 391.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            172.2904761904762,
+            1.6166666666666667,
+            0.0
+          ],
+          [
+            156.32857142857142,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            60.62142857142858,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 156.32857142857142
+        }
+      },
+      "rollcall_equal": {
+        "status": "passed",
+        "observed_agreement": 0.4844559585492228,
+        "conditional_reference": 0.4862317080717892,
+        "excess_agreement_pp": -0.17757495225664277,
+        "conditional_kappa": -0.003456323697793625,
+        "effective_weight": 1158.0,
+        "conditional_strata": 31,
+        "weighted_contingency": [
+          [
+            560.0,
+            4.0,
+            0.0
+          ],
+          [
+            409.0,
+            1.0,
+            0.0
+          ],
+          [
+            184.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "dominant_disagreement": {
+          "first_party_action": "no",
+          "second_party_action": "yes",
+          "weight": 409.0
+        }
+      },
+      "contingency_action_order": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "raw_contingency": [
+        [
+          560,
+          4,
+          0
+        ],
+        [
+          409,
+          1,
+          0
+        ],
+        [
+          184,
+          0,
+          0
+        ]
+      ],
+      "first_party_action_counts": [
+        564,
+        410,
+        184
+      ],
+      "second_party_action_counts": [
+        1153,
+        5,
+        0
+      ],
+      "report_cluster_resampling": {
+        "status": "computed",
+        "replicates": 200,
+        "seed": 20261149,
+        "sampling_unit": "report within session × committee; all common votes in a selected report stay together",
+        "weighting": "each sampled report occurrence has unit weight",
+        "excess_pp_percentiles": [
+          -0.7339158909611344,
+          0.020830723593787452
+        ],
+        "interpretation": "Descriptive resampling stability range; not population confidence interval, p-value, independent replication or causal evidence."
+      },
+      "exclude_near_unanimous": {
+        "threshold": 0.975,
+        "common_rollcalls": 1158,
+        "removed_common_rollcalls": 0,
+        "report_equal": {
+          "status": "passed",
+          "observed_agreement": 0.4410059676044331,
+          "conditional_reference": 0.4442526607531631,
+          "excess_agreement_pp": -0.32466931487299955,
+          "conditional_kappa": -0.005842030936450362,
+          "effective_weight": 391.0,
+          "conditional_strata": 31,
+          "weighted_contingency": [
+            [
+              172.2904761904762,
+              1.6166666666666667,
+              0.0
+            ],
+            [
+              156.32857142857142,
+              0.14285714285714285,
+              0.0
+            ],
+            [
+              60.62142857142858,
+              0.0,
+              0.0
+            ]
+          ],
+          "dominant_disagreement": {
+            "first_party_action": "no",
+            "second_party_action": "yes",
+            "weight": 156.32857142857142
+          }
+        }
+      },
+      "leave_one_committee_out": {
+        "rows": [
+          {
+            "excluded_committee": "AU",
+            "reports_remaining": 377,
+            "excess_agreement_pp": -0.33672600030595357
+          },
+          {
+            "excluded_committee": "CU",
+            "reports_remaining": 358,
+            "excess_agreement_pp": -0.35459693328308006
+          },
+          {
+            "excluded_committee": "FiU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.3459010956821329
+          },
+          {
+            "excluded_committee": "FöU",
+            "reports_remaining": 376,
+            "excess_agreement_pp": -0.3376215481791067
+          },
+          {
+            "excluded_committee": "JuU",
+            "reports_remaining": 347,
+            "excess_agreement_pp": -0.36583775825747566
+          },
+          {
+            "excluded_committee": "KU",
+            "reports_remaining": 362,
+            "excess_agreement_pp": -0.3506787351252483
+          },
+          {
+            "excluded_committee": "KrU",
+            "reports_remaining": 372,
+            "excess_agreement_pp": -0.3412518874068293
+          },
+          {
+            "excluded_committee": "MJU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.3155031264087338
+          },
+          {
+            "excluded_committee": "NU",
+            "reports_remaining": 364,
+            "excess_agreement_pp": -0.1566311245225993
+          },
+          {
+            "excluded_committee": "SfU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34590109568213845
+          },
+          {
+            "excluded_committee": "SkU",
+            "reports_remaining": 367,
+            "excess_agreement_pp": -0.34590109568213845
+          },
+          {
+            "excluded_committee": "SoU",
+            "reports_remaining": 349,
+            "excess_agreement_pp": -0.3167093429833956
+          },
+          {
+            "excluded_committee": "TU",
+            "reports_remaining": 369,
+            "excess_agreement_pp": -0.34402629299550846
+          },
+          {
+            "excluded_committee": "UFöU",
+            "reports_remaining": 390,
+            "excess_agreement_pp": -0.3255018002957577
+          },
+          {
+            "excluded_committee": "UU",
+            "reports_remaining": 370,
+            "excess_agreement_pp": -0.2660775089346479
+          },
+          {
+            "excluded_committee": "UbU",
+            "reports_remaining": 366,
+            "excess_agreement_pp": -0.34684618064301787
+          }
+        ],
+        "excess_pp_range": [
+          -0.36583775825747566,
+          -0.1566311245225993
+        ]
+      }
+    }
+  ],
+  "selection": [
+    {
+      "pair_id": "MP—V",
+      "parties": [
+        "MP",
+        "V"
+      ],
+      "direction": "positive",
+      "excess_agreement_pp": 18.362144724042466,
+      "common_rollcalls": 1157,
+      "reports": 391
+    },
+    {
+      "pair_id": "S—MP",
+      "parties": [
+        "S",
+        "MP"
+      ],
+      "direction": "positive",
+      "excess_agreement_pp": 7.908496954247518,
+      "common_rollcalls": 1157,
+      "reports": 391
+    },
+    {
+      "pair_id": "C—MP",
+      "parties": [
+        "C",
+        "MP"
+      ],
+      "direction": "positive",
+      "excess_agreement_pp": 5.92003132882783,
+      "common_rollcalls": 1157,
+      "reports": 391
+    },
+    {
+      "pair_id": "SD—V",
+      "parties": [
+        "SD",
+        "V"
+      ],
+      "direction": "negative",
+      "excess_agreement_pp": -12.418949108629295,
+      "common_rollcalls": 1158,
+      "reports": 391
+    },
+    {
+      "pair_id": "SD—MP",
+      "parties": [
+        "SD",
+        "MP"
+      ],
+      "direction": "negative",
+      "excess_agreement_pp": -11.045583991500246,
+      "common_rollcalls": 1157,
+      "reports": 391
+    },
+    {
+      "pair_id": "S—SD",
+      "parties": [
+        "S",
+        "SD"
+      ],
+      "direction": "negative",
+      "excess_agreement_pp": -10.31486589276856,
+      "common_rollcalls": 1158,
+      "reports": 391
+    }
+  ],
+  "selection_rule": "top 3 positive and top 3 negative report-equal conditional excess among pairs with ≥40 common votes, ≥10 reports and defined kappa; ties by pair ID",
+  "eligible_pairs": 28
+}

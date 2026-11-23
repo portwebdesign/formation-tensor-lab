@@ -1,0 +1,43 @@
+{
+  "schema": "isvec-secim.data.v1",
+  "year": 2026,
+  "election": "Riksdag",
+  "count": "final",
+  "attribution": "Valmyndigheten",
+  "election_date": "2026-09-13",
+  "source_updated_at": "2026-09-19T14:53:03",
+  "valid_votes": 6767429,
+  "invalid_votes": 66984,
+  "cast_votes": 6834413,
+  "constituencies": 29,
+  "party_rows": 124,
+  "individually_named_parties": 124,
+  "residual_bucket": null,
+  "fixed_quotas_sum": 310,
+  "official_seats_sum": 349,
+  "identifiers": "Original official four-digit party codes and two-digit constituency codes; labels use official abbreviation when available.",
+  "zero_completion": {
+    "source_vote_rows": 1216,
+    "dense_vote_rows": 3596,
+    "completed_vote_rows": 2380,
+    "proof": "All explicit current counts are nonnegative integers; each local list exhausts its official valid-vote subtotal; each national party count equals the sum of listed constituency counts. Hence omitted local cells have zero votes.",
+    "seat_proof": "All threshold-eligible parties have explicit current national and all constituency split oracles. Omitted parties are below the 4% national and 12% every-constituency thresholds and therefore receive zero seats."
+  },
+  "oracle": {
+    "total_seats": "current official signed mandate JSON",
+    "fixed_leveling_split": "current explicit antalFastaMandat and antalUtjamningsmandat, not allocator output"
+  },
+  "coverage": {
+    "constituency_votes": "passed",
+    "national_reconciliation": "passed",
+    "total_seat_oracle": "passed",
+    "fixed_leveling_oracle": "passed",
+    "municipalities": "not normalized in this slice",
+    "polling_districts": "source ZIP present; vote rows not normalized in this slice",
+    "government_2026": "not implemented or inferred"
+  },
+  "source_manifest": "data/raw/2026-candidate/manifest.json",
+  "comparison_fields": "ForegaendeVal and forandring fields are never used as current observations.",
+  "election_engine_acceptance": "separate CLI verification required",
+  "source_authentication": "All pinned source SHA-256 checks, official index MD5 and three JSON signatures passed before normalization; key from official HTTPS certificate."
+}

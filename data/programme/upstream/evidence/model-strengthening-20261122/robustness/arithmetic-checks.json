@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "findings": [
+    "Forced B local losses imply remaining positive/negative half-L1 budget t=r-B.",
+    "A party underfulfilled during refill cannot have previously returned fixed seats.",
+    "A remaining vacancy implies at least H-F+1=40 unfilled national entitlements.",
+    "Fixed eligible-party group bounds preserve all positive-cutoff lottery extrema.",
+    "Protected district quota, unchanged outside-party local eligibility and national threshold guards are required together."
+  ],
+  "verification_scope": "Internal implementation checks; external replication has not been established.",
+  "conditional_oracle": {
+    "baseline_profiles": 100,
+    "budget_two_profile_pairs": 2836,
+    "zeroing_conditions": 7344,
+    "violations": 0
+  },
+  "implementation_checks": {
+    "tests_rerun": 11,
+    "status": "passed",
+    "conditional_rows_2022": 76,
+    "conditional_rows_2026": 60,
+    "largest_deficit_2022": 23,
+    "largest_deficit_2026": 25
+  },
+  "checked_code_sha256": {
+    "scripts/strengthen_robustness.py": "90ec5c55c7d6c25982779f0bad47169e300ccde67e7f81462559c4c38a3b507a",
+    "scripts/test_strengthen_robustness.py": "bcd38f865ecc453714e4e2324ce7b50cc22b21973fabf5c05a4fe4011168df65"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "formation-tensor.result-manifest.v1",
+  "status": "passed",
+  "files": {
+    "data/elections/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/elections/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+    "data/elections/2026/metadata.json": "cd9fea8f98c22dda6aff911a1bede1d7596868f3df884194be32ef5c5dd320b6",
+    "data/elections/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+    "data/elections/minor-correction-protocol.json": "c900fb81c2a862f1c6a7180f4104f1b8c4039ed5f47a4053c5c2a85ccac14545",
+    "results/interactions/native-replays.jsonl.gz": "23436e8e0603cf0f654fe07e7b755917f6ff6c07d49bf940d4ba803e3f380847",
+    "results/interactions/tensor.json": "11b8572d864b28666fdfd4be0aa0bcf6463f288acd22c709d8f252c30af7b170",
+    "experiments/check_minor_vote_correction.py": "fe79a63cac6d30da697c6d92e7258461a01f94d2a853033070ce6a2a52149afb",
+    "tests/test_minor_correction.py": "16b93ffbbd7ee6e421679e9206574801249b7bf4042a65c16f5da4f7944d2b1b",
+    "results/input-correction/summary.json": "833099c46b1e49c7a936523e841dbb701c7d419cde5046662e309e8e1c8dfd14"
+  },
+  "input_sha256": {
+    "data/elections/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/elections/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+    "data/elections/2026/metadata.json": "cd9fea8f98c22dda6aff911a1bede1d7596868f3df884194be32ef5c5dd320b6",
+    "data/elections/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+    "data/elections/minor-correction-protocol.json": "c900fb81c2a862f1c6a7180f4104f1b8c4039ed5f47a4053c5c2a85ccac14545",
+    "results/interactions/native-replays.jsonl.gz": "23436e8e0603cf0f654fe07e7b755917f6ff6c07d49bf940d4ba803e3f380847",
+    "results/interactions/tensor.json": "11b8572d864b28666fdfd4be0aa0bcf6463f288acd22c709d8f252c30af7b170",
+    "experiments/check_minor_vote_correction.py": "fe79a63cac6d30da697c6d92e7258461a01f94d2a853033070ce6a2a52149afb",
+    "tests/test_minor_correction.py": "16b93ffbbd7ee6e421679e9206574801249b7bf4042a65c16f5da4f7944d2b1b"
+  },
+  "output_sha256": {
+    "summary.json": "833099c46b1e49c7a936523e841dbb701c7d419cde5046662e309e8e1c8dfd14"
+  }
+}

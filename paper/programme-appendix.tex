@@ -1,0 +1,36 @@
+\section{Related studies in the wider research programme}
+\label{app:programme}
+
+The paired-transfer and formation experiments build on four related studies (Table~\ref{tab:programme}). Their files are included under \path{data/programme/upstream/}. The inventory in \path{data/programme/recorded-evidence.json} records original and included hashes, identifying abridged nonnumerical metadata. Numerical findings are retained. These recorded studies supply supplementary evidence, separate from the five experiments recomputed here.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Recorded results from four earlier studies. Each row retains its own unit, domain and evaluation design.}
+\label{tab:programme}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.20\linewidth}YY@{}}
+\toprule
+Study & Recorded result & Interpretation\\
+\midrule
+Exact vote-cost certificates & Full-system minima of 9,086 transfers in 2022 and 10,269 in 2026, within the fixed original eight-party domain. & Conditional national-to-constituency proof and exact witnesses; political roles and other-party votes fixed.\\
+SVD and geometric stability & 2,608 complete roll calls; first two pooled SVD dimensions retain 60.73\% of centred variation. Six period-pair distance correlations: 0.836--0.999. & Descriptive action geometry across four sessions; committee coverage and agenda composition remain visible.\\
+Fitted CP/Tucker response models & Initial test RMSE: CP 0.133, Tucker 0.222, additive comparator 0.429 seats. Later 2026 positive crossings found: 12/38 and 10/38. & Interpolation improves in one design; the stronger threshold challenge favours the unfitted quota comparator.\\
+Historical polling calibration & Seven elections/five rolling tests in the common-seven panel; five elections/three tests in the eight-party panel. Eight-party all-party interval coverage: 0/3. & A retrospective May-to-election error-scale study, with small samples and incomplete joint coverage.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Exact margins and the restricted transfer grid.}
+The earlier certificate study combines an independent national cutoff calculation with a sufficient condition ensuring that constituency allocation cannot stall before the national entitlement is filled. At radii 9,085 and 10,268, the largest conditional unfilled-entitlement bounds are 23 and 25, below the stall threshold of 40. Full-election witnesses attain the corresponding costs of 9,086 and 10,269. The domain permits transfers among the original eight nationally eligible parties within constituencies, with turnout, quotas, other-party votes and parliamentary roles fixed. Candidate-list capacities, new party entry and changes in political behaviour are outside that result.
+
+The present paired-transfer experiment permits fewer transfer forms. Its smallest sampled successful cost of 20,000 therefore does not contradict the earlier 10,269 minimum in the larger domain. The source packet also has a recorded notice concerning four omitted minor-party votes. The bounded correction proof in this article covers the completed interaction-grid inputs. It does not by itself establish correction invariance throughout the older optimisation domain; the earlier certificate remains tied to its versioned input.
+
+\paragraph{Geometry and recurring parliamentary action.}
+The four-session study includes 2,612 recorded roll calls and retains 2,608 complete eight-party participating-action profiles for SVD. The first two pooled fractions are 0.41637 and 0.19093. A separate comparison using all behavioural dimensions gives period-pair distance correlations from 0.83599 to 0.99857. Of 96 same-committee comparisons across sessions, 59 satisfy the stated coverage requirement; their correlations range from 0.55200 to 0.99137. The remaining 37 are unavailable. These quantities describe the recorded action mixture. They are distinct from the current article's conditional agreement excess, and neither supplies a party's consent to a cabinet or named prime minister.
+
+\paragraph{Learned approximations and threshold decisions.}
+CP and Tucker decompositions were fitted in the earlier programme \citep{kolda2009}. The initial response tensor has shape \(29\times4\times8\times3\): constituency, transfer direction, transfer amount and declared stance family. Grouped training, validation and test sets contain 1,617, 252 and 237 valid tensor cells. CP rank 3 and Tucker rank \([1,2,2,2]\) improve test reconstruction over the additive comparator, but the test subset contains no acceptance-positive cell. A later two-class challenge provides a stronger check. On its 2022 test, CP and Tucker attain balanced accuracies of 89.61\% and 91.67\%, while the unfitted quota comparator attains 100\%. On the retrospective 2026 transfer test, CP detects 12 of 38 positive crossings and Tucker detects 10; the quota comparator again classifies the finite grid correctly. These results justify retaining exact threshold calculation and reporting reconstruction performance separately from decision performance.
+
+\paragraph{Historical error scales.}
+The expanded calibration study keeps seven- and eight-party compositions separate and trains each rolling test on earlier elections. In the eight-party panel, historical isotropic mean RMSE is 2.094 percentage points, compared with 2.166 for the unchanged May estimate. Its marginal 90\% intervals cover 21 of 24 party-year observations, but all parties are covered together in none of the three test elections. The corresponding common-seven count is three of five. May-to-election residuals combine survey error and campaign change; the exercise does not estimate a cabinet-selection probability. The earlier independent-local shock model also failed to reach the historical national RMS target within its admitted scale range.
+
+The supplementary files under \path{data/programme/} document the domains and evaluation designs of these studies. Their observations are not pooled into a single sample of independent government formations or a single predictive success rate.

@@ -1,0 +1,18 @@
+test_agenda_prefix_compression_matches_all_full_orders (tests.test_bargaining.BargainingTests) ... ok
+test_cabinet_consent_is_not_formal_nonrejection (tests.test_bargaining.BargainingTests) ... ok
+test_complete_graph_distances_match_action_subset_oracle (tests.test_bargaining.BargainingTests) ... ok
+test_conditional_inclusion_and_non_circular_essentiality (tests.test_bargaining.BargainingTests) ... ok
+test_current_two_rejections_leave_two_future_attempts (tests.test_bargaining.BargainingTests) ... ok
+test_exploration_never_spends_a_formal_vote (tests.test_bargaining.BargainingTests) ... ok
+test_fourth_rejection_precedes_pressure (tests.test_bargaining.BargainingTests) ... ok
+test_inputs_and_horizons_reject_invalid_values (tests.test_bargaining.BargainingTests) ... ok
+test_lower_budget_never_adds_reachable_agreements (tests.test_bargaining.BargainingTests) ... ok
+test_reachability_and_synthetic_cost_boundaries (tests.test_bargaining.BargainingTests) ... ok
+test_rotation_without_state_change_is_a_null_control (tests.test_bargaining.BargainingTests) ... ok
+test_seat_loss_can_make_all_internal_concessions_insufficient (tests.test_bargaining.BargainingTests) ... ok
+test_source_seats_produce_exact_anonymous_buffer_boundary (tests.test_bargaining.BargainingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.216s
+
+OK

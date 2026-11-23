@@ -1,0 +1,1184 @@
+{
+  "schema": "formation-tensor.completion-sensitivity-summary.v1",
+  "status": "passed",
+  "design_status": "Retrospective sensitivity specified after the original model and its outputs were examined. Not preregistered or a prospective political test.",
+  "distinct_seat_profiles": 26,
+  "baseline_profile_id": "seats-62d7a4910d4b",
+  "completion_variants": [
+    "baseline",
+    "strict_V_outside",
+    "C_package_linked",
+    "both"
+  ],
+  "proposal_evaluations": 106496,
+  "minimum_cost_rows": 13312,
+  "budget_reachability_rows": 119808,
+  "process_scenario_rows": 96,
+  "baseline_identity": {
+    "proposal_records": 26624,
+    "reachability_records": 29952,
+    "proposal_mismatches": 0,
+    "reachability_mismatches": 0
+  },
+  "variants": {
+    "baseline": {
+      "proposal_coordinates": 26624,
+      "differences_from_baseline": {
+        "no": 0,
+        "pm_not_rejected": 0,
+        "cabinet_consented": 0,
+        "agreement": 0
+      },
+      "all_profile_edge_diagnostics": {
+        "proposal_edges": 66560,
+        "No_increasing_edges": 1424,
+        "agreement_losing_edges": 0
+      },
+      "no_external_tolerance_with_all_permitted_internal_concessions": {
+        "possible_profile_count": 11,
+        "impossible_profile_count": 15,
+        "possible_profile_ids": [
+          "seats-62d7a4910d4b",
+          "seats-4e18d0f8bc30",
+          "seats-d9c020a3d646",
+          "seats-427cbe3a3042",
+          "seats-0eef18006069",
+          "seats-fbcb484c64b3",
+          "seats-bf4d8cc42568",
+          "seats-b7dc9023ff74",
+          "seats-b65dbb74ffed",
+          "seats-9b1622560e96",
+          "seats-d2e33847ed7a"
+        ],
+        "impossible_profile_ids": [
+          "seats-70a552680eb3",
+          "seats-d6a4e50b8eac",
+          "seats-bbe175f6d4b9",
+          "seats-4f3f1dfd615a",
+          "seats-4bfb8c17cd36",
+          "seats-304601191720",
+          "seats-f85911e914d1",
+          "seats-9d288c9fe2f3",
+          "seats-f1e3f7ba55c9",
+          "seats-b224536f3e3e",
+          "seats-eb5b76d3474b",
+          "seats-c8c9ae6e2af3",
+          "seats-e5b4d77a7187",
+          "seats-be0ad4870325",
+          "seats-539d32309e82"
+        ]
+      },
+      "baseline_policy000_costs": [
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 4,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 4,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 4,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        },
+        {
+          "variant": "baseline",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        }
+      ],
+      "all_profile_policy000_minimum_cost_distribution": {
+        "none": {
+          "5": 11,
+          "None": 15
+        },
+        "L": {
+          "5": 26
+        },
+        "KD": {
+          "4": 22,
+          "5": 4
+        },
+        "L+KD": {
+          "2": 26
+        }
+      },
+      "baseline_feedback_example": {
+        "before": {
+          "state": [
+            3,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "abstain",
+            "C": "abstain",
+            "KD": "no",
+            "MP": "no",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 195,
+          "abstain": 55,
+          "v_essential_holding_others_fixed": false,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "MP_policy_requirement"
+          ]
+        },
+        "after": {
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "no",
+            "C": "abstain",
+            "KD": "no",
+            "MP": "abstain",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 203,
+          "abstain": 47,
+          "v_essential_holding_others_fixed": true,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "V_essential_inclusion_condition"
+          ]
+        },
+        "interpretation": "S-only cabinet, MP policy-assent addition; a declared-rule comparison, not an observed party response."
+      }
+    },
+    "strict_V_outside": {
+      "proposal_coordinates": 26624,
+      "differences_from_baseline": {
+        "no": 2232,
+        "pm_not_rejected": 0,
+        "cabinet_consented": 0,
+        "agreement": 0
+      },
+      "all_profile_edge_diagnostics": {
+        "proposal_edges": 66560,
+        "No_increasing_edges": 0,
+        "agreement_losing_edges": 0
+      },
+      "no_external_tolerance_with_all_permitted_internal_concessions": {
+        "possible_profile_count": 11,
+        "impossible_profile_count": 15,
+        "possible_profile_ids": [
+          "seats-62d7a4910d4b",
+          "seats-4e18d0f8bc30",
+          "seats-d9c020a3d646",
+          "seats-427cbe3a3042",
+          "seats-0eef18006069",
+          "seats-fbcb484c64b3",
+          "seats-bf4d8cc42568",
+          "seats-b7dc9023ff74",
+          "seats-b65dbb74ffed",
+          "seats-9b1622560e96",
+          "seats-d2e33847ed7a"
+        ],
+        "impossible_profile_ids": [
+          "seats-70a552680eb3",
+          "seats-d6a4e50b8eac",
+          "seats-bbe175f6d4b9",
+          "seats-4f3f1dfd615a",
+          "seats-4bfb8c17cd36",
+          "seats-304601191720",
+          "seats-f85911e914d1",
+          "seats-9d288c9fe2f3",
+          "seats-f1e3f7ba55c9",
+          "seats-b224536f3e3e",
+          "seats-eb5b76d3474b",
+          "seats-c8c9ae6e2af3",
+          "seats-e5b4d77a7187",
+          "seats-be0ad4870325",
+          "seats-539d32309e82"
+        ]
+      },
+      "baseline_policy000_costs": [
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 4,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 4,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 4,
+          "full_agreement_state_count": 6
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        },
+        {
+          "variant": "strict_V_outside",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 15
+        }
+      ],
+      "all_profile_policy000_minimum_cost_distribution": {
+        "none": {
+          "5": 11,
+          "None": 15
+        },
+        "L": {
+          "5": 26
+        },
+        "KD": {
+          "4": 22,
+          "5": 4
+        },
+        "L+KD": {
+          "2": 26
+        }
+      },
+      "baseline_feedback_example": {
+        "before": {
+          "state": [
+            3,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "no",
+            "C": "abstain",
+            "KD": "no",
+            "MP": "no",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 225,
+          "abstain": 25,
+          "v_essential_holding_others_fixed": false,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "MP_policy_requirement",
+            "V_outside_inclusion_condition"
+          ]
+        },
+        "after": {
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "no",
+            "C": "abstain",
+            "KD": "no",
+            "MP": "abstain",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 203,
+          "abstain": 47,
+          "v_essential_holding_others_fixed": true,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "V_outside_inclusion_condition"
+          ]
+        },
+        "interpretation": "S-only cabinet, MP policy-assent addition; a declared-rule comparison, not an observed party response."
+      }
+    },
+    "C_package_linked": {
+      "proposal_coordinates": 26624,
+      "differences_from_baseline": {
+        "no": 7488,
+        "pm_not_rejected": 1392,
+        "cabinet_consented": 1872,
+        "agreement": 800
+      },
+      "all_profile_edge_diagnostics": {
+        "proposal_edges": 66560,
+        "No_increasing_edges": 712,
+        "agreement_losing_edges": 0
+      },
+      "no_external_tolerance_with_all_permitted_internal_concessions": {
+        "possible_profile_count": 11,
+        "impossible_profile_count": 15,
+        "possible_profile_ids": [
+          "seats-62d7a4910d4b",
+          "seats-4e18d0f8bc30",
+          "seats-d9c020a3d646",
+          "seats-427cbe3a3042",
+          "seats-0eef18006069",
+          "seats-fbcb484c64b3",
+          "seats-bf4d8cc42568",
+          "seats-b7dc9023ff74",
+          "seats-b65dbb74ffed",
+          "seats-9b1622560e96",
+          "seats-d2e33847ed7a"
+        ],
+        "impossible_profile_ids": [
+          "seats-70a552680eb3",
+          "seats-d6a4e50b8eac",
+          "seats-bbe175f6d4b9",
+          "seats-4f3f1dfd615a",
+          "seats-4bfb8c17cd36",
+          "seats-304601191720",
+          "seats-f85911e914d1",
+          "seats-9d288c9fe2f3",
+          "seats-f1e3f7ba55c9",
+          "seats-b224536f3e3e",
+          "seats-eb5b76d3474b",
+          "seats-c8c9ae6e2af3",
+          "seats-e5b4d77a7187",
+          "seats-be0ad4870325",
+          "seats-539d32309e82"
+        ]
+      },
+      "baseline_policy000_costs": [
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        },
+        {
+          "variant": "C_package_linked",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        }
+      ],
+      "all_profile_policy000_minimum_cost_distribution": {
+        "none": {
+          "5": 11,
+          "None": 15
+        },
+        "L": {
+          "5": 26
+        },
+        "KD": {
+          "5": 26
+        },
+        "L+KD": {
+          "2": 26
+        }
+      },
+      "baseline_feedback_example": {
+        "before": {
+          "state": [
+            3,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "abstain",
+            "C": "no",
+            "KD": "no",
+            "MP": "no",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 220,
+          "abstain": 30,
+          "v_essential_holding_others_fixed": false,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "MP_policy_requirement",
+            "C_linked_package_requirement"
+          ]
+        },
+        "after": {
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "no",
+            "C": "abstain",
+            "KD": "no",
+            "MP": "abstain",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 203,
+          "abstain": 47,
+          "v_essential_holding_others_fixed": true,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "V_essential_inclusion_condition"
+          ]
+        },
+        "interpretation": "S-only cabinet, MP policy-assent addition; a declared-rule comparison, not an observed party response."
+      }
+    },
+    "both": {
+      "proposal_coordinates": 26624,
+      "differences_from_baseline": {
+        "no": 9272,
+        "pm_not_rejected": 1392,
+        "cabinet_consented": 1872,
+        "agreement": 800
+      },
+      "all_profile_edge_diagnostics": {
+        "proposal_edges": 66560,
+        "No_increasing_edges": 0,
+        "agreement_losing_edges": 0
+      },
+      "no_external_tolerance_with_all_permitted_internal_concessions": {
+        "possible_profile_count": 11,
+        "impossible_profile_count": 15,
+        "possible_profile_ids": [
+          "seats-62d7a4910d4b",
+          "seats-4e18d0f8bc30",
+          "seats-d9c020a3d646",
+          "seats-427cbe3a3042",
+          "seats-0eef18006069",
+          "seats-fbcb484c64b3",
+          "seats-bf4d8cc42568",
+          "seats-b7dc9023ff74",
+          "seats-b65dbb74ffed",
+          "seats-9b1622560e96",
+          "seats-d2e33847ed7a"
+        ],
+        "impossible_profile_ids": [
+          "seats-70a552680eb3",
+          "seats-d6a4e50b8eac",
+          "seats-bbe175f6d4b9",
+          "seats-4f3f1dfd615a",
+          "seats-4bfb8c17cd36",
+          "seats-304601191720",
+          "seats-f85911e914d1",
+          "seats-9d288c9fe2f3",
+          "seats-f1e3f7ba55c9",
+          "seats-b224536f3e3e",
+          "seats-eb5b76d3474b",
+          "seats-c8c9ae6e2af3",
+          "seats-e5b4d77a7187",
+          "seats-be0ad4870325",
+          "seats-539d32309e82"
+        ]
+      },
+      "baseline_policy000_costs": [
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "none",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": null,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 5,
+          "full_agreement_state_count": 3
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "none",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        },
+        {
+          "variant": "both",
+          "profile_id": "seats-62d7a4910d4b",
+          "external_buffer": "L+KD",
+          "initial_policy_mask": 0,
+          "relaxation_access": "C+V",
+          "minimum_concession_cost": 2,
+          "full_agreement_state_count": 8
+        }
+      ],
+      "all_profile_policy000_minimum_cost_distribution": {
+        "none": {
+          "5": 11,
+          "None": 15
+        },
+        "L": {
+          "5": 26
+        },
+        "KD": {
+          "5": 26
+        },
+        "L+KD": {
+          "2": 26
+        }
+      },
+      "baseline_feedback_example": {
+        "before": {
+          "state": [
+            3,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "no",
+            "C": "no",
+            "KD": "no",
+            "MP": "no",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 250,
+          "abstain": 0,
+          "v_essential_holding_others_fixed": false,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "MP_policy_requirement",
+            "V_outside_inclusion_condition",
+            "C_linked_package_requirement"
+          ]
+        },
+        "after": {
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "external_buffer": "none",
+          "anonymous_external_seats": null,
+          "pm_roles": {
+            "S": "yes",
+            "M": "no",
+            "SD": "no",
+            "V": "no",
+            "C": "abstain",
+            "KD": "no",
+            "MP": "abstain",
+            "L": "no"
+          },
+          "roles_before_anonymous_adjustment": null,
+          "yes": 99,
+          "no": 203,
+          "abstain": 47,
+          "v_essential_holding_others_fixed": true,
+          "cabinet_consent": {
+            "S": true
+          },
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "agreement": false,
+          "budget_support": "not_modelled",
+          "active_clause_diagnostics": [
+            "V_outside_inclusion_condition"
+          ]
+        },
+        "interpretation": "S-only cabinet, MP policy-assent addition; a declared-rule comparison, not an observed party response."
+      }
+    }
+  },
+  "scope": "Sensitivity of declared conditional models, not an empirical causal validation, calibrated forecast, or automatic change to the production model."
+}

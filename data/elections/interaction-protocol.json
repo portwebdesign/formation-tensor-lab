@@ -1,0 +1,119 @@
+{
+  "frozen_at_utc": "2026-11-22T10:32:03.967330+00:00",
+  "protocol": {
+    "schema": "formation-tensor.interaction-protocol.v1",
+    "year": 2026,
+    "directions": [
+      [
+        "MP",
+        "SD"
+      ],
+      [
+        "S",
+        "M"
+      ],
+      [
+        "V",
+        "KD"
+      ],
+      [
+        "C",
+        "L"
+      ]
+    ],
+    "pairs": [
+      [
+        [
+          "MP",
+          "SD"
+        ],
+        [
+          "S",
+          "M"
+        ]
+      ],
+      [
+        [
+          "MP",
+          "SD"
+        ],
+        [
+          "V",
+          "KD"
+        ]
+      ],
+      [
+        [
+          "MP",
+          "SD"
+        ],
+        [
+          "C",
+          "L"
+        ]
+      ],
+      [
+        [
+          "S",
+          "M"
+        ],
+        [
+          "V",
+          "KD"
+        ]
+      ],
+      [
+        [
+          "S",
+          "M"
+        ],
+        [
+          "C",
+          "L"
+        ]
+      ],
+      [
+        [
+          "V",
+          "KD"
+        ],
+        [
+          "C",
+          "L"
+        ]
+      ]
+    ],
+    "amount_voters": [
+      0,
+      2000,
+      5000,
+      10000,
+      15000,
+      20000
+    ],
+    "districts": "all 29 admitted constituencies",
+    "shape": [
+      6,
+      29,
+      6,
+      6
+    ],
+    "operation": "Two disjoint transfers in one constituency, applied to the same baseline; full 29-constituency native allocation.",
+    "target": {
+      "nonreject_parties": [
+        "M",
+        "KD",
+        "L",
+        "SD"
+      ],
+      "threshold": 175,
+      "political_status": "Researcher-fixed hypothetical roles; not a contemporary support agreement."
+    },
+    "cost": "Within-constituency half-L1; equal to a+b for the four disjoint directions.",
+    "interaction": "f(a,b)-f(a,0)-f(0,b)+f(0,0), separately for seat counts and threshold indicators.",
+    "mask": "All four corners must be valid; insufficient supply, changed eligibility, ties and unsupported computations are typed null.",
+    "reporting": "Every pair, constituency and amount combination retained; equal-cost witnesses selected in source order at every sampled total cost.",
+    "beneficiary_unit": "Unique nonzero native input table, not tensor coordinate; gains at recipient and nonrecipient parties reported separately.",
+    "interpretation": "Retrospective exact counterfactual experiment; no probabilistic support model, empirical voter-flow estimate or global minimum claim."
+  }
+}

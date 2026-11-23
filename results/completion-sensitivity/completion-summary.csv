@@ -1,0 +1,5 @@
+variant,proposal_coordinates,no_external_possible_profiles,no_external_impossible_profiles,baseline_cost_none,baseline_cost_L,baseline_cost_KD,baseline_cost_L_plus_KD,No_increasing_edges,agreement_losing_edges,agreement_coordinates_changed,feedback_no_before,feedback_no_after
+baseline,26624,11,15,5,5,4,2,1424,0,0,195,203
+strict_V_outside,26624,11,15,5,5,4,2,0,0,0,225,203
+C_package_linked,26624,11,15,5,5,5,2,712,0,800,220,203
+both,26624,11,15,5,5,5,2,0,0,800,250,203

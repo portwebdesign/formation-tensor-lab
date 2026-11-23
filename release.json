@@ -1,0 +1,11 @@
+{
+  "schema": "formation-tensor-lab.release.v1",
+  "date": "2026-11-23",
+  "files": {
+    "paper/main.pdf": "8d4f41788dc87c14196f585b5cf02501b303a656e3fd6474858f6f8e0b14c680",
+    "paper/supplement.pdf": "7ed49df8c8d05c04fcf468a6ae84d2134002fd3106f524b9f96c3d2f6928895d",
+    "paper/main.tex": "e5ce4db332a8ed9ee090863607cadc7707f942e0ed9b50e8f3f2ead3e46d6a93",
+    "paper/supplement.tex": "e8a953d7d322350b8f339e083bd409713bb681985890ef1e7574522569a9456f",
+    "formation-tensor-lab.zip": "898d3a6e8a23ce566088641a3856aea61ef539cb62ba7838d43383b4516d8e9a"
+  }
+}

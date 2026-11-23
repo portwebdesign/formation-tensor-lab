@@ -1,0 +1,28 @@
+{
+  "schema": "formation-tensor.completion-sensitivity-manifest.v1",
+  "status": "passed",
+  "files": {
+    "results/interactions/seat-profiles.json": "b6df51624c667bf6a66e743ba7bd3ffc7d8f3e8c89878db552bb90334818af83",
+    "results/bargaining/summary.json": "dee6dbdc658888c4ccc70978ad390f923205bca626b0cb4d8c635c7a6070d839",
+    "results/bargaining/feasibility-tensor.json": "f9484897d9dbe73f7185a1368e896385765c7fbb2b303a7c3a34b33eb8aa6da4",
+    "results/bargaining/reachability.json": "47b85caa5b4f08e3bd2409428d63093e2bbc789eeac4f917f6db32c0df64241a",
+    "data/formation/completion-protocol.json": "aa2f0a9616932432bd4c8013eb9e1209233459832d7d420eb828536a6b5c645b",
+    "data/formation/bargaining-protocol.json": "9a7b50487ebbb63635cd465b4ee49544c2a71910020d2dc7990d711d5788651e",
+    "data/formation/source-ledger.json": "6127877aa3b57d8d032cf7a33ba51077b7acece1b1d94b653fb31d4e2eca873c",
+    "formation_tensor/completion_sensitivity.py": "a0e9182559175e40a5c9e3ea8ceaf71244d68c93e725b4a69721cbff3a46f029",
+    "experiments/run_completion_sensitivity.py": "29930f14cef53ca21c7bcef277d6d398f28c45e2356ccbcada46347a8891559f",
+    "tests/test_completion_sensitivity.py": "2cdeea78da736eb7beee35db0c220d5833cbb0c0e0ff735d219156171296d5f3",
+    "results/completion-sensitivity/summary.json": "af362047d27ca3e80055e9f4bd327a1243d59d232f19d731d21010a5fc409ea1",
+    "results/completion-sensitivity/minimum-costs.json": "44e349fc2b6b1cc8cda50d2a7a428c0bd030d92b80a253a0532a3a55151f5714",
+    "results/completion-sensitivity/reachability.json": "3a0703231fcccc4aacec46d8178300b1f6e08eb75714068a1092ba6378eac023",
+    "results/completion-sensitivity/diagnostics.json": "59af96b6af68ae3cc9f8677f4f548e6a5d8ddb85f7675277c9bdacbd3b2d81c6",
+    "results/completion-sensitivity/process.json": "93968bc4dde6cbfd2f4b1d219b7455f003df93cefe9c51b6d46d2108896007b0",
+    "results/completion-sensitivity/minimum-costs.csv": "e1800a0e7c543906ce9f46ccd20e52f947058c3e9179d6d2a2828f18e036489d",
+    "results/completion-sensitivity/completion-summary.csv": "213ee7b9d38fa2729f6f268572395c656973749be68a7318a97829439e2749ea",
+    "results/completion-sensitivity/process-counts.csv": "8985b075a69370ebbefe51e1407a8017ca7d42bf1b4cb86beff1bd1368cdd968",
+    "results/completion-sensitivity/proposal-records.jsonl.gz": "20ce14581a8eb86da37b96fad1128a0360a7959640e313752a4b17986c39d5fd",
+    "results/completion-sensitivity/README.md": "193134b912e608d4b12322d4102cd35500a9c08d8652d4cd06be324447635f9a"
+  },
+  "design_status": "Retrospective sensitivity specified after the original model and its outputs were examined. Not preregistered or a prospective political test.",
+  "production_rules_modified": false
+}

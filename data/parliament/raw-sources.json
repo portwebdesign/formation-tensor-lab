@@ -1,0 +1,313 @@
+{
+  "schema": "formation-tensor.raw-rollcall-sources.v1",
+  "sources": [
+    {
+      "path": "data/parliament/raw/catalog.html",
+      "url": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
+      "http_status": 200,
+      "access_started_at_utc": "2026-11-22T05:05:06.281582+00:00",
+      "accessed_at_utc": "2026-11-22T05:05:11.766550+00:00",
+      "http_last_modified": null,
+      "content_type": "text/html",
+      "sha256": "f38ca3c38c77ba5a883d37f2a9616b4d703c1366861d4091231cc5f7ceac9cf4",
+      "bytes": 24281,
+      "historical_accessibility_proven": false
+    },
+    {
+      "path": "data/parliament/raw/votering-202223.csv.zip",
+      "url": "https://data.riksdagen.se/dataset/votering/votering-202223.csv.zip",
+      "http_status": 200,
+      "access_started_at_utc": "2026-11-22T05:05:11.766708+00:00",
+      "accessed_at_utc": "2026-11-22T05:05:16.945877+00:00",
+      "http_last_modified": null,
+      "content_type": "application/octet-stream",
+      "sha256": "58f5228c7cb68a4a3cd478fd47faeb3b202b7a9aef6bab57b5dcc4dad1a4bcde",
+      "bytes": 5634560,
+      "catalog_publisher_updated_at": "2026-11-03 06:51:58",
+      "catalog_publisher_timezone": "unspecified by publisher",
+      "catalog_url": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
+      "historical_accessibility_proven": false
+    },
+    {
+      "path": "data/parliament/raw/votering-202324.csv.zip",
+      "url": "https://data.riksdagen.se/dataset/votering/votering-202324.csv.zip",
+      "http_status": 200,
+      "access_started_at_utc": "2026-11-22T05:05:16.949682+00:00",
+      "accessed_at_utc": "2026-11-22T05:05:21.939458+00:00",
+      "http_last_modified": null,
+      "content_type": "application/octet-stream",
+      "sha256": "81d1965ce29b78b69fe3058a4f4b3088e1fc472dc54f9683b28a7b55e0f2e5c1",
+      "bytes": 5889688,
+      "catalog_publisher_updated_at": "2026-11-03 06:54:40",
+      "catalog_publisher_timezone": "unspecified by publisher",
+      "catalog_url": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
+      "historical_accessibility_proven": false
+    },
+    {
+      "path": "data/parliament/raw/votering-202425.csv.zip",
+      "url": "https://data.riksdagen.se/dataset/votering/votering-202425.csv.zip",
+      "http_status": 200,
+      "access_started_at_utc": "2026-11-22T05:05:21.943426+00:00",
+      "accessed_at_utc": "2026-11-22T05:05:28.928087+00:00",
+      "http_last_modified": null,
+      "content_type": "application/octet-stream",
+      "sha256": "30f94c98e758ac91b26172a09de0c88352ae160f66e1777c9414175ce70901ea",
+      "bytes": 6532646,
+      "catalog_publisher_updated_at": "2026-11-03 06:52:28",
+      "catalog_publisher_timezone": "unspecified by publisher",
+      "catalog_url": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
+      "historical_accessibility_proven": false
+    },
+    {
+      "path": "data/parliament/raw/votering-202526.csv.zip",
+      "url": "https://data.riksdagen.se/dataset/votering/votering-202526.csv.zip",
+      "http_status": 200,
+      "access_started_at_utc": "2026-11-22T05:05:28.934079+00:00",
+      "accessed_at_utc": "2026-11-22T05:05:33.666675+00:00",
+      "http_last_modified": null,
+      "content_type": "application/octet-stream",
+      "sha256": "8ced502d54e723e4d931c3b6dbd396b4918dda9b1270197d97b261125bee0326",
+      "bytes": 7864551,
+      "catalog_publisher_updated_at": "2026-11-03 06:55:57",
+      "catalog_publisher_timezone": "unspecified by publisher",
+      "catalog_url": "https://data.riksdagen.se/dataset/katalog/dataset-votering.html",
+      "historical_accessibility_proven": false
+    }
+  ],
+  "files": {
+    "data/parliament/raw/catalog.html": "f38ca3c38c77ba5a883d37f2a9616b4d703c1366861d4091231cc5f7ceac9cf4",
+    "data/parliament/raw/votering-202223.csv.zip": "58f5228c7cb68a4a3cd478fd47faeb3b202b7a9aef6bab57b5dcc4dad1a4bcde",
+    "data/parliament/raw/votering-202324.csv.zip": "81d1965ce29b78b69fe3058a4f4b3088e1fc472dc54f9683b28a7b55e0f2e5c1",
+    "data/parliament/raw/votering-202425.csv.zip": "30f94c98e758ac91b26172a09de0c88352ae160f66e1777c9414175ce70901ea",
+    "data/parliament/raw/votering-202526.csv.zip": "8ced502d54e723e4d931c3b6dbd396b4918dda9b1270197d97b261125bee0326"
+  },
+  "scope": {
+    "label": "All recorded roll calls in the four pinned 2022/23–2025/26 session CSVs",
+    "sessions": [
+      "2022/23",
+      "2023/24",
+      "2024/25",
+      "2025/26"
+    ],
+    "session_assignment": "Publisher rm field; parliamentary session boundaries are not assumed to be August 31.",
+    "known_event_date_min": "2022-10-26",
+    "known_event_date_max": "2026-08-13",
+    "recorded_rollcalls": 2612,
+    "member_rows": 911588,
+    "distinct_member_identifiers_across_four_sessions": 426,
+    "all_parliamentary_decisions_claimed": false,
+    "period_counts": [
+      {
+        "session": "2022/23",
+        "rollcalls": 564,
+        "member_rows": 196836,
+        "unique_member_identifiers": 375,
+        "party_member_rows": {
+          "-": 226,
+          "C": 13536,
+          "KD": 10716,
+          "L": 9024,
+          "M": 38352,
+          "MP": 10152,
+          "S": 60348,
+          "SD": 40946,
+          "V": 13536
+        },
+        "member_actions": {
+          "Avstår": 16587,
+          "Frånvarande": 27564,
+          "Ja": 119653,
+          "Nej": 33032
+        },
+        "date_min": "2022-10-26",
+        "date_max": "2023-09-13",
+        "unknown_date_rollcalls": 0,
+        "unknown_committee_rollcalls": 0,
+        "committee_counts": {
+          "AU": 24,
+          "CU": 42,
+          "FiU": 25,
+          "FöU": 17,
+          "JuU": 52,
+          "KU": 36,
+          "KrU": 35,
+          "MJU": 54,
+          "NU": 44,
+          "SfU": 23,
+          "SkU": 37,
+          "SoU": 67,
+          "TU": 37,
+          "UU": 30,
+          "UbU": 41
+        },
+        "near_unanimous_rollcalls_at_97_5_percent": 0,
+        "member_rows_per_rollcall": 349
+      },
+      {
+        "session": "2023/24",
+        "rollcalls": 594,
+        "member_rows": 207306,
+        "unique_member_identifiers": 382,
+        "party_member_rows": {
+          "-": 1092,
+          "C": 14256,
+          "KD": 11286,
+          "L": 9504,
+          "M": 40392,
+          "MP": 10692,
+          "S": 63060,
+          "SD": 42768,
+          "V": 14256
+        },
+        "member_actions": {
+          "Avstår": 18915,
+          "Frånvarande": 30917,
+          "Ja": 121287,
+          "Nej": 36187
+        },
+        "date_min": "2023-10-25",
+        "date_max": "2024-09-25",
+        "unknown_date_rollcalls": 0,
+        "unknown_committee_rollcalls": 0,
+        "committee_counts": {
+          "AU": 35,
+          "CU": 30,
+          "FiU": 22,
+          "FöU": 25,
+          "JuU": 52,
+          "KU": 30,
+          "KrU": 30,
+          "MJU": 56,
+          "NU": 52,
+          "SfU": 28,
+          "SkU": 30,
+          "SoU": 73,
+          "TU": 40,
+          "UFöU": 4,
+          "UU": 34,
+          "UbU": 53
+        },
+        "near_unanimous_rollcalls_at_97_5_percent": 0,
+        "member_rows_per_rollcall": 349
+      },
+      {
+        "session": "2024/25",
+        "rollcalls": 656,
+        "member_rows": 228944,
+        "unique_member_identifiers": 371,
+        "party_member_rows": {
+          "-": 1312,
+          "C": 15744,
+          "KD": 12464,
+          "L": 10496,
+          "M": 44608,
+          "MP": 11808,
+          "S": 69536,
+          "SD": 47232,
+          "V": 15744
+        },
+        "member_actions": {
+          "Avstår": 22977,
+          "Frånvarande": 34838,
+          "Ja": 131887,
+          "Nej": 39242
+        },
+        "date_min": "2024-09-25",
+        "date_max": "2025-06-18",
+        "unknown_date_rollcalls": 0,
+        "unknown_committee_rollcalls": 0,
+        "committee_counts": {
+          "AU": 29,
+          "CU": 57,
+          "FiU": 25,
+          "FöU": 23,
+          "JuU": 59,
+          "KU": 40,
+          "KrU": 30,
+          "MJU": 72,
+          "NU": 46,
+          "SfU": 39,
+          "SkU": 25,
+          "SoU": 71,
+          "TU": 36,
+          "UFöU": 9,
+          "UU": 36,
+          "UbU": 59
+        },
+        "near_unanimous_rollcalls_at_97_5_percent": 1,
+        "member_rows_per_rollcall": 349
+      },
+      {
+        "session": "2025/26",
+        "rollcalls": 798,
+        "member_rows": 278502,
+        "unique_member_identifiers": 375,
+        "party_member_rows": {
+          "-": 5405,
+          "C": 19152,
+          "KD": 15162,
+          "L": 12768,
+          "M": 53474,
+          "MP": 14364,
+          "S": 84588,
+          "SD": 56299,
+          "V": 17290
+        },
+        "member_actions": {
+          "Avstår": 20547,
+          "Frånvarande": 29562,
+          "Ja": 174035,
+          "Nej": 54358
+        },
+        "date_min": "2025-09-17",
+        "date_max": "2026-08-13",
+        "unknown_date_rollcalls": 3,
+        "unknown_committee_rollcalls": 3,
+        "committee_counts": {
+          "AU": 28,
+          "CU": 75,
+          "FiU": 34,
+          "FöU": 45,
+          "JuU": 68,
+          "KU": 51,
+          "KrU": 25,
+          "MJU": 60,
+          "NU": 68,
+          "SfU": 72,
+          "SkU": 29,
+          "SoU": 74,
+          "TU": 48,
+          "UFöU": 4,
+          "UU": 46,
+          "UbU": 68,
+          "unclassified": 3
+        },
+        "near_unanimous_rollcalls_at_97_5_percent": 4,
+        "member_rows_per_rollcall": 349
+      }
+    ],
+    "unknown_date_rollcalls": 3,
+    "unknown_committee_rollcalls": 3,
+    "date_completeness": "Missing source dates stay null; no guessed date or historical availability is assigned.",
+    "cohort_definition": "Member identifiers are distinct people observed across roll calls, not a claim of an unchanged 349-person cohort.",
+    "descriptive_reuse": "The freshly acquired public 2024/25 records overlap earlier pilot observations. No closed pilot artifact is read, reopened, rescored or used to tune this analysis.",
+    "near_unanimity_filter": {
+      "threshold": 0.975,
+      "exact_test": "40*largest_action_count >= 39*participating_count",
+      "included_actions": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "excluded": [
+        "absent",
+        "independent members outside eight named parties"
+      ],
+      "classification_claim": "Descriptive sensitivity only; not a procedure classifier."
+    },
+    "temporal_provenance": "Access times are today’s observed retrieval, separate from event and publisher update times. Today’s old page is not proof it was accessible on the event date.",
+    "session_202627_included": false,
+    "unknown_event_dates_assigned_to_pre_election_period": false
+  },
+  "original_manifest_sha256": "edbaa0d2fb9328cd314e9f01cab04901b7a7d6333d2611a8baa12faa225fcb83"
+}

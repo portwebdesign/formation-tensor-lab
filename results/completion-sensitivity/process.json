@@ -1,0 +1,6877 @@
+{
+  "rows": [
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 6,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "baseline",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 6,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "strict_V_outside",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 6,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "C_package_linked",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 6,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 1,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 2,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 0,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 0
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 1
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "no": 198,
+              "cabinet_consented": false,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "C",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "no": 198,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 3,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "no": 173,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": false,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "variant": "both",
+      "initial_formal_rejections": 2,
+      "release_clause": "V",
+      "release_trigger_total": 4,
+      "exhaustive_research_oracle": true,
+      "full_agenda_orders": 40320,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "trace": [
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 2
+            },
+            {
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "no": 203,
+              "cabinet_consented": true,
+              "rejections_before": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "scope": "Pinned baseline seats, no external tolerance, full policy assent; exact agenda counts, not political probabilities."
+}

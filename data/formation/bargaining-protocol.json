@@ -1,0 +1,91 @@
+{
+  "frozen_at_utc": "2026-11-22T10:40:40.339469+00:00",
+  "protocol": {
+    "schema": "formation-tensor.bargaining-protocol.v1",
+    "model": "Hypothetical finite-state S-led proposal family; not fitted party intentions.",
+    "cabinet_family": "S plus every subset of C,V,MP: eight proposals; other cabinets outside scope.",
+    "policy_bits": {
+      "0": "C requirement met",
+      "1": "V requirement met",
+      "2": "MP requirement met"
+    },
+    "state": "(three-bit policy mask, C composition condition relaxed, V essential-inclusion condition relaxed)",
+    "state_count": 32,
+    "pm_actions": "S Yes. C non-No iff its policy requirement met and either V outside cabinet or C clause relaxed. MP non-No iff its policy met. V non-No iff its policy met and either V not essential, V in cabinet, or V clause relaxed. Cabinet members Yes; admitted nonmember support abstains. Other parties No except explicit external abstention buffers.",
+    "V_essential": "With all other party actions held fixed: other_non_No<175<=other_non_No+V_seats. Hopeless proposals are not V-essential.",
+    "consent": "S consents; every other included member must have its policy requirement met; included C additionally requires its composition condition. Consent is separate from PM nonrejection.",
+    "budget_support": "Not modelled; no inference from cabinet or PM actions.",
+    "external_buffers": {
+      "none": [],
+      "L": [
+        "L"
+      ],
+      "KD": [
+        "KD"
+      ],
+      "L+KD": [
+        "L",
+        "KD"
+      ]
+    },
+    "initial_policy_masks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "initial_composition_relaxations": [
+      0,
+      0
+    ],
+    "relaxation_access": [
+      "none",
+      "C",
+      "V",
+      "C+V"
+    ],
+    "main_costs": {
+      "each_policy_concession": 1,
+      "each_composition_clause_release": 2
+    },
+    "budget_grid": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "cost_sensitivity": "Baseline profile; uniform policy costs1,2,3 crossed with uniform clause-release costs1,2,3; minimum cost recalculated, no utility estimation.",
+    "profile_population": "All distinct eight-party seat vectors in results/interactions/seat-profiles.json; not independent elections.",
+    "anonymous_capacity_sensitivity": "0..60 existing outsider No seats moved to abstention, full-policy strict clauses; no party-level mapping inferred.",
+    "process_initial_policy_mask": 7,
+    "process_initial_formal_rejections": [
+      0,
+      2
+    ],
+    "process_pressure": "None, or release C/V clause at an explicitly specified total formal rejection1..4 later than the initial counter, provided two synthetic release units available.",
+    "process_formal_limit": "At most four TOTAL formal rejections. The fourth rejection terminates before a subsequent concession. The actual cutoff counter2 leaves at most two additional rejected proposals.",
+    "process_patience": "Additional formal-vote horizons1..4 when starting0,1..2 when starting2.",
+    "process_agendas": "Every8! cabinet order; exactly enumerated as1680 distinct first-four prefixes weighted4!. These counts are design coverage, not political probabilities.",
+    "adaptive_control": "After the hypothetical clause release, search all eight proposals for an agreement before choosing the next formal proposal.",
+    "null_controls": "Repeated unchanged proposals; exploratory-only evaluations never increase formal rejection counter; underfunded pressure does not relax a clause.",
+    "process_terminal_categories": [
+      "agreement_found",
+      "pm_passed_without_cabinet_agreement",
+      "four_rejections",
+      "patience_exhausted"
+    ],
+    "proposal_evaluation_unit": "One modeled proposal assessment, not one observed speaker exploratory mandate.",
+    "diagnostics": "Enumerate all monotone-concession edges, recording No-count increases and agreement losses separately. Pivotality feedback was identified before the expanded run.",
+    "source_scope": "Chronology and actor statements anchor questions only. Future candidate-specific PM and budget actions remain unknown in the documentary layer.",
+    "development_status": "Retrospective specification, frozen before the expanded 26-profile/process run. Baseline unit examples and mathematical checks had already been inspected. Not a blind or prospective political registration."
+  }
+}

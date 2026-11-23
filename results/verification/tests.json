@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-11-23T16:35:19.621156+00:00",
+  "checks": [
+    {
+      "command": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-t",
+        ".",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "results/verification/check-1.txt",
+      "sha256": "e85730025deb831f94f54491c4c3795c5700f85bd4bb0b0fb53b23226f503242"
+    },
+    {
+      "command": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "data/formation",
+        "-p",
+        "test_curated_events.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "results/verification/check-2.txt",
+      "sha256": "5576fcca32c6f733e26ebe99f85d033f81e7d2f3299aae5475bc802282228a8b"
+    },
+    {
+      "command": [
+        "rustc",
+        "--edition=2024",
+        "--test",
+        "native/adapter.rs",
+        "-o",
+        "/Users/yavuz/prg/isvec-secim/formation-tensor-lab/build/native-tests"
+      ],
+      "returncode": 0,
+      "log": "results/verification/check-3.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Users/yavuz/prg/isvec-secim/formation-tensor-lab/build/native-tests"
+      ],
+      "returncode": 0,
+      "log": "results/verification/check-4.txt",
+      "sha256": "224f0abdcee35e63eadb500e322ee83f6a6b0bf10d47125ace27219d177c4862"
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "web/app.js"
+      ],
+      "returncode": 0,
+      "log": "results/verification/check-5.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

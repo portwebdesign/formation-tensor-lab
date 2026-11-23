@@ -1,0 +1,27 @@
+{
+  "schema": "formation-tensor.bargaining-manifest.v1",
+  "status": "passed",
+  "files": {
+    "results/interactions/seat-profiles.json": "b6df51624c667bf6a66e743ba7bd3ffc7d8f3e8c89878db552bb90334818af83",
+    "data/formation/events2026.json": "11e818343dffa7ecad117509095099801881d61f79e0ce071f861cf5b1eb3c77",
+    "data/formation/source-ledger.json": "6127877aa3b57d8d032cf7a33ba51077b7acece1b1d94b653fb31d4e2eca873c",
+    "data/elections/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/formation/bargaining-protocol.json": "9a7b50487ebbb63635cd465b4ee49544c2a71910020d2dc7990d711d5788651e",
+    "formation_tensor/bargaining.py": "22b9f4cd4c2ba49c56f4ec18f91f3cc6313b523c368312f4aa08966794672395",
+    "tests/test_bargaining.py": "ee7ebb3dde773f70214abb339ef2a006d093153a1f85e96ef436a5e5ed195712",
+    "experiments/run_bargaining.py": "6fc740592ced9fc000fa6e2671554cf6c12f295d6154df0498a57ee557730502",
+    "results/bargaining/feasibility-tensor.json": "f9484897d9dbe73f7185a1368e896385765c7fbb2b303a7c3a34b33eb8aa6da4",
+    "results/bargaining/reachability.json": "47b85caa5b4f08e3bd2409428d63093e2bbc789eeac4f917f6db32c0df64241a",
+    "results/bargaining/process.json": "3d707a72216dc783ba82ca8d8d9b9414432fbdcaf03b75d3e73d32b622cae74f",
+    "results/bargaining/coupled-profiles.json": "f8e4aac4c05eeddac667e3f767d552fef6375e39e412a4f94c0c3088ecf972a6",
+    "results/bargaining/capacity-sensitivity.json": "3ee759b4d7a9293bb3fc455e4aa83c49c2f2e83082e9629e289aebe5c4aaa43b",
+    "results/bargaining/cost-sensitivity.json": "81427c8f2dfed7cc0aecc951a0c16da0e3ee88b0c9e30d3825655c540494a401",
+    "results/bargaining/state-edge-diagnostics.json": "b5b07d28945d08c8f160d4793fd7ec9cac39092e90ba91dd13b6a34002ff671a",
+    "results/bargaining/summary.json": "dee6dbdc658888c4ccc70978ad390f923205bca626b0cb4d8c635c7a6070d839",
+    "results/bargaining/dashboard.json": "1b36c1c77c87850737cbf5e332ada00775d7b07e264d027bacdb960305b34c5c",
+    "results/bargaining/process-counts.csv": "86e46c6e82da142bd17167cc95c57e6e4a9b97470e4abf9517302c1cbec3f454",
+    "results/bargaining/tests.txt": "f439cdab73af977aedbb9aac284d4fbead48107a2ee867dd22ee6c3b81be4946",
+    "results/bargaining/run.json": "29bc722e0c78fe9d2abf7a1a8a69512e197bcaa6c26453c6eeead5d0d5fb8841"
+  },
+  "protocol_sha256": "9a7b50487ebbb63635cd465b4ee49544c2a71910020d2dc7990d711d5788651e"
+}

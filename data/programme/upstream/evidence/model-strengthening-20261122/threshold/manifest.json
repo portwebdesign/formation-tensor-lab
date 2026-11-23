@@ -1,0 +1,31 @@
+{
+  "schema": "isvec-secim.threshold-delivery.v1",
+  "status": "passed_two_class_test_with_reported_model_limitations",
+  "files": {
+    "data/threshold-validation/v2/protocol.json": "fd4caa1a6d154b3e7ab64ff81c85e33ea5e675aca2b0ebef46ffab96e9dfd686",
+    "data/threshold-validation/v2/exact-cells.json": "18e71e97bd9cd1e35be31f10eb0e4f54fa8c50690ce79fa8ba170e3dc5db6e37",
+    "data/threshold-validation/v2/split.json": "3e986a2454efacf728fafd732e14a7734602cb063c78050a4e9fe431ae2a5346",
+    "evidence/model-strengthening-20261122/threshold/results.json": "399aeee301ab4a672da0379b5d72001a3b465f287f5d4ae332d774c203206b12",
+    "evidence/model-strengthening-20261122/threshold/test-predictions.json": "43ee66c140a0a6f723a0fdbfc600c1e0fa7becc001422eec155e5379fa25faff",
+    "evidence/model-strengthening-20261122/threshold/additive-model.json": "322c4198f3bca2c5d71d3bed6aa657fe8c247dbb793ead723cd2ec4fee88ee68",
+    "evidence/model-strengthening-20261122/threshold/summary.json": "9e88f08dc635781af2f6332af457b548b4d6e8e22148337715b5e71ce6e45d0b",
+    "scripts/build_threshold_validation_v2.py": "c7cff1fe343922b4f7e5482618504ca59812a42d2d096c301cdfaa1e04c14db4",
+    "workbench/threshold_validation_v2.py": "133663f2fb2a8d5652f47d6e4658f2500cf491d3f4c08f065063ac1a145f83b1",
+    "workbench/test_threshold_validation_v2.py": "d1f053702dc14bed18d62484b1e83fa1948d9ec9678bae970f77d849eaddfb4c",
+    "workbench/tensor_models.py": "a5f240fa6fe2a87fa05a6c2bdc2ae195fc36695aec06d8135b24b4bc88b6cd24",
+    "workbench/threshold_validation.py": "d3301578220b56f86aab107dbde5e54d6370523e37447dbb7fd7f35083eea465",
+    "workbench/test_threshold_validation.py": "96ff722a5f8c3f6810dba3eadc86565051b454b6c80a92266e1e4098a0613643",
+    "scripts/build_threshold_validation.py": "6c56134edf5bc6e8ae56c0f20586a2f8202e56ed77aaab0074f353634e95d7f9",
+    "data/threshold-validation/v1/protocol.json": "125cd6d2e7a21b65af7c6f62f8ff7aee95c36ad718951d115e6898dd213659b9",
+    "data/threshold-validation/v1/exact-cells.json": "1995e518533329ea1e0cfff837a6370835a714d411f22d9a6d282e162a062825",
+    "evidence/model-strengthening-20261122/threshold/v1/coverage-failure.json": "1754f3b7236ed9ec2df462308101a41b7cdaf107bf95d07b3ef4834bd061586c",
+    "evidence/model-strengthening-20261122/threshold/v1/manifest.json": "af203352f873711ec17862372846391aeef877d75153536ecaba3e410b7cfca8",
+    "scripts/report_threshold_validation.py": "a577f127bae1f743f812dfd937135b055391ce6ff1339b39a54b5a4b54a4cc38",
+    "evidence/model-strengthening-20261122/threshold/v1-v2-exact-grid-check.json": "3f75075e0770cfefdd5205e769f97eb22b86ef216200305eb01c15c9636a7cde",
+    "evidence/model-strengthening-20261122/threshold/tests.txt": "e2334ac96c74e60feaabce059c2e86149c3af564a1b791176089f5a6d396c2fd",
+    "evidence/model-strengthening-20261122/threshold/tests.json": "26162e7ec1e181dc1cd2775d2fe0f3473da08aa52d7818da45ea36e41dc28b93"
+  },
+  "summary_path": "evidence/model-strengthening-20261122/threshold/summary.json",
+  "closed_pilot_opened_or_scored": false,
+  "finalized_at_utc": "2026-11-22T07:22:17.153650+00:00"
+}

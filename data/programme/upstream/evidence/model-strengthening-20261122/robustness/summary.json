@@ -1,0 +1,176 @@
+{
+  "schema": "isvec-secim.robustness-strengthening-summary.v1",
+  "status": "passed_with_scoped_bounds",
+  "findings": [
+    "Conditional refill-deficit proof closes the previously conservative national-to-district bridge inside the original fixed-eight-party transfer domain.",
+    "National minima 9,086 (2022) and 10,269 (2026) also bound the full 29-district engine in that domain; unrestricted election-law optimization is not established.",
+    "A dated family can already permit both directed targets at cost zero, while imposing one common target in every world requires a positive-cost witness or can be structurally impossible.",
+    "Both statement-only January 2019 families contain the all-party nonrejecting world with 349 nonrejecting seats; therefore common rejection is impossible while that role family remains fixed."
+  ],
+  "metrics": [
+    {
+      "label": "2022 scoped full-system exact minimum",
+      "value": 9086,
+      "unit": "voters",
+      "context": "fixed original eight parties, turnout, quotas and role mask"
+    },
+    {
+      "label": "2026 scoped full-system exact minimum",
+      "value": 10269,
+      "unit": "voters",
+      "context": "hypothetical fixed role mask"
+    },
+    {
+      "label": "Worst conditional unfilled entitlement / stall threshold (2022)",
+      "value": "23 / 40"
+    },
+    {
+      "label": "Worst conditional unfilled entitlement / stall threshold (2026)",
+      "value": "25 / 40"
+    },
+    {
+      "label": "2019-01-14-evidence common accept",
+      "value": [
+        825445,
+        2263439
+      ],
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": [
+        825445,
+        2263439
+      ],
+      "target_status": "bounded"
+    },
+    {
+      "label": "2019-01-14-evidence common reject",
+      "value": "Impossible under fixed family",
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": null,
+      "target_status": "impossible"
+    },
+    {
+      "label": "2019-01-16-evidence common accept",
+      "value": [
+        558098,
+        1752911
+      ],
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": [
+        558098,
+        1752911
+      ],
+      "target_status": "bounded"
+    },
+    {
+      "label": "2019-01-16-evidence common reject",
+      "value": "Impossible under fixed family",
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": null,
+      "target_status": "impossible"
+    },
+    {
+      "label": "2019-01-14-sensitivity common accept",
+      "value": [
+        80001,
+        132054
+      ],
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": [
+        80001,
+        132054
+      ],
+      "target_status": "bounded"
+    },
+    {
+      "label": "2019-01-14-sensitivity common reject",
+      "value": [
+        200001,
+        331660
+      ],
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": [
+        200001,
+        331660
+      ],
+      "target_status": "bounded"
+    },
+    {
+      "label": "2019-01-16-sensitivity common accept",
+      "value": [
+        0,
+        0
+      ],
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": [
+        0,
+        0
+      ],
+      "target_status": "already_met"
+    },
+    {
+      "label": "2019-01-16-sensitivity common reject",
+      "value": [
+        200001,
+        331660
+      ],
+      "context": "directed national target; any-world target is shown separately in the full result",
+      "cost_interval": [
+        200001,
+        331660
+      ],
+      "target_status": "bounded"
+    }
+  ],
+  "limitations": [
+    "Only the original fixed-eight-party, district-turnout/quotas and role domain is certified. Candidate-list capacities, new-party entry/exit and turnout changes are excluded.",
+    "The native replay reuses the existing election core and rejects relevant ties; the proof bounds all legal tie completions without enumerating all intermediate tie paths.",
+    "2019 multi-world positive costs are bounds, not exact minima. Source-only and research-assumption families remain distinct.",
+    "Cost zero for an any-world directed target is not an identified outcome-flip margin when the baseline family is already ambiguous."
+  ],
+  "pending": [
+    "Independent mathematical validation",
+    "Second coding of historical political statements"
+  ],
+  "source_urls": [
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vallag-2005837_sfs-2005-837/",
+      "title": "Vallag 14 kap., the rule basis used in the preserved certificate audit"
+    }
+  ],
+  "input_and_code_sha256": {
+    "scripts/strengthen_robustness.py": "b220078f1905f10c41c5e1d1fac39126255e0d8dc260af05eab9ccb69196f977",
+    "scripts/test_strengthen_robustness.py": "bcd38f865ecc453714e4e2324ce7b50cc22b21973fabf5c05a4fe4011168df65",
+    "src/election.rs": "689e448348b7a6f9d5004f34981efe91dc06e8a10e481e7de2670d91adfebe7e",
+    "scripts/vote_robustness_replay.rs": "60e78ecc8dd41122e352673c22bfa06cc07ab8cf6754fc1c7bf642feb8f25b2b",
+    "data/support-worlds/cases.json": "2a2f41e3b66f4c2c866ca11592dd807a5254afb81969e5479d0abd281a5334b0",
+    "evidence/support-worlds/20261122/results.json": "828a42196f95456b0a8cb2d45d3e28d886a479fd385125e23e2b7d048d7544d0",
+    "data/derived/2018/parties.tsv": "bac770339667e7fa97191a65b74b845cdcfd057c3102fe68d6b945741060e333",
+    "data/derived/2018/votes.tsv": "60286bb132d7406812fac045db4aedf53724b6f7b0ef6c5bc856e5dc2c5c55d2",
+    "data/derived/2018/districts.tsv": "1e0012e86ced705f281fe6809f1e5bca2e7ff6fb96134d322b63c7ee00e95d66",
+    "data/derived/2018/metadata.json": "8ea4aeeb9a7f9f4e0af2d646a56a2c53a256de2584afda723e53fc53788ea5ec",
+    "data/derived/2022/parties.tsv": "f30ddcbce10392bdad2236fe12a17cdf3ac0cd2f8e122a9edbfa775f64ab34f2",
+    "data/derived/2022/votes.tsv": "88bedcf30fe91163b96bb7c283965041e6bf3f7e09b948c2153f325066d6da41",
+    "data/derived/2022/districts.tsv": "1afb47e813904ed199a06bf5c30526b88aedbff9abe8222c2d37bd94352949c7",
+    "data/derived/2022/metadata.json": "baedf0ec5622a6477a604faf10060b53db2eecf78c1b67269b007b2ba327d24b",
+    "data/derived/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/derived/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+    "data/derived/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+    "data/derived/2026/metadata.json": "cd9fea8f98c22dda6aff911a1bede1d7596868f3df884194be32ef5c5dd320b6",
+    "evidence/research-extension-20261122/certificates/manifest.json": "90ccb48ff1a2de6efc965052c84d39e7c04a5fe6252d07a4f94d216d87b6ea0b",
+    "evidence/research-extension-20261122/certificates/2022-lower-bound-certificate.json": "c16131e9d77be6f7129270a1fd58f05268f1024ea49dbd211bf456fb782ee831",
+    "evidence/research-extension-20261122/certificates/2026-lower-bound-certificate.json": "e38f79959a3f8fc2c4b53f9c7427e12f63893396114211999102a49e33b7879a",
+    "evidence/research-extension-20261122/certificates/audit.json": "b390bc96e00eda3e7387f1e4d89ad1c4b8706693fd91fbf88fc51c2f28a14ff1",
+    "evidence/research-extension-20261122/certificates/legal-sources.json": "55c324b42fc01b0e08423fd900b21cfc4e461064729002c7195803e5b3a62bf8",
+    "evidence/research-extension-20261122/certificates/tests.json": "6a9f19f71accb5e62fd3f05c58162af059f224e60ad37bf80855918086fc9287",
+    "evidence/vote-robustness/multi-party-20261121/2022-multi-party-transfers.tsv": "8d670a712616f066b045b5a74020ca5b490855a3e103816b937ffd506ea9139d",
+    "evidence/vote-robustness/multi-party-20261121/2026-multi-party-transfers.tsv": "efd5a56121364c3b2ad34e3d7db12d6ca4166837f2d7447e4dcac09b161451ea",
+    "data/raw/historical/c-2019-01-12.html": "ba00c29cf3a08b4e00770dec1bb7b132854080a1f2fbc78d8143b06b87137c30",
+    "data/raw/historical/c-2019-01-14.html": "c6ba12ebdfac9913236781c6ecfb71db47d8372f1aa73a2eaa4c4ba8b7c8a4ca",
+    "data/raw/historical/l-2019-01-13.html": "eaf31e5243bd33b31927e2325553c4c36daa1ec1581a71e34929260ad1398f03",
+    "data/raw/historical/v-2019-01-16.html": "804772fec608e51d7a0e895daeae9ce351b4d5d716c5a1d7dd220c66aadb70b1",
+    "data/raw/historical/H60937.html": "1cbe0a4d52e506c16f64572be7b8ab0b46eea1581f34ef0f597cb4a9d5439f4a",
+    "data/raw/formation-2026-11-20/c-2026-11-16.html": "56fb422809c861d9f1d866174bc1d2cb3b15478fd051c9a30f3d93eb7fccce99",
+    "data/raw/formation-2026-11-20/s-2026-11-08.html": "1854473a03c405bbbc700e755b06708160032ba5035e1868b6755402aca8e8d8"
+  },
+  "closed_pilot_opened_or_scored": false
+}

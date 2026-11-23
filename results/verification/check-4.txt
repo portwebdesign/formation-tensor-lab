@@ -1,0 +1,44 @@
+
+running 39 tests
+test adapter_tests::errors_keep_lottery_and_unsupported_types ... ok
+test adapter_tests::json_strings_are_escaped ... ok
+test adapter_tests::conservation_and_net_cost_are_checked ... ok
+test adapter_tests::empty_baseline_and_transfer_parsing_are_explicit ... ok
+test election::tests::first_divisor_changes_real_awards_between_historical_regimes ... ok
+test election::tests::historical_entitlement_repeats_exclusion_until_no_party_is_overrepresented ... ok
+test election::tests::first_leveling_placement_uses_divisor_one_in_zero_fixed_district ... ok
+test election::tests::excess_fixed_awards_are_returned_and_refilled_before_leveling ... ok
+test election::tests::historical_first_leveling_in_zero_fixed_district_uses_raw_votes ... ok
+test election::tests::historical_regional_party_seats_are_reserved_before_national_allocation ... ok
+test election::tests::historical_overhang_is_retained_instead_of_returned ... ok
+test election::tests::historical_year_binding_is_explicit_and_unknown_years_fail ... ok
+test election::tests::initial_and_later_divisors_are_exact ... ok
+test election::tests::historical_small_district_overhang_needs_no_modern_return_exception ... ok
+test election::tests::invalid_dimensions_duplicate_ids_and_overflow_are_rejected ... ok
+test election::tests::quotient_does_not_lose_single_vote_above_float_precision ... ok
+test election::tests::protected_two_seat_constituency_surplus_is_explicitly_unsupported ... ok
+test election::tests::relevant_tie_requires_official_lottery ... ok
+test election::tests::riksdag_shape_is_separate_from_small_examples ... ok
+test election::tests::national_four_percent_is_inclusive_and_denominator_includes_small_parties ... ok
+test election::tests::regional_twelve_percent_party_keeps_fixed_seat_but_gets_no_leveling ... ok
+test government::tests::actual_2022_nonrejection_total_is_not_confused_with_cabinet_size ... ok
+test election::tests::zero_votes_do_not_receive_seats ... ok
+test election::tests::returns_in_multiple_districts_use_global_next_quotient_order ... ok
+test government::tests::exactly_175_no_rejects_and_174_does_not ... ok
+test government::tests::external_veto_has_a_direction ... ok
+test government::tests::forbidden_pair_is_enforced_even_when_a_third_party_could_connect_them ... ok
+test government::tests::invalid_party_data_and_constraints_are_rejected ... ok
+test government::tests::invalid_role_masks_are_rejected ... ok
+test government::tests::single_party_and_bounded_enumeration ... ok
+test historical_bounds::tests::duplicate_identical_and_opposite_facts_both_fail ... ok
+test historical_bounds::tests::exact_174_and_175_no_boundary_uses_full_chamber ... ok
+test historical_bounds::tests::exact_possible_set_preserves_gaps_inside_the_bounds ... ok
+test historical_bounds::tests::invalid_weights_and_identifiers_fail_before_enumeration ... ok
+test historical_bounds::tests::input_order_does_not_change_exact_sums_or_assignment_counts ... ok
+test historical_bounds::tests::one_known_stance_can_identify_acceptance_or_rejection ... ok
+test historical_bounds::tests::unknown_facts_have_maximal_interval_but_identify_no_outcome ... ok
+test historical_bounds::tests::twelve_unit_limit_is_bounded_and_thirteenth_is_rejected ... ok
+test government::tests::enumeration_contains_only_unique_feasible_arrangements ... ok
+
+test result: ok. 39 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

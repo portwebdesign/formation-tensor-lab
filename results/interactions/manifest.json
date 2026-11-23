@@ -1,0 +1,49 @@
+{
+  "schema": "formation-tensor.interaction-manifest.v1",
+  "status": "passed",
+  "protocol_sha256": "6429a6e66b5f4b4b81856730d8ab6c0546fd88cd4195b4f4882b22370098a42a",
+  "input_sha256": {
+    "data/elections/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/elections/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+    "data/elections/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+    "data/elections/2026/metadata.json": "cd9fea8f98c22dda6aff911a1bede1d7596868f3df884194be32ef5c5dd320b6",
+    "data/elections/2026/official_seats.tsv": "afadfd0af8b79e65fb83a74438f18da18761e67b2610ac4e6f5fc43bfbf75460",
+    "native/adapter.rs": "53f54bd7d0b2311712456aa1f08abfcc65c8fd8fb1b1d361453745d81aa63cd4",
+    "native/election.rs": "de92eb5f5ab152c671d99eb496816ab318dc1389d3986ca741f84c22fa91734f",
+    "native/government.rs": "af5a1ac895bdf0d1348d8b17a2daf866c9a6ad95a6d0121235ef6607dcff415e",
+    "native/historical_bounds.rs": "1a10d8a8b7ace60eb77938183c4c73f56d97f35f0cfb01edcabdbc5445cd1ea0",
+    "formation_tensor/election.py": "0ba497f6dc11e73ebc84711b520d8e6ff595086aea903ea6abbc3e28fefde679",
+    "experiments/run_interactions.py": "7bb9246c7f6b07e5d9a143673f4008e5b109f48ab466ec3cd4f5a8c17e4b9a9c",
+    "tests/test_election.py": "2ed1da40fd87e9ed98d2819e3b4ef3124a55dce19876e4518cc29f2100b99b18",
+    "data/elections/interaction-protocol.json": "6429a6e66b5f4b4b81856730d8ab6c0546fd88cd4195b4f4882b22370098a42a"
+  },
+  "output_sha256": {
+    "tensor.json": "11b8572d864b28666fdfd4be0aa0bcf6463f288acd22c709d8f252c30af7b170",
+    "summary.json": "2fccd68e507a76572cac6a0b37d30887e0a44a88d10739b3699a87c46794d8df",
+    "seat-profiles.json": "b6df51624c667bf6a66e743ba7bd3ffc7d8f3e8c89878db552bb90334818af83",
+    "cells.csv": "3fd3f288ac8f3e5f13ffeb8680c32181592504124e2ce3bfb12b0ebab16df76b",
+    "native-replays.jsonl.gz": "23436e8e0603cf0f654fe07e7b755917f6ff6c07d49bf940d4ba803e3f380847"
+  },
+  "files": {
+    "data/elections/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/elections/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+    "data/elections/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+    "data/elections/2026/metadata.json": "cd9fea8f98c22dda6aff911a1bede1d7596868f3df884194be32ef5c5dd320b6",
+    "data/elections/2026/official_seats.tsv": "afadfd0af8b79e65fb83a74438f18da18761e67b2610ac4e6f5fc43bfbf75460",
+    "native/adapter.rs": "53f54bd7d0b2311712456aa1f08abfcc65c8fd8fb1b1d361453745d81aa63cd4",
+    "native/election.rs": "de92eb5f5ab152c671d99eb496816ab318dc1389d3986ca741f84c22fa91734f",
+    "native/government.rs": "af5a1ac895bdf0d1348d8b17a2daf866c9a6ad95a6d0121235ef6607dcff415e",
+    "native/historical_bounds.rs": "1a10d8a8b7ace60eb77938183c4c73f56d97f35f0cfb01edcabdbc5445cd1ea0",
+    "formation_tensor/election.py": "0ba497f6dc11e73ebc84711b520d8e6ff595086aea903ea6abbc3e28fefde679",
+    "experiments/run_interactions.py": "7bb9246c7f6b07e5d9a143673f4008e5b109f48ab466ec3cd4f5a8c17e4b9a9c",
+    "tests/test_election.py": "2ed1da40fd87e9ed98d2819e3b4ef3124a55dce19876e4518cc29f2100b99b18",
+    "data/elections/interaction-protocol.json": "6429a6e66b5f4b4b81856730d8ab6c0546fd88cd4195b4f4882b22370098a42a",
+    "results/interactions/tensor.json": "11b8572d864b28666fdfd4be0aa0bcf6463f288acd22c709d8f252c30af7b170",
+    "results/interactions/summary.json": "2fccd68e507a76572cac6a0b37d30887e0a44a88d10739b3699a87c46794d8df",
+    "results/interactions/seat-profiles.json": "b6df51624c667bf6a66e743ba7bd3ffc7d8f3e8c89878db552bb90334818af83",
+    "results/interactions/cells.csv": "3fd3f288ac8f3e5f13ffeb8680c32181592504124e2ce3bfb12b0ebab16df76b",
+    "results/interactions/native-replays.jsonl.gz": "23436e8e0603cf0f654fe07e7b755917f6ff6c07d49bf940d4ba803e3f380847"
+  },
+  "native_engine_modified": false,
+  "roles_are_hypothetical": true
+}

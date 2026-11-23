@@ -1,0 +1,15 @@
+{
+  "schema": "isvec-secim.tensor-learning-manifest.v1",
+  "status": "passed",
+  "sha256": {
+    "workbench/tensor_models.py": "a5f240fa6fe2a87fa05a6c2bdc2ae195fc36695aec06d8135b24b4bc88b6cd24",
+    "scripts/build_tensor_learning.py": "9e6acfdaa8eb1e547fc20e13c60981ecb6b5949962b44f639ab90cf4b5fe1e83",
+    "data/tensor-learning/20261122/tensor.json": "6ea0a345912c535f4e4990393c8d9608de8f3a827de79567bc4a360a57846214",
+    "data/tensor-learning/20261122/splits.json": "eb608b13177ba10040d20e506b0e2b3c89b245ac0fb00af996c359e609abdcb7",
+    "evidence/research-extension-20261122/tensor/results.json": "8918383e5df54c8205034d2da5b108df57a5058fd5ef3ab4f3b20ad0ab209dee",
+    "evidence/research-extension-20261122/tensor/test-predictions.json": "d0571348786cea93bdaae35aeffd6ecd38e3308513ca847e2118dcb1458d25e2",
+    "evidence/research-extension-20261122/tensor/additive-model.json": "9ad0810b670ca3a83575d4247b8a3ad134771b4eb5bff26061fc300ccee8e290",
+    "evidence/research-extension-20261122/tensor/tests.txt": "a33e7e6cf59506df41a039c2fc8653a19d65fd0cfd8e7a8a9663cf1dc7789217"
+  },
+  "closed_pilot_accessed": false
+}

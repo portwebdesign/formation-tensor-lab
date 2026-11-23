@@ -1,0 +1,402 @@
+{
+  "schema": "formation-tensor-lab.recorded-programme-evidence.v1",
+  "imported_at_utc": "2026-11-22T11:30:41.364159+00:00",
+  "source_project": "isvec-secim",
+  "status": "recorded_upstream_evidence_hash_checked",
+  "fresh_numerical_execution_in_this_import": false,
+  "included_in_four_experiment_22_output_reproduction": false,
+  "upstream_manifest_interpretation": "Historical manifests preserve hashes and paths for the earlier studies, including unbundled code and data. Development-report pointers are omitted. The local files map verifies the included copies; source_records identify original source hashes and whether each included copy is byte-identical.",
+  "historical_accessibility_proven_by_import": false,
+  "files": {
+    "data/programme/upstream/evidence/model-strengthening-20261122/robustness/summary.json": "d58e13eabc99cbd7a7f972dadd4f66e12d5b37feb44893def195dc464d75ed46",
+    "data/programme/upstream/evidence/model-strengthening-20261122/robustness/refill-bridge.json": "7de8b11ab43e3a6b635b2c411f4c0d4e480975f3d4664fc87ffa095e5859dc2c",
+    "data/programme/upstream/evidence/model-strengthening-20261122/robustness/protocol.json": "258dcf50838f90d404c190234d4cfb8ec01e1e4078f441862da9651d71197d83",
+    "data/programme/upstream/evidence/model-strengthening-20261122/robustness/manifest.json": "dfef64bba226fb1a674b3effe58f9e37c4a5f4573b26a636637994e48eef3796",
+    "data/programme/upstream/evidence/research-extension-20261122/certificates/audit.json": "7170760e7cf5d4598c96777b25bd7862451dfc481f945354ded1343ce51f7ca5",
+    "data/programme/upstream/evidence/research-extension-20261122/certificates/2022-lower-bound-certificate.json": "c16131e9d77be6f7129270a1fd58f05268f1024ea49dbd211bf456fb782ee831",
+    "data/programme/upstream/evidence/research-extension-20261122/certificates/2026-lower-bound-certificate.json": "e38f79959a3f8fc2c4b53f9c7427e12f63893396114211999102a49e33b7879a",
+    "data/programme/upstream/evidence/research-extension-20261122/certificates/manifest.json": "d7846d4a8c393802d7f56c48da1e3921b26192e981be8e754cf5e3a3f93e8e37",
+    "data/programme/upstream/data/longitudinal/current.json": "130fd7e389e23ba7ca9b1039469704d522f5e01ea173669c6b73002cca7aa019",
+    "data/programme/upstream/data/longitudinal/manifest.json": "edbaa0d2fb9328cd314e9f01cab04901b7a7d6333d2611a8baa12faa225fcb83",
+    "data/programme/upstream/evidence/research-extension-20261122/behavior/stability.json": "fa6120863bb0b1fdbbe0fb7a5c94fc64d6eb025ef4fca00706adb29860f59334",
+    "data/programme/upstream/evidence/research-extension-20261122/behavior/manifest.json": "3396446563eae994aee92a9f63fd840a4facd7f9d63a054a49c65fdb0f66b1fa",
+    "data/programme/upstream/evidence/research-extension-20261122/tensor/results.json": "8918383e5df54c8205034d2da5b108df57a5058fd5ef3ab4f3b20ad0ab209dee",
+    "data/programme/upstream/evidence/research-extension-20261122/tensor/manifest.json": "a93d07fb8667bbdbbae4c5c8c1fc270286f8d467b5a173c7e614ea80ebd80eed",
+    "data/programme/upstream/evidence/model-strengthening-20261122/threshold/summary.json": "9e88f08dc635781af2f6332af457b548b4d6e8e22148337715b5e71ce6e45d0b",
+    "data/programme/upstream/evidence/model-strengthening-20261122/threshold/results.json": "399aeee301ab4a672da0379b5d72001a3b465f287f5d4ae332d774c203206b12",
+    "data/programme/upstream/evidence/model-strengthening-20261122/threshold/manifest.json": "8d9af1a75bc26369db61c0bf28548f9954a8056a743c6ba226fe18de87533f7c",
+    "data/programme/upstream/data/threshold-validation/v2/protocol.json": "fd4caa1a6d154b3e7ab64ff81c85e33ea5e675aca2b0ebef46ffab96e9dfd686",
+    "data/programme/upstream/data/threshold-validation/v2/split.json": "3e986a2454efacf728fafd732e14a7734602cb063c78050a4e9fe431ae2a5346",
+    "data/programme/upstream/evidence/model-strengthening-20261122/polls/summary.json": "a18bf5d8d0717b49ed3c4d12658eae2b6ead89a62e4144be9974e18b17a0ade4",
+    "data/programme/upstream/evidence/model-strengthening-20261122/polls/results.json": "8e93bd9e2f2991445813a96a4eaea3875a1216ac517074af1f4a2e4213f3b9dc",
+    "data/programme/upstream/evidence/model-strengthening-20261122/polls/manifest.json": "061647092884f2cb547b782814599026d9a9bc08a7246bc75beee63896f89145",
+    "data/programme/upstream/data/expanded-poll-validation/protocol-v1.json": "22fac8fe2e5f4d77b8321beddeea249f12dbc72ccf2a3866319a7f7980945940",
+    "data/programme/upstream/data/expanded-poll-validation/older-release-facts.json": "bf508cb1d3c1550037a2c4a100544a117afc71455eed2a19d581c5c45cfd37b1",
+    "data/programme/upstream/evidence/model-strengthening-20261122/robustness/arithmetic-checks.json": "08f6228d8bea36d4d6cf7458b8004f30bbcf89f126624d78c95fa33141d21456"
+  },
+  "source_records": [
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/model-strengthening-20261122/robustness/summary.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/robustness/summary.json",
+      "source_sha256_at_import": "72b5f729e565c5716046e04b707b91310ab370c33d91f9358165e4e1c8afa9c5",
+      "capsule_sha256": "d58e13eabc99cbd7a7f972dadd4f66e12d5b37feb44893def195dc464d75ed46",
+      "bytes": 8939,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/model-strengthening-20261122/robustness/refill-bridge.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/robustness/refill-bridge.json",
+      "source_sha256_at_import": "daf7a4cb694985440803e537444460032b4618e5a12c8a22c305d8be04ec8c02",
+      "capsule_sha256": "7de8b11ab43e3a6b635b2c411f4c0d4e480975f3d4664fc87ffa095e5859dc2c",
+      "bytes": 598085,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/model-strengthening-20261122/robustness/protocol.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/robustness/protocol.json",
+      "source_sha256_at_import": "258dcf50838f90d404c190234d4cfb8ec01e1e4078f441862da9651d71197d83",
+      "capsule_sha256": "258dcf50838f90d404c190234d4cfb8ec01e1e4078f441862da9651d71197d83",
+      "bytes": 936,
+      "byte_identical": true
+    },
+    {
+      "study": "exact-certificates",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/robustness/arithmetic-checks.json",
+      "source_sha256_at_import": "7c4b1904d6225dc536679a8650f9fa4de7c4eb71b721530a5f8debca204f1e11",
+      "capsule_sha256": "08f6228d8bea36d4d6cf7458b8004f30bbcf89f126624d78c95fa33141d21456",
+      "bytes": 1238,
+      "byte_identical": false,
+      "content_kind": "Numerical implementation-check extract",
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/model-strengthening-20261122/robustness/manifest.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/robustness/manifest.json",
+      "source_sha256_at_import": "8aa369e0483a7601f70f9152f81b11088a423c51c65c604bddb4106d0cd1e0d1",
+      "capsule_sha256": "dfef64bba226fb1a674b3effe58f9e37c4a5f4573b26a636637994e48eef3796",
+      "bytes": 5769,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/research-extension-20261122/certificates/audit.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/certificates/audit.json",
+      "source_sha256_at_import": "b390bc96e00eda3e7387f1e4d89ad1c4b8706693fd91fbf88fc51c2f28a14ff1",
+      "capsule_sha256": "7170760e7cf5d4598c96777b25bd7862451dfc481f945354ded1343ce51f7ca5",
+      "bytes": 50257,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/research-extension-20261122/certificates/2022-lower-bound-certificate.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/certificates/2022-lower-bound-certificate.json",
+      "source_sha256_at_import": "c16131e9d77be6f7129270a1fd58f05268f1024ea49dbd211bf456fb782ee831",
+      "capsule_sha256": "c16131e9d77be6f7129270a1fd58f05268f1024ea49dbd211bf456fb782ee831",
+      "bytes": 14937,
+      "byte_identical": true
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/research-extension-20261122/certificates/2026-lower-bound-certificate.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/certificates/2026-lower-bound-certificate.json",
+      "source_sha256_at_import": "e38f79959a3f8fc2c4b53f9c7427e12f63893396114211999102a49e33b7879a",
+      "capsule_sha256": "e38f79959a3f8fc2c4b53f9c7427e12f63893396114211999102a49e33b7879a",
+      "bytes": 123532,
+      "byte_identical": true
+    },
+    {
+      "study": "exact-certificates",
+      "upstream_path": "evidence/research-extension-20261122/certificates/manifest.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/certificates/manifest.json",
+      "source_sha256_at_import": "90ccb48ff1a2de6efc965052c84d39e7c04a5fe6252d07a4f94d216d87b6ea0b",
+      "capsule_sha256": "d7846d4a8c393802d7f56c48da1e3921b26192e981be8e754cf5e3a3f93e8e37",
+      "bytes": 827,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "svd-stability",
+      "upstream_path": "data/longitudinal/current.json",
+      "capsule_path": "data/programme/upstream/data/longitudinal/current.json",
+      "source_sha256_at_import": "130fd7e389e23ba7ca9b1039469704d522f5e01ea173669c6b73002cca7aa019",
+      "capsule_sha256": "130fd7e389e23ba7ca9b1039469704d522f5e01ea173669c6b73002cca7aa019",
+      "bytes": 949060,
+      "byte_identical": true
+    },
+    {
+      "study": "svd-stability",
+      "upstream_path": "data/longitudinal/manifest.json",
+      "capsule_path": "data/programme/upstream/data/longitudinal/manifest.json",
+      "source_sha256_at_import": "edbaa0d2fb9328cd314e9f01cab04901b7a7d6333d2611a8baa12faa225fcb83",
+      "capsule_sha256": "edbaa0d2fb9328cd314e9f01cab04901b7a7d6333d2611a8baa12faa225fcb83",
+      "bytes": 11043,
+      "byte_identical": true
+    },
+    {
+      "study": "svd-stability",
+      "upstream_path": "evidence/research-extension-20261122/behavior/stability.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/behavior/stability.json",
+      "source_sha256_at_import": "fa6120863bb0b1fdbbe0fb7a5c94fc64d6eb025ef4fca00706adb29860f59334",
+      "capsule_sha256": "fa6120863bb0b1fdbbe0fb7a5c94fc64d6eb025ef4fca00706adb29860f59334",
+      "bytes": 901531,
+      "byte_identical": true
+    },
+    {
+      "study": "svd-stability",
+      "upstream_path": "evidence/research-extension-20261122/behavior/manifest.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/behavior/manifest.json",
+      "source_sha256_at_import": "3396446563eae994aee92a9f63fd840a4facd7f9d63a054a49c65fdb0f66b1fa",
+      "capsule_sha256": "3396446563eae994aee92a9f63fd840a4facd7f9d63a054a49c65fdb0f66b1fa",
+      "bytes": 3577,
+      "byte_identical": true
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "evidence/research-extension-20261122/tensor/results.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/tensor/results.json",
+      "source_sha256_at_import": "8918383e5df54c8205034d2da5b108df57a5058fd5ef3ab4f3b20ad0ab209dee",
+      "capsule_sha256": "8918383e5df54c8205034d2da5b108df57a5058fd5ef3ab4f3b20ad0ab209dee",
+      "bytes": 104915,
+      "byte_identical": true
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "evidence/research-extension-20261122/tensor/manifest.json",
+      "capsule_path": "data/programme/upstream/evidence/research-extension-20261122/tensor/manifest.json",
+      "source_sha256_at_import": "ce6e1461be9804f67815c778a6a9077fe38f58a80a3dfce4d25b7830856bb186",
+      "capsule_sha256": "a93d07fb8667bbdbbae4c5c8c1fc270286f8d467b5a173c7e614ea80ebd80eed",
+      "bytes": 1117,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "evidence/model-strengthening-20261122/threshold/summary.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/threshold/summary.json",
+      "source_sha256_at_import": "9e88f08dc635781af2f6332af457b548b4d6e8e22148337715b5e71ce6e45d0b",
+      "capsule_sha256": "9e88f08dc635781af2f6332af457b548b4d6e8e22148337715b5e71ce6e45d0b",
+      "bytes": 28075,
+      "byte_identical": true
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "evidence/model-strengthening-20261122/threshold/results.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/threshold/results.json",
+      "source_sha256_at_import": "399aeee301ab4a672da0379b5d72001a3b465f287f5d4ae332d774c203206b12",
+      "capsule_sha256": "399aeee301ab4a672da0379b5d72001a3b465f287f5d4ae332d774c203206b12",
+      "bytes": 136909,
+      "byte_identical": true
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "evidence/model-strengthening-20261122/threshold/manifest.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/threshold/manifest.json",
+      "source_sha256_at_import": "47190e10816d8a18f41a0d9495308a2db47fa0d322191a6a9dfbee7bd80d52c5",
+      "capsule_sha256": "8d9af1a75bc26369db61c0bf28548f9954a8056a743c6ba226fe18de87533f7c",
+      "bytes": 3076,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "data/threshold-validation/v2/protocol.json",
+      "capsule_path": "data/programme/upstream/data/threshold-validation/v2/protocol.json",
+      "source_sha256_at_import": "fd4caa1a6d154b3e7ab64ff81c85e33ea5e675aca2b0ebef46ffab96e9dfd686",
+      "capsule_sha256": "fd4caa1a6d154b3e7ab64ff81c85e33ea5e675aca2b0ebef46ffab96e9dfd686",
+      "bytes": 5378,
+      "byte_identical": true
+    },
+    {
+      "study": "tensor-learning",
+      "upstream_path": "data/threshold-validation/v2/split.json",
+      "capsule_path": "data/programme/upstream/data/threshold-validation/v2/split.json",
+      "source_sha256_at_import": "3e986a2454efacf728fafd732e14a7734602cb063c78050a4e9fe431ae2a5346",
+      "capsule_sha256": "3e986a2454efacf728fafd732e14a7734602cb063c78050a4e9fe431ae2a5346",
+      "bytes": 43220,
+      "byte_identical": true
+    },
+    {
+      "study": "historical-polls",
+      "upstream_path": "evidence/model-strengthening-20261122/polls/summary.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/polls/summary.json",
+      "source_sha256_at_import": "a18bf5d8d0717b49ed3c4d12658eae2b6ead89a62e4144be9974e18b17a0ade4",
+      "capsule_sha256": "a18bf5d8d0717b49ed3c4d12658eae2b6ead89a62e4144be9974e18b17a0ade4",
+      "bytes": 17088,
+      "byte_identical": true
+    },
+    {
+      "study": "historical-polls",
+      "upstream_path": "evidence/model-strengthening-20261122/polls/results.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/polls/results.json",
+      "source_sha256_at_import": "672d9866a5b1c6a5a9c80d50f1f526a481cf1a51d7686c5fd8f27ca2fd228aa8",
+      "capsule_sha256": "8e93bd9e2f2991445813a96a4eaea3875a1216ac517074af1f4a2e4213f3b9dc",
+      "bytes": 219341,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "historical-polls",
+      "upstream_path": "evidence/model-strengthening-20261122/polls/manifest.json",
+      "capsule_path": "data/programme/upstream/evidence/model-strengthening-20261122/polls/manifest.json",
+      "source_sha256_at_import": "9afdd77e1720f0fc8a187f5441f84a7de0001c65e3f8fc6bafd0bb85f5cdd3d4",
+      "capsule_sha256": "061647092884f2cb547b782814599026d9a9bc08a7246bc75beee63896f89145",
+      "bytes": 2019,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    },
+    {
+      "study": "historical-polls",
+      "upstream_path": "data/expanded-poll-validation/protocol-v1.json",
+      "capsule_path": "data/programme/upstream/data/expanded-poll-validation/protocol-v1.json",
+      "source_sha256_at_import": "22fac8fe2e5f4d77b8321beddeea249f12dbc72ccf2a3866319a7f7980945940",
+      "capsule_sha256": "22fac8fe2e5f4d77b8321beddeea249f12dbc72ccf2a3866319a7f7980945940",
+      "bytes": 2221,
+      "byte_identical": true
+    },
+    {
+      "study": "historical-polls",
+      "upstream_path": "data/expanded-poll-validation/older-release-facts.json",
+      "capsule_path": "data/programme/upstream/data/expanded-poll-validation/older-release-facts.json",
+      "source_sha256_at_import": "e332b8e3cc24a4e3f5e22ccedd2665365ff163f9f9f0e8e219736018287ad654",
+      "capsule_sha256": "bf508cb1d3c1550037a2c4a100544a117afc71455eed2a19d581c5c45cfd37b1",
+      "bytes": 5568,
+      "byte_identical": false,
+      "scope": "Scientific content retained; nonnumerical development metadata omitted."
+    }
+  ],
+  "studies": [
+    {
+      "id": "exact-certificates",
+      "classification": "scoped_exact_result_on_pinned_input",
+      "main_results": {
+        "2022_full_29_district_minimum": 9086,
+        "2026_full_29_district_minimum": 10269,
+        "2022_lower_radius": 9085,
+        "2026_lower_radius": 10268,
+        "largest_conditional_unfilled_entitlements": [
+          23,
+          25
+        ],
+        "stall_threshold": 40
+      },
+      "domain": "Original eight nationally eligible parties; transfers within constituencies; constituency totals/quotas, other-party votes and nonrejecting roles fixed; no candidate-list capacity model.",
+      "source_correction_scope": "The new four-vote guard covers completed interaction-grid inputs. It does not by itself establish correction invariance for this older optimization domain.",
+      "grid_comparison": "The new 20,000-voter sampled grid minimum concerns fewer permitted transfer forms than the old 10,269-voter fixed-domain optimum.",
+      "upstream_commands": [
+        "python3 -B scripts/cutoff_vote_certificate.py",
+        "python3 -B scripts/strengthen_robustness.py"
+      ],
+      "fresh_replication_here": false,
+      "scope": "Original eight nationally eligible parties; transfers within constituencies; constituency totals/quotas, other-party votes and nonrejecting roles fixed; no candidate-list capacity model."
+    },
+    {
+      "id": "svd-stability",
+      "classification": "retrospective_descriptive_corpus_analysis",
+      "main_results": {
+        "rollcalls": 2612,
+        "complete_svd_rollcalls": 2608,
+        "first_two_pooled_svd_fractions": [
+          0.4163696962670792,
+          0.19093149785874375
+        ],
+        "first_two_pooled_fraction_sum": 0.607301194125823,
+        "period_pairs": 6,
+        "period_pair_full_distance_correlation_range": [
+          0.8359889570162108,
+          0.9985678333004937
+        ],
+        "same_committee_comparisons": 96,
+        "same_committee_usable": 59,
+        "same_committee_unavailable": 37,
+        "same_committee_full_distance_correlation_range": [
+          0.5520019377304882,
+          0.9913737945642995
+        ]
+      },
+      "scope": "Four publisher-labelled sessions 2022/23–2025/26; recorded actions, not every parliamentary decision or 2026/27.",
+      "upstream_commands": [
+        "python3 -B scripts/build_longitudinal.py",
+        "python3 -B scripts/analyze_behavior_stability.py --seed 20261122 --replicates 200"
+      ],
+      "fresh_replication_here": false
+    },
+    {
+      "id": "tensor-learning",
+      "classification": "retrospective_fitted_response_approximation_and_threshold_challenge",
+      "main_results": {
+        "initial_tensor_shape": [
+          29,
+          4,
+          8,
+          3
+        ],
+        "train_validation_test_cells": [
+          1617,
+          252,
+          237
+        ],
+        "initial_test_rmse_seats": {
+          "cp_rank3": 0.13291016293373015,
+          "tucker_rank1222": 0.22169973923030067,
+          "additive_main_effects": 0.42883807140774616
+        },
+        "initial_test_positive_class_count": 0,
+        "2026_positive_crossings": 38,
+        "cp_positive_crossings_found": 12,
+        "tucker_positive_crossings_found": 10,
+        "2026_balanced_accuracy": {
+          "cp": 0.6578947368421053,
+          "tucker": 0.631578947368421,
+          "unfitted_quota": 1.0
+        }
+      },
+      "scope": "Actual fitted low-rank models exist. Initial one-class test does not establish discrimination; the stronger two-class challenge does not establish a learned-model advantage over quota comparison.",
+      "upstream_commands": [
+        "python3 -B scripts/build_tensor_learning.py",
+        "python3 -B scripts/build_threshold_validation_v2.py"
+      ],
+      "fresh_replication_here": false
+    },
+    {
+      "id": "historical-polls",
+      "classification": "retrospective_rolling_national_composition_calibration",
+      "main_results": {
+        "common_seven_elections": 7,
+        "common_seven_rolling_tests": 5,
+        "extended_eight_elections": 5,
+        "extended_eight_rolling_tests": 3,
+        "extended_eight_rmse_pp": {
+          "historical_isotropic": 2.0943308950805832,
+          "unchanged_may_point": 2.165784401441584
+        },
+        "extended_eight_marginal_interval_coverage_count": [
+          21,
+          24
+        ],
+        "extended_eight_all_party_covered_elections": [
+          0,
+          3
+        ],
+        "common_seven_all_party_covered_elections": [
+          3,
+          5
+        ]
+      },
+      "scope": "May-to-election residuals combine survey error and campaign change; no validated cabinet-selection probability or simultaneous 90 percent coverage guarantee.",
+      "upstream_commands": [
+        "python3 -B scripts/build_expanded_poll_validation.py"
+      ],
+      "fresh_replication_here": false,
+      "interval_model": "historical_isotropic"
+    }
+  ],
+  "included_in_current_numerical_reproduction": false
+}

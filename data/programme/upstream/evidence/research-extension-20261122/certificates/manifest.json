@@ -1,0 +1,11 @@
+{
+  "schema": "isvec-secim.certificate-delivery.v1",
+  "status": "passed",
+  "files": {
+    "evidence/research-extension-20261122/certificates/2022-lower-bound-certificate.json": "c16131e9d77be6f7129270a1fd58f05268f1024ea49dbd211bf456fb782ee831",
+    "evidence/research-extension-20261122/certificates/2026-lower-bound-certificate.json": "e38f79959a3f8fc2c4b53f9c7427e12f63893396114211999102a49e33b7879a",
+    "evidence/research-extension-20261122/certificates/audit.json": "b390bc96e00eda3e7387f1e4d89ad1c4b8706693fd91fbf88fc51c2f28a14ff1",
+    "evidence/research-extension-20261122/certificates/legal-sources.json": "55c324b42fc01b0e08423fd900b21cfc4e461064729002c7195803e5b3a62bf8",
+    "evidence/research-extension-20261122/certificates/tests.json": "6a9f19f71accb5e62fd3f05c58162af059f224e60ad37bf80855918086fc9287"
+  }
+}

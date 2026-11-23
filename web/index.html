@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formation Tensor Lab · Majorities, agreement, and government</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/project"><span class="brand-mark">F</span> Formation Tensor Lab</a><span class="edition">Sweden · Research edition</span><a class="paper-link" href="/download/paper.pdf">Paper PDF ↗</a></header>
+  <main>
+    <section class="intro"><p class="eyebrow">Representation · Agreement · Sequence</p><h1>When a majority<br>does not form a government.</h1><p class="lede">Exact electoral response tensors, parliamentary voting patterns, and a constrained model of repeated government formation.</p><div class="intro-actions"><a class="primary-link" href="/download/paper.pdf">Read the paper ↗</a><a class="quiet-link" href="/download/project.zip">Download the research repository ↓</a></div><p id="load-status" class="load-status" role="status">Checking the research record…</p></section>
+    <nav class="tabs" role="tablist" aria-label="Research workspaces">
+      <button id="tab-overview" role="tab" aria-controls="overview" aria-selected="true" data-panel="overview">Findings & paper</button>
+      <button id="tab-transfers" role="tab" aria-controls="transfers" aria-selected="false" data-panel="transfers">Electoral responses</button>
+      <button id="tab-process" role="tab" aria-controls="process" aria-selected="false" data-panel="process">Formation process</button>
+      <button id="tab-history" role="tab" aria-controls="history" aria-selected="false" data-panel="history">The 2026 record</button>
+    </nav>
+    <div id="workspace" hidden>
+      <section id="overview" class="panel" role="tabpanel" aria-labelledby="tab-overview">
+        <div id="metrics" class="metrics"></div>
+        <div class="section-heading"><div><p class="eyebrow">The research problem</p><h2>Seats, consent, and sequence are different objects.</h2></div><span class="scope-tag">Exact computations + explicit process assumptions</span></div>
+        <div class="findings-grid" id="finding-cards"></div>
+        <div class="overview-columns"><article class="paper-card"><p class="eyebrow">Research article</p><h3>Majorities without governments</h3><p class="small">Mehmet Yalçın · Osman Karslı<br>Independent researchers · November 2026</p><p>The paper develops the mathematical representation, presents the electoral and parliamentary results, and examines how agreement constraints and finite negotiation paths can prevent a numerical majority from becoming a government.</p><div class="paper-downloads"><a href="/download/paper.pdf">Article with appendices · PDF ↗</a><a href="/download/supplement.pdf">Appendix-only export · PDF ↗</a><a href="/download/paper.tex">LaTeX source ↓</a></div><p class="small">The repository contains the code, dated sources, numerical outputs, and reproduction commands.</p></article><article class="parliament-card"><p class="eyebrow">Parliamentary evidence</p><h3>Boundary profiles and conditional patterns</h3><div id="parliament-summary"></div><p class="small">Recorded member ballots and citizen vote transfers use different units. Committee and session associations describe voting actions; cabinet agreement remains a separate question.</p></article></div>
+        <div class="scope-line">The experiments distinguish observed events, exact counterfactual arithmetic, and researcher-specified bargaining rules. Scenario frequencies are not estimates of the next government's probability.</div>
+      </section>
+
+      <section id="transfers" class="panel" role="tabpanel" aria-labelledby="tab-transfers" hidden>
+        <div class="section-heading"><div><p class="eyebrow">Exact electoral responses</p><h2>Two transfers, one complete election calculation.</h2></div><a class="outline-link" href="/download/interactions.csv">Download every coordinate · CSV ↓</a></div>
+        <p class="section-intro">Select a pair of transfers and a constituency. Each completed point reallocates all 349 seats through the full constituency and national procedure.</p>
+        <div class="assumption-note" id="electoral-scope"></div>
+        <div class="control-grid electoral-controls"><label>Transfer pair<select id="transfer-pair"></select></label><label>Constituency<select id="constituency"></select></label><label id="amount-a-label">First transfer<select id="amount-a"></select></label><label id="amount-b-label">Second transfer<select id="amount-b"></select></label></div>
+        <div class="explorer-grid"><div><p class="small grid-instruction">Choose a coordinate. Values show seats in the declared nonrejecting group.</p><div id="electoral-grid" class="heatmap" aria-label="Joint electoral response grid"></div><p id="grid-axis-note" class="small"></p></div><article class="response-card" aria-live="polite"><p class="eyebrow">Selected counterfactual</p><h3 id="electoral-title"></h3><div id="electoral-response"></div><div id="party-seats" class="party-seats"></div></article></div>
+        <div class="two-columns"><article class="plain-card"><h3>Read the four corners</h3><p class="small">The joint response is compared with the baseline and both single transfers.</p><div id="corner-table"></div></article><article class="plain-card"><h3>What changes across the grid?</h3><div id="pair-summary"></div></article></div>
+        <div class="scope-line">Transfer amounts are citizens changing party. The voting-role template is fixed for this experiment. A successful sampled coordinate is not a minimum-cost certificate or a forecast of party intentions.</div>
+      </section>
+
+      <section id="process" class="panel" role="tabpanel" aria-labelledby="tab-process" hidden>
+        <div class="section-heading"><div><p class="eyebrow">Constrained formation process</p><h2>An agreement can exist without being reachable.</h2></div><span class="scope-tag">Model experiments</span></div>
+        <p class="section-intro">These controls use the baseline party-action completion. The article also compares four alternative completions and summarises the wider research programme. The simulation separates the set of possible agreements from the concessions and proposal sequence available to reach one. Cabinet consent and investiture actions are represented separately.</p>
+        <div id="process-scope" class="assumption-note"></div>
+        <div class="control-grid bargaining-controls"><label>Seat profile<select id="bargaining-profile"></select></label><label>Outside abstention buffer<select id="outside-buffer"></select></label><label>Initial policy configuration<select id="initial-policy"></select></label><label>Clauses open to relaxation<select id="relaxation-access"></select></label><label>Concession budget<select id="concession-budget"></select></label></div>
+        <div class="process-result-grid"><article class="response-card" aria-live="polite"><p class="eyebrow">Agreement and reachability</p><div id="bargaining-result"></div></article><article class="plain-card"><h3>Minimum movement required</h3><div id="concession-result"></div><p class="small">Costs are units in the stated scenario model. They are not estimated political utilities or observed bargaining prices.</p></article></div>
+        <article class="plain-card"><p class="eyebrow">Exhaustive proposal-order experiment</p><h3>What happens after another rejection?</h3><p>This experiment holds all three policy requirements met and varies the remaining formal proposals, a pressure-triggered clause release, patience, and proposal selection.</p><div class="control-grid sequence-controls"><label>Formal rejections already used<select id="sequence-counter"></select></label><label>Clause eligible for pressure release<select id="pressure-clause"></select></label><label>Release after total rejections<select id="pressure-trigger"></select></label><label>Additional ballot patience<select id="sequence-patience"></select></label><label>Proposal selection after release<select id="adaptive-rule"></select></label></div><div id="sequence-result" aria-live="polite"></div><div id="sequence-trace"></div></article>
+        <div class="two-columns"><article class="plain-card"><h3>Repeated mandates and formal votes</h3><div id="process-summary"></div></article><article class="plain-card"><h3>Source-only uncertainty</h3><div id="source-envelope"></div></article></div>
+        <article class="plain-card"><p class="eyebrow">A documented account of the process</p><h3>Why the sequence may matter</h3><div id="speaker-account"></div></article>
+        <details><summary>Model variables and sensitivity design</summary><div id="process-design"></div></details>
+      </section>
+
+      <section id="history" class="panel" role="tabpanel" aria-labelledby="tab-history" hidden>
+        <div class="section-heading"><div><p class="eyebrow">Documented formation episode</p><h2>The 2026 record, event by event.</h2></div><a class="outline-link" href="/download/chronology.csv">Chronology · CSV ↓</a></div>
+        <p id="history-scope" class="section-intro"></p>
+        <div id="history-counts" class="metrics compact"></div>
+        <div id="actual-votes" class="two-columns"></div>
+        <div class="timeline-key"><span>Exploratory mandate</span><span>Formal nomination</span><span>Recorded ballot</span><span>Extension or consultation</span></div>
+        <div id="chronology" class="timeline"></div>
+        <details><summary>Source dates and document inventory</summary><div class="table-scroll"><table><thead><tr><th>Document</th><th>Event</th><th>First publication</th><th>Retrieved</th><th>Source</th></tr></thead><tbody id="source-table"></tbody></table></div></details>
+        <div class="scope-line">Exploratory mandates do not count as rejected prime-minister proposals. A proposed cabinet list is not evidence that every listed party consented. Publication, event, and access dates remain separate.</div>
+      </section>
+      <footer><span>Formation Tensor Lab · Reproducible computational research</span><details><summary>Data inventory</summary><div id="inventory"></div></details></footer>
+    </div>
+  </main>
+</body>
+</html>

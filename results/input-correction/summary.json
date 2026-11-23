@@ -1,0 +1,50 @@
+{
+  "schema": "formation-tensor.minor-correction-guard.v1",
+  "status": "passed",
+  "protocol_sha256": "c900fb81c2a862f1c6a7180f4104f1b8c4039ed5f47a4053c5c2a85ccac14545",
+  "maximum_added_valid_votes": 4,
+  "baseline_valid_votes": 6767429,
+  "native_input_records_checked": 4931,
+  "completed_unique_input_tables": 2685,
+  "completed_tensor_coordinates": 3684,
+  "minimum_scaled_gaps": {
+    "inside_national": {
+      "gap": 9048984,
+      "party": "L",
+      "native_group": "003792c15d047ac23e0bf12bd051754a55d95910b94dcc3a4cff29b42ddec3b8"
+    },
+    "outside_national": {
+      "gap": 23105316,
+      "party_id": "1152"
+    },
+    "outside_regional": {
+      "gap": 482812,
+      "district_id": "09",
+      "party_id": "1152"
+    }
+  },
+  "maximum_scaled_gap_losses": {
+    "inside_national": 16,
+    "outside_national": 384,
+    "outside_regional": 352
+  },
+  "residual_scaled_gaps": {
+    "inside_national": 9048968,
+    "outside_national": 23104932,
+    "outside_regional": 482460,
+    "eligible_set_retained": true
+  },
+  "all_completed_seat_responses_invariant": true,
+  "proof": [
+    "Each transfer changes only original eligible-party votes and preserves each constituency total.",
+    "For at most k additions outside that set, each inside national gap loses at most 4k, each outside national gap at most 96k, and each outside regional gap at most 88k.",
+    "The recorded residual gaps retain all eight nationally eligible parties and exclude every outside party from both national and regional eligibility.",
+    "Eligible-party votes, fixed quotas and their exact quotient comparisons are unchanged; the full allocation and all seat-vector-based responses are unchanged."
+  ],
+  "scope": "Nonnegative vote additions to parties outside the original eight nationally eligible parties, in any admitted constituencies; no inside-party vote correction, quota change, removal, or voter-transfer change.",
+  "not_recertified": [
+    "Unrestricted data-error robustness",
+    "Recertification of previous global minimum-cost searches",
+    "Political response to corrected vote totals"
+  ]
+}

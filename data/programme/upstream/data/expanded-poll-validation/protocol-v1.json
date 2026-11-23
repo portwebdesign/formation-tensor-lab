@@ -1,0 +1,23 @@
+{
+  "schema": "isvec-secim.expanded-poll-protocol.v1",
+  "registered_before_new_backtest_outputs": true,
+  "date": "2026-11-22",
+  "measurement": "Published SCB May val-idag estimate to September election; survey error plus campaign change.",
+  "panels": {
+    "common_seven": {"parties": ["S", "M", "C", "KD", "MP", "V", "L"], "years": [2002, 2006, 2010, 2014, 2018, 2022, 2026]},
+    "extended_eight": {"parties": ["S", "M", "SD", "C", "KD", "MP", "V", "L"], "years": [2010, 2014, 2018, 2022, 2026]}
+  },
+  "closure": "Each poll and election is closed to that panel's named parties; denominators differ across panels. OTHER and missing SD are never imputed.",
+  "first_holdout_after_training_elections": 2,
+  "models": ["unchanged_may_point", "fixed_log_sigma_0.02", "historical_isotropic", "historical_bias_shrunk_covariance"],
+  "historical_isotropic": "Zero-mean isotropic CLR Gaussian; sigma^2=sum of squared training CLR residuals/(n*(p-1)).",
+  "historical_bias_shrunk_covariance": "Training mean CLR error plus 50% sample covariance and 50% isotropic covariance in the CLR zero-sum subspace. Fixed shrinkage, not selected on test.",
+  "samples": 4096,
+  "seed": 20261122,
+  "interval_alpha": 0.1,
+  "metrics": ["RMSE and MAE of ensemble-mean composition in percentage points", "empirical marginal central-90% coverage", "all-party joint coverage of those marginal intervals", "mean 90% interval score", "mean empirical CRPS"],
+  "selection": "All declared models reported. No best model selected, no production profile changed, no post-test tuning.",
+  "vintage": "Only original-release numbers transcribed from SCB publications/official SCB press accounts are admitted. The current Vid10 series retrospectively reweights 2010–2019 and is excluded.",
+  "zero_handling": "Reject nonpositive or missing shares in a selected panel; do not add a pseudocount or invent a new-party history.",
+  "scope": "Retrospective rolling-origin national-composition experiment; no full district election replay for newly added years, no prospective blind-validation or government-probability claim. Later outcomes in earlier training labels are necessary historical training data; target outcomes are used only for scoring."
+}

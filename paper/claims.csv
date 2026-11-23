@@ -1,0 +1,63 @@
+claim_id,claim,evidence_type,artifact,locator
+E01,"Three initial exploratory holders, one S resumption, one M extension and two formal rejections by 22 November 2026.",observed,data/formation/events2026.json,summary
+E02,"Andersson formal vote: 99 Yes, 248 No, zero abstentions and two absences on 15 October.",observed,data/formation/events2026.json,"events[event_type=formal_pm_vote,event_date=2026-10-15]"
+E03,Thand Ringqvist formal vote: 25 Yes and 324 No on 3 November.,observed,data/formation/events2026.json,"events[event_type=formal_pm_vote,event_date=2026-11-03]"
+E04,The 29 October announcement preceded formal C nomination on 30 October.,observed,data/formation/events2026.json,events[event_type=nomination_announced|formal_nomination]
+E05,The 20 November notice schedules consultations and further M report on 24 November; no PM ballot date is inferred.,observed,data/formation/events2026.json,events[event_type=consultations_announced|consultations_scheduled]
+E06,Speaker describes possible pressure from failed formal ballots as an extra election approaches.,actor_statement,data/formation/events2026.json,actor_statements
+E07,An extension is not a formal rejection; two rejection slots remain at cutoff.,institutional_rule,data/formation/events2026.json,rules;summary/formal_rejections_observed
+E08,"Twenty-two source records, twenty-one successful raw captures; V-platform raw 403 distinguished from readable research text.",source_audit,data/formation/source-ledger.json,sources
+A01,2026 baseline seats: S 99 M 70 SD 62 V 30 C 25 KD 22 MP 22 L 19.,observed_snapshot,results/interactions/summary.json,baseline_seats
+A02,"Four directions, six pairs, 29 constituencies and six amounts give 6264 coordinates.",protocol,data/elections/interaction-protocol.json,protocol
+A03,4931 distinct native records; 3684 completed coordinates; 2580 donor-insufficient joint masks.,exact_response,results/interactions/summary.json,unique_native_tables;valid_coordinates;masked_coordinates;mask_counts
+A04,4350 positive-amount interior coordinates: 2271 complete four-corner comparisons and 2079 masked.,exact_response,results/interactions/summary.json,interior_coordinates;valid_interior_four_corners;masked_interior_four_corners
+A05,"Mixed seat histogram: minus 1=233, zero=2010, plus 1=28.",exact_response,results/interactions/summary.json,mixed_seat_histogram
+A06,"Mixed threshold histogram: zero=1853, plus 1=418; no negative cases in protocol.",exact_response,results/interactions/summary.json,mixed_threshold_histogram
+A07,All six pair-specific counts appear in the table labelled tab:pairs.,exact_response,results/interactions/summary.json,pairs
+A08,"MP-to-SD 5k plus S-to-M 10k: 173 baseline, 174 each alone, 174 joint.",exact_response_witness,results/interactions/tensor.json,"Stockholm;MP_SD__S_M;amounts5000,10000"
+A09,"MP-to-SD 5k plus S-to-M 20k: 174 each alone, 175 joint; zero mixed seats but positive threshold interaction.",exact_response_witness,results/interactions/tensor.json,"Stockholm;MP_SD__S_M;amounts5000,20000"
+A10,"S-to-M 5k plus V-to-KD 5k: 173 each alone, 174 joint; positive mixed seats without threshold success.",exact_response_witness,results/interactions/tensor.json,"Stockholm;S_M__V_KD;amounts5000,5000"
+A11,Equal 20k total: V-to-KD 20k alone yields 174; MP-to-SD 5k plus V-to-KD 15k yields 175.,exact_response_witness,results/interactions/tensor.json,"Stockholm;MP_SD__V_KD;amounts0,20000 and5000,15000"
+A12,Expanded-grid minimum sampled successful cost 20k; original pair 25k; neither is a global minimum claim.,finite_grid_result,results/interactions/summary.json,pairs;original_pair_replication
+A13,"Among 2684 unique valid nonzero inputs,494 have any nonrecipient seat gain; recipient and nonrecipient gains may overlap.",exact_response,results/interactions/summary.json,beneficiary_diagnostics
+A14,"Twenty-six complete seat profiles: one at 173, ten at 174, fifteen at 175 for hypothetical nonreject template.",exact_response,results/interactions/seat-profiles.json,profiles
+A15,No additional regional target-seat variation at fixed pair and amounts among valid coordinates in grid.,finite_grid_counterresult,results/interactions/summary.json,pairs
+G01,Correction guard audits 4931 records and covers 2685 completed unique valid tables/3684 completed coordinates.,bounded_input_proof,results/input-correction/summary.json,native_input_records_checked;completed_unique_input_tables;completed_tensor_coordinates
+G02,At most 4 nonnegative outside-party additions with fixed quotas retain eligibility and all completed seat responses.,bounded_input_proof,results/input-correction/summary.json,all_completed_seat_responses_invariant;proof;scope
+G03,"Residual scaled eligibility gaps 9048968,23104932,482460 remain positive after worst-case 4 additions.",bounded_input_proof,results/input-correction/summary.json,residual_scaled_gaps
+B01,"Formation design:26624 proposal coordinates,29952 reachability rows,9568 process settings.",conditional_model,results/bargaining/summary.json,proposal_tensor_coordinates;reachability_rows;process_rows
+B02,"Baseline policy 000: no/L/KD strict composition impossible; either release costs 5 none/L,4 KD; L+KD costs 2 without release.",conditional_model,results/bargaining/summary.json,baseline_initial_policy000
+B03,"Nine cost crossings give 3p+r(none/L),2p+r(KD),2p(L+KD) when release permitted.",conditional_model,results/bargaining/cost-sensitivity.json,rows
+B04,Strict full-policy baseline anonymous outside-capacity threshold 24.,conditional_model_boundary,results/bargaining/summary.json,baseline_minimum_strict_anonymous_external_capacity
+B05,"Across 26 profiles strict outside-capacity minimum 24 in 5,25 in 14,26 in 7.",conditional_model_boundary,results/bargaining/capacity-sensitivity.json,rows
+B06,"Without outside tolerance, internal concessions yield agreement 11 profiles;15 profiles at S/C/V/MP 174 remain impossible.",conditional_model_coupling,results/bargaining/coupled-profiles.json,profiles;rows[external_buffer=none]
+B07,L restores cost 5 all 26; KD cost 4 in 22 and 5 in 4; L+KD cost 2 without release all 26.,conditional_model_coupling,results/bargaining/coupled-profiles.json,rows
+B08,All 40320 fixed agendas: release after 1/2/3 rejections yields 37440/31680/20160 agreements; after 4 yields 0.,conditional_model_process,results/bargaining/summary.json,baseline_full_episode_process
+B09,Exhaustive re-search control gives 40320 agreements for timely release 1..3; zero after 4.,conditional_model_control,results/bargaining/summary.json,baseline_full_episode_process[adaptive_after_release=true]
+B10,Cutoff counter 2: release at total 3 gives 20160 fixed/40320 re-search agreements; total 4 gives 0.,conditional_model_process,results/bargaining/summary.json,baseline_cutoff_counter2_process
+B11,"Unchanged formal/exploratory and underfunded pressure controls distinguish votes, search and budget.",conditional_model_control,results/bargaining/summary.json,null_controls
+B12,No 195 to 203 when MP assent activates conditional V-pivotal participation rule; neither endpoint is agreement.,rule_derived_counterexample,results/bargaining/state-edge-diagnostics.json,baseline_example
+B13,Baseline 64 No-increasing edges/2560; all profiles 1424/66560; zero agreement-losing edges.,conditional_model_countercheck,results/bargaining/state-edge-diagnostics.json,rows
+B14,Fixed-cabinet agreement is monotone along allowed assent/release edges under stated rules despite locally nonmonotone No counts.,deduction,paper/appendix-body.tex,prop:monotone;results/bargaining/state-edge-diagnostics.json
+B15,"L+KD/full policy/no release:30240 consented first outcomes,10080 PM passes without cabinet consent.",conditional_model_counterexample,results/bargaining/process.json,"rows[baseline,L+KD,none,initial_formal_rejections=0,additional_vote_patience=4]"
+P01,"Four official raw archives reconcile 2612 roll calls,911588 member rows,83584 party-action cells; independents preserved.",observed_archive_audit,results/parliament/reconciliation.json,root
+P02,897 reports; median strict switch requirement 76;20/118/152/163/181/284 reversible at caps 1/2/3/5/10/20.,exact_member_action_boundary,results/parliament/summary.json,overall
+P03,"At most 5 switches:6.24percent roll-call equal,6.04percent equal-report.",exact_member_action_boundary,results/parliament/summary.json,overall/budget_profile[budget=5]
+P04,"Joint 2 switches+3 returns:154 joint,118 switch-alone,49 return-alone,36 both-required,49 either-alone.",exact_member_action_interaction,results/parliament/summary.json,"joint_caps[switch_cap=2,absence_cap=3]"
+P05,"At most 5 switches: education 26/221,transport 17/161,health 22/285,defence 5/110,environment 5/242.",descriptive_corpus_difference,results/parliament/summary.json,committees
+P06,At most 5 switches:17/564 in 2022/23 and 90/798 in 2025/26.,descriptive_corpus_difference,results/parliament/summary.json,sessions
+P07,"MP-V conditional excess 18.36 discovery,18.80 in 2024/25,18.43 in 2025/26.",descriptive_association,results/parliament/replay.json,candidates[selected_candidate.pair_id=MP—V]
+P08,Six fixed candidate excess associations and 200-replicate descriptive resampling ranges.,descriptive_association,results/parliament/replay.json,candidates
+P09,MP-V final observed 58.52percent/reference 40.09; near-unanimity trim 18.29; leave-committee range 17.75..19.35.,descriptive_association_stability,results/parliament/replay.json,candidates[MP—V]/periods[session=2025/26]/analysis
+P10,S-MP final ordinary excess 5.81 points versus MP 21No/1absence on S nominee: different political objects.,observed_comparison,results/parliament/replay.json;data/formation/events2026.json,candidates[S—MP]/periods[2025/26];formal_pm_vote[2026-10-15]
+P11,C-MP weakens 5.92/3.95/1.74 with later resampling ranges including zero.,descriptive_association_counterpattern,results/parliament/replay.json,candidates[C—MP]
+P12,Final M-SD report-weighted raw agreement and conditional reference both 97.237percent; zero excess.,descriptive_association_counterpattern,results/parliament/inventory.json,periods[2025/26];all_pairs_pooled
+P13,Current response calculations are exact; earlier fitted CP/Tucker and full-period SVD studies are recorded separately in the programme appendix.,scope,paper/main.tex;paper/programme-appendix.tex,Methods;Scope;Computationalcontract
+C01,Four completions retain11 feasible/15 outside-dependent profiles;KDmincost4 becomes5 with C package linkage.,completion_sensitivity,results/completion-sensitivity/summary.json,variants
+C02,Strict V changes2232No counts but0nonrejection/consent/agreement predicates.,completion_sensitivity,results/completion-sensitivity/summary.json,variants.strict_V_outside
+C03,"106496proposal,13312mincost,119808budget rows;baseline26624/29952matched exactly.",completion_sensitivity,results/completion-sensitivity/summary.json,proposal_evaluations;minimum_cost_rows;budget_reachability_rows;baseline_identity
+C04,StrictV preserves agreement indicators under stated action rules.,deduction,paper/completion-appendix.tex,prop:strict-v
+U01,Earlier conditional9086/10269 full-system minima are recorded;different domain from20kgrid.,recorded_upstream_result,data/programme/recorded-evidence.json,studies
+U02,Earlier full-period SVD first2 fractions sum60.7301percent over2608complete profiles.,recorded_upstream_result,data/programme/recorded-evidence.json,studies
+U03,Earlier CP/Tucker interpolation improvements coexist with weaker two-class transfer than quota baseline.,recorded_upstream_result,data/programme/recorded-evidence.json,studies
+U04,Seven-election calibration has eight-party jointcoverage0/3 despite21/24marginalcoverage.,recorded_upstream_result,data/programme/recorded-evidence.json,studies

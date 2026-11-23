@@ -1,0 +1,143 @@
+{
+  "schema": "isvec-secim.threshold-protocol.v1",
+  "frozen_at_utc": "2026-11-22T07:18:14.723611+00:00",
+  "registered_before_new_exact_calculations": true,
+  "public_preregistration": false,
+  "specification": {
+    "version": "threshold-challenge-2.0-coverage-informed",
+    "amendment": {
+      "prior_version": "threshold-challenge-1.0",
+      "reason": "The v1 trainingamount allocation contained only five minorityclass groups and failed the unchanged minimumten gate before any model was fitted. Forty-thousand moved into training; twenty-thousand reserved. This revision is explicitly coverage-informed development.",
+      "prior_model_fits": 0,
+      "prior_protocol_sha256": "125cd6d2e7a21b65af7c6f62f8ff7aee95c36ad718951d115e6898dd213659b9",
+      "prior_exact_grid_sha256": "1995e518533329ea1e0cfff837a6370835a714d411f22d9a6d282e162a062825"
+    },
+    "train_year": 2022,
+    "external_diagnostic_year": 2026,
+    "districts": "All 29 official districts, aligned by declared order; identifiers and labels checked.",
+    "directions": [
+      [
+        "S",
+        "M"
+      ],
+      [
+        "M",
+        "S"
+      ],
+      [
+        "MP",
+        "SD"
+      ],
+      [
+        "SD",
+        "MP"
+      ],
+      [
+        "V",
+        "KD"
+      ],
+      [
+        "KD",
+        "V"
+      ],
+      [
+        "C",
+        "L"
+      ],
+      [
+        "L",
+        "C"
+      ]
+    ],
+    "amounts": [
+      0,
+      2000,
+      5000,
+      10000,
+      20000,
+      40000,
+      80000,
+      120000
+    ],
+    "training_amount_levels": [
+      0,
+      2000,
+      5000,
+      40000,
+      80000,
+      120000
+    ],
+    "reserved_unseen_amounts": [
+      10000,
+      20000
+    ],
+    "fixed_nonreject_parties": [
+      "KD",
+      "L",
+      "M",
+      "SD"
+    ],
+    "target": "delta fixed-template nonreject support from known official zero-transfer baseline",
+    "split": {
+      "seed": 20261122,
+      "unit": "Exact transfer/vote-table group, including election year.",
+      "stratification": "2022 exact threshold label only; deterministic hash order, 70/15/remainder. Zero group train anchor.",
+      "label_use": "Test labels define strata, never features, model fit, normalization or rank/seed selection.",
+      "minimum_unique_groups_per_class": 10
+    },
+    "candidate_cp_ranks": [
+      1,
+      2,
+      3
+    ],
+    "candidate_tucker_ranks": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "initialization_seeds": [
+      17,
+      29
+    ],
+    "max_epochs": 50,
+    "ridge": 0.001,
+    "selection": "Minimum validation RMSE, tie by rank string then seed; no test-driven tuning, no refit.",
+    "class_oversampling": false,
+    "loss_weighting": "Every observed tensor coordinate has equal weight; zero constraints are known anchors.",
+    "threshold": "Raw continuous baseline + predicted delta >= 175; no rounding or clipping.",
+    "unseen_amount_prediction": "Prespecified linear interpolation of fitted predictions between enclosing trained amount levels. No learned cold-start factor.",
+    "direction_cold_start": "Unsupported by categorical CP/Tucker; no new-direction extrapolation claimed.",
+    "baseline_models": [
+      "zero_delta",
+      "train_mean",
+      "additive_main_effects",
+      "unfitted_continuous_quota"
+    ],
+    "external_scope": "2026 same declared coordinate levels and known official baseline; retrospective challenge. 2026 and earlier grid outcomes were previously observed in development; not a blind prospective forecast.",
+    "promotion": "No replacement of exact Rust; superiority and latency value require separate evidence.",
+    "failure_policy": "Capacity errors, ties, domain exits and unsupported outcomes are masked, never zero-filled. No resplit or design expansion after labels/model results.",
+    "input_sha256": {
+      "data/derived/2022/parties.tsv": "f30ddcbce10392bdad2236fe12a17cdf3ac0cd2f8e122a9edbfa775f64ab34f2",
+      "data/derived/2022/districts.tsv": "1afb47e813904ed199a06bf5c30526b88aedbff9abe8222c2d37bd94352949c7",
+      "data/derived/2022/votes.tsv": "88bedcf30fe91163b96bb7c283965041e6bf3f7e09b948c2153f325066d6da41",
+      "data/derived/2022/metadata.json": "baedf0ec5622a6477a604faf10060b53db2eecf78c1b67269b007b2ba327d24b",
+      "data/derived/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+      "data/derived/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+      "data/derived/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+      "data/derived/2026/metadata.json": "cd9fea8f98c22dda6aff911a1bede1d7596868f3df884194be32ef5c5dd320b6",
+      "src/election.rs": "689e448348b7a6f9d5004f34981efe91dc06e8a10e481e7de2670d91adfebe7e",
+      "workbench/shock_batch.rs": "fefb34d34c0249823af45b4bed8f58e0ec5059e96203f7ab58a98937dfc8ce81",
+      "workbench/tensor_models.py": "a5f240fa6fe2a87fa05a6c2bdc2ae195fc36695aec06d8135b24b4bc88b6cd24",
+      "workbench/threshold_validation.py": "d3301578220b56f86aab107dbde5e54d6370523e37447dbb7fd7f35083eea465",
+      "workbench/threshold_validation_v2.py": "133663f2fb2a8d5652f47d6e4658f2500cf491d3f4c08f065063ac1a145f83b1",
+      "scripts/build_threshold_validation_v2.py": "c7cff1fe343922b4f7e5482618504ca59812a42d2d096c301cdfaa1e04c14db4"
+    }
+  }
+}

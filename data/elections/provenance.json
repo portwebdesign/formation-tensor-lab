@@ -1,0 +1,10 @@
+{
+  "schema": "formation-tensor.election-provenance.v1",
+  "upstream_project": "isvec-secim",
+  "admitted_tables_directory": "data/elections/2026",
+  "upstream_source_manifest_path": "data/elections/upstream-source-manifest.json",
+  "upstream_source_manifest_sha256": "032002caaed207fdfaea91f9e9318a5a7f71ffc494c97c723f63b388bf3a9668",
+  "metadata_path_interpretation": "The source_manifest field in the preserved metadata.json is an upstream locator, not a local path in this repository.",
+  "normalization_scope": "Electoral source normalization is inherited as pinned input. The experiments rerun the full allocator from these TSVs; they do not claim a fresh source download or normalization.",
+  "source_notice_scope": "The independent input-correction guard covers up to four added votes outside the fixed eight parties for the completed interaction grid, under its explicit domain."
+}

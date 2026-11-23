@@ -1,0 +1,439 @@
+{
+  "schema": "isvec-secim.research-quality-summary.v1",
+  "status": "completed_retrospective_expansion_with_small_sample_limits",
+  "title": "Expanded original-release SCB poll validation",
+  "findings": [
+    "Three older election years are now admitted using original-release SCB May facts: 2002, 2006 and 2010.",
+    "A common-seven panel covers seven elections and five rolling holdouts; a separate extended-eight panel covers five elections and three rolling holdouts.",
+    "Unknown/approximate early SD estimates remain missing. No pseudocount or invented new-party history is used.",
+    "Each holdout uses only earlier election residuals. Marginal coverage, all-party joint coverage, central-90% interval score and CRPS are reported for all fixed models.",
+    "Production Monte Carlo profiles and the previous four-election experiment remain unchanged."
+  ],
+  "metrics": [
+    {
+      "label": "common_seven · admitted elections",
+      "value": 7,
+      "unit": "elections",
+      "context": "2002, 2006, 2010, 2014, 2018, 2022, 2026"
+    },
+    {
+      "label": "common_seven · rolling holdouts",
+      "value": 5,
+      "unit": "test elections",
+      "context": "2010, 2014, 2018, 2022, 2026"
+    },
+    {
+      "label": "common_seven · unchanged_may_point · mean RMSE",
+      "value": 2.282258287376014,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "common_seven · unchanged_may_point · mean CRPS",
+      "value": 1.8256203032178682,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "common_seven · unchanged_may_point · marginal coverage",
+      "value": 0.0,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "common_seven · unchanged_may_point · joint covered elections",
+      "value": 0,
+      "unit": "elections",
+      "context": "All named parties covered / 5 test elections"
+    },
+    {
+      "label": "common_seven · fixed_log_sigma_0.02 · mean RMSE",
+      "value": 2.280888629659298,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "common_seven · fixed_log_sigma_0.02 · mean CRPS",
+      "value": 1.691007410467306,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "common_seven · fixed_log_sigma_0.02 · marginal coverage",
+      "value": 0.05714285714285714,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "common_seven · fixed_log_sigma_0.02 · joint covered elections",
+      "value": 0,
+      "unit": "elections",
+      "context": "All named parties covered / 5 test elections"
+    },
+    {
+      "label": "common_seven · historical_isotropic · mean RMSE",
+      "value": 2.209055821092923,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "common_seven · historical_isotropic · mean CRPS",
+      "value": 1.4286245507691797,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "common_seven · historical_isotropic · marginal coverage",
+      "value": 0.9428571428571428,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "common_seven · historical_isotropic · joint covered elections",
+      "value": 3,
+      "unit": "elections",
+      "context": "All named parties covered / 5 test elections"
+    },
+    {
+      "label": "common_seven · historical_bias_shrunk_covariance · mean RMSE",
+      "value": 2.425177162354146,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "common_seven · historical_bias_shrunk_covariance · mean CRPS",
+      "value": 1.404092227072567,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "common_seven · historical_bias_shrunk_covariance · marginal coverage",
+      "value": 0.9428571428571428,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "common_seven · historical_bias_shrunk_covariance · joint covered elections",
+      "value": 3,
+      "unit": "elections",
+      "context": "All named parties covered / 5 test elections"
+    },
+    {
+      "label": "extended_eight · admitted elections",
+      "value": 5,
+      "unit": "elections",
+      "context": "2010, 2014, 2018, 2022, 2026"
+    },
+    {
+      "label": "extended_eight · rolling holdouts",
+      "value": 3,
+      "unit": "test elections",
+      "context": "2018, 2022, 2026"
+    },
+    {
+      "label": "extended_eight · unchanged_may_point · mean RMSE",
+      "value": 2.165784401441584,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "extended_eight · unchanged_may_point · mean CRPS",
+      "value": 1.6329829132795222,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "extended_eight · unchanged_may_point · marginal coverage",
+      "value": 0.0,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "extended_eight · unchanged_may_point · joint covered elections",
+      "value": 0,
+      "unit": "elections",
+      "context": "All named parties covered / 3 test elections"
+    },
+    {
+      "label": "extended_eight · fixed_log_sigma_0.02 · mean RMSE",
+      "value": 2.1629813648299625,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "extended_eight · fixed_log_sigma_0.02 · mean CRPS",
+      "value": 1.5172449410752031,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "extended_eight · fixed_log_sigma_0.02 · marginal coverage",
+      "value": 0.25,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "extended_eight · fixed_log_sigma_0.02 · joint covered elections",
+      "value": 0,
+      "unit": "elections",
+      "context": "All named parties covered / 3 test elections"
+    },
+    {
+      "label": "extended_eight · historical_isotropic · mean RMSE",
+      "value": 2.0943308950805832,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "extended_eight · historical_isotropic · mean CRPS",
+      "value": 1.228107486775885,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "extended_eight · historical_isotropic · marginal coverage",
+      "value": 0.875,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "extended_eight · historical_isotropic · joint covered elections",
+      "value": 0,
+      "unit": "elections",
+      "context": "All named parties covered / 3 test elections"
+    },
+    {
+      "label": "extended_eight · historical_bias_shrunk_covariance · mean RMSE",
+      "value": 2.652763114097254,
+      "unit": "pp",
+      "context": "Equal election weighting; closed panel composition"
+    },
+    {
+      "label": "extended_eight · historical_bias_shrunk_covariance · mean CRPS",
+      "value": 1.6325745454746734,
+      "unit": "pp",
+      "context": "Empirical proper score; lower is better"
+    },
+    {
+      "label": "extended_eight · historical_bias_shrunk_covariance · marginal coverage",
+      "value": 0.625,
+      "unit": "fraction",
+      "context": "Central marginal90% intervals, not independent party trials"
+    },
+    {
+      "label": "extended_eight · historical_bias_shrunk_covariance · joint covered elections",
+      "value": 0,
+      "unit": "elections",
+      "context": "All named parties covered / 3 test elections"
+    }
+  ],
+  "limitations": [
+    "The seven-party panel excludes SD and OTHER; its scale is not the eight-party production scale. The panels are not scored against each other.",
+    "Missing/approximate SD points in 2002 and 2006 are not imputed. Eight-party coverage starts in 2010.",
+    "Seven/five elections and five/three rolling test elections remain a small, dependent historical sample. Parties are not independent elections.",
+    "May-to-September residuals combine survey error and campaign change. They are not election-day polling errors.",
+    "Original-release facts were transcribed from currently accessible official documents. Original downloaded bytes and independently archived historical real-time accessibility are not established.",
+    "SCB current Vid10 values for 2010–2019 were retrospectively revised after the 2020 weighting adjustment and are excluded from original-vintage training.",
+    "Historical data span changing poll methods, party systems and campaigning. Exchangeable residuals, Gaussian CLR form and fixed shrinkage are modeling assumptions.",
+    "Parameter uncertainty is not included in the intervals; small training samples can make them overconfident. Joint coverage refers to all marginal intervals, not a simultaneous-90% band.",
+    "This national-composition validation uses the declared CLR estimates without the native stress service sigma<=0.2 cap. Learned scales can exceed 0.2; they are not installed as valid native stress profiles.",
+    "Previously inspected 2022/2026 outcomes are development data, not new blind holdouts. No model is selected after these scores, and no production default is changed.",
+    "Newly added national vote counts do not validate full district allocations for 2002, 2006 or 2010."
+  ],
+  "pending": [
+    "Independent historical-access verification and external replication.",
+    "More test elections and genuinely prospective evaluation."
+  ],
+  "source_urls": [
+    {
+      "url": "https://share.scb.se/ov9993/data/publikationer/statistik/me/me0201/2000i02/me60sm0201.pdf",
+      "title": "SCB ME60SM0201, May 2002"
+    },
+    {
+      "url": "https://share.scb.se/ov9993/data/publikationer/statistik/me/me0104/2003m00/me01sa0301.pdf",
+      "title": "SCB General Elections 2002, Part 1"
+    },
+    {
+      "url": "https://www.mynewsdesk.com/se/scb/pressreleases/partisympatiundersoekningen-psu-maj-2006-57174",
+      "title": "SCB official press release, May 2006"
+    },
+    {
+      "url": "https://www.scb.se/contentassets/b485269e93864392b0640b8b8c6b1c28/me0104_2010a01_br_me01br1101.pdf",
+      "title": "SCB General Elections 2010, Part 1"
+    },
+    {
+      "url": "https://www.mynewsdesk.com/se/scb/pressreleases/partisympatiundersoekningen-psu-partisympatiundersoekningen-maj-2010-422731",
+      "title": "SCB official press release, May 2010"
+    },
+    {
+      "url": "https://www.scb.se/contentassets/d568c36fe3dc43dd84cbec9dab6a7ba2/me0201_2014m05_br_me60br1401.pdf",
+      "title": "SCB original May 2014 release"
+    },
+    {
+      "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-psu-i-maj-2018---val-idag/",
+      "title": "SCB original May 2018 release"
+    },
+    {
+      "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatier-maj-2022",
+      "title": "SCB original May 2022 release"
+    },
+    {
+      "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/demokrati/partisympatier/partisympatiundersokningen-psu/pong/statistiknyhet/partisympatiundersokningen-maj-2026",
+      "title": "SCB original May 2026 release"
+    },
+    {
+      "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__ME__ME0201__ME0201A/Vid10/",
+      "title": "SCB current series revision footnote; excluded vintage"
+    }
+  ],
+  "panels": {
+    "common_seven": {
+      "parties": [
+        "S",
+        "M",
+        "C",
+        "KD",
+        "MP",
+        "V",
+        "L"
+      ],
+      "years": [
+        2002,
+        2006,
+        2010,
+        2014,
+        2018,
+        2022,
+        2026
+      ],
+      "elections": 7,
+      "test_years": [
+        2010,
+        2014,
+        2018,
+        2022,
+        2026
+      ],
+      "rolling_holdouts": 5,
+      "aggregate": {
+        "unchanged_may_point": {
+          "rmse_pp": 2.282258287376014,
+          "mae_pp": 1.8256203032178557,
+          "marginal_coverage": 0.0,
+          "mean_interval_score90_pp": 36.51240606435768,
+          "mean_crps_pp": 1.8256203032178682,
+          "mean_interval_width_pp": 0.0,
+          "test_elections": 5,
+          "all_party_joint_covered_elections": 0,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        },
+        "fixed_log_sigma_0.02": {
+          "rmse_pp": 2.280888629659298,
+          "mae_pp": 1.8246877068076526,
+          "marginal_coverage": 0.05714285714285714,
+          "mean_interval_score90_pp": 29.43859498819021,
+          "mean_crps_pp": 1.691007410467306,
+          "mean_interval_width_pp": 0.7992586318534954,
+          "test_elections": 5,
+          "all_party_joint_covered_elections": 0,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        },
+        "historical_isotropic": {
+          "rmse_pp": 2.209055821092923,
+          "mae_pp": 1.754661993052503,
+          "marginal_coverage": 0.9428571428571428,
+          "mean_interval_score90_pp": 13.931233952074686,
+          "mean_crps_pp": 1.4286245507691797,
+          "mean_interval_width_pp": 11.863123320020472,
+          "test_elections": 5,
+          "all_party_joint_covered_elections": 3,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        },
+        "historical_bias_shrunk_covariance": {
+          "rmse_pp": 2.425177162354146,
+          "mae_pp": 1.8645581232120265,
+          "marginal_coverage": 0.9428571428571428,
+          "mean_interval_score90_pp": 12.234347020597804,
+          "mean_crps_pp": 1.404092227072567,
+          "mean_interval_width_pp": 11.050188073818632,
+          "test_elections": 5,
+          "all_party_joint_covered_elections": 3,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        }
+      }
+    },
+    "extended_eight": {
+      "parties": [
+        "S",
+        "M",
+        "SD",
+        "C",
+        "KD",
+        "MP",
+        "V",
+        "L"
+      ],
+      "years": [
+        2010,
+        2014,
+        2018,
+        2022,
+        2026
+      ],
+      "elections": 5,
+      "test_years": [
+        2018,
+        2022,
+        2026
+      ],
+      "rolling_holdouts": 3,
+      "aggregate": {
+        "unchanged_may_point": {
+          "rmse_pp": 2.165784401441584,
+          "mae_pp": 1.6329829132796363,
+          "marginal_coverage": 0.0,
+          "mean_interval_score90_pp": 32.65965826559059,
+          "mean_crps_pp": 1.6329829132795222,
+          "mean_interval_width_pp": 0.0,
+          "test_elections": 3,
+          "all_party_joint_covered_elections": 0,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        },
+        "fixed_log_sigma_0.02": {
+          "rmse_pp": 2.1629813648299625,
+          "mae_pp": 1.6315255916571385,
+          "marginal_coverage": 0.25,
+          "mean_interval_score90_pp": 26.753816991535086,
+          "mean_crps_pp": 1.5172449410752031,
+          "mean_interval_width_pp": 0.7262558503906439,
+          "test_elections": 3,
+          "all_party_joint_covered_elections": 0,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        },
+        "historical_isotropic": {
+          "rmse_pp": 2.0943308950805832,
+          "mae_pp": 1.5941432945938476,
+          "marginal_coverage": 0.875,
+          "mean_interval_score90_pp": 12.075814944259811,
+          "mean_crps_pp": 1.228107486775885,
+          "mean_interval_width_pp": 9.155484323283943,
+          "test_elections": 3,
+          "all_party_joint_covered_elections": 0,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        },
+        "historical_bias_shrunk_covariance": {
+          "rmse_pp": 2.652763114097254,
+          "mae_pp": 2.0712765984515937,
+          "marginal_coverage": 0.625,
+          "mean_interval_score90_pp": 17.692850246920425,
+          "mean_crps_pp": 1.6325745454746734,
+          "mean_interval_width_pp": 6.327652696927571,
+          "test_elections": 3,
+          "all_party_joint_covered_elections": 0,
+          "aggregation": "Equal weight per test election; party outcomes are dependent."
+        }
+      }
+    }
+  },
+  "production_profile_changed": false
+}

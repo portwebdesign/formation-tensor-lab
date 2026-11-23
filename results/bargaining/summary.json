@@ -1,0 +1,4603 @@
+{
+  "schema": "formation-tensor.bargaining-summary.v1",
+  "status": "passed",
+  "baseline_profile_id": "seats-62d7a4910d4b",
+  "distinct_exact_seat_profiles": 26,
+  "proposal_tensor_coordinates": 26624,
+  "reachability_rows": 29952,
+  "process_rows": 9568,
+  "unique_process_signature_cases_evaluated": 276,
+  "observed_formal_rejections_at_cutoff": 2,
+  "remaining_formal_attempts_at_cutoff": 2,
+  "baseline_initial_policy000": [
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 0,
+      "relaxation_access": "none",
+      "budget": 8,
+      "structural_possible": false,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": null,
+      "agreement_reachable": false,
+      "status": "no_feasible_agreement",
+      "reachable_states": 8,
+      "reachable_agreement_states": 0,
+      "minimum_action_witnesses": [],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": 5,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 1,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_C_composition"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "C",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 0,
+      "relaxation_access": "V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": 5,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 1,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_V_inclusion"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C+V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": 5,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 32,
+      "reachable_agreement_states": 3,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_V_inclusion"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_C_composition"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "C",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L",
+      "initial_policy_mask": 0,
+      "relaxation_access": "none",
+      "budget": 8,
+      "structural_possible": false,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": null,
+      "agreement_reachable": false,
+      "status": "no_feasible_agreement",
+      "reachable_states": 8,
+      "reachable_agreement_states": 0,
+      "minimum_action_witnesses": [],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": 5,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 1,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_C_composition"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "C",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L",
+      "initial_policy_mask": 0,
+      "relaxation_access": "V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": 5,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 1,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_V_inclusion"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C+V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 3,
+      "minimum_concession_cost": 5,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 32,
+      "reachable_agreement_states": 3,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_V_inclusion"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "meet_MP_policy",
+            "relax_C_composition"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "C",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "none",
+      "budget": 8,
+      "structural_possible": false,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 6,
+      "minimum_concession_cost": null,
+      "agreement_reachable": false,
+      "status": "no_feasible_agreement",
+      "reachable_states": 8,
+      "reachable_agreement_states": 0,
+      "minimum_action_witnesses": [],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 6,
+      "minimum_concession_cost": 4,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 2,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            3,
+            1,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "relax_C_composition"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "C",
+              "V"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 6,
+      "minimum_concession_cost": 4,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 2,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            3,
+            0,
+            1
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "relax_V_inclusion"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C+V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 6,
+      "minimum_concession_cost": 4,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 32,
+      "reachable_agreement_states": 6,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            3,
+            0,
+            1
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "relax_V_inclusion"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            3,
+            1,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_V_policy",
+            "relax_C_composition"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "C",
+              "V"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L+KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "none",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 15,
+      "minimum_concession_cost": 2,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 8,
+      "reachable_agreement_states": 3,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            5,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            6,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_V_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L+KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 15,
+      "minimum_concession_cost": 2,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 7,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            5,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            6,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_V_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L+KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 15,
+      "minimum_concession_cost": 2,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 16,
+      "reachable_agreement_states": 7,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            5,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            6,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_V_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "L+KD",
+      "initial_policy_mask": 0,
+      "relaxation_access": "C+V",
+      "budget": 8,
+      "structural_possible": true,
+      "structural_definition": "Agreement exists under this permitted concession family with unrestricted cost budget.",
+      "full_state_agreement_count": 15,
+      "minimum_concession_cost": 2,
+      "agreement_reachable": true,
+      "status": "reachable",
+      "reachable_states": 32,
+      "reachable_agreement_states": 15,
+      "minimum_action_witnesses": [
+        {
+          "terminal_state": [
+            5,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_C_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S"
+            ],
+            [
+              "S",
+              "C"
+            ],
+            [
+              "S",
+              "MP"
+            ],
+            [
+              "S",
+              "C",
+              "MP"
+            ]
+          ]
+        },
+        {
+          "terminal_state": [
+            6,
+            0,
+            0
+          ],
+          "actions": [
+            "meet_V_policy",
+            "meet_MP_policy"
+          ],
+          "consented_cabinets": [
+            [
+              "S",
+              "V"
+            ],
+            [
+              "S",
+              "V",
+              "MP"
+            ]
+          ]
+        }
+      ],
+      "cost_unit": "synthetic concession units, not money, voters or estimated utility"
+    }
+  ],
+  "baseline_full_episode_process": [
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "none",
+      "pressure_trigger_total_rejections": null,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "none",
+      "pressure_trigger_total_rejections": null,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 1,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "formal_rejection_count_distribution": {
+        "2": 11520,
+        "3": 5760,
+        "4": 2880,
+        "1": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 2,
+          "new_formal_rejections": 2,
+          "formal_votes": 3,
+          "proposal_evaluations": 3,
+          "remaining_institutional_attempts": 2,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "cabinet_members": [
+                "S",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "cabinet_members": [
+                "S",
+                "C",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 1,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "1": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 1,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 3,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 1
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 2,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 31680,
+        "four_rejections": 8640
+      },
+      "formal_rejection_count_distribution": {
+        "2": 20160,
+        "3": 11520,
+        "4": 8640
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 2,
+          "new_formal_rejections": 2,
+          "formal_votes": 3,
+          "proposal_evaluations": 3,
+          "remaining_institutional_attempts": 2,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 2
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "cabinet_members": [
+                "S",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 5,
+              "cabinet_members": [
+                "S",
+                "C",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 2,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "2": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 2,
+          "new_formal_rejections": 2,
+          "formal_votes": 3,
+          "proposal_evaluations": 3,
+          "remaining_institutional_attempts": 2,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 2
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "formal_rejection_count_distribution": {
+        "3": 20160,
+        "4": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 3,
+          "new_formal_rejections": 3,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 4,
+              "cabinet_members": [
+                "S",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "3": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 3,
+          "new_formal_rejections": 3,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 1,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 37440,
+        "four_rejections": 2880
+      },
+      "formal_rejection_count_distribution": {
+        "1": 20160,
+        "2": 11520,
+        "3": 5760,
+        "4": 2880
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 1,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 3,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 1
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 6,
+              "cabinet_members": [
+                "S",
+                "V",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 1,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "1": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 1,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 3,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 1
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 2,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 8640,
+        "agreement_found": 31680
+      },
+      "formal_rejection_count_distribution": {
+        "4": 8640,
+        "3": 11520,
+        "2": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 3,
+          "new_formal_rejections": 3,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "cabinet_members": [
+                "S",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 2,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "2": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 2,
+          "new_formal_rejections": 2,
+          "formal_votes": 3,
+          "proposal_evaluations": 3,
+          "remaining_institutional_attempts": 2,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 2
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 20160,
+        "agreement_found": 20160
+      },
+      "formal_rejection_count_distribution": {
+        "4": 20160,
+        "3": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 3,
+          "new_formal_rejections": 3,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 4,
+              "cabinet_members": [
+                "S",
+                "MP"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "3": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 3,
+          "new_formal_rejections": 3,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 0,
+      "remaining_institutional_attempts": 4,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 4,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 0,
+          "formal_rejections": 4,
+          "new_formal_rejections": 4,
+          "formal_votes": 4,
+          "proposal_evaluations": 4,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 0
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 1
+            },
+            {
+              "step": 3,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 4,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 3,
+              "cabinet_members": [
+                "S",
+                "C",
+                "V"
+              ],
+              "cabinet_consented": false,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    }
+  ],
+  "baseline_cutoff_counter2_process": [
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "none",
+      "pressure_trigger_total_rejections": null,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "none",
+      "pressure_trigger_total_rejections": null,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 20160,
+        "agreement_found": 20160
+      },
+      "formal_rejection_count_distribution": {
+        "4": 20160,
+        "3": 20160
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        },
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 3,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "3": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 3,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            1,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                1,
+                0
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "C",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 20160,
+        "four_rejections": 20160
+      },
+      "formal_rejection_count_distribution": {
+        "3": 20160,
+        "4": 20160
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 3,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        },
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 2,
+              "cabinet_members": [
+                "S",
+                "V"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 198,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 3,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "agreement_found": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "3": 40320
+      },
+      "witnesses": {
+        "agreement_found": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "agreement_found",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 3,
+          "new_formal_rejections": 1,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 1,
+          "concession_spent": 2,
+          "terminal_state": [
+            7,
+            0,
+            1
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                1
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": true,
+              "no": 173,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": false,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    },
+    {
+      "profile_id": "seats-62d7a4910d4b",
+      "external_buffer": "none",
+      "initial_policy_mask": 7,
+      "initial_formal_rejections": 2,
+      "remaining_institutional_attempts": 2,
+      "pressure_clause": "V",
+      "pressure_trigger_total_rejections": 4,
+      "release_budget": 2,
+      "additional_vote_patience": 2,
+      "adaptive_after_release": true,
+      "full_agenda_orders": 40320,
+      "distinct_four_prefixes": 1680,
+      "outcome_counts": {
+        "four_rejections": 40320
+      },
+      "formal_rejection_count_distribution": {
+        "4": 40320
+      },
+      "witnesses": {
+        "four_rejections": {
+          "agenda_prefix": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "four_rejections",
+          "initial_formal_rejections": 2,
+          "formal_rejections": 4,
+          "new_formal_rejections": 2,
+          "formal_votes": 2,
+          "proposal_evaluations": 2,
+          "remaining_institutional_attempts": 0,
+          "concession_spent": 0,
+          "terminal_state": [
+            7,
+            0,
+            0
+          ],
+          "trace": [
+            {
+              "step": 1,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 0,
+              "cabinet_members": [
+                "S"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 2
+            },
+            {
+              "step": 2,
+              "state": [
+                7,
+                0,
+                0
+              ],
+              "cabinet_mask": 1,
+              "cabinet_members": [
+                "S",
+                "C"
+              ],
+              "cabinet_consented": true,
+              "pm_not_rejected": false,
+              "no": 203,
+              "rejections_before_evaluation": 3
+            }
+          ]
+        }
+      },
+      "counts_are_probabilities": false
+    }
+  ],
+  "baseline_minimum_strict_anonymous_external_capacity": 24,
+  "baseline_state_edge_diagnostics": [
+    {
+      "external_buffer": "none",
+      "proposal_edges": 640,
+      "No_increasing_edges": 16,
+      "agreement_losing_edges": 0
+    },
+    {
+      "external_buffer": "L",
+      "proposal_edges": 640,
+      "No_increasing_edges": 16,
+      "agreement_losing_edges": 0
+    },
+    {
+      "external_buffer": "KD",
+      "proposal_edges": 640,
+      "No_increasing_edges": 16,
+      "agreement_losing_edges": 0
+    },
+    {
+      "external_buffer": "L+KD",
+      "proposal_edges": 640,
+      "No_increasing_edges": 16,
+      "agreement_losing_edges": 0
+    }
+  ],
+  "all_profile_agreement_losing_edges": 0,
+  "null_controls": {
+    "unchanged_formal": {
+      "status": "four_rejections",
+      "initial_formal_rejections": 0,
+      "formal_rejections": 4,
+      "new_formal_rejections": 4,
+      "formal_votes": 4,
+      "proposal_evaluations": 4,
+      "remaining_institutional_attempts": 0,
+      "concession_spent": 0,
+      "terminal_state": [
+        7,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 2,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 1
+        },
+        {
+          "step": 3,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 2
+        },
+        {
+          "step": 4,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 3
+        }
+      ]
+    },
+    "unchanged_exploratory": {
+      "status": "exploration_exhausted",
+      "initial_formal_rejections": 0,
+      "formal_rejections": 0,
+      "new_formal_rejections": 0,
+      "formal_votes": 0,
+      "proposal_evaluations": 12,
+      "remaining_institutional_attempts": 4,
+      "concession_spent": 0,
+      "terminal_state": [
+        7,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 2,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 3,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 4,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 5,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 6,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 7,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 8,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 9,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 10,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 11,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 12,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        }
+      ]
+    },
+    "underfunded_pressure": {
+      "status": "four_rejections",
+      "initial_formal_rejections": 0,
+      "formal_rejections": 4,
+      "new_formal_rejections": 4,
+      "formal_votes": 4,
+      "proposal_evaluations": 4,
+      "remaining_institutional_attempts": 0,
+      "concession_spent": 0,
+      "terminal_state": [
+        7,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 0,
+          "cabinet_members": [
+            "S"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 0
+        },
+        {
+          "step": 2,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 1,
+          "cabinet_members": [
+            "S",
+            "C"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 203,
+          "rejections_before_evaluation": 1
+        },
+        {
+          "step": 3,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 2,
+          "cabinet_members": [
+            "S",
+            "V"
+          ],
+          "cabinet_consented": true,
+          "pm_not_rejected": false,
+          "no": 198,
+          "rejections_before_evaluation": 2
+        },
+        {
+          "step": 4,
+          "state": [
+            7,
+            0,
+            0
+          ],
+          "cabinet_mask": 3,
+          "cabinet_members": [
+            "S",
+            "C",
+            "V"
+          ],
+          "cabinet_consented": false,
+          "pm_not_rejected": false,
+          "no": 198,
+          "rejections_before_evaluation": 3
+        }
+      ]
+    }
+  },
+  "source_only_future_ballots": "Unknown; no source-only next-candidate probability or definitive vote imputed.",
+  "scope": "Hypothetical finite-state S-led proposal family; not fitted party intentions."
+}

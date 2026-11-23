@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-11-23T16:32:12.594536+00:00",
+  "elapsed_seconds": 5.1162385829999995,
+  "protocol_sha256": "9a7b50487ebbb63635cd465b4ee49544c2a71910020d2dc7990d711d5788651e",
+  "input_sha256": {
+    "results/interactions/seat-profiles.json": "b6df51624c667bf6a66e743ba7bd3ffc7d8f3e8c89878db552bb90334818af83",
+    "data/formation/events2026.json": "11e818343dffa7ecad117509095099801881d61f79e0ce071f861cf5b1eb3c77",
+    "data/formation/source-ledger.json": "6127877aa3b57d8d032cf7a33ba51077b7acece1b1d94b653fb31d4e2eca873c",
+    "data/elections/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/formation/bargaining-protocol.json": "9a7b50487ebbb63635cd465b4ee49544c2a71910020d2dc7990d711d5788651e",
+    "formation_tensor/bargaining.py": "22b9f4cd4c2ba49c56f4ec18f91f3cc6313b523c368312f4aa08966794672395",
+    "tests/test_bargaining.py": "ee7ebb3dde773f70214abb339ef2a006d093153a1f85e96ef436a5e5ed195712",
+    "experiments/run_bargaining.py": "6fc740592ced9fc000fa6e2671554cf6c12f295d6154df0498a57ee557730502"
+  },
+  "test_returncode": 0,
+  "test_count": 13
+}

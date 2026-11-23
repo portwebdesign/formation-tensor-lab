@@ -1,0 +1,1705 @@
+{
+  "schema": "isvec-secim.independent-vote-certificates.v1",
+  "status": "passed",
+  "implementation": "Exact rational common-cutoff / seat-vector enumeration; no imports from the original search or bounds implementation.",
+  "independence_limit": "Separate arithmetic implementation; external replication and formal proof verification have not been established.",
+  "domain": "Fixed eight nationally eligible parties, fixed electorate, 349 seats, 6/5 then odd divisors, fixed M/KD/L/SD nonrejecting mask; all national cutoff lotteries retained.",
+  "python": "3.9.6",
+  "years": {
+    "2022": {
+      "status": "passed",
+      "independent_national_minimum": 9086,
+      "witness": {
+        "status": "passed",
+        "cost": 9086,
+        "bounds": {
+          "min_support": 174,
+          "max_support": 174,
+          "cutoff": [
+            1964691,
+            215
+          ],
+          "cutoff_lottery": false
+        }
+      },
+      "lower_certificate": "2022-lower-bound-certificate.json",
+      "lower_certificate_sha256": "c16131e9d77be6f7129270a1fd58f05268f1024ea49dbd211bf456fb782ee831",
+      "candidate_seat_vectors_checked": 40,
+      "continuous_exclusions": 40,
+      "integer_rounding_exclusions": 0,
+      "district_audit": {
+        "status": "passed",
+        "districts": 29,
+        "net_half_l1": 9086,
+        "district_totals_preserved": true,
+        "negative_votes": false,
+        "national_witness_matches": true,
+        "full_allocator_replay": {
+          "status": "passed",
+          "year": 2022,
+          "cost_voters": 9086,
+          "valid_votes": 6477970,
+          "district_turnout_preserved": true,
+          "eligibility_preserved": true,
+          "returned_before": 0,
+          "returned_after": 0,
+          "parties": [
+            {
+              "id": "M",
+              "label": "M",
+              "before": 68,
+              "after": 67,
+              "votes_before": 1237428,
+              "votes_after": 1233643
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "before": 24,
+              "after": 24,
+              "votes_before": 434945,
+              "votes_after": 434945
+            },
+            {
+              "id": "L",
+              "label": "L",
+              "before": 16,
+              "after": 16,
+              "votes_before": 298542,
+              "votes_after": 298542
+            },
+            {
+              "id": "KD",
+              "label": "KD",
+              "before": 19,
+              "after": 19,
+              "votes_before": 345712,
+              "votes_after": 345712
+            },
+            {
+              "id": "S",
+              "label": "S",
+              "before": 107,
+              "after": 108,
+              "votes_before": 1964474,
+              "votes_after": 1964691
+            },
+            {
+              "id": "V",
+              "label": "V",
+              "before": 24,
+              "after": 24,
+              "votes_before": 437050,
+              "votes_after": 437050
+            },
+            {
+              "id": "MP",
+              "label": "MP",
+              "before": 18,
+              "after": 19,
+              "votes_before": 329242,
+              "votes_after": 338111
+            },
+            {
+              "id": "SD",
+              "label": "SD",
+              "before": 73,
+              "after": 72,
+              "votes_before": 1330325,
+              "votes_after": 1325024
+            },
+            {
+              "id": "OTHER_REGISTERED",
+              "label": "OTHER_REGISTERED",
+              "before": 0,
+              "after": 0,
+              "votes_before": 100252,
+              "votes_after": 100252
+            }
+          ]
+        },
+        "scope": {
+          "national_threshold_votes": 259119,
+          "safe_eligibility_radius": 39423,
+          "eligibility_preserved_through_national_optimum": true,
+          "unchanged_outside_parties_below_local_12_percent": true,
+          "protected_small_district_quota": 2,
+          "national_party_seat_minima_through_lower_bound_radius": {
+            "M": 67,
+            "C": 23,
+            "L": 16,
+            "KD": 18,
+            "S": 106,
+            "V": 23,
+            "MP": 17,
+            "SD": 72
+          },
+          "protected_overhang_excluded": true,
+          "refill_checks": [
+            {
+              "radius": 3810,
+              "sufficient_refill_guard": true,
+              "largest_upper": 36,
+              "failed_sufficient_conditions": []
+            },
+            {
+              "radius": 3811,
+              "sufficient_refill_guard": false,
+              "largest_upper": 41,
+              "failed_sufficient_conditions": [
+                {
+                  "parties": [
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 3811,
+                  "relaxed_national_entitlement_upper": 41
+                }
+              ]
+            },
+            {
+              "radius": 9085,
+              "sufficient_refill_guard": false,
+              "largest_upper": 93,
+              "failed_sufficient_conditions": [
+                {
+                  "parties": [
+                    "C",
+                    "KD"
+                  ],
+                  "minimum_local_zeroing_cost": 6503,
+                  "relaxed_national_entitlement_upper": 43
+                },
+                {
+                  "parties": [
+                    "C",
+                    "L"
+                  ],
+                  "minimum_local_zeroing_cost": 6027,
+                  "relaxed_national_entitlement_upper": 41
+                },
+                {
+                  "parties": [
+                    "C",
+                    "KD",
+                    "L"
+                  ],
+                  "minimum_local_zeroing_cost": 7672,
+                  "relaxed_national_entitlement_upper": 60
+                },
+                {
+                  "parties": [
+                    "M"
+                  ],
+                  "minimum_local_zeroing_cost": 6969,
+                  "relaxed_national_entitlement_upper": 69
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "M"
+                  ],
+                  "minimum_local_zeroing_cost": 8614,
+                  "relaxed_national_entitlement_upper": 88
+                },
+                {
+                  "parties": [
+                    "L",
+                    "M"
+                  ],
+                  "minimum_local_zeroing_cost": 8138,
+                  "relaxed_national_entitlement_upper": 86
+                },
+                {
+                  "parties": [
+                    "C",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 7541,
+                  "relaxed_national_entitlement_upper": 43
+                },
+                {
+                  "parties": [
+                    "C",
+                    "L",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 8710,
+                  "relaxed_national_entitlement_upper": 60
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 5497,
+                  "relaxed_national_entitlement_upper": 55
+                },
+                {
+                  "parties": [
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 6504,
+                  "relaxed_national_entitlement_upper": 74
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 8149,
+                  "relaxed_national_entitlement_upper": 93
+                },
+                {
+                  "parties": [
+                    "L",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 7673,
+                  "relaxed_national_entitlement_upper": 91
+                },
+                {
+                  "parties": [
+                    "C",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 7500,
+                  "relaxed_national_entitlement_upper": 49
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 4287,
+                  "relaxed_national_entitlement_upper": 44
+                },
+                {
+                  "parties": [
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 3811,
+                  "relaxed_national_entitlement_upper": 42
+                },
+                {
+                  "parties": [
+                    "C",
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 8669,
+                  "relaxed_national_entitlement_upper": 66
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 5456,
+                  "relaxed_national_entitlement_upper": 61
+                },
+                {
+                  "parties": [
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 5325,
+                  "relaxed_national_entitlement_upper": 44
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 6970,
+                  "relaxed_national_entitlement_upper": 63
+                },
+                {
+                  "parties": [
+                    "L",
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 6494,
+                  "relaxed_national_entitlement_upper": 61
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L",
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 8139,
+                  "relaxed_national_entitlement_upper": 79
+                }
+              ]
+            }
+          ],
+          "national_exact_optimum": 9086,
+          "full_system_certified_cost_interval": [
+            3811,
+            9086
+          ],
+          "full_law_global_optimum_established": false
+        }
+      }
+    },
+    "2026": {
+      "status": "passed",
+      "independent_national_minimum": 10269,
+      "witness": {
+        "status": "passed",
+        "cost": 10269,
+        "bounds": {
+          "min_support": 175,
+          "max_support": 175,
+          "cutoff": [
+            1192181,
+            125
+          ],
+          "cutoff_lottery": false
+        }
+      },
+      "lower_certificate": "2026-lower-bound-certificate.json",
+      "lower_certificate_sha256": "e38f79959a3f8fc2c4b53f9c7427e12f63893396114211999102a49e33b7879a",
+      "candidate_seat_vectors_checked": 345,
+      "continuous_exclusions": 344,
+      "integer_rounding_exclusions": 1,
+      "district_audit": {
+        "status": "passed",
+        "districts": 29,
+        "net_half_l1": 10269,
+        "district_totals_preserved": true,
+        "negative_votes": false,
+        "national_witness_matches": true,
+        "full_allocator_replay": {
+          "status": "passed",
+          "year": 2026,
+          "cost_voters": 10269,
+          "valid_votes": 6767429,
+          "district_turnout_preserved": true,
+          "eligibility_preserved": true,
+          "returned_before": 0,
+          "returned_after": 0,
+          "parties": [
+            {
+              "id": "0001",
+              "label": "M",
+              "before": 70,
+              "after": 71,
+              "votes_before": 1343448,
+              "votes_after": 1344781
+            },
+            {
+              "id": "0002",
+              "label": "S",
+              "before": 99,
+              "after": 99,
+              "votes_before": 1895989,
+              "votes_after": 1895989
+            },
+            {
+              "id": "0003",
+              "label": "L",
+              "before": 19,
+              "after": 19,
+              "votes_before": 361187,
+              "votes_after": 361189
+            },
+            {
+              "id": "0004",
+              "label": "C",
+              "before": 25,
+              "after": 25,
+              "votes_before": 475780,
+              "votes_after": 475780
+            },
+            {
+              "id": "0005",
+              "label": "V",
+              "before": 30,
+              "after": 29,
+              "votes_before": 568781,
+              "votes_after": 562709
+            },
+            {
+              "id": "0055",
+              "label": "MP",
+              "before": 22,
+              "after": 21,
+              "votes_before": 414307,
+              "votes_after": 410110
+            },
+            {
+              "id": "0068",
+              "label": "KD",
+              "before": 22,
+              "after": 22,
+              "votes_before": 417490,
+              "votes_after": 417491
+            },
+            {
+              "id": "0110",
+              "label": "SD",
+              "before": 62,
+              "after": 63,
+              "votes_before": 1183248,
+              "votes_after": 1192181
+            },
+            {
+              "id": "0189",
+              "label": "ENH",
+              "before": 0,
+              "after": 0,
+              "votes_before": 177,
+              "votes_after": 177
+            },
+            {
+              "id": "0339",
+              "label": "Sveriges Nationella Demokratiska Parti",
+              "before": 0,
+              "after": 0,
+              "votes_before": 47,
+              "votes_after": 47
+            },
+            {
+              "id": "0471",
+              "label": "K",
+              "before": 0,
+              "after": 0,
+              "votes_before": 211,
+              "votes_after": 211
+            },
+            {
+              "id": "0524",
+              "label": "PP",
+              "before": 0,
+              "after": 0,
+              "votes_before": 7464,
+              "votes_after": 7464
+            },
+            {
+              "id": "0532",
+              "label": "ER",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1286,
+              "votes_after": 1286
+            },
+            {
+              "id": "0638",
+              "label": "KLP",
+              "before": 0,
+              "after": 0,
+              "votes_before": 162,
+              "votes_after": 162
+            },
+            {
+              "id": "1011",
+              "label": "LPo",
+              "before": 0,
+              "after": 0,
+              "votes_before": 577,
+              "votes_after": 577
+            },
+            {
+              "id": "1150",
+              "label": "DD",
+              "before": 0,
+              "after": 0,
+              "votes_before": 953,
+              "votes_after": 953
+            },
+            {
+              "id": "1152",
+              "label": "ÖrP",
+              "before": 0,
+              "after": 0,
+              "votes_before": 39644,
+              "votes_after": 39644
+            },
+            {
+              "id": "1273",
+              "label": "NMR",
+              "before": 0,
+              "after": 0,
+              "votes_before": 355,
+              "votes_after": 355
+            },
+            {
+              "id": "1296",
+              "label": "MED",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4118,
+              "votes_after": 4118
+            },
+            {
+              "id": "1309",
+              "label": "TRP",
+              "before": 0,
+              "after": 0,
+              "votes_before": 47,
+              "votes_after": 47
+            },
+            {
+              "id": "1318",
+              "label": "CSIS",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1325",
+              "label": "AFS",
+              "before": 0,
+              "after": 0,
+              "votes_before": 26729,
+              "votes_after": 26729
+            },
+            {
+              "id": "1404",
+              "label": "Revolutionspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1430",
+              "label": "PV",
+              "before": 0,
+              "after": 0,
+              "votes_before": 208,
+              "votes_after": 208
+            },
+            {
+              "id": "1439",
+              "label": "PNy",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1069,
+              "votes_after": 1069
+            },
+            {
+              "id": "1448",
+              "label": "Enade Sverige",
+              "before": 0,
+              "after": 0,
+              "votes_before": 59,
+              "votes_after": 59
+            },
+            {
+              "id": "1449",
+              "label": "FT",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1466",
+              "label": "Säkerhetspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1468",
+              "label": "Vinningspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1472",
+              "label": "OKP",
+              "before": 0,
+              "after": 0,
+              "votes_before": 19,
+              "votes_after": 19
+            },
+            {
+              "id": "1479",
+              "label": "Fritt val",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1482",
+              "label": "EVA",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1484",
+              "label": "Fredspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1491",
+              "label": "Pax",
+              "before": 0,
+              "after": 0,
+              "votes_before": 27,
+              "votes_after": 27
+            },
+            {
+              "id": "1505",
+              "label": "Kn",
+              "before": 0,
+              "after": 0,
+              "votes_before": 168,
+              "votes_after": 168
+            },
+            {
+              "id": "1510",
+              "label": "Företaget Sverige",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1526",
+              "label": "Valsamverkanspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 5,
+              "votes_after": 5
+            },
+            {
+              "id": "1548",
+              "label": "Fria Wermland",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1551",
+              "label": "KVp",
+              "before": 0,
+              "after": 0,
+              "votes_before": 9017,
+              "votes_after": 9017
+            },
+            {
+              "id": "1568",
+              "label": "MD",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3556,
+              "votes_after": 3556
+            },
+            {
+              "id": "1571",
+              "label": "PRJ",
+              "before": 0,
+              "after": 0,
+              "votes_before": 15,
+              "votes_after": 15
+            },
+            {
+              "id": "1578",
+              "label": "Partiet Folkomröstning",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1589",
+              "label": "Enad Politik",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1606",
+              "label": "FAMILJENS FRIHET",
+              "before": 0,
+              "after": 0,
+              "votes_before": 5,
+              "votes_after": 5
+            },
+            {
+              "id": "1609",
+              "label": "WILLY TIGER",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1610",
+              "label": "Volt",
+              "before": 0,
+              "after": 0,
+              "votes_before": 228,
+              "votes_after": 228
+            },
+            {
+              "id": "1627",
+              "label": "Naturistpartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 5,
+              "votes_after": 5
+            },
+            {
+              "id": "1628",
+              "label": "ANARKISTERNA",
+              "before": 0,
+              "after": 0,
+              "votes_before": 8,
+              "votes_after": 8
+            },
+            {
+              "id": "1630",
+              "label": "Upprorsdemokraterna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1639",
+              "label": "Sverige i valsamverkan",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1646",
+              "label": "Vi",
+              "before": 0,
+              "after": 0,
+              "votes_before": 16,
+              "votes_after": 16
+            },
+            {
+              "id": "1650",
+              "label": "För Allas Bästa",
+              "before": 0,
+              "after": 0,
+              "votes_before": 23,
+              "votes_after": 23
+            },
+            {
+              "id": "1652",
+              "label": "Högerpartiet de konservativa",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1654",
+              "label": "Origo",
+              "before": 0,
+              "after": 0,
+              "votes_before": 5,
+              "votes_after": 5
+            },
+            {
+              "id": "1658",
+              "label": "Solens Frihetsparti",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1659",
+              "label": "FOLK",
+              "before": 0,
+              "after": 0,
+              "votes_before": 9,
+              "votes_after": 9
+            },
+            {
+              "id": "1662",
+              "label": "AMO",
+              "before": 0,
+              "after": 0,
+              "votes_before": 8,
+              "votes_after": 8
+            },
+            {
+              "id": "1665",
+              "label": "Resurs Demokrati",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1666",
+              "label": "SYMPARTIET",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1669",
+              "label": "NEUTRALITET",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1671",
+              "label": "Johannespartiet med extra älg",
+              "before": 0,
+              "after": 0,
+              "votes_before": 20,
+              "votes_after": 20
+            },
+            {
+              "id": "1677",
+              "label": "Libertarianerna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 8,
+              "votes_after": 8
+            },
+            {
+              "id": "1680",
+              "label": "Skogsfolket",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1681",
+              "label": "Socialliberalerna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 6,
+              "votes_after": 6
+            },
+            {
+              "id": "1683",
+              "label": "Vindarna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1686",
+              "label": "Jonathan Hemph",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1691",
+              "label": "Stjärnpartiet Sverige",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1693",
+              "label": "SKP",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2167,
+              "votes_after": 2167
+            },
+            {
+              "id": "1710",
+              "label": "Samlade Demokrater",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1715",
+              "label": "Socialistpartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 8,
+              "votes_after": 8
+            },
+            {
+              "id": "1718",
+              "label": "NR",
+              "before": 0,
+              "after": 0,
+              "votes_before": 51,
+              "votes_after": 51
+            },
+            {
+              "id": "1719",
+              "label": "Ett Bra Sverige",
+              "before": 0,
+              "after": 0,
+              "votes_before": 55,
+              "votes_after": 55
+            },
+            {
+              "id": "1720",
+              "label": "Ny Allians",
+              "before": 0,
+              "after": 0,
+              "votes_before": 31,
+              "votes_after": 31
+            },
+            {
+              "id": "1729",
+              "label": "Ambition Sverige",
+              "before": 0,
+              "after": 0,
+              "votes_before": 7679,
+              "votes_after": 7679
+            },
+            {
+              "id": "1731",
+              "label": "FREDS OCH FRIHETSPARTIER",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1733",
+              "label": "Anti-partiet Partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1736",
+              "label": "Sveriges Oberoende Ledamöter",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1743",
+              "label": "Pensionspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 11,
+              "votes_after": 11
+            },
+            {
+              "id": "1749",
+              "label": "Humankapitalisterna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1755",
+              "label": "JESUS",
+              "before": 0,
+              "after": 0,
+              "votes_before": 26,
+              "votes_after": 26
+            },
+            {
+              "id": "1756",
+              "label": "Kristna Frihetspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1757",
+              "label": "YN Demokraterna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1762",
+              "label": "Proxypartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1765",
+              "label": "FRIDSLAGET",
+              "before": 0,
+              "after": 0,
+              "votes_before": 11,
+              "votes_after": 11
+            },
+            {
+              "id": "1768",
+              "label": "PEDO",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1774",
+              "label": "Progress",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1780",
+              "label": "AI partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 20,
+              "votes_after": 20
+            },
+            {
+              "id": "1781",
+              "label": "Kunskapsdemokratiska Partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 22,
+              "votes_after": 22
+            },
+            {
+              "id": "1787",
+              "label": "PAU",
+              "before": 0,
+              "after": 0,
+              "votes_before": 20,
+              "votes_after": 20
+            },
+            {
+              "id": "1791",
+              "label": "Djurvänners Parti",
+              "before": 0,
+              "after": 0,
+              "votes_before": 19,
+              "votes_after": 19
+            },
+            {
+              "id": "1805",
+              "label": "O",
+              "before": 0,
+              "after": 0,
+              "votes_before": 9,
+              "votes_after": 9
+            },
+            {
+              "id": "1806",
+              "label": "99 Svarta ballonger",
+              "before": 0,
+              "after": 0,
+              "votes_before": 24,
+              "votes_after": 24
+            },
+            {
+              "id": "1808",
+              "label": "DFR",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1816",
+              "label": "Fria Partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1817",
+              "label": "ANTI-AUKTORITÄRA AKTIONS PARTIET",
+              "before": 0,
+              "after": 0,
+              "votes_before": 38,
+              "votes_after": 38
+            },
+            {
+              "id": "1823",
+              "label": "PARTY PEOPLE",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1825",
+              "label": "Kalle Ankapartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 177,
+              "votes_after": 177
+            },
+            {
+              "id": "1830",
+              "label": "Folkrådet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1831",
+              "label": "Venstre Sverige",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1838",
+              "label": "Sekulära Humanistiska Partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 15,
+              "votes_after": 15
+            },
+            {
+              "id": "1842",
+              "label": "koalitionsbyggarna.se",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1861",
+              "label": "Multidimensionella Partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1868",
+              "label": "Evelinas parti",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1869",
+              "label": "BarnDemokraterna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1870",
+              "label": "EVOLT FOLKHANSA",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1875",
+              "label": "Hampans vänner",
+              "before": 0,
+              "after": 0,
+              "votes_before": 7,
+              "votes_after": 7
+            },
+            {
+              "id": "1879",
+              "label": "Riket",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1881",
+              "label": "RegleraAI.nu",
+              "before": 0,
+              "after": 0,
+              "votes_before": 390,
+              "votes_after": 390
+            },
+            {
+              "id": "1882",
+              "label": "Ekorrepartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1884",
+              "label": "CIVIS",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1886",
+              "label": "Svensk-Finska Unionspartiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1888",
+              "label": "Viking",
+              "before": 0,
+              "after": 0,
+              "votes_before": 18,
+              "votes_after": 18
+            },
+            {
+              "id": "1889",
+              "label": "Det sunda partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1890",
+              "label": "Rymdraketerna",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1891",
+              "label": "aip",
+              "before": 0,
+              "after": 0,
+              "votes_before": 11,
+              "votes_after": 11
+            },
+            {
+              "id": "1894",
+              "label": "Tidö",
+              "before": 0,
+              "after": 0,
+              "votes_before": 18,
+              "votes_after": 18
+            },
+            {
+              "id": "1899",
+              "label": "Kompass",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1900",
+              "label": "Elbira partiet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1902",
+              "label": "Alternativ Sanning",
+              "before": 0,
+              "after": 0,
+              "votes_before": 3,
+              "votes_after": 3
+            },
+            {
+              "id": "1903",
+              "label": "Fred och demokrati",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            },
+            {
+              "id": "1905",
+              "label": "Presidency",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1914",
+              "label": "Ett modernt land",
+              "before": 0,
+              "after": 0,
+              "votes_before": 2,
+              "votes_after": 2
+            },
+            {
+              "id": "1920",
+              "label": "SVERIGES INTELLEKTUELLA DEMOKRATER",
+              "before": 0,
+              "after": 0,
+              "votes_before": 4,
+              "votes_after": 4
+            },
+            {
+              "id": "1921",
+              "label": "Gemensam Säkerhet",
+              "before": 0,
+              "after": 0,
+              "votes_before": 1,
+              "votes_after": 1
+            }
+          ]
+        },
+        "scope": {
+          "national_threshold_votes": 270698,
+          "safe_eligibility_radius": 90489,
+          "eligibility_preserved_through_national_optimum": true,
+          "unchanged_outside_parties_below_local_12_percent": true,
+          "protected_small_district_quota": 2,
+          "national_party_seat_minima_through_lower_bound_radius": {
+            "M": 70,
+            "S": 98,
+            "L": 18,
+            "C": 24,
+            "V": 29,
+            "MP": 21,
+            "KD": 21,
+            "SD": 61
+          },
+          "protected_overhang_excluded": true,
+          "refill_checks": [
+            {
+              "radius": 4367,
+              "sufficient_refill_guard": true,
+              "largest_upper": 30,
+              "failed_sufficient_conditions": []
+            },
+            {
+              "radius": 4368,
+              "sufficient_refill_guard": false,
+              "largest_upper": 41,
+              "failed_sufficient_conditions": [
+                {
+                  "parties": [
+                    "KD",
+                    "L"
+                  ],
+                  "minimum_local_zeroing_cost": 4368,
+                  "relaxed_national_entitlement_upper": 41
+                }
+              ]
+            },
+            {
+              "radius": 10268,
+              "sufficient_refill_guard": false,
+              "largest_upper": 106,
+              "failed_sufficient_conditions": [
+                {
+                  "parties": [
+                    "C",
+                    "KD"
+                  ],
+                  "minimum_local_zeroing_cost": 6632,
+                  "relaxed_national_entitlement_upper": 49
+                },
+                {
+                  "parties": [
+                    "C",
+                    "L"
+                  ],
+                  "minimum_local_zeroing_cost": 6650,
+                  "relaxed_national_entitlement_upper": 46
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L"
+                  ],
+                  "minimum_local_zeroing_cost": 4368,
+                  "relaxed_national_entitlement_upper": 43
+                },
+                {
+                  "parties": [
+                    "C",
+                    "KD",
+                    "L"
+                  ],
+                  "minimum_local_zeroing_cost": 8825,
+                  "relaxed_national_entitlement_upper": 68
+                },
+                {
+                  "parties": [
+                    "M"
+                  ],
+                  "minimum_local_zeroing_cost": 7599,
+                  "relaxed_national_entitlement_upper": 71
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "M"
+                  ],
+                  "minimum_local_zeroing_cost": 9774,
+                  "relaxed_national_entitlement_upper": 94
+                },
+                {
+                  "parties": [
+                    "L",
+                    "M"
+                  ],
+                  "minimum_local_zeroing_cost": 9792,
+                  "relaxed_national_entitlement_upper": 91
+                },
+                {
+                  "parties": [
+                    "C",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 7731,
+                  "relaxed_national_entitlement_upper": 48
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 5449,
+                  "relaxed_national_entitlement_upper": 45
+                },
+                {
+                  "parties": [
+                    "C",
+                    "KD",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 9906,
+                  "relaxed_national_entitlement_upper": 71
+                },
+                {
+                  "parties": [
+                    "L",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 5467,
+                  "relaxed_national_entitlement_upper": 42
+                },
+                {
+                  "parties": [
+                    "C",
+                    "L",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 9924,
+                  "relaxed_national_entitlement_upper": 68
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L",
+                    "MP"
+                  ],
+                  "minimum_local_zeroing_cost": 7642,
+                  "relaxed_national_entitlement_upper": 65
+                },
+                {
+                  "parties": [
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 5601,
+                  "relaxed_national_entitlement_upper": 63
+                },
+                {
+                  "parties": [
+                    "C",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 10058,
+                  "relaxed_national_entitlement_upper": 89
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 7776,
+                  "relaxed_national_entitlement_upper": 86
+                },
+                {
+                  "parties": [
+                    "L",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 7794,
+                  "relaxed_national_entitlement_upper": 83
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 9969,
+                  "relaxed_national_entitlement_upper": 106
+                },
+                {
+                  "parties": [
+                    "MP",
+                    "SD"
+                  ],
+                  "minimum_local_zeroing_cost": 8875,
+                  "relaxed_national_entitlement_upper": 85
+                },
+                {
+                  "parties": [
+                    "C",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 7256,
+                  "relaxed_national_entitlement_upper": 57
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 4974,
+                  "relaxed_national_entitlement_upper": 54
+                },
+                {
+                  "parties": [
+                    "C",
+                    "KD",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 9431,
+                  "relaxed_national_entitlement_upper": 79
+                },
+                {
+                  "parties": [
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 4992,
+                  "relaxed_national_entitlement_upper": 51
+                },
+                {
+                  "parties": [
+                    "C",
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 9449,
+                  "relaxed_national_entitlement_upper": 76
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "L",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 7167,
+                  "relaxed_national_entitlement_upper": 73
+                },
+                {
+                  "parties": [
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 6073,
+                  "relaxed_national_entitlement_upper": 53
+                },
+                {
+                  "parties": [
+                    "KD",
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 8248,
+                  "relaxed_national_entitlement_upper": 75
+                },
+                {
+                  "parties": [
+                    "L",
+                    "MP",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 8266,
+                  "relaxed_national_entitlement_upper": 72
+                },
+                {
+                  "parties": [
+                    "SD",
+                    "V"
+                  ],
+                  "minimum_local_zeroing_cost": 8400,
+                  "relaxed_national_entitlement_upper": 94
+                }
+              ]
+            }
+          ],
+          "national_exact_optimum": 10269,
+          "full_system_certified_cost_interval": [
+            4368,
+            10269
+          ],
+          "full_law_global_optimum_established": false
+        }
+      }
+    }
+  },
+  "full_allocator_replay_binary_sha256": "543622f1646bf1deae483bc44e6a012a0ee04b6cc0963aeed1fde281ec285f72",
+  "archived_claim_source_hashes_verified": {
+    "data/derived/2022/parties.tsv": "f30ddcbce10392bdad2236fe12a17cdf3ac0cd2f8e122a9edbfa775f64ab34f2",
+    "data/derived/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "scripts/vote_robustness.py": "3a83c263d602f310266cd266b494eebfc08077b6110e99614887d32435f3ddd7",
+    "scripts/vote_robustness_search.py": "d9900c77d3c69ea5f03edeeee605dd21204278746c477260ca6b90a5dc2ce241"
+  },
+  "input_and_code_sha256": {
+    "evidence/vote-robustness/search-20261121/results.json": "23e71037a6b4518fa43205b7a9969cedec2a300c10076c5888339e43342e3073",
+    "scripts/cutoff_vote_certificate.py": "95a85dcb32da92f78485c3406f43bad72b60a24104ef0a325a19d07e87cf60e3",
+    "scripts/test_cutoff_vote_certificate.py": "85c3c7cf2993b0687eb8073740606d0ccf80a81a4f27038298e1bf710fc58b14",
+    "scripts/vote_robustness_replay.rs": "60e78ecc8dd41122e352673c22bfa06cc07ab8cf6754fc1c7bf642feb8f25b2b",
+    "src/election.rs": "689e448348b7a6f9d5004f34981efe91dc06e8a10e481e7de2670d91adfebe7e",
+    "data/derived/2022/parties.tsv": "f30ddcbce10392bdad2236fe12a17cdf3ac0cd2f8e122a9edbfa775f64ab34f2",
+    "data/derived/2022/districts.tsv": "1afb47e813904ed199a06bf5c30526b88aedbff9abe8222c2d37bd94352949c7",
+    "data/derived/2022/votes.tsv": "88bedcf30fe91163b96bb7c283965041e6bf3f7e09b948c2153f325066d6da41",
+    "data/derived/2026/parties.tsv": "ffb32bfa61aee0fda6564962e53053ef0fd8d61101111e2ed736c37b5262bdef",
+    "data/derived/2026/districts.tsv": "b9c6f75028ddaa973956e1ca955c47ff81a4b21044867a16dc9a6e93ad393126",
+    "data/derived/2026/votes.tsv": "fab108e4ddb5403f366c42b31ebc94f5656075d6ef55a14218561e7dc88495ec",
+    "evidence/vote-robustness/multi-party-20261121/2022-multi-party-transfers.tsv": "8d670a712616f066b045b5a74020ca5b490855a3e103816b937ffd506ea9139d",
+    "evidence/vote-robustness/multi-party-20261121/2026-multi-party-transfers.tsv": "efd5a56121364c3b2ad34e3d7db12d6ca4166837f2d7447e4dcac09b161451ea",
+    "evidence/vote-robustness/first-slice-20261121/results.json": "1d706a553d095e9f65bc01a3306dda29f060fac9054c645a131940a3c7ae1565"
+  },
+  "closed_member_pilot_read_or_scored": false
+}
